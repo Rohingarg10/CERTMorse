@@ -1,0 +1,2 @@
+run_id,seed,status,kappa_lb,kappa_incumbent,kappa_opt,lb_is_certificate,wall_s,scale,n_widened,coverage,transfer_ok,transfer_claim,band_mode,simultaneous_band_guarantee,sep_min,kappa_true,kappa_true_rounded,LB_mand,UB_pers,LB_pers,warm_start_used,ttk_warm_status,ttk_warm_count,UB_witness_justified,bound_violation,d_B,P_first,P_med,P_lo,P_hi,n_opt_found,sampling_status
+e9e8b649a362,0,FEASIBLE,4,20,,True,600.563751299982,1000,0,True,True,True,hoeffding,True,0.0,42,34,18,18,18,midpoint,rejected_infeasible,,False,False,,,,,,0,skipped_not_optimal

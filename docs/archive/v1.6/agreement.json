@@ -1,0 +1,4922 @@
+[
+  {
+    "m": 3,
+    "seed": 0,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.05948639998678118,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.07376210001530126,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.11790680000558496,
+        "cut_iters": 1
+      }
+    },
+    "agree": false,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 1,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.038289999996777624,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.06830380001338199,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.06077139999251813,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 2,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.044545200013089925,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.06271739996736869,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.05494530004216358,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 3,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.065888500015717,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.16794600000139326,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.13816370000131428,
+        "cut_iters": 1
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 4,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.057942000043112785,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.05230499996105209,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.05833909998182207,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 5,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.059974399977363646,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.4049957999959588,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.11887489998480305,
+        "cut_iters": 1
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 6,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.046578000008594245,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.054394899983890355,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.05903800000669435,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 7,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.06330630002776161,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.19272869999986142,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.062446099997032434,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 8,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.05157630000030622,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.056175599980633706,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.04636860004393384,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 9,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.057251600024756044,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.045819199993275106,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.12910900003043935,
+        "cut_iters": 1
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 10,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.032068600005004555,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.05023100000107661,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.0438408000045456,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 11,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.03810369997518137,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.06396619998849928,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.06439179996959865,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 12,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.06254830001853406,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.00000000015437,
+        "gap": 6.174758482264295e-12,
+        "wall_s": 0.23345849994802848,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.05403579998528585,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 13,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.04667180002434179,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.05672049999702722,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.05557379999663681,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 14,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.05137599998852238,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.05735120002645999,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.054593600041698664,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 15,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.047200300032272935,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.048358599946368486,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.06232080003246665,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 16,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.034310200018808246,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.060356900037731975,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.04401359998155385,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 17,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.05786419997457415,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.16629569994984195,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.10575330001302063,
+        "cut_iters": 1
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 18,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.05419509997591376,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.04789149999851361,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.04494110000086948,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 19,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.05358700000215322,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.2194957000319846,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.06168809998780489,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 20,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.04651349998312071,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.18047020002268255,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.05289079999784008,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 21,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.046475699986331165,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.05954859999474138,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.054517899989150465,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 22,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.04766629997175187,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.24289029999636114,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.05130639998242259,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 23,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.04829270002664998,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.06324889999814332,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.0479495000327006,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 24,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.06432569999014959,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 1.0434726999956183,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.2499338000197895,
+        "cut_iters": 4
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 25,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.03458660002797842,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.04324909998103976,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.052735499979462475,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 26,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.04416789999231696,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.05452760000480339,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.061527499987278134,
+        "cut_iters": 0
+      }
+    },
+    "agree": false,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 27,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.04821540002012625,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.1495621000067331,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.05494709999766201,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 28,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.03077589999884367,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.05171730002621189,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.048361499968450516,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 29,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.04769770003622398,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.059279199980665,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.055002300010528415,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 30,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.04469109995989129,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.0610426000203006,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.04717550001805648,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 31,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.0515677000512369,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.06057150004198775,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.04796529997838661,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 32,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.04505580000113696,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.19005139998625964,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.05569369997829199,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 33,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 23.0,
+        "gap": 0.0,
+        "wall_s": 0.043878299999050796,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 23.0,
+        "gap": 0.0,
+        "wall_s": 0.07667509996099398,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 23.0,
+        "gap": 0.0,
+        "wall_s": 0.1690039000241086,
+        "cut_iters": 2
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 34,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.05109910003375262,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.22257550002541393,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.09586310002487153,
+        "cut_iters": 1
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 35,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.033810799999628216,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.05658500001300126,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.05350609996821731,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 36,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.04713459999766201,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.050818099989555776,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.059391100017819554,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 37,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.04926369996974245,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.06084649998228997,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.042651399970054626,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 38,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.04166420002002269,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.05567580001661554,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.05151290004141629,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 39,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.037857200019061565,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.05835730000399053,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.10547549999319017,
+        "cut_iters": 1
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 40,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.04193870001472533,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.1907876000041142,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.057835299987345934,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 41,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.04663669998990372,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.15060750005068257,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.05899430002318695,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 42,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.0434244999778457,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.048326300049666315,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.05041580001125112,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 43,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.06206389999715611,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.05335999996168539,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.05954400001792237,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 44,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.05532109999330714,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.06466470001032576,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.04388790001394227,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 45,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.04745690000709146,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.16030899999896064,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.11046519997762516,
+        "cut_iters": 1
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 46,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.05668360000709072,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.2789727000053972,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.11370119999628514,
+        "cut_iters": 1
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 47,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.06243729998823255,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.051104099955409765,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.05460769997444004,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 48,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.050606500008143485,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.06505299999844283,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.06052790000103414,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 49,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.06375119998119771,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.05166390002705157,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.060124400013592094,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 0,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.06356189999496564,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.3912578000454232,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.06538410001667216,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 1,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.11635069997282699,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.32255360000999644,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.13150850002421066,
+        "cut_iters": 1
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 2,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 10,
+        "kappa_lb": 10,
+        "kappa_opt": 10,
+        "lb_is_certificate": true,
+        "bound": 43.0,
+        "gap": 0.0,
+        "wall_s": 0.08305939997080714,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 10,
+        "kappa_lb": 10,
+        "kappa_opt": 10,
+        "lb_is_certificate": false,
+        "bound": 43.0,
+        "gap": 0.0,
+        "wall_s": 4.690556099987589,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 10,
+        "kappa_lb": 10,
+        "kappa_opt": 10,
+        "lb_is_certificate": true,
+        "bound": 43.0,
+        "gap": 0.0,
+        "wall_s": 4.120365699985996,
+        "cut_iters": 55
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 3,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.05526680004550144,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.3302329999860376,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.675555300025735,
+        "cut_iters": 9
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 4,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.09459529997548088,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.4116825999808498,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.13970890000928193,
+        "cut_iters": 1
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 5,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.0687039999756962,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.3884235000004992,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "CUT_LIMIT",
+        "kappa_incumbent": 8,
+        "kappa_lb": 4,
+        "kappa_opt": null,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.043478260869565216,
+        "wall_s": 15.44263130001491,
+        "cut_iters": 200
+      }
+    },
+    "agree": true,
+    "all_optimal": false
+  },
+  {
+    "m": 4,
+    "seed": 6,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.060494700039271265,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.28796169999986887,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.07358869997551665,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 7,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 10,
+        "kappa_lb": 10,
+        "kappa_opt": 10,
+        "lb_is_certificate": true,
+        "bound": 43.0,
+        "gap": 0.0,
+        "wall_s": 0.07524229999398813,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 10,
+        "kappa_lb": 10,
+        "kappa_opt": 10,
+        "lb_is_certificate": false,
+        "bound": 43.0,
+        "gap": 0.0,
+        "wall_s": 0.2947849999764003,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 10,
+        "kappa_lb": 10,
+        "kappa_opt": 10,
+        "lb_is_certificate": true,
+        "bound": 43.0,
+        "gap": 0.0,
+        "wall_s": 0.06353300000773743,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 8,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 10,
+        "kappa_lb": 10,
+        "kappa_opt": 10,
+        "lb_is_certificate": true,
+        "bound": 43.0,
+        "gap": 0.0,
+        "wall_s": 0.06920819997321814,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 10,
+        "kappa_lb": 10,
+        "kappa_opt": 10,
+        "lb_is_certificate": false,
+        "bound": 43.0,
+        "gap": 0.0,
+        "wall_s": 0.07407989999046549,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 10,
+        "kappa_lb": 10,
+        "kappa_opt": 10,
+        "lb_is_certificate": true,
+        "bound": 43.0,
+        "gap": 0.0,
+        "wall_s": 0.05132699996465817,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 9,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 10,
+        "kappa_lb": 10,
+        "kappa_opt": 10,
+        "lb_is_certificate": true,
+        "bound": 43.0,
+        "gap": 0.0,
+        "wall_s": 0.06612130004214123,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 10,
+        "kappa_lb": 10,
+        "kappa_opt": 10,
+        "lb_is_certificate": false,
+        "bound": 43.0,
+        "gap": 0.0,
+        "wall_s": 0.46906750003108755,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 10,
+        "kappa_lb": 10,
+        "kappa_opt": 10,
+        "lb_is_certificate": true,
+        "bound": 43.0,
+        "gap": 0.0,
+        "wall_s": 6.358796699962113,
+        "cut_iters": 90
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 10,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.07466679997742176,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.06959460000507534,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.07282280002254993,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 11,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.06380330002866685,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.43731469998601824,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.20205480000004172,
+        "cut_iters": 2
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 12,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.0767782999901101,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.21909109997795895,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.06994479999411851,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 13,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.07020509999711066,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.4121959999902174,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.05828830000245944,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 14,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 10,
+        "kappa_lb": 10,
+        "kappa_opt": 10,
+        "lb_is_certificate": true,
+        "bound": 43.0,
+        "gap": 0.0,
+        "wall_s": 0.04982510005356744,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 10,
+        "kappa_lb": 10,
+        "kappa_opt": 10,
+        "lb_is_certificate": false,
+        "bound": 43.0,
+        "gap": 0.0,
+        "wall_s": 5.6258555999957025,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 10,
+        "kappa_lb": 10,
+        "kappa_opt": 10,
+        "lb_is_certificate": true,
+        "bound": 43.0,
+        "gap": 0.0,
+        "wall_s": 4.103624999988824,
+        "cut_iters": 48
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 15,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.06100240000523627,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.2772986000054516,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.0768666000221856,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 16,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.0764550999738276,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.5025892000412568,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.1559131999965757,
+        "cut_iters": 1
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 17,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.09154310001758859,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.12897849996807054,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 3.760829599981662,
+        "cut_iters": 52
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 18,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.06403269997099414,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.39224910002667457,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.08035740000195801,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 19,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.07255669997539371,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.7757060999865644,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 2.779470500012394,
+        "cut_iters": 35
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 20,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.06827099999645725,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.2411255000042729,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.06147730001248419,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 21,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.05890280002495274,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 2.279322999995202,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 1.1916315000271425,
+        "cut_iters": 16
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 22,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.06620619999011979,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.3400910999625921,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.061265300028026104,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 23,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.06703169998945668,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.0801610000198707,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.06915689999004826,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 24,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.056793499970808625,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.34296860004542395,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.053495499945711344,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 25,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.05270120000932366,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.08281220000935718,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 2.109805900021456,
+        "cut_iters": 31
+      }
+    },
+    "agree": false,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 26,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.0629969000001438,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.2919156000134535,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.06831160001456738,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 27,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.08156249998137355,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 10,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 43.99999999999999,
+        "gap": -1.614869854000228e-16,
+        "wall_s": 0.5688441999955103,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 1.18911360000493,
+        "cut_iters": 17
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 28,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.051006399968173355,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 8,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 44.99999999999999,
+        "gap": -1.5789838572446674e-16,
+        "wall_s": 0.5023646999616176,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.20765280001796782,
+        "cut_iters": 2
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 29,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.06901839998317882,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.35223699995549396,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.06701220001559705,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 30,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.07247080001980066,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.11662540002726018,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.0608928999863565,
+        "cut_iters": 0
+      }
+    },
+    "agree": false,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 31,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.06629220000468194,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.5520903000142425,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.2929295999929309,
+        "cut_iters": 3
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 32,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.04931670002406463,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.6129045999841765,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.2540969999972731,
+        "cut_iters": 3
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 33,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.07141989999217913,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.2589490999816917,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.05392909998772666,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 34,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.08170119998976588,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 10,
+        "kappa_lb": 10,
+        "kappa_opt": 10,
+        "lb_is_certificate": false,
+        "bound": 43.0,
+        "gap": 0.0,
+        "wall_s": 0.14192619995446876,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 7.266944600036368,
+        "cut_iters": 124
+      }
+    },
+    "agree": false,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 35,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.03768010000931099,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.1553684000391513,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.14519820001441985,
+        "cut_iters": 2
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 36,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.03967399999964982,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.040805800002999604,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.10270240000681952,
+        "cut_iters": 1
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 37,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.0343719000229612,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.14130329998442903,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.04987369995797053,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 38,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.03691749996505678,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.18973660003393888,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.0528070000000298,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 39,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.04570469999453053,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.04394479998154566,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.04430890001822263,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 40,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.042552499973680824,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 44.000000000000014,
+        "gap": 3.2297397080004545e-16,
+        "wall_s": 0.16915950004477054,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.32219720003195107,
+        "cut_iters": 6
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 41,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.05228280002484098,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.19461379997665063,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.28952280001249164,
+        "cut_iters": 5
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 42,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.03958260000217706,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.25172709999606013,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "CUT_LIMIT",
+        "kappa_incumbent": 10,
+        "kappa_lb": 4,
+        "kappa_opt": null,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.06521739130434782,
+        "wall_s": 11.0046311999904,
+        "cut_iters": 200
+      }
+    },
+    "agree": true,
+    "all_optimal": false
+  },
+  {
+    "m": 4,
+    "seed": 43,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.05008279997855425,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.21725549997063354,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.05689179996261373,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 44,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.04840209998656064,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.13685910002095625,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.0493253999738954,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 45,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.040164300007745624,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.22043430001940578,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.09589619998587295,
+        "cut_iters": 1
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 46,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.0569514999515377,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.4446983000379987,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.47449629998300225,
+        "cut_iters": 9
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 47,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.03934550000121817,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.20274939999217167,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.08183889999054372,
+        "cut_iters": 1
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 48,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.040552300051786005,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.22630779998144135,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.39236739999614656,
+        "cut_iters": 7
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 49,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.03955779998796061,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.27120890002697706,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.04613460000837222,
+        "cut_iters": 0
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 0,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 28,
+        "kappa_lb": 28,
+        "kappa_opt": 28,
+        "lb_is_certificate": true,
+        "bound": 178.0,
+        "gap": 0.0,
+        "wall_s": 0.20133939996594563,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 28,
+        "kappa_lb": 28,
+        "kappa_opt": 28,
+        "lb_is_certificate": false,
+        "bound": 178.0,
+        "gap": 0.0,
+        "wall_s": 1.3717200999963097,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 28,
+        "kappa_lb": 28,
+        "kappa_opt": 28,
+        "lb_is_certificate": true,
+        "bound": 178.0,
+        "gap": 0.0,
+        "wall_s": 6.609265000035521,
+        "cut_iters": 46
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 1,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 20,
+        "kappa_lb": 20,
+        "kappa_opt": 20,
+        "lb_is_certificate": true,
+        "bound": 182.0,
+        "gap": 0.0,
+        "wall_s": 0.15469280001707375,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 20,
+        "kappa_lb": 20,
+        "kappa_opt": 20,
+        "lb_is_certificate": false,
+        "bound": 182.0,
+        "gap": 0.0,
+        "wall_s": 2.4128295999835245,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 20,
+        "kappa_lb": 20,
+        "kappa_opt": 20,
+        "lb_is_certificate": true,
+        "bound": 182.0,
+        "gap": 0.0,
+        "wall_s": 4.914675500011072,
+        "cut_iters": 33
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 2,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 26,
+        "kappa_lb": 26,
+        "kappa_opt": 26,
+        "lb_is_certificate": true,
+        "bound": 179.0,
+        "gap": 0.0,
+        "wall_s": 0.17679559998214245,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 26,
+        "kappa_lb": 26,
+        "kappa_opt": 26,
+        "lb_is_certificate": false,
+        "bound": 179.0,
+        "gap": 0.0,
+        "wall_s": 2.135559500020463,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 26,
+        "kappa_lb": 26,
+        "kappa_opt": 26,
+        "lb_is_certificate": true,
+        "bound": 179.0,
+        "gap": 0.0,
+        "wall_s": 14.648531200014986,
+        "cut_iters": 101
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 3,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 24,
+        "kappa_lb": 24,
+        "kappa_opt": 24,
+        "lb_is_certificate": true,
+        "bound": 180.0,
+        "gap": 0.0,
+        "wall_s": 0.17486869997810572,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 24,
+        "kappa_lb": 24,
+        "kappa_opt": 24,
+        "lb_is_certificate": false,
+        "bound": 180.0,
+        "gap": 0.0,
+        "wall_s": 2.744838799990248,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 24,
+        "kappa_lb": 24,
+        "kappa_opt": 24,
+        "lb_is_certificate": true,
+        "bound": 180.0,
+        "gap": 0.0,
+        "wall_s": 3.301609600021038,
+        "cut_iters": 22
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 4,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 28,
+        "kappa_lb": 28,
+        "kappa_opt": 28,
+        "lb_is_certificate": true,
+        "bound": 178.0,
+        "gap": 0.0,
+        "wall_s": 0.16895830002613366,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 28,
+        "kappa_lb": 28,
+        "kappa_opt": 28,
+        "lb_is_certificate": false,
+        "bound": 178.0,
+        "gap": 0.0,
+        "wall_s": 1.1748743000207469,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 28,
+        "kappa_lb": 28,
+        "kappa_opt": 28,
+        "lb_is_certificate": true,
+        "bound": 178.0,
+        "gap": 0.0,
+        "wall_s": 2.867274499963969,
+        "cut_iters": 19
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 5,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 28,
+        "kappa_lb": 28,
+        "kappa_opt": 28,
+        "lb_is_certificate": true,
+        "bound": 178.0,
+        "gap": 0.0,
+        "wall_s": 0.16578320000553504,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 28,
+        "kappa_lb": 28,
+        "kappa_opt": 28,
+        "lb_is_certificate": false,
+        "bound": 178.0,
+        "gap": 0.0,
+        "wall_s": 0.9398210000363179,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 28,
+        "kappa_lb": 28,
+        "kappa_opt": 28,
+        "lb_is_certificate": true,
+        "bound": 178.0,
+        "gap": 0.0,
+        "wall_s": 1.0180291999713518,
+        "cut_iters": 6
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 6,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 26,
+        "kappa_lb": 26,
+        "kappa_opt": 26,
+        "lb_is_certificate": true,
+        "bound": 179.0,
+        "gap": 0.0,
+        "wall_s": 0.1997689999989234,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 26,
+        "kappa_lb": 26,
+        "kappa_opt": 26,
+        "lb_is_certificate": false,
+        "bound": 179.0,
+        "gap": 0.0,
+        "wall_s": 1.6129820000496693,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 26,
+        "kappa_lb": 26,
+        "kappa_opt": 26,
+        "lb_is_certificate": true,
+        "bound": 179.0,
+        "gap": 0.0,
+        "wall_s": 4.932415899995249,
+        "cut_iters": 36
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 7,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 24,
+        "kappa_lb": 24,
+        "kappa_opt": 24,
+        "lb_is_certificate": true,
+        "bound": 180.0,
+        "gap": 0.0,
+        "wall_s": 0.1899886000319384,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 24,
+        "kappa_lb": 24,
+        "kappa_opt": 24,
+        "lb_is_certificate": false,
+        "bound": 180.0,
+        "gap": 0.0,
+        "wall_s": 1.380180099979043,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 24,
+        "kappa_lb": 24,
+        "kappa_opt": 24,
+        "lb_is_certificate": true,
+        "bound": 180.0,
+        "gap": 0.0,
+        "wall_s": 4.529166100022849,
+        "cut_iters": 29
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 8,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 26,
+        "kappa_lb": 26,
+        "kappa_opt": 26,
+        "lb_is_certificate": true,
+        "bound": 179.0,
+        "gap": 0.0,
+        "wall_s": 0.2190478999982588,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 32,
+        "kappa_lb": 32,
+        "kappa_opt": 32,
+        "lb_is_certificate": false,
+        "bound": 176.0,
+        "gap": 0.0,
+        "wall_s": 0.1684936000383459,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 26,
+        "kappa_lb": 26,
+        "kappa_opt": 26,
+        "lb_is_certificate": true,
+        "bound": 179.0,
+        "gap": 0.0,
+        "wall_s": 7.029325300012715,
+        "cut_iters": 43
+      }
+    },
+    "agree": false,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 9,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 26,
+        "kappa_lb": 26,
+        "kappa_opt": 26,
+        "lb_is_certificate": true,
+        "bound": 179.0,
+        "gap": 0.0,
+        "wall_s": 0.3194038000074215,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 38,
+        "kappa_lb": 38,
+        "kappa_opt": 38,
+        "lb_is_certificate": false,
+        "bound": 173.0,
+        "gap": 0.0,
+        "wall_s": 0.39322279999032617,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 26,
+        "kappa_lb": 26,
+        "kappa_opt": 26,
+        "lb_is_certificate": true,
+        "bound": 179.0,
+        "gap": 0.0,
+        "wall_s": 9.490575200004969,
+        "cut_iters": 41
+      }
+    },
+    "agree": false,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 10,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 32,
+        "kappa_lb": 32,
+        "kappa_opt": 32,
+        "lb_is_certificate": true,
+        "bound": 176.0,
+        "gap": 0.0,
+        "wall_s": 0.25649780000094324,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 32,
+        "kappa_lb": 32,
+        "kappa_opt": 32,
+        "lb_is_certificate": false,
+        "bound": 176.0,
+        "gap": 0.0,
+        "wall_s": 2.1316412999876775,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 32,
+        "kappa_lb": 32,
+        "kappa_opt": 32,
+        "lb_is_certificate": true,
+        "bound": 176.0,
+        "gap": 0.0,
+        "wall_s": 0.7319832999492064,
+        "cut_iters": 2
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 11,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 26,
+        "kappa_lb": 26,
+        "kappa_opt": 26,
+        "lb_is_certificate": true,
+        "bound": 179.0,
+        "gap": 0.0,
+        "wall_s": 0.3567619999521412,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 26,
+        "kappa_lb": 28,
+        "kappa_opt": 26,
+        "lb_is_certificate": false,
+        "bound": 178.99999999998806,
+        "gap": -6.668780983670658e-14,
+        "wall_s": 0.9562910000095144,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 26,
+        "kappa_lb": 26,
+        "kappa_opt": 26,
+        "lb_is_certificate": true,
+        "bound": 179.0,
+        "gap": 0.0,
+        "wall_s": 17.67572429997381,
+        "cut_iters": 84
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 12,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 24,
+        "kappa_lb": 24,
+        "kappa_opt": 24,
+        "lb_is_certificate": true,
+        "bound": 180.0,
+        "gap": 0.0,
+        "wall_s": 0.3420958999777213,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 24,
+        "kappa_lb": 26,
+        "kappa_opt": 24,
+        "lb_is_certificate": false,
+        "bound": 179.99999999995634,
+        "gap": -2.425319204728397e-13,
+        "wall_s": 145.01539830002002,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 24,
+        "kappa_lb": 24,
+        "kappa_opt": 24,
+        "lb_is_certificate": true,
+        "bound": 180.0,
+        "gap": 0.0,
+        "wall_s": 3.4979972000001,
+        "cut_iters": 22
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 13,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 24,
+        "kappa_lb": 24,
+        "kappa_opt": 24,
+        "lb_is_certificate": true,
+        "bound": 180.0,
+        "gap": 0.0,
+        "wall_s": 0.15415000001667067,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 24,
+        "kappa_lb": 24,
+        "kappa_opt": 24,
+        "lb_is_certificate": false,
+        "bound": 180.0,
+        "gap": 0.0,
+        "wall_s": 1.3544566999771632,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 24,
+        "kappa_lb": 24,
+        "kappa_opt": 24,
+        "lb_is_certificate": true,
+        "bound": 180.0,
+        "gap": 0.0,
+        "wall_s": 0.7241128000314347,
+        "cut_iters": 4
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 14,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 24,
+        "kappa_lb": 24,
+        "kappa_opt": 24,
+        "lb_is_certificate": true,
+        "bound": 180.0,
+        "gap": 0.0,
+        "wall_s": 0.15599179995479062,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 24,
+        "kappa_lb": 26,
+        "kappa_opt": 24,
+        "lb_is_certificate": false,
+        "bound": 179.99999999988896,
+        "gap": -6.16908993025872e-13,
+        "wall_s": 0.42814490001183003,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 24,
+        "kappa_lb": 24,
+        "kappa_opt": 24,
+        "lb_is_certificate": true,
+        "bound": 180.0,
+        "gap": 0.0,
+        "wall_s": 0.6745274999993853,
+        "cut_iters": 4
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 15,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 28,
+        "kappa_lb": 28,
+        "kappa_opt": 28,
+        "lb_is_certificate": true,
+        "bound": 178.0,
+        "gap": 0.0,
+        "wall_s": 0.1996076999930665,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 28,
+        "kappa_lb": 28,
+        "kappa_opt": 28,
+        "lb_is_certificate": false,
+        "bound": 178.0,
+        "gap": 0.0,
+        "wall_s": 2.455974199983757,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 28,
+        "kappa_lb": 28,
+        "kappa_opt": 28,
+        "lb_is_certificate": true,
+        "bound": 178.0,
+        "gap": 0.0,
+        "wall_s": 4.457885499985423,
+        "cut_iters": 30
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 16,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 22,
+        "kappa_lb": 22,
+        "kappa_opt": 22,
+        "lb_is_certificate": true,
+        "bound": 181.0,
+        "gap": 0.0,
+        "wall_s": 0.18527389998780563,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 22,
+        "kappa_lb": 24,
+        "kappa_opt": 22,
+        "lb_is_certificate": false,
+        "bound": 180.99999999999994,
+        "gap": -3.1405203790501674e-16,
+        "wall_s": 2.0572759000351653,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 22,
+        "kappa_lb": 22,
+        "kappa_opt": 22,
+        "lb_is_certificate": true,
+        "bound": 181.0,
+        "gap": 0.0,
+        "wall_s": 5.912032200023532,
+        "cut_iters": 38
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 17,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 22,
+        "kappa_lb": 22,
+        "kappa_opt": 22,
+        "lb_is_certificate": true,
+        "bound": 181.0,
+        "gap": 0.0,
+        "wall_s": 0.18930549995275214,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 22,
+        "kappa_lb": 22,
+        "kappa_opt": 22,
+        "lb_is_certificate": false,
+        "bound": 181.0,
+        "gap": 0.0,
+        "wall_s": 1.478744599968195,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 22,
+        "kappa_lb": 22,
+        "kappa_opt": 22,
+        "lb_is_certificate": true,
+        "bound": 181.0,
+        "gap": 0.0,
+        "wall_s": 8.092909300001338,
+        "cut_iters": 57
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 18,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 28,
+        "kappa_lb": 28,
+        "kappa_opt": 28,
+        "lb_is_certificate": true,
+        "bound": 178.0,
+        "gap": 0.0,
+        "wall_s": 0.18115770001895726,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 28,
+        "kappa_lb": 28,
+        "kappa_opt": 28,
+        "lb_is_certificate": false,
+        "bound": 178.0,
+        "gap": 0.0,
+        "wall_s": 1.5794785000034608,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 28,
+        "kappa_lb": 28,
+        "kappa_opt": 28,
+        "lb_is_certificate": true,
+        "bound": 178.0,
+        "gap": 0.0,
+        "wall_s": 1.866125100001227,
+        "cut_iters": 12
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 19,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 20,
+        "kappa_lb": 20,
+        "kappa_opt": 20,
+        "lb_is_certificate": true,
+        "bound": 182.0,
+        "gap": 0.0,
+        "wall_s": 0.17366689996561036,
+        "cut_iters": 0
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 34,
+        "kappa_lb": 34,
+        "kappa_opt": 34,
+        "lb_is_certificate": false,
+        "bound": 175.0,
+        "gap": 0.0,
+        "wall_s": 0.1595258999732323,
+        "cut_iters": 0
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 20,
+        "kappa_lb": 20,
+        "kappa_opt": 20,
+        "lb_is_certificate": true,
+        "bound": 182.0,
+        "gap": 0.0,
+        "wall_s": 3.389802100020461,
+        "cut_iters": 23
+      }
+    },
+    "agree": false,
+    "all_optimal": true
+  }
+]

@@ -1,0 +1,5642 @@
+[
+  {
+    "m": 3,
+    "seed": 0,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.033664099988527596,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\9241efe90e9d"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.04628420004155487,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\cdaabd7c5fc4"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.07375530002173036,
+        "cut_iters": 1,
+        "cuts_added": 1,
+        "run_path": "results\\stage1-agreement-v1.7\\0948b7b0401c"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 1,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.030642200028523803,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\36bebc417ebf"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.028068599989637733,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\02ca9e49ceb6"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.039556500036269426,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\1a1e5c2d4dc9"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 2,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.023289100034162402,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\e43ee50460d7"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.028570200025569648,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\ac7d95740876"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.037740200001280755,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\e3a94f581194"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 3,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.023898999963421375,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\0a161c270c84"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.05583240004489198,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\e201ee50df9e"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.11228689999552444,
+        "cut_iters": 2,
+        "cuts_added": 2,
+        "run_path": "results\\stage1-agreement-v1.7\\4d06028a4d15"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 4,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.03528539999388158,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\e08df3d8bf94"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.02992420003283769,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\ca0d83aa6f3e"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.037239300028886646,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\403d0744d985"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 5,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.02380970004014671,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\ac4b88909694"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.028542499989271164,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\997e5485250b"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.1503987000323832,
+        "cut_iters": 3,
+        "cuts_added": 4,
+        "run_path": "results\\stage1-agreement-v1.7\\3af25c344264"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 6,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.023669599962886423,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\dceb759db37c"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.02905870001995936,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\2c458f02c76b"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.038802600000053644,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\b0895d19bcad"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 7,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.023124400002416223,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\fdd856bb55da"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.03488300001481548,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\3f61bd1c6bed"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.033670100034214556,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\538b69a2eb5f"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 8,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.03828510001767427,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\86092c4bd342"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.027581000002101064,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\9428158480b3"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.040288800024427474,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\726eb98f297e"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 9,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.03712879994418472,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\4f3dcb4b4651"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.028004399966448545,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\815b619da47e"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.07285529997898266,
+        "cut_iters": 1,
+        "cuts_added": 1,
+        "run_path": "results\\stage1-agreement-v1.7\\a655c2c55ead"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 10,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.02266539999982342,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\2c4ab44a652b"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.02483319997554645,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\39d19d48f1c3"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.043348300037905574,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\657d5889145e"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 11,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.02085490000899881,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\2a1a8f77871d"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.03138910001143813,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\c0ab748fa174"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.037538699980359524,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\f938c2029e56"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 12,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.03784770000493154,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\4d4a3bf6f482"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.0831441999762319,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\5b8e0e7d4aae"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.030124399985652417,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\0aaec63214ff"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 13,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.02294870000332594,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\150e65e24c08"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.033452300005592406,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\0b1d0ec37346"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.03833339997800067,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\3e14ad01752d"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 14,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.03148000000510365,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\714f44a4a1b0"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.027128499990794808,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\e19ccd21a41d"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.04190850001759827,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\1c0d7cc6f5b2"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 15,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.03840070002479479,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\8b03b95815ec"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.030807800008915365,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\dcfd1165b7f1"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.043479699990712106,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\bdbb889838f9"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 16,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.03231959999538958,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\9a7db4afa7ba"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.028235600038897246,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\175a4cbb447a"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.03787289996398613,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\6364dc2ff57b"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 17,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.025824000011198223,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\ab87f718696e"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.05802270001731813,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\5181632bfddc"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.09217289998196065,
+        "cut_iters": 1,
+        "cuts_added": 1,
+        "run_path": "results\\stage1-agreement-v1.7\\43f06a8369a1"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 18,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.0361337999929674,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\8c28f58855db"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.028301000013016164,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\4a01bb4a5dd9"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.037706200033426285,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\74170755f3c3"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 19,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.0235056999954395,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\afe3e02ca82f"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.03061280003748834,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\a952e6eeddb7"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.03561349998926744,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\51fd9072b9b2"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 20,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.021230700018350035,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\159b1b3645f6"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.037245500017888844,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\e47b4d9a330b"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.048992999945767224,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\560d6af78c29"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 21,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.03560870001092553,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\517acb1c9a7a"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.02787799999350682,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\e0983939a003"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.03533779998542741,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\c5f2f0b5f1b8"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 22,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.024991100013721734,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\4c818c130270"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.03317419998347759,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\fe8454940b5e"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.023222999996505678,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\233701336736"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 23,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.030970400024671108,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\819be303ddab"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.030868900008499622,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\bec5b0ee0baf"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.03930960001889616,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\8c9645a7fe63"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 24,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.03552860004128888,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\18c5e40a0fa0"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.22614290000637993,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\c327e536b080"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.19583769998280331,
+        "cut_iters": 4,
+        "cuts_added": 8,
+        "run_path": "results\\stage1-agreement-v1.7\\7f408981821a"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 25,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.03021449997322634,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\9490da9f1d08"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.02824239997426048,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\39e9ea311ce0"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.03430449997540563,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\2c2816324610"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 26,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.024962400028016418,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\fbc6df433865"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.02795790001982823,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\c99b549c8b4f"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.03489140002056956,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\253bfe3cffc9"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 27,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.026146600022912025,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\d052441a2dc8"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.03595270001096651,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\1afff2076d05"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.0459131000097841,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\76346598fa45"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 28,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.022490100003778934,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\0642246a0254"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.028763700043782592,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\4b3afcf3d657"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.039971499994862825,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\14eb5789a752"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 29,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.02164310001535341,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\65ae76594c00"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.02837279997766018,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\49c69803e9e1"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.03634649998275563,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\59a917db9da6"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 30,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.023228999983984977,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\3b530f743cc6"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.027484800026286393,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\d5001a74a40c"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.041823600011412054,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\ffa82aea798a"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 31,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.034048100002110004,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\45b6e9e6a027"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.036172399995848536,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\dbb5934104cb"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.03121300000930205,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\f11fb17a47a3"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 32,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.02241850004065782,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\7ee663d8fff2"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.029192999994847924,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\01b2079fc62a"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.034369400003924966,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\269d51f7de6f"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 33,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 23.0,
+        "gap": 0.0,
+        "wall_s": 0.023432000016327947,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\c23ec4032031"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 23.0,
+        "gap": 0.0,
+        "wall_s": 0.033249700034502894,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\895cb701510d"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 23.0,
+        "gap": 0.0,
+        "wall_s": 0.09868809999898076,
+        "cut_iters": 2,
+        "cuts_added": 4,
+        "run_path": "results\\stage1-agreement-v1.7\\9353d0ff787c"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 34,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.03000539995264262,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\9a1d78058afa"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.03315350000048056,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\c4ad1dafd753"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.06702490005409345,
+        "cut_iters": 1,
+        "cuts_added": 2,
+        "run_path": "results\\stage1-agreement-v1.7\\9f92d193a230"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 35,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.0189997999696061,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\38b0ee7d3b33"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.027832399995531887,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\43f43e5c8fac"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.04055490001337603,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\bfd8d8d14233"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 36,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.02266849996522069,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\d14f9c1c32c7"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.025949599978048354,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\20fa1dbd9d27"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.038415899965912104,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\b4b9110b454d"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 37,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.023429799999576062,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\f38ccb945081"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.02604520000750199,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\5156e1a830ef"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.04272819997277111,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\5e470b04c939"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 38,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.02124309999635443,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\70ec8d763a17"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.02825410000514239,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\f6501a4938c5"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.04278289998183027,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\35cae0fb215e"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 39,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.030693200009409338,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\b3e9da3d3e7c"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.028641800046898425,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\11ee479e20c6"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.07792309997603297,
+        "cut_iters": 1,
+        "cuts_added": 1,
+        "run_path": "results\\stage1-agreement-v1.7\\7a5be3feb929"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 40,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.03088859998388216,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\985dd33c4bd5"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.027596900006756186,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\4b14a479aa45"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.03786390001187101,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\4239dcfad4d8"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 41,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.023092799994628876,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\ae34caf6a1ae"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.037634999956935644,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\58a8fd9c007e"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.08165809995261952,
+        "cut_iters": 1,
+        "cuts_added": 1,
+        "run_path": "results\\stage1-agreement-v1.7\\4ab9c80cdb8b"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 42,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.03363679995527491,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\ee7415269f21"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.030512000026647,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\47c33ca605b5"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.033525000035297126,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\f19e080b4ace"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 43,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.022122099995613098,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\1a4723729487"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.026654999994207174,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\f5ea0c512b21"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.04038699995726347,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\f989d2374155"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 44,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.023661700019147247,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\8b2a0777fdb0"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.026505099958740175,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\b616c3a98071"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.03924349998123944,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\2f94ab1c2b25"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 45,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.023140900011640042,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\de262993ba08"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.02666709996992722,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\82b664548e64"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.07208309997804463,
+        "cut_iters": 1,
+        "cuts_added": 1,
+        "run_path": "results\\stage1-agreement-v1.7\\d24e06fd5262"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 46,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.0353336000116542,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\cfa6fc19646d"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.06286679999902844,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\940e76b620c5"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.07596680003916845,
+        "cut_iters": 1,
+        "cuts_added": 1,
+        "run_path": "results\\stage1-agreement-v1.7\\64e7ce37ccf4"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 47,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.03301499999361113,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\30437dcecf65"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.0221843000035733,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\c27472ef4697"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.051184199983254075,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\eecf8444160c"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 48,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.0350241000414826,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\e862fd65bbae"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.025335900019854307,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\ffbb504bfe3a"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 25.0,
+        "gap": 0.0,
+        "wall_s": 0.036455699999351054,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\81f69c4e56a5"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 3,
+    "seed": 49,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.02606590004870668,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\196f5f422b47"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.025450500019360334,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\8b28157a903c"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 24.0,
+        "gap": 0.0,
+        "wall_s": 0.03877009998541325,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\2e7c12b86c02"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 0,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.041346499987412244,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\69c6278080c7"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.10904099995968863,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\97bc8539b6e8"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.041834000032395124,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\7ca184e0f888"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 1,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.056008099985774606,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\51c93ee47c75"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.09056590002728626,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\c51efae58030"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.10070760000962764,
+        "cut_iters": 1,
+        "cuts_added": 1,
+        "run_path": "results\\stage1-agreement-v1.7\\59eb0673c14e"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 2,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 10,
+        "kappa_lb": 10,
+        "kappa_opt": 10,
+        "lb_is_certificate": true,
+        "bound": 43.0,
+        "gap": 0.0,
+        "wall_s": 0.039577600022312254,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\b636d56e2d3c"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 10,
+        "kappa_lb": 10,
+        "kappa_opt": 10,
+        "lb_is_certificate": false,
+        "bound": 43.0,
+        "gap": 0.0,
+        "wall_s": 1.1276099000242539,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\970d2580025f"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 10,
+        "kappa_lb": 10,
+        "kappa_opt": 10,
+        "lb_is_certificate": true,
+        "bound": 43.0,
+        "gap": 0.0,
+        "wall_s": 1.5354011000017636,
+        "cut_iters": 30,
+        "cuts_added": 43,
+        "run_path": "results\\stage1-agreement-v1.7\\76b6cfee7fb4"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 3,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.039152099983766675,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\577d308ebb8d"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.08104620000813156,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\237ed7929056"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.5046194999595173,
+        "cut_iters": 9,
+        "cuts_added": 9,
+        "run_path": "results\\stage1-agreement-v1.7\\229097c8397c"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 4,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.05340179998893291,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\fde6d2cd45af"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.12471699999878183,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\d95f21f6f2dd"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.09813120000762865,
+        "cut_iters": 1,
+        "cuts_added": 1,
+        "run_path": "results\\stage1-agreement-v1.7\\086a819d7494"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 5,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.041931900021154433,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\9a7881d6aab6"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.04974760004552081,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\2ee437f3b5ed"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.2529157999670133,
+        "cut_iters": 4,
+        "cuts_added": 8,
+        "run_path": "results\\stage1-agreement-v1.7\\57e4233a8b0e"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 6,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.047991300001740456,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\bb53b5bf8dd9"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.04208230000222102,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\ecd3c9893cd8"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.05333890003385022,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\393a1d9e645c"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 7,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 10,
+        "kappa_lb": 10,
+        "kappa_opt": 10,
+        "lb_is_certificate": true,
+        "bound": 43.0,
+        "gap": 0.0,
+        "wall_s": 0.04074259998742491,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\8a9dc12b5da2"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 10,
+        "kappa_lb": 10,
+        "kappa_opt": 10,
+        "lb_is_certificate": false,
+        "bound": 43.0,
+        "gap": 0.0,
+        "wall_s": 0.12468810001155362,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\8483c7fd6c08"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 10,
+        "kappa_lb": 10,
+        "kappa_opt": 10,
+        "lb_is_certificate": true,
+        "bound": 43.0,
+        "gap": 0.0,
+        "wall_s": 0.04249379999237135,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\90203942b2a2"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 8,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 10,
+        "kappa_lb": 10,
+        "kappa_opt": 10,
+        "lb_is_certificate": true,
+        "bound": 43.0,
+        "gap": 0.0,
+        "wall_s": 0.047778100008144975,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\3d91aa208a38"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 10,
+        "kappa_lb": 10,
+        "kappa_opt": 10,
+        "lb_is_certificate": false,
+        "bound": 43.0,
+        "gap": 0.0,
+        "wall_s": 0.03878070000791922,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\ae2b258d1300"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 10,
+        "kappa_lb": 10,
+        "kappa_opt": 10,
+        "lb_is_certificate": true,
+        "bound": 43.0,
+        "gap": 0.0,
+        "wall_s": 0.03949840000132099,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\c9ee01d26b6b"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 9,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 10,
+        "kappa_lb": 10,
+        "kappa_opt": 10,
+        "lb_is_certificate": true,
+        "bound": 43.0,
+        "gap": 0.0,
+        "wall_s": 0.05982289998792112,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\e0110404ee8b"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 10,
+        "kappa_lb": 10,
+        "kappa_opt": 10,
+        "lb_is_certificate": false,
+        "bound": 43.0,
+        "gap": 0.0,
+        "wall_s": 0.2697596999933012,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\11876b1fe6aa"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 10,
+        "kappa_lb": 10,
+        "kappa_opt": 10,
+        "lb_is_certificate": true,
+        "bound": 43.0,
+        "gap": 0.0,
+        "wall_s": 4.035179700003937,
+        "cut_iters": 79,
+        "cuts_added": 93,
+        "run_path": "results\\stage1-agreement-v1.7\\7a957e7221f9"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 10,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.03956220002146438,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\ee98cf30bbef"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.03778680000687018,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\5fccda169f3a"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.04934209998464212,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\cd9d95d1c453"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 11,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.05026460002409294,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\fbdc6c6ce55c"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.09961179998936132,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\2fd2602407b4"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.34692250000080094,
+        "cut_iters": 6,
+        "cuts_added": 9,
+        "run_path": "results\\stage1-agreement-v1.7\\3e743c5eadc4"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 12,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.03883910004515201,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\af8a11b1c14d"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.10760649997973815,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\8dcd593385a4"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.12498560000676662,
+        "cut_iters": 1,
+        "cuts_added": 5,
+        "run_path": "results\\stage1-agreement-v1.7\\77b9f2e3e56a"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 13,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.03522339998744428,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\9171d9c4bca2"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.04941279999911785,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\794eebb1dc65"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.04456940002273768,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\f0cfd55a12f1"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 14,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 10,
+        "kappa_lb": 10,
+        "kappa_opt": 10,
+        "lb_is_certificate": true,
+        "bound": 43.0,
+        "gap": 0.0,
+        "wall_s": 0.03897369996411726,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\e765f6f74cee"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 10,
+        "kappa_lb": 10,
+        "kappa_opt": 10,
+        "lb_is_certificate": false,
+        "bound": 43.0,
+        "gap": 0.0,
+        "wall_s": 1.2678013000404462,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\49606a7cb8e9"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 10,
+        "kappa_lb": 10,
+        "kappa_opt": 10,
+        "lb_is_certificate": true,
+        "bound": 43.0,
+        "gap": 0.0,
+        "wall_s": 1.061660400009714,
+        "cut_iters": 19,
+        "cuts_added": 31,
+        "run_path": "results\\stage1-agreement-v1.7\\160eda584093"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 15,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.03885110002011061,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\8348eb10de2e"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.11050670000258833,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\6790a25aabc6"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.04830069997115061,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\c643ab012772"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 16,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.045088800019584596,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\ee242faa2636"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.09479760000249371,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\9568954069b3"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.15662750002229586,
+        "cut_iters": 2,
+        "cuts_added": 2,
+        "run_path": "results\\stage1-agreement-v1.7\\6a6ea2dcd015"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 17,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.04860799998277798,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\747f896d61d8"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.051256500009913,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\f01fcbf1fcc6"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.25770870002452284,
+        "cut_iters": 4,
+        "cuts_added": 16,
+        "run_path": "results\\stage1-agreement-v1.7\\357ad1b141b2"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 18,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.056992099969647825,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\864cc2035328"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.08663949999026954,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\79b484fec8a1"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.04869470000267029,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\6d2a53deeacc"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 19,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.04455600003711879,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\7071747ee68e"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.17294600000604987,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\7eef311b8d70"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.8074675000389107,
+        "cut_iters": 13,
+        "cuts_added": 25,
+        "run_path": "results\\stage1-agreement-v1.7\\4535e7cc1e80"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 20,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.033796100004110485,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\03d0c05bbc15"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.07800320000387728,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\8435e67d794d"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.03550920000998303,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\4bc772689829"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 21,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.04204219998791814,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\21c2b1d0892f"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 44.000000000000014,
+        "gap": 3.2297397080004545e-16,
+        "wall_s": 0.5014387999544851,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\de13981ec7ee"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.7796839000075124,
+        "cut_iters": 14,
+        "cuts_added": 23,
+        "run_path": "results\\stage1-agreement-v1.7\\77c9a4ff96bc"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 22,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.04010749998269603,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\b053d3cf3767"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.0981063999934122,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\259871e28702"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.05333179997978732,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\32d1afcb1dc5"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 23,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.05133039999054745,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\340f296c5941"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.040050100011285394,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\9f4cb7a7f81e"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.04054710001219064,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\e8205d61f677"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 24,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.054080799978692085,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\0745e37d5e7f"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.05528430000413209,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\bebf33cfdce3"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.046474400034639984,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\429e75271068"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 25,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.04947699996409938,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\13c5f2bf36d7"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.13807210000231862,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\0e1a8cfe78c7"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.2650507000507787,
+        "cut_iters": 4,
+        "cuts_added": 8,
+        "run_path": "results\\stage1-agreement-v1.7\\ae1a71ef88de"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 26,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.03535570000531152,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\dd43ee587114"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.09042930003488436,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\294bb4ffadb0"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.04433419997803867,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\66b256a4fdc4"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 27,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.03679980000015348,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\d23ef19acb7f"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.3362055000034161,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\b8d940cf8f39"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.5464633000083268,
+        "cut_iters": 10,
+        "cuts_added": 15,
+        "run_path": "results\\stage1-agreement-v1.7\\a2025c413a9f"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 28,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.040151999972295016,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\13af42bb63d6"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.17691079998621717,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\66d7e3991bcd"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.1344704999937676,
+        "cut_iters": 2,
+        "cuts_added": 3,
+        "run_path": "results\\stage1-agreement-v1.7\\60a405233aba"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 29,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.04033649998018518,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\d2f8ab9200a1"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.03608849999727681,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\c9536be99890"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.052071799989789724,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\92a24f2be62b"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 30,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.051403700024820864,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\fe90ab36effe"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.0930926000000909,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\04e7ee8b6029"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.04430260002845898,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\6c00382a2846"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 31,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.04068840004038066,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\a0db6470d5c1"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.09590830001980066,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\9f1c7d96b8fd"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.14208160003181547,
+        "cut_iters": 2,
+        "cuts_added": 2,
+        "run_path": "results\\stage1-agreement-v1.7\\e6bfd02b0a5f"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 32,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.04016490001231432,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\8394f1cbc9eb"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.09490239998558536,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\f7442deaa600"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.20397820003563538,
+        "cut_iters": 3,
+        "cuts_added": 4,
+        "run_path": "results\\stage1-agreement-v1.7\\d2f4a8cfad35"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 33,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.040930000017397106,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\fdc8bf0a3e6e"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.09706870000809431,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\8fcb81059c9e"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.05178369994973764,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\c798bb125c22"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 34,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.06821160000981763,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\87be2a6b830f"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.30376559996511787,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\35dc2450b194"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 4.457698600017466,
+        "cut_iters": 88,
+        "cuts_added": 99,
+        "run_path": "results\\stage1-agreement-v1.7\\2757eb96c06f"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 35,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.03818510001292452,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\3468c7775d55"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.11298239999450743,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\e42b9d828b50"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.15128960000583902,
+        "cut_iters": 2,
+        "cuts_added": 3,
+        "run_path": "results\\stage1-agreement-v1.7\\c590f769f0af"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 36,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.03789519995916635,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\2272fe832833"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.033683500019833446,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\5e606a408490"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.09680989995831624,
+        "cut_iters": 1,
+        "cuts_added": 2,
+        "run_path": "results\\stage1-agreement-v1.7\\6d53fb3fb66d"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 37,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.03716339997481555,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\718a74ab24e8"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.11308340000687167,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\c03832719701"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.04972439998527989,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\bbeb0c6742bf"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 38,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.047871399961877614,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\8418e77f1001"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.09935909998603165,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\0827e6102090"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.10125810001045465,
+        "cut_iters": 1,
+        "cuts_added": 1,
+        "run_path": "results\\stage1-agreement-v1.7\\021c369f2151"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 39,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.04638950002845377,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\0712242d51a0"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.0338505000108853,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\bb133f198d49"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.053568099974654615,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\89c6130fe1b4"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 40,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.052410600008443,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\f413a9fbf016"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.1046286000055261,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\3331f85e3046"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.2855561000178568,
+        "cut_iters": 5,
+        "cuts_added": 12,
+        "run_path": "results\\stage1-agreement-v1.7\\49bc2ea70d94"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 41,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.039655699976719916,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\ff7f7e99f0d3"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.09384719998342916,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\6c5af82a4755"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.2529731999966316,
+        "cut_iters": 4,
+        "cuts_added": 6,
+        "run_path": "results\\stage1-agreement-v1.7\\c6d96eb88edc"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 42,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.052476200042292476,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\28bea8de9def"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.11054239998338744,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\d3e6e4ff71ca"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.4877208999823779,
+        "cut_iters": 8,
+        "cuts_added": 13,
+        "run_path": "results\\stage1-agreement-v1.7\\0e94e9c03003"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 43,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.04906380001921207,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\4414dc831846"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.13296290003927425,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\6c939851193f"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.04815620003500953,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\b14e2e92a64d"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 44,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.05171720002545044,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\6589bf56b253"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.05934279999928549,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\9340d1e18113"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.03793069999665022,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\c7fedeae7f07"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 45,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.03792040003463626,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\5008b8ae9539"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.10091499995905906,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\88f17d535004"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.10393430001568049,
+        "cut_iters": 1,
+        "cuts_added": 1,
+        "run_path": "results\\stage1-agreement-v1.7\\aa62cca3e6dc"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 46,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.04444550001062453,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\a264fb23b002"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.40532010002061725,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\7eb74ddc9304"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.6221895999624394,
+        "cut_iters": 12,
+        "cuts_added": 13,
+        "run_path": "results\\stage1-agreement-v1.7\\2aed492e1b35"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 47,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.037060000002384186,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\c32f81512da9"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": false,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.0782486000098288,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\04360be1e1f0"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 6,
+        "kappa_lb": 6,
+        "kappa_opt": 6,
+        "lb_is_certificate": true,
+        "bound": 45.0,
+        "gap": 0.0,
+        "wall_s": 0.08751460001803935,
+        "cut_iters": 1,
+        "cuts_added": 1,
+        "run_path": "results\\stage1-agreement-v1.7\\0d1d695c35dd"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 48,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.05296000000089407,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\3e916745098f"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": false,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.10742879996541888,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\2fd8943f07a6"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 4,
+        "kappa_lb": 4,
+        "kappa_opt": 4,
+        "lb_is_certificate": true,
+        "bound": 46.0,
+        "gap": 0.0,
+        "wall_s": 0.1386184999719262,
+        "cut_iters": 2,
+        "cuts_added": 6,
+        "run_path": "results\\stage1-agreement-v1.7\\bdf5fc91b5b3"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 4,
+    "seed": 49,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.03593890002230182,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\8c41dbed0991"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": false,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.04351150000002235,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\6b2243d576d5"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 8,
+        "kappa_lb": 8,
+        "kappa_opt": 8,
+        "lb_is_certificate": true,
+        "bound": 44.0,
+        "gap": 0.0,
+        "wall_s": 0.0432573999860324,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\83f00e38073a"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 0,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 28,
+        "kappa_lb": 28,
+        "kappa_opt": 28,
+        "lb_is_certificate": true,
+        "bound": 178.0,
+        "gap": 0.0,
+        "wall_s": 0.18953450000844896,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\791046bca75b"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 28,
+        "kappa_lb": 28,
+        "kappa_opt": 28,
+        "lb_is_certificate": false,
+        "bound": 178.0,
+        "gap": 0.0,
+        "wall_s": 0.3707889999495819,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\a7c437491e4d"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 28,
+        "kappa_lb": 28,
+        "kappa_opt": 28,
+        "lb_is_certificate": true,
+        "bound": 178.0,
+        "gap": 0.0,
+        "wall_s": 3.870932099991478,
+        "cut_iters": 17,
+        "cuts_added": 42,
+        "run_path": "results\\stage1-agreement-v1.7\\fef9b7ada2b5"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 1,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 20,
+        "kappa_lb": 20,
+        "kappa_opt": 20,
+        "lb_is_certificate": true,
+        "bound": 182.0,
+        "gap": 0.0,
+        "wall_s": 0.15598009998211637,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\2d4b0658d5d7"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 20,
+        "kappa_lb": 20,
+        "kappa_opt": 20,
+        "lb_is_certificate": false,
+        "bound": 182.0,
+        "gap": 0.0,
+        "wall_s": 0.9963970000389963,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\6e94006f103d"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 20,
+        "kappa_lb": 20,
+        "kappa_opt": 20,
+        "lb_is_certificate": true,
+        "bound": 182.0,
+        "gap": 0.0,
+        "wall_s": 3.667645799985621,
+        "cut_iters": 12,
+        "cuts_added": 29,
+        "run_path": "results\\stage1-agreement-v1.7\\9cb391c0d14c"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 2,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 26,
+        "kappa_lb": 26,
+        "kappa_opt": 26,
+        "lb_is_certificate": true,
+        "bound": 179.0,
+        "gap": 0.0,
+        "wall_s": 0.22596469998825341,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\dbe26028546a"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 26,
+        "kappa_lb": 26,
+        "kappa_opt": 26,
+        "lb_is_certificate": false,
+        "bound": 179.00000000000003,
+        "gap": 1.5878049961119555e-16,
+        "wall_s": 2.594155500002671,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\f3e96691f1f2"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 26,
+        "kappa_lb": 26,
+        "kappa_opt": 26,
+        "lb_is_certificate": true,
+        "bound": 179.0,
+        "gap": 0.0,
+        "wall_s": 8.73637709999457,
+        "cut_iters": 26,
+        "cuts_added": 95,
+        "run_path": "results\\stage1-agreement-v1.7\\651d7de5fefa"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 3,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 24,
+        "kappa_lb": 24,
+        "kappa_opt": 24,
+        "lb_is_certificate": true,
+        "bound": 180.0,
+        "gap": 0.0,
+        "wall_s": 0.28777079994324595,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\6b123d8e28a5"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 24,
+        "kappa_lb": 24,
+        "kappa_opt": 24,
+        "lb_is_certificate": false,
+        "bound": 180.0,
+        "gap": 0.0,
+        "wall_s": 0.5651715000276454,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\c046a0ad69b0"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 24,
+        "kappa_lb": 24,
+        "kappa_opt": 24,
+        "lb_is_certificate": true,
+        "bound": 180.0,
+        "gap": 0.0,
+        "wall_s": 3.326271500030998,
+        "cut_iters": 8,
+        "cuts_added": 23,
+        "run_path": "results\\stage1-agreement-v1.7\\500b93d012c6"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 4,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 28,
+        "kappa_lb": 28,
+        "kappa_opt": 28,
+        "lb_is_certificate": true,
+        "bound": 178.0,
+        "gap": 0.0,
+        "wall_s": 0.2758079000050202,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\9561ae93d25f"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 28,
+        "kappa_lb": 28,
+        "kappa_opt": 28,
+        "lb_is_certificate": false,
+        "bound": 178.0,
+        "gap": 0.0,
+        "wall_s": 1.6502875000005588,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\d560479b7fe2"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 28,
+        "kappa_lb": 28,
+        "kappa_opt": 28,
+        "lb_is_certificate": true,
+        "bound": 178.0,
+        "gap": 0.0,
+        "wall_s": 4.704686900018714,
+        "cut_iters": 13,
+        "cuts_added": 32,
+        "run_path": "results\\stage1-agreement-v1.7\\41c970f40858"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 5,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 28,
+        "kappa_lb": 28,
+        "kappa_opt": 28,
+        "lb_is_certificate": true,
+        "bound": 178.0,
+        "gap": 0.0,
+        "wall_s": 0.26842779997969046,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\2b6e5c0f0132"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 28,
+        "kappa_lb": 28,
+        "kappa_opt": 28,
+        "lb_is_certificate": false,
+        "bound": 178.0,
+        "gap": 0.0,
+        "wall_s": 0.6137289000325836,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\56fcf306f129"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 28,
+        "kappa_lb": 28,
+        "kappa_opt": 28,
+        "lb_is_certificate": true,
+        "bound": 178.0,
+        "gap": 0.0,
+        "wall_s": 4.447502899973188,
+        "cut_iters": 9,
+        "cuts_added": 32,
+        "run_path": "results\\stage1-agreement-v1.7\\18185d9a3f7d"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 6,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 26,
+        "kappa_lb": 26,
+        "kappa_opt": 26,
+        "lb_is_certificate": true,
+        "bound": 179.0,
+        "gap": 0.0,
+        "wall_s": 0.3233034000149928,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\ecb731231f29"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 26,
+        "kappa_lb": 26,
+        "kappa_opt": 26,
+        "lb_is_certificate": false,
+        "bound": 179.00000000000003,
+        "gap": 1.5878049961119555e-16,
+        "wall_s": 2.2638692000182346,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\323d110de8f5"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 26,
+        "kappa_lb": 26,
+        "kappa_opt": 26,
+        "lb_is_certificate": true,
+        "bound": 179.0,
+        "gap": 0.0,
+        "wall_s": 6.440277899964713,
+        "cut_iters": 19,
+        "cuts_added": 42,
+        "run_path": "results\\stage1-agreement-v1.7\\a5adbcc56d9c"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 7,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 24,
+        "kappa_lb": 24,
+        "kappa_opt": 24,
+        "lb_is_certificate": true,
+        "bound": 180.0,
+        "gap": 0.0,
+        "wall_s": 0.2987862000009045,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\b921c2797cfd"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 24,
+        "kappa_lb": 24,
+        "kappa_opt": 24,
+        "lb_is_certificate": false,
+        "bound": 180.0,
+        "gap": 0.0,
+        "wall_s": 2.547930600005202,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\0fbdb56c9608"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 24,
+        "kappa_lb": 24,
+        "kappa_opt": 24,
+        "lb_is_certificate": true,
+        "bound": 180.0,
+        "gap": 0.0,
+        "wall_s": 5.106822100002319,
+        "cut_iters": 14,
+        "cuts_added": 32,
+        "run_path": "results\\stage1-agreement-v1.7\\6c04aa4d3f8e"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 8,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 26,
+        "kappa_lb": 26,
+        "kappa_opt": 26,
+        "lb_is_certificate": true,
+        "bound": 179.0,
+        "gap": 0.0,
+        "wall_s": 0.3296445999876596,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\e5a642ec6693"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 26,
+        "kappa_lb": 26,
+        "kappa_opt": 26,
+        "lb_is_certificate": false,
+        "bound": 179.00000000000017,
+        "gap": 9.526829976671724e-16,
+        "wall_s": 2.407314599957317,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\2b2e488624a3"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 26,
+        "kappa_lb": 26,
+        "kappa_opt": 26,
+        "lb_is_certificate": true,
+        "bound": 179.0,
+        "gap": 0.0,
+        "wall_s": 5.338535699993372,
+        "cut_iters": 15,
+        "cuts_added": 32,
+        "run_path": "results\\stage1-agreement-v1.7\\0dd6946aa9ec"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 9,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 26,
+        "kappa_lb": 26,
+        "kappa_opt": 26,
+        "lb_is_certificate": true,
+        "bound": 179.0,
+        "gap": 0.0,
+        "wall_s": 0.3131135000148788,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\21c6a16a53f3"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 26,
+        "kappa_lb": 26,
+        "kappa_opt": 26,
+        "lb_is_certificate": false,
+        "bound": 179.0,
+        "gap": 0.0,
+        "wall_s": 0.6032487000338733,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\44a4872e83f0"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 26,
+        "kappa_lb": 26,
+        "kappa_opt": 26,
+        "lb_is_certificate": true,
+        "bound": 179.0,
+        "gap": 0.0,
+        "wall_s": 3.0541344999801368,
+        "cut_iters": 9,
+        "cuts_added": 22,
+        "run_path": "results\\stage1-agreement-v1.7\\a21cf2baf7d8"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 10,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 32,
+        "kappa_lb": 32,
+        "kappa_opt": 32,
+        "lb_is_certificate": true,
+        "bound": 176.0,
+        "gap": 0.0,
+        "wall_s": 0.25381810002727434,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\33f617008c20"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 32,
+        "kappa_lb": 32,
+        "kappa_opt": 32,
+        "lb_is_certificate": false,
+        "bound": 176.0,
+        "gap": 0.0,
+        "wall_s": 0.6113954999600537,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\9a0ebd77eaeb"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 32,
+        "kappa_lb": 32,
+        "kappa_opt": 32,
+        "lb_is_certificate": true,
+        "bound": 176.0,
+        "gap": 0.0,
+        "wall_s": 1.3699319000006653,
+        "cut_iters": 5,
+        "cuts_added": 5,
+        "run_path": "results\\stage1-agreement-v1.7\\83db83d416d0"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 11,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 26,
+        "kappa_lb": 26,
+        "kappa_opt": 26,
+        "lb_is_certificate": true,
+        "bound": 179.0,
+        "gap": 0.0,
+        "wall_s": 0.36974600004032254,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\20aa0cc3ab38"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 26,
+        "kappa_lb": 26,
+        "kappa_opt": 26,
+        "lb_is_certificate": false,
+        "bound": 179.0,
+        "gap": 0.0,
+        "wall_s": 0.6085531999706291,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\01fdab5166a7"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 26,
+        "kappa_lb": 26,
+        "kappa_opt": 26,
+        "lb_is_certificate": true,
+        "bound": 179.0,
+        "gap": 0.0,
+        "wall_s": 7.881238099944312,
+        "cut_iters": 31,
+        "cuts_added": 66,
+        "run_path": "results\\stage1-agreement-v1.7\\72ea86e501a2"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 12,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 24,
+        "kappa_lb": 24,
+        "kappa_opt": 24,
+        "lb_is_certificate": true,
+        "bound": 180.0,
+        "gap": 0.0,
+        "wall_s": 0.20380929997190833,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\b47328adafd5"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 24,
+        "kappa_lb": 24,
+        "kappa_opt": 24,
+        "lb_is_certificate": false,
+        "bound": 180.0,
+        "gap": 0.0,
+        "wall_s": 0.46425930003169924,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\6a902ad2056f"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 24,
+        "kappa_lb": 24,
+        "kappa_opt": 24,
+        "lb_is_certificate": true,
+        "bound": 180.0,
+        "gap": 0.0,
+        "wall_s": 4.1911566000198945,
+        "cut_iters": 16,
+        "cuts_added": 30,
+        "run_path": "results\\stage1-agreement-v1.7\\7cc06f1f3f2e"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 13,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 24,
+        "kappa_lb": 24,
+        "kappa_opt": 24,
+        "lb_is_certificate": true,
+        "bound": 180.0,
+        "gap": 0.0,
+        "wall_s": 0.2741896000225097,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\579b5bde40cb"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 24,
+        "kappa_lb": 24,
+        "kappa_opt": 24,
+        "lb_is_certificate": false,
+        "bound": 180.0,
+        "gap": 0.0,
+        "wall_s": 0.3964053000090644,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\504c4e8b51bf"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 24,
+        "kappa_lb": 24,
+        "kappa_opt": 24,
+        "lb_is_certificate": true,
+        "bound": 180.0,
+        "gap": 0.0,
+        "wall_s": 2.8231731999549083,
+        "cut_iters": 9,
+        "cuts_added": 15,
+        "run_path": "results\\stage1-agreement-v1.7\\7763871ddb37"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 14,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 24,
+        "kappa_lb": 24,
+        "kappa_opt": 24,
+        "lb_is_certificate": true,
+        "bound": 180.0,
+        "gap": 0.0,
+        "wall_s": 0.26180310000199825,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\7e0c59917d76"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 24,
+        "kappa_lb": 24,
+        "kappa_opt": 24,
+        "lb_is_certificate": false,
+        "bound": 180.0,
+        "gap": 0.0,
+        "wall_s": 0.5315780999953859,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\ca30b27dffdb"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 24,
+        "kappa_lb": 24,
+        "kappa_opt": 24,
+        "lb_is_certificate": true,
+        "bound": 180.0,
+        "gap": 0.0,
+        "wall_s": 1.6199097000062466,
+        "cut_iters": 5,
+        "cuts_added": 10,
+        "run_path": "results\\stage1-agreement-v1.7\\591dee01eaba"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 15,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 28,
+        "kappa_lb": 28,
+        "kappa_opt": 28,
+        "lb_is_certificate": true,
+        "bound": 178.0,
+        "gap": 0.0,
+        "wall_s": 0.27347110002301633,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\30f2717bd4a2"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 28,
+        "kappa_lb": 28,
+        "kappa_opt": 28,
+        "lb_is_certificate": false,
+        "bound": 178.0,
+        "gap": 0.0,
+        "wall_s": 0.895695400016848,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\72df135dafcb"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 28,
+        "kappa_lb": 28,
+        "kappa_opt": 28,
+        "lb_is_certificate": true,
+        "bound": 178.0,
+        "gap": 0.0,
+        "wall_s": 6.931635799992364,
+        "cut_iters": 20,
+        "cuts_added": 42,
+        "run_path": "results\\stage1-agreement-v1.7\\09e21428e060"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 16,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 22,
+        "kappa_lb": 22,
+        "kappa_opt": 22,
+        "lb_is_certificate": true,
+        "bound": 181.0,
+        "gap": 0.0,
+        "wall_s": 0.3516093000071123,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\7e626d556d17"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 22,
+        "kappa_lb": 22,
+        "kappa_opt": 22,
+        "lb_is_certificate": false,
+        "bound": 181.0,
+        "gap": 0.0,
+        "wall_s": 1.2436600999790244,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\a94816a65f38"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 22,
+        "kappa_lb": 22,
+        "kappa_opt": 22,
+        "lb_is_certificate": true,
+        "bound": 181.0,
+        "gap": 0.0,
+        "wall_s": 3.745976700040046,
+        "cut_iters": 7,
+        "cuts_added": 28,
+        "run_path": "results\\stage1-agreement-v1.7\\128a832a4c51"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 17,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 22,
+        "kappa_lb": 22,
+        "kappa_opt": 22,
+        "lb_is_certificate": true,
+        "bound": 181.0,
+        "gap": 0.0,
+        "wall_s": 0.310981200018432,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\19ea0bea0a23"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 22,
+        "kappa_lb": 22,
+        "kappa_opt": 22,
+        "lb_is_certificate": false,
+        "bound": 181.0,
+        "gap": 0.0,
+        "wall_s": 2.322786399978213,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\444cfa7c087a"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 22,
+        "kappa_lb": 22,
+        "kappa_opt": 22,
+        "lb_is_certificate": true,
+        "bound": 181.0,
+        "gap": 0.0,
+        "wall_s": 3.5710748999845237,
+        "cut_iters": 10,
+        "cuts_added": 30,
+        "run_path": "results\\stage1-agreement-v1.7\\bf290d17230b"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 18,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 28,
+        "kappa_lb": 28,
+        "kappa_opt": 28,
+        "lb_is_certificate": true,
+        "bound": 178.0,
+        "gap": 0.0,
+        "wall_s": 0.34114779997617006,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\d3863de8d12f"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 28,
+        "kappa_lb": 28,
+        "kappa_opt": 28,
+        "lb_is_certificate": false,
+        "bound": 178.0,
+        "gap": 0.0,
+        "wall_s": 1.8317144999746233,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\58a6773e5f75"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 28,
+        "kappa_lb": 28,
+        "kappa_opt": 28,
+        "lb_is_certificate": true,
+        "bound": 178.0,
+        "gap": 0.0,
+        "wall_s": 4.827012899972033,
+        "cut_iters": 14,
+        "cuts_added": 29,
+        "run_path": "results\\stage1-agreement-v1.7\\3a646a1bc0f2"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  },
+  {
+    "m": 8,
+    "seed": 19,
+    "methods": {
+      "cpsatA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 20,
+        "kappa_lb": 20,
+        "kappa_opt": 20,
+        "lb_is_certificate": true,
+        "bound": 182.0,
+        "gap": 0.0,
+        "wall_s": 0.2451463000033982,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\f8c854dd6a94"
+      },
+      "highsA": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 20,
+        "kappa_lb": 20,
+        "kappa_opt": 20,
+        "lb_is_certificate": false,
+        "bound": 182.0,
+        "gap": 0.0,
+        "wall_s": 0.5972239000257105,
+        "cut_iters": 0,
+        "cuts_added": 0,
+        "run_path": "results\\stage1-agreement-v1.7\\79e9a84c3790"
+      },
+      "cpsatB": {
+        "status": "OPTIMAL",
+        "kappa_incumbent": 20,
+        "kappa_lb": 20,
+        "kappa_opt": 20,
+        "lb_is_certificate": true,
+        "bound": 182.0,
+        "gap": 0.0,
+        "wall_s": 1.97761330002686,
+        "cut_iters": 5,
+        "cuts_added": 9,
+        "run_path": "results\\stage1-agreement-v1.7\\86f7594e79de"
+      }
+    },
+    "agree": true,
+    "all_optimal": true
+  }
+]

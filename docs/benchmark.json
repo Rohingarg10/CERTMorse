@@ -1,0 +1,12 @@
+{
+  "instance": "R8a",
+  "m": 32,
+  "channel": "b",
+  "shots": 1000,
+  "threads": 8,
+  "density_matrix_landscape_s": 5.267201100010425,
+  "cpsat_s": 601.4736743000103,
+  "status": "FEASIBLE",
+  "kappa_lb": 16,
+  "kappa_opt": null
+}

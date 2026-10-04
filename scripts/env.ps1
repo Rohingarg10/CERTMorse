@@ -1,0 +1,9 @@
+$taskRoot = Split-Path -Parent $PSScriptRoot
+$env:HF_HOME = Join-Path $taskRoot '.tools\huggingface'
+$env:UV_CACHE_DIR = Join-Path $taskRoot '.tools\uv-cache'
+$env:MPLCONFIGDIR = Join-Path $taskRoot '.tools\matplotlib'
+$env:CERTMORSE_TSFM_PYTHON = Join-Path $taskRoot 'venv-tsfm\Scripts\python.exe'
+$env:CERTMORSE_PVPYTHON = Join-Path $taskRoot 'venv-ttk\Library\bin\pvpython.exe'
+$env:PATH = (Join-Path $taskRoot 'venv-ttk') + ';' + (Join-Path $taskRoot 'venv-ttk\Library\bin') + ';' + $env:PATH
+$plugins = Get-ChildItem -LiteralPath (Join-Path $taskRoot 'venv-ttk') -Recurse -Filter '*TopologyToolKit*.dll' -ErrorAction SilentlyContinue
+if ($plugins) { $env:CERTMORSE_TTK_PLUGIN = $plugins[0].FullName }

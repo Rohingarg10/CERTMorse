@@ -1,0 +1,343 @@
+{
+  "paraview": "5.13.3",
+  "filters": {
+    "TTKPersistenceDiagram": {
+      "available": true,
+      "properties": [
+        "Backend",
+        "ClearDiscreteGradientCache",
+        "Cache",
+        "Minimumsaddlediagramdimension0",
+        "Saddlemaximumdiagramdimensiond1",
+        "Saddlesaddlediagramdimension1slowest",
+        "Dimensions",
+        "DebugLevel",
+        "Execute",
+        "ThreadNumber",
+        "UseAllCores",
+        "Error",
+        "ForceInputOffsetField",
+        "IgnoreBoundary",
+        "Input",
+        "InputOffsetField",
+        "ResumableComputation",
+        "ScalarField",
+        "EmbedinDomain",
+        "Startresolutionlevel",
+        "Endresolutionlevel",
+        "TimeLimits"
+      ],
+      "point_arrays": [
+        "ttkVertexScalarField",
+        "CriticalType",
+        "Coordinates"
+      ],
+      "cell_arrays": [
+        "PairIdentifier",
+        "PairType",
+        "Persistence",
+        "Birth",
+        "IsFinite"
+      ],
+      "pairs": [
+        {
+          "Birth": -2.0,
+          "Persistence": 4.0,
+          "PairType": 0,
+          "IsFinite": 0,
+          "endpoints": [
+            -2.0,
+            -2.0
+          ]
+        },
+        {
+          "Birth": -2.0,
+          "Persistence": 2.0,
+          "PairType": 0,
+          "IsFinite": 1,
+          "endpoints": [
+            -2.0,
+            -2.0
+          ]
+        },
+        {
+          "Birth": 0.0,
+          "Persistence": 2.0,
+          "PairType": 1,
+          "IsFinite": 0,
+          "endpoints": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "Birth": 0.0,
+          "Persistence": 2.0,
+          "PairType": 1,
+          "IsFinite": 1,
+          "endpoints": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "Birth": 0.0,
+          "Persistence": 2.0,
+          "PairType": 1,
+          "IsFinite": 0,
+          "endpoints": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "Birth": 2.0,
+          "Persistence": 0.0,
+          "PairType": 2,
+          "IsFinite": 0,
+          "endpoints": [
+            2.0,
+            2.0
+          ]
+        },
+        {
+          "Birth": 0.0,
+          "Persistence": 8.0,
+          "PairType": -1,
+          "IsFinite": 0,
+          "endpoints": [
+            -2.0,
+            2.0
+          ]
+        }
+      ],
+      "csv_header": "\"PairIdentifier\",\"PairType\",\"Persistence\",\"Birth\",\"IsFinite\",\"Cell Type\""
+    },
+    "TTKScalarFieldCriticalPoints": {
+      "available": true,
+      "properties": [
+        "Backend",
+        "Cache",
+        "DebugLevel",
+        "Execute",
+        "ThreadNumber",
+        "UseAllCores",
+        "Input",
+        "ResumableComputation",
+        "InputOffsetField",
+        "ScalarField",
+        "Startresolutionlevel",
+        "Endresolutionlevel",
+        "TimeLimits",
+        "Withboundarymask",
+        "ForceInputOffsetField",
+        "Withvertexidentifiers",
+        "Withvertexscalars"
+      ],
+      "point_arrays": [
+        "CriticalType",
+        "IsOnBoundary",
+        "ttkVertexScalarField",
+        "Scalar",
+        "Lower",
+        "Upper",
+        "Scalar_Order"
+      ],
+      "cell_arrays": [],
+      "csv_header": "\"CriticalType\",\"IsOnBoundary\",\"ttkVertexScalarField\",\"Scalar\",\"Lower\",\"Upper\",\"Scalar_Order\",\"Points:0\",\"Points:1\",\"Points:2\""
+    },
+    "TTKDiscreteGradient": {
+      "available": true,
+      "properties": [
+        "Cache",
+        "ComputeGradientGlyphs",
+        "DebugLevel",
+        "Execute",
+        "ThreadNumber",
+        "UseAllCores",
+        "ForceInputOffsetField",
+        "Input",
+        "OffsetField",
+        "ScalarField"
+      ],
+      "point_arrays": [
+        "CellDimension",
+        "CellId",
+        "Scalar",
+        "IsOnBoundary",
+        "ttkVertexScalarField"
+      ],
+      "cell_arrays": [],
+      "csv_header": "\"CellDimension\",\"CellId\",\"Scalar\",\"IsOnBoundary\",\"ttkVertexScalarField\",\"Points:0\",\"Points:1\",\"Points:2\""
+    },
+    "TTKMorseSmaleComplex": {
+      "available": true,
+      "properties": [
+        "Cache",
+        "AscendingSegmentation",
+        "Ascending1Separatrices",
+        "Ascending2Separatrices",
+        "CriticalPoints",
+        "DescendingSegmentation",
+        "Descending1Separatrices",
+        "Descending2Separatrices",
+        "MorseSmaleComplexSegmentation",
+        "SaddleConnectors",
+        "DebugLevel",
+        "Execute",
+        "ThreadNumber",
+        "UseAllCores",
+        "ForceInputOffsetField",
+        "Forceloopfreegradient",
+        "Input",
+        "OffsetField",
+        "ReturnSaddleConnectors",
+        "SaddleConnectorsPersistenceThreshold",
+        "ScalarField",
+        "ThresholdIsAbsolute"
+      ],
+      "point_arrays": [
+        "CellDimension",
+        "CellId",
+        "Scalar",
+        "IsOnBoundary",
+        "ttkVertexScalarField",
+        "ManifoldSize"
+      ],
+      "cell_arrays": [],
+      "csv_header": "\"CellDimension\",\"CellId\",\"Scalar\",\"IsOnBoundary\",\"ttkVertexScalarField\",\"ManifoldSize\",\"Points:0\",\"Points:1\",\"Points:2\""
+    },
+    "TTKTopologicalSimplification": {
+      "available": true,
+      "properties": [
+        "NumericalPerturbation",
+        "GradientStepSize",
+        "ChooseLearningRate",
+        "StoppingConditionCoefficient",
+        "Cache",
+        "Removeselectedextrema",
+        "ConstraintAveraging",
+        "Constraints",
+        "DebugLevel",
+        "Execute",
+        "ThreadNumber",
+        "UseAllCores",
+        "Domain",
+        "MaximumIterationNumber",
+        "FastAssignmentUpdate",
+        "CancellationPrimitive",
+        "ForceInputOffsetField",
+        "ForceInputVertexScalarField",
+        "InputOffsetField",
+        "LearningRate",
+        "LowerThreshold",
+        "Backend",
+        "GradientDescentBackend",
+        "OnlineAdhocsimplification",
+        "WassersteinDistanceBackend",
+        "PairTypeToDelete",
+        "PrintFrequency",
+        "ScalarField",
+        "Threshold",
+        "ThresholdMethod",
+        "UpperThreshold",
+        "FastPersistenceUpdate",
+        "VertexIdentifierField"
+      ],
+      "point_arrays": [
+        "Scalar",
+        "Lower",
+        "Upper",
+        "Scalar_Order"
+      ],
+      "cell_arrays": [],
+      "output_points": 256,
+      "csv_header": "\"Scalar\",\"Lower\",\"Upper\",\"Scalar_Order\",\"Points:0\",\"Points:1\",\"Points:2\""
+    },
+    "TTKMandatoryCriticalPoints": {
+      "available": true,
+      "properties": [
+        "Cache",
+        "DebugLevel",
+        "Execute",
+        "ThreadNumber",
+        "UseAllCores",
+        "Input",
+        "LowerBoundField",
+        "Displayalljoinsaddles",
+        "Displayallmaxima",
+        "Displayallminima",
+        "Displayallsplitsaddles",
+        "OnlydisplayjoinsaddlewithId",
+        "OnlydisplaymaximumwithId",
+        "OnlydisplayminimumwithId",
+        "OnlydisplaysplitsaddlewithId",
+        "NormalizedThreshold",
+        "UpperBoundField"
+      ],
+      "point_arrays": [
+        "Scalar",
+        "Lower",
+        "Upper",
+        "MinimumComponents"
+      ],
+      "cell_arrays": [],
+      "ports": {
+        "0": [
+          "Scalar",
+          "Lower",
+          "Upper",
+          "MinimumComponents"
+        ],
+        "1": [
+          "Scalar",
+          "Lower",
+          "Upper",
+          "JoinSaddleComponents"
+        ],
+        "2": [
+          "Scalar",
+          "Lower",
+          "Upper",
+          "SplitSaddleComponents"
+        ],
+        "3": [
+          "Scalar",
+          "Lower",
+          "Upper",
+          "MaximumComponents"
+        ]
+      },
+      "csv_header": "\"Scalar\",\"Lower\",\"Upper\",\"MinimumComponents\",\"Points:0\",\"Points:1\",\"Points:2\""
+    },
+    "TTKBottleneckDistance": {
+      "available": true,
+      "properties": [
+        "Assignmentmethod",
+        "Cache",
+        "DebugLevel",
+        "Execute",
+        "ThreadNumber",
+        "UseAllCores",
+        "Input",
+        "Displaythematchingswithlinesegments",
+        "Persistencethreshold",
+        "ForceZtranslation",
+        "pparameter",
+        "ZTranslation",
+        "Extremumweight",
+        "Saddleweight",
+        "Xweight",
+        "Yweight",
+        "Zweight"
+      ],
+      "point_arrays": [],
+      "cell_arrays": [],
+      "csv_header": "\"Coordinates:0\",\"Coordinates:1\",\"Coordinates:2\",\"CriticalType\",\"Points:0\",\"Points:1\",\"Points:2\",\"ttkVertexScalarField\""
+    },
+    "TTKPeriodicGrid": {
+      "available": false,
+      "error": "module 'paraview.simple' has no attribute 'TTKPeriodicGrid'"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "specification": "v1.7",
+  "source_digest": "bbed014be1d54eff0f11c1db62da9d0997255dc5a2f079205dfcf3ad9b09f84c",
+  "status": "PASS",
+  "steps": [
+    {
+      "name": "tests",
+      "exit_code": 0,
+      "wall_s": 183.42207620001864,
+      "log": "results\\corrections\\gate\\20261004T093757Z\\tests.log"
+    },
+    {
+      "name": "agreement",
+      "exit_code": 0,
+      "wall_s": 159.4051260999986,
+      "log": "results\\corrections\\gate\\20261004T093757Z\\agreement.log"
+    },
+    {
+      "name": "r8a",
+      "exit_code": 0,
+      "wall_s": 734.7951846999931,
+      "log": "results\\corrections\\gate\\20261004T093757Z\\r8a.log"
+    },
+    {
+      "name": "coverage",
+      "exit_code": 0,
+      "wall_s": 23.865288399974816,
+      "log": "results\\corrections\\gate\\20261004T093757Z\\coverage.log"
+    }
+  ],
+  "checks": {
+    "tests": {
+      "passed": 140,
+      "skipped": 0
+    },
+    "agreement": {
+      "bands": 120,
+      "optimal_solvers": 360,
+      "exact_witnesses_verified": 360
+    },
+    "r8a": {
+      "optimal_bands": 20,
+      "warm_starts_justified": 20,
+      "multiplicity_bands": 10,
+      "observed_spread_range": [
+        0.4296875,
+        0.72265625
+      ]
+    },
+    "coverage": {
+      "oracle": {
+        "covered": 1898,
+        "coverage": 0.949,
+        "wilson95": [
+          0.9384684614587503,
+          0.9578100300826845
+        ],
+        "simultaneous_guarantee": false,
+        "vertex_failures": 105,
+        "failing_vertices": 83,
+        "variance_range_failing": [
+          1.350161061794367,
+          5.5
+        ],
+        "max_abs_skewness_failing": 1.1349622358961613,
+        "last_seed_widths": {
+          "mean_half_width": 0.21758044806088012,
+          "max_half_width": 0.27625365436971716
+        }
+      },
+      "hoeffding": {
+        "covered": 2000,
+        "coverage": 1.0,
+        "wilson95": [
+          0.9980829527187469,
+          0.9999999999999998
+        ],
+        "simultaneous_guarantee": true,
+        "vertex_failures": 0,
+        "failing_vertices": 0,
+        "variance_range_failing": null,
+        "max_abs_skewness_failing": null,
+        "last_seed_widths": {
+          "mean_half_width": 0.8153846311396433,
+          "max_half_width": 0.8153846311396435
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.tools/
+.p/
+.p-short/
+venv-*/
+__pycache__/
+.pytest_cache/
+.hypothesis/
+*.pyc
+*.egg-info/
+results/*/
+!results/.gitkeep

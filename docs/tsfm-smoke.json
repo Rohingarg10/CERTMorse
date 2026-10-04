@@ -1,0 +1,13 @@
+{
+  "checkpoint": "google/timesfm-3.0-pytorch",
+  "device": "cpu",
+  "threads": 8,
+  "T17": "passed",
+  "model_load_s": 2.9332184999948367,
+  "batch64_k40_h80_s": [
+    3.919664899993222,
+    4.056193900003564,
+    4.46135899994988
+  ],
+  "batch64_median_s": 4.056193900003564
+}
