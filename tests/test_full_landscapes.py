@@ -8,12 +8,11 @@ IDS=['R6a','R6b','R8a','R8b','R8c','R10a','E8a','E8b','W8a','W8b','C8','K5']
 
 
 @pytest.mark.parametrize('name',IDS)
-@pytest.mark.parametrize('channel',['b','c'])
-def test_T19_noisy_all_instances_m16(name,channel):
-    f,_,_=exact_landscape(load_instance(name),16,channel,7)
-    involution=(-np.arange(16))%16
-    assert np.array_equal(involution[involution],np.arange(16))
-    assert np.max(np.abs(f-f[np.ix_(involution,involution)]))<1e-12
+@pytest.mark.parametrize('channel',['a','b','c'])
+def test_T19_continuous_all_instances(name,channel):
+    points=np.random.default_rng(19).uniform([0,0],[2*np.pi,np.pi],(100,2))
+    f,_,_=exact_points(load_instance(name),list(points)+list(-points),channel,7)
+    assert np.max(np.abs(f[:100]-f[100:]))<1e-12
 
 
 @pytest.mark.parametrize('name',IDS)

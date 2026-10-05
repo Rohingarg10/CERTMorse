@@ -1,0 +1,149 @@
+﻿[
+    {
+        "utc":  "elapsed:0E-7s",
+        "local":  "elapsed:0E-7s",
+        "ProviderName":  "Microsoft-Windows-Kernel-Power",
+        "Id":  506,
+        "Message":  "modern_standby_enter"
+    },
+    {
+        "utc":  "elapsed:25.9117149s",
+        "local":  "elapsed:25.9117149s",
+        "ProviderName":  "Microsoft-Windows-Kernel-Power",
+        "Id":  507,
+        "Message":  "modern_standby_exit"
+    },
+    {
+        "utc":  "elapsed:3776.9676737s",
+        "local":  "elapsed:3776.9676737s",
+        "ProviderName":  "Microsoft-Windows-Kernel-Power",
+        "Id":  506,
+        "Message":  "modern_standby_enter"
+    },
+    {
+        "utc":  "elapsed:20155.7898041s",
+        "local":  "elapsed:20155.7898041s",
+        "ProviderName":  "Microsoft-Windows-Kernel-Power",
+        "Id":  507,
+        "Message":  "modern_standby_exit"
+    },
+    {
+        "utc":  "elapsed:20155.7916478s",
+        "local":  "elapsed:20155.7916478s",
+        "ProviderName":  "Microsoft-Windows-Kernel-Power",
+        "Id":  506,
+        "Message":  "modern_standby_enter"
+    },
+    {
+        "utc":  "elapsed:23019.0870028s",
+        "local":  "elapsed:23019.0870028s",
+        "ProviderName":  "Microsoft-Windows-Kernel-Power",
+        "Id":  507,
+        "Message":  "modern_standby_exit"
+    },
+    {
+        "utc":  "elapsed:23050.1740140s",
+        "local":  "elapsed:23050.1740140s",
+        "ProviderName":  "Microsoft-Windows-Kernel-Power",
+        "Id":  506,
+        "Message":  "modern_standby_enter"
+    },
+    {
+        "utc":  "elapsed:23051.3127786s",
+        "local":  "elapsed:23051.3127786s",
+        "ProviderName":  "Microsoft-Windows-Kernel-Power",
+        "Id":  507,
+        "Message":  "modern_standby_exit"
+    },
+    {
+        "utc":  "elapsed:23051.3143354s",
+        "local":  "elapsed:23051.3143354s",
+        "ProviderName":  "Microsoft-Windows-Kernel-Power",
+        "Id":  506,
+        "Message":  "modern_standby_enter"
+    },
+    {
+        "utc":  "elapsed:23056.0190052s",
+        "local":  "elapsed:23056.0190052s",
+        "ProviderName":  "Microsoft-Windows-Kernel-Power",
+        "Id":  507,
+        "Message":  "modern_standby_exit"
+    },
+    {
+        "utc":  "elapsed:23056.0237187s",
+        "local":  "elapsed:23056.0237187s",
+        "ProviderName":  "Microsoft-Windows-Kernel-Power",
+        "Id":  506,
+        "Message":  "modern_standby_enter"
+    },
+    {
+        "utc":  "elapsed:23463.3444396s",
+        "local":  "elapsed:23463.3444396s",
+        "ProviderName":  "Microsoft-Windows-Kernel-Power",
+        "Id":  507,
+        "Message":  "modern_standby_exit"
+    },
+    {
+        "utc":  "elapsed:23494.5470688s",
+        "local":  "elapsed:23494.5470688s",
+        "ProviderName":  "Microsoft-Windows-Kernel-Power",
+        "Id":  506,
+        "Message":  "modern_standby_enter"
+    },
+    {
+        "utc":  "elapsed:24355.7763247s",
+        "local":  "elapsed:24355.7763247s",
+        "ProviderName":  "Microsoft-Windows-Kernel-Power",
+        "Id":  507,
+        "Message":  "modern_standby_exit"
+    },
+    {
+        "utc":  "elapsed:24355.7782559s",
+        "local":  "elapsed:24355.7782559s",
+        "ProviderName":  "Microsoft-Windows-Kernel-Power",
+        "Id":  506,
+        "Message":  "modern_standby_enter"
+    },
+    {
+        "utc":  "elapsed:29680.4936429s",
+        "local":  "elapsed:29680.4936429s",
+        "ProviderName":  "Microsoft-Windows-Kernel-Power",
+        "Id":  507,
+        "Message":  "modern_standby_exit"
+    },
+    {
+        "utc":  "elapsed:29682.5578445s",
+        "local":  "elapsed:29682.5578445s",
+        "ProviderName":  "Microsoft-Windows-Kernel-Power",
+        "Id":  42,
+        "Message":  "sleep_enter"
+    },
+    {
+        "utc":  "elapsed:29686.9703735s",
+        "local":  "elapsed:29686.9703735s",
+        "ProviderName":  "Microsoft-Windows-Kernel-Power",
+        "Id":  107,
+        "Message":  "sleep_resume"
+    },
+    {
+        "utc":  "elapsed:54442.6554086s",
+        "local":  "elapsed:54442.6554086s",
+        "ProviderName":  "Microsoft-Windows-Kernel-Power",
+        "Id":  506,
+        "Message":  "modern_standby_enter"
+    },
+    {
+        "utc":  "elapsed:54443.5475016s",
+        "local":  "elapsed:54443.5475016s",
+        "ProviderName":  "Microsoft-Windows-Kernel-Power",
+        "Id":  507,
+        "Message":  "modern_standby_exit"
+    },
+    {
+        "utc":  "elapsed:54443.7323015s",
+        "local":  "elapsed:54443.7323015s",
+        "ProviderName":  "Microsoft-Windows-Power-Troubleshooter",
+        "Id":  1,
+        "Message":  "resume_from_low_power"
+    }
+]

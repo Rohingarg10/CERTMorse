@@ -3,6 +3,7 @@ import argparse
 import json
 from pathlib import Path
 import sys
+import importlib.util
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 import numpy as np
 from certmorse.instances import load_instance,cost_values
@@ -33,7 +34,7 @@ def run(total=2000,seed_start=10000):
             covered[mode].append(bool(not outside.any()))
             widths[mode]=dict(mean_half_width=float(np.mean((hi-lo)/2)),max_half_width=float(np.max((hi-lo)/2)))
         if (seed-seed_start+1)%200==0: print(f'{seed-seed_start+1}/{total}',flush=True)
-    output=Path('results/corrections/coverage');output.mkdir(parents=True,exist_ok=True)
+    output=Path('results/stage1-coverage-v1.8.3');output.mkdir(parents=True,exist_ok=True)
     np.savez_compressed(output/'diagnostics.npz',truth=truth,variance=var,skewness=skew,
                         oracle_failures=failures['oracle'],hoeffding_failures=failures['hoeffding'],
                         oracle_covered=covered['oracle'],hoeffding_covered=covered['hoeffding'])
@@ -47,11 +48,24 @@ def run(total=2000,seed_start=10000):
                                  failing_vertices=int(bad.sum()),variance_range_failing=None if not bad.any() else [float(var[bad].min()),float(var[bad].max())],
                                  max_abs_skewness_failing=None if not bad.any() else float(np.abs(skew[bad]).max()),
                                  last_seed_widths=widths[mode])
-    Path('docs/coverage-study-v1.7.json').write_text(json.dumps(report,indent=2),encoding='utf8')
+    Path('docs/coverage-study-v1.8.3.json').write_text(json.dumps(report,indent=2),encoding='utf8')
     print(json.dumps(report),flush=True)
     return report
 
 
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--total',type=int,default=2000);p.add_argument('--seed-start',type=int,default=10000)
-    args=p.parse_args();run(args.total,args.seed_start)
+    p.add_argument('--complete-multiplicity',action='store_true')
+    args=p.parse_args()
+    # The gate's preceding count phase may have timed-out seeds among its
+    # initial ten sampling slots. Complete ten eligible bands before checking
+    # the gate, without repeating or replacing any primary count solve.
+    gate_path=Path('docs/stage1-gate.json')
+    gate=json.loads(gate_path.read_text(encoding='utf8')) if gate_path.exists() else {}
+    if args.complete_multiplicity or (gate.get('status')=='RUNNING' and
+                                      any(s['name']=='oracle' and s['exit_code']==0 for s in gate.get('steps',[]))):
+        path=Path('scripts/complete-multiplicity.py')
+        spec=importlib.util.spec_from_file_location('complete_multiplicity',path)
+        module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
+        module.run()
+    run(args.total,args.seed_start)

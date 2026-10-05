@@ -1,0 +1,64 @@
+{
+  "source_digest": "ac3e847b9f8846eb8d599ea96ce128ea49c42ff43bb73da3e2a50d972f41823f",
+  "supplemental_driver_sha256": "ce974abdfab75e4151cbad713eeded8b7152b86d5dfcc625c17a5032151a5b7e",
+  "verifier_sha256": "a2b44ad7ae1fa94f762b75f31664f20ca0f5e591ef133edda9d74695010206a4",
+  "instances": {
+    "R8a": {
+      "sampled_bands": 10,
+      "supplemental_bands": 2,
+      "selected_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        10,
+        11
+      ],
+      "fixed_caps_verified": true,
+      "sidecar_arrays_verified": true,
+      "all_saved_basin_scores_recomputed": true
+    },
+    "E8a": {
+      "sampled_bands": 10,
+      "supplemental_bands": 0,
+      "selected_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "fixed_caps_verified": true,
+      "sidecar_arrays_verified": true,
+      "all_saved_basin_scores_recomputed": true
+    },
+    "W8a": {
+      "sampled_bands": 10,
+      "supplemental_bands": 4,
+      "selected_seeds": [
+        0,
+        1,
+        2,
+        4,
+        7,
+        8,
+        10,
+        11,
+        12,
+        13
+      ],
+      "fixed_caps_verified": true,
+      "sidecar_arrays_verified": true,
+      "all_saved_basin_scores_recomputed": true
+    }
+  }
+}

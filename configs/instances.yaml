@@ -1,5 +1,7 @@
 # R6a/R6b isomorphic: True; retained per section 6.1.
 R6a:
+  gamma_symmetry: gamma_shift_reflect
+  copies: 2
   n: 6
   seed: 1001
   edges:
@@ -42,6 +44,8 @@ R6a:
   - -0.035841464035009124
   - -0.028179604008290546
 R6b:
+  gamma_symmetry: gamma_shift_reflect
+  copies: 2
   n: 6
   seed: 1002
   edges:
@@ -84,6 +88,8 @@ R6b:
   - 0.046628043034114164
   - -0.01453391278596669
 R8a:
+  gamma_symmetry: gamma_shift_reflect
+  copies: 2
   n: 8
   seed: 1003
   edges:
@@ -138,6 +144,8 @@ R8a:
   - -0.07591813722733938
   - 0.024417152945519716
 R8b:
+  gamma_symmetry: gamma_shift_reflect
+  copies: 2
   n: 8
   seed: 1004
   edges:
@@ -192,6 +200,8 @@ R8b:
   - 0.07555647477991748
   - -0.09211339965135851
 R8c:
+  gamma_symmetry: gamma_shift_reflect
+  copies: 2
   n: 8
   seed: 1005
   edges:
@@ -246,6 +256,8 @@ R8c:
   - -0.09214829814588098
   - 0.0974044847206989
 R10a:
+  gamma_symmetry: gamma_shift_reflect
+  copies: 2
   n: 10
   seed: 1006
   edges:
@@ -312,6 +324,8 @@ R10a:
   - 0.014199535871499136
   - 0.033210810880161645
 E8a:
+  gamma_symmetry: none
+  copies: 1
   n: 8
   seed: 1007
   edges:
@@ -358,6 +372,8 @@ E8a:
   - 0.09560474447415099
   - 0.011889915938104775
 E8b:
+  gamma_symmetry: none
+  copies: 1
   n: 8
   seed: 1008
   edges:
@@ -432,6 +448,8 @@ E8b:
   - -0.002324326926844103
   - 0.02328325060036948
 W8a:
+  gamma_symmetry: none
+  copies: 1
   n: 8
   seed: 1009
   edges:
@@ -486,6 +504,8 @@ W8a:
   - -0.05528533671979599
   - -0.0733394556838095
 W8b:
+  gamma_symmetry: none
+  copies: 1
   n: 8
   seed: 1010
   edges:
@@ -540,6 +560,8 @@ W8b:
   - -0.08820078518125299
   - 0.0637512280716174
 C8:
+  gamma_symmetry: gamma_shift
+  copies: 2
   n: 8
   seed: 1011
   edges:
@@ -578,6 +600,8 @@ C8:
   - -0.08311518352560954
   - 0.09497423680693345
 K5:
+  gamma_symmetry: gamma_shift
+  copies: 2
   n: 5
   seed: 1012
   edges:

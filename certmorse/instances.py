@@ -13,13 +13,16 @@ class Instance:
     weights: list[int]
     W: int
     offsets: list[float]
+    gamma_symmetry: str
+    copies: int
 
 
 def load_instance(instance_id,path='configs/instances.yaml'):
     data=yaml.safe_load(Path(path).read_text(encoding='utf8'))[instance_id]
     edges=[tuple(e) for e in data['edges']]
     weights=list(data['weights'])
-    return Instance(instance_id,int(data['n']),edges,weights,sum(weights),list(data['offsets']))
+    return Instance(instance_id,int(data['n']),edges,weights,sum(weights),list(data['offsets']),
+                    data['gamma_symmetry'],int(data['copies']))
 
 
 def cost_values(inst):

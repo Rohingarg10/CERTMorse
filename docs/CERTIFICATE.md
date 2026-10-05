@@ -1,35 +1,58 @@
-# Certificate semantics for specification v1.7
+# Certificate semantics: v1.8 amended through v1.8.3
 
-This is the Stage 1 implementation's mathematical contract. The Stage 1 verification gate
-passes the requirements recorded in STAGE1.md and stage1-gate.json.
+Stage 1 gate: **PASS**. [Gate report](stage1-gate.json) and
+[measurements](STAGE1.md) delimit the evidence. No Stage 2 experiment was run.
 
-## What the integer solve establishes
+## Integer-model certificate
 
-The model maximizes the number of matched incidence pairs on the specified
-triangulation of the sampled torus. Each cell is in at most one pair. Matched
-cofaces have value at most their partner face; every unmatched incidence has
-coface value at least face value plus one. All values are integers inside the
-model's cell band. Consequently a closed V-path is impossible: every matched
-step is nonincreasing and the following unmatched step decreases by at least
-one. Exact Bellman–Ford checks the returned matching independently of the
-backend's returned values.
+The model maximizes incidence matches; each cell appears in at most one pair.
+Matched cofaces have value at most their partner face; unmatched incidences
+increase by at least one. Integer potentials lie in the original cell band.
+Thus no closed V-path exists. Every accepted matching is independently checked
+with exact integer Bellman–Ford and the discrete-Morse validator.
+For a CP-SAT upper bound B on matches, kappa_lb=6m²−2floor(B), including at
+timeout. Only OPTIMAL establishes kappa*. HiGHS bounds remain numerical
+benchmarks. This relies on CP-SAT's integer reasoning and reported bound.
+Formulation B's relaxation bound remains valid before its matching is accepted;
+both V-cycles and signed band-infeasibility cycles must be separated.
 
-For a solver upper bound B on the maximum number of matches, the lower bound
-on the critical-cell count is `6*m*m - 2*floor(B)`. This remains a bound when the
-solve times out. Only an OPTIMAL solve establishes κ*. Incumbents, proven count
-bounds and optima are separate fields. Only CP-SAT count bounds are labelled
-certificates. This relies on the correctness of CP-SAT's integer reasoning and
-reported bound; cross-solver agreement is evidence, not a proof of its software.
-HiGHS bounds are numerical benchmark results, even after exact witness checking.
+## Region bound and valid rows: proof
 
-Formulation B begins with a relaxation. A directed V-cycle excludes its matched
-pairs together. A band-infeasibility cycle instead excludes the full signed
-choice of matched and unmatched participating pairs. Retaining that choice
-would retain the same negative cycle. Dropping the unmatched terms would not be
-sound. Until a B incumbent passes both checks, its relaxation bound can be used
-but its matching cannot be accepted as a feasible incumbent.
+For vertex a, C(a) is its component in {v:lo_v<=hi_a} on the six-neighbour
+graph. Every boundary vertex w has lo_w>hi_a. The smallest-valued vertex v*
+inside C(a) has x_v*<=x_a<=hi_a. If v* were matched to an edge, that edge's
+other vertex would have strictly smaller value (the other incidence is
+unmatched). Such a vertex exists neither inside C(a), by minimality, nor on
+its boundary, by the bound. Hence C(a) contains a critical vertex.
+
+D(b) is triangle b's component in {t:hi_t>=lo_b} in the edge-sharing dual
+graph. A matched triangle t paired to edge e has an unmatched neighbouring
+triangle t' across e, with x_t'>x_e>=x_t. The largest-valued triangle in D(b)
+has value at least x_b>=lo_b; every boundary triangle has value below lo_b.
+It therefore cannot be matched and D(b) contains a critical triangle.
+
+Threshold components are laminar: when two overlap, the lower-threshold
+component is contained in the higher-threshold component (reverse thresholds
+for maxima). Inclusion-minimal members are consequently pairwise disjoint.
+Each requires its own critical cell. With k_min and k_max minimal regions,
+c0>=k_min and c2>=k_max. Since c0−c1+c2=0 on the torus,
+kappa=2(c0+c2)>=2(k_min+k_max)=LB_region.
+
+Region rows encode exactly one or more critical cells per disjoint minimal
+region. Morse rows c0>=1,c1>=2,c2>=1 hold for the torus. Substitution of the
+matching expressions into Euler cancels every y term and leaves
+|V|−|E|+|T|=m²−3m²+2m²=0; the Euler row is identically valid even in the
+relaxation. Adding these rows removes no feasible integer matching. Summing
+the region rows and Euler gives the same LB_region in the relaxation.
+T33 tests preservation for all 120 bands and three methods.
+
+The certified count is max(CP-SAT kappa_lb,LB_region). This applies first to
+the integer model; the following coverage/transfer hypotheses connect it to
+the true field. LB_mand and persistence counts remain cross-checks.
+Together the two bounds give kappa_cert<=kappa*<=kappa_true under those hypotheses.
 
 ## Transfer theorem and complete proof
+
 
 Assume the true vertex field F lies in the reported band. Choose S as specified
 and widen narrow intervals if the scale cap binds. Add 14/S outward on each side
@@ -67,51 +90,70 @@ upper bound `a_v+13`, above every permitted offset. Every cell lies inside its
 cell band. This constructs a feasible integer realization of G, proving
 `kappa_lb <= kappa_star <= kappa_true` for CP-SAT.
 
-The condition is sufficient and is not required by the exact feasibility check.
-R8a has an exactly constant γ=0 column, so its adjacent minimum separation is
-zero. Simulation checks `transfer_ok` directly against each covered band's
-true computed-field matching, and reports its separation. Its rounded-field
-count is a separate diagnostic. Deployment cannot
-check separation against an unknown true field. Claims are accordingly stated
-as proved under the condition, verified per simulated instance, or assumed.
+
+The separation condition is sufficient, not necessary. Simulation records
+coverage and direct exact transfer separately, and claims transfer only when
+both hold. Ties are counted with |delta F|<1e-12. kappa_true is reported only
+without adjacent ties, with the six-neighbour extrema identity; otherwise
+kappa_zero is the OPTIMAL fixed-S0=10^6, half-width 500/S0 diagnostic.
+
+## Symmetry, grid and scope
+
+Beta has period pi for all channels and pi/2 for a,b,d,d0,e. Amplitude damping
+c breaks pi/2, established by the preserved T29 failure. Its domain is
+[0,pi); the others use [0,pi/2). Gamma always has period 2pi. Actual gamma
+shift or shift/reflection symmetry is measured at 100 random points, tolerance
+1e-12, for each instance/channel; ideal YAML values are reference data only.
+Counts use the full applicable torus, with per-copy counts only if divisible.
+Conjugation holds continuously for a,b,c and is tested off grid.
+Quarter-offset conversions use grid_point/grid_coords, including VTK and
+independent references. Synthetic tests retain the original beta-pi grid.
+
+## Basin predictions and resolution
+
+For each matching, basin depth is the minimum observed field value in the
+basin, independent of arbitrary witness values. P counts basin areas whose
+depth is within tau=0.02W of the smallest depth. P_possible counts basins with
+minimum reported lower endpoint <= minimum reported upper endpoint +tau.
+The observed depth field G must satisfy lower<=G<=upper at every vertex.
+For a basin counted by P, min_B lower<=min_B G<=min G+tau<=min upper+tau:
+evaluate G at a vertex attaining min upper for the final inequality.
+Therefore P<=P_possible. Both use the reported unscaled band before margins.
+The preserved old T32 failure demonstrates why the same tolerance is needed.
+
+The certificate is a grid count statement; it certifies neither basin area nor
+continuum minima. The simulation-only resolution test refines basin minima by
+Nelder–Mead and compares global classifications. W8a m=16 fails and is excluded
+from basin conclusions. RQ2-informative means P0_grid<=0.95 and resolution
+adequate. P differences and multiplicity ranges never determine fallback.
+Sampling starts only from OPTIMAL; medians are procedural and ranges observed
+unless enumeration is exhausted.
 
 ## Statistical and persistence contracts
 
-Hoeffding bands use bounded independent shot outcomes. Bonferroni covers all
-grid vertices. Adaptive allocation selects among the predeclared deterministic
-sample sizes `n_0=200`, `n_(k+1)=n_k+max(200,ceil(n_k/2))`. Dividing alpha by
-`r_max+1` covers every vertex at every possible sample size by a union bound,
-including data-dependent selection and stopping. A union bound over round
-numbers alone would not justify data-dependent sample sizes. Each arm must use
-an independent stream and fresh shots. The uniform arm's sizes are fixed
-conditional on the independent adaptive arm's observations. Oracle and empirical
-Gaussian bands are approximations, with a variance safeguard for empirical
-zero variance and small sample size. Formula verification does not establish
-coverage. Hoeffding is the operational default; Gaussian modes remain
-approximate. The original 200-seed measurement and the fresh 2,000-seed paired
-study are recorded separately in coverage.json and coverage-study-v1.7.json.
+Hoeffding uses independent bounded shot outcomes and Bonferroni over all grid
+vertices. Gaussian modes are approximations. The paired 2000-seed study is
+recorded in STAGE1.md. The retained adaptive contract covers vertices and every
+predeclared deterministic sample size, including data-dependent stopping;
+no adaptive Stage 2 experiment is undertaken here.
+Persistence uses the closure filtration phi(c)=min over cofaces x(rho),
+coefficients Z/2, and top-dimensional persistence, retaining essential
+dimensions 0,1,1,2. Both bottleneck sides use that filtration and their scale.
+TTK essential endpoints are decoded with IsFinite.
 
-Persistence uses the closure filtration `phi(c)=min{x(rho): rho contains c}` on
-the original torus. Faces enter no later than cofaces. GUDHI uses coefficients
-in Z/2 and retains top-dimensional persistence, giving essential dimensions
-0,1,1,2. Both sides of a bottleneck comparison use this same function and divide
-integer values by S. TTK cross-checks the vertex lower-star side only; its
-display endpoints for essential classes are decoded using the discovered
-`IsFinite` flag, not their finite displayed death coordinates.
+## What the MIP adds beyond the region bound
 
-## Limits of the result
+| Dataset | kappa*=LB_region / optimal | LB_region=LB_mand / 20 |
+| --- | --- | --- |
+| R8a-hoeffding | 18/18 | 20/20 |
+| E8a-hoeffding | 20/20 | 20/20 |
+| W8a-hoeffding | 15/15 | 16/20 |
+| R8a-oracle | 20/20 | 20/20 |
 
-The certificate concerns counts on the sampled grid. It does not certify the
-continuum between vertices, critical-point locations, or basin predictions.
-Reference mandatory and persistence bounds concern related piecewise-linear
-classes and are not substituted for solver bounds. Their violations are findings.
-An optimum can have several matchings and realizations. Basin scores use the
-observed mean at critical vertices, avoiding dependence on arbitrary witness
-values. Sampling requires an OPTIMAL initial solve. Unless enumeration is
-exhausted, the reported basin range is an observed range and the median is
-specific to the sampling procedure, rather than a uniform measure over optima.
+Random-band T31 equality is 26/50; the count solve can add information beyond the region bound.
 
-## Equivalent numerical representation
+## Equivalent numerical representation and TTK starts
+
 
 HiGHS uses binary matchings with continuous cell potentials. For fixed y the
 difference-constraint matrix is a network matrix; integer bounds imply an

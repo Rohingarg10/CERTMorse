@@ -1,0 +1,3244 @@
+{
+  "specification": "v1.8.3",
+  "source_digest": "ac3e847b9f8846eb8d599ea96ce128ea49c42ff43bb73da3e2a50d972f41823f",
+  "rows": [
+    {
+      "resolution_adequate": true,
+      "worst_grid_depth_error": 0.07577600685158714,
+      "P0_grid": 0.5078125,
+      "P0_cont": 0.5078125,
+      "RQ2_informative": true,
+      "resolution_cell_rule": "half-open nearest-vertex cells (equal D11 areas)",
+      "grid_depths": [
+        -5.0032179110120545,
+        -6.607414673291943,
+        -6.636581045967099,
+        -5.009776779142519
+      ],
+      "continuous_depths": [
+        -5.010212388680502,
+        -6.683190680143531,
+        -6.683190680143526,
+        -5.0102123886805
+      ],
+      "grid_global": [
+        false,
+        true,
+        true,
+        false
+      ],
+      "continuous_global": [
+        false,
+        true,
+        true,
+        false
+      ],
+      "refinements": [
+        {
+          "root": 10,
+          "deepest_vertex": 10,
+          "point": [
+            4.215576479234611,
+            0.09249703519151367
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 153
+        },
+        {
+          "root": 49,
+          "deepest_vertex": 49,
+          "point": [
+            0.5992892306626398,
+            0.34703525818292413
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 117
+        },
+        {
+          "root": 206,
+          "deepest_vertex": 206,
+          "point": [
+            5.683896059090953,
+            1.2237610516776858
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 123
+        },
+        {
+          "root": 245,
+          "deepest_vertex": 245,
+          "point": [
+            2.067608838601707,
+            1.4782993361042198
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 137
+        }
+      ],
+      "instance": "E8a",
+      "grid_m": 16,
+      "noise": "a",
+      "run_path": "results\\stage1-resolution-v1.8.3\\81834059021e",
+      "beta_period": 1.5707963267948966,
+      "beta_domain": 1.5707963267948966,
+      "gamma_symmetry": "none",
+      "copies": 1,
+      "gamma_shift_error": 2.352395358015225,
+      "gamma_shift_reflect_error": 2.3688470765542937,
+      "symmetry_points": 100,
+      "symmetry_seed": 1003,
+      "ties_exact": 0,
+      "sep_min_units": 9.9826646655643e-06,
+      "strict_minima": 4,
+      "strict_maxima": 2
+    },
+    {
+      "resolution_adequate": true,
+      "worst_grid_depth_error": 0.07326337344505163,
+      "P0_grid": 0.5,
+      "P0_cont": 0.5,
+      "RQ2_informative": true,
+      "resolution_cell_rule": "half-open nearest-vertex cells (equal D11 areas)",
+      "grid_depths": [
+        -4.999995454940632,
+        -5.00974779251902,
+        -6.682420556587246,
+        -6.60992730669848,
+        -5.007672091549067
+      ],
+      "continuous_depths": [
+        -5.000000000000003,
+        -5.0102123886805,
+        -6.683190680143529,
+        -6.6831906801435315,
+        -5.010212388680502
+      ],
+      "grid_global": [
+        false,
+        false,
+        true,
+        true,
+        false
+      ],
+      "continuous_global": [
+        false,
+        false,
+        true,
+        true,
+        false
+      ],
+      "refinements": [
+        {
+          "root": 12,
+          "deepest_vertex": 12,
+          "point": [
+            3.141591461409086,
+            0.014714218075006204
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 148
+        },
+        {
+          "root": 40,
+          "deepest_vertex": 40,
+          "point": [
+            4.215576552592288,
+            0.09249703298100675
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 119
+        },
+        {
+          "root": 122,
+          "deepest_vertex": 122,
+          "point": [
+            0.5992892505314438,
+            0.34703525495154186
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 108
+        },
+        {
+          "root": 477,
+          "deepest_vertex": 477,
+          "point": [
+            5.683896067484016,
+            1.2237610658403208
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 131
+        },
+        {
+          "root": 536,
+          "deepest_vertex": 536,
+          "point": [
+            2.0676087870057556,
+            1.4782993005883374
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 126
+        }
+      ],
+      "instance": "E8a",
+      "grid_m": 24,
+      "noise": "a",
+      "run_path": "results\\stage1-resolution-v1.8.3\\db1b328214e6",
+      "beta_period": 1.5707963267948966,
+      "beta_domain": 1.5707963267948966,
+      "gamma_symmetry": "none",
+      "copies": 1,
+      "gamma_shift_error": 2.352395358015225,
+      "gamma_shift_reflect_error": 2.3688470765542937,
+      "symmetry_points": 100,
+      "symmetry_seed": 1003,
+      "ties_exact": 0,
+      "sep_min_units": 1.7109290947558975e-05,
+      "strict_minima": 5,
+      "strict_maxima": 2
+    },
+    {
+      "resolution_adequate": true,
+      "worst_grid_depth_error": 0.02293294642189103,
+      "P0_grid": 0.484375,
+      "P0_cont": 0.484375,
+      "RQ2_informative": true,
+      "resolution_cell_rule": "half-open nearest-vertex cells (equal D11 areas)",
+      "grid_depths": [
+        -4.999998556054013,
+        -5.009363095020548,
+        -6.67412558487416,
+        -6.6602577337216395,
+        -5.009439778659541
+      ],
+      "continuous_depths": [
+        -5.0000000000000036,
+        -5.0102123886805,
+        -6.683190680143531,
+        -6.683190680143531,
+        -5.010212388680502
+      ],
+      "grid_global": [
+        false,
+        false,
+        true,
+        true,
+        false
+      ],
+      "continuous_global": [
+        false,
+        false,
+        true,
+        true,
+        false
+      ],
+      "refinements": [
+        {
+          "root": 16,
+          "deepest_vertex": 16,
+          "point": [
+            3.141592466336281,
+            0.010065274299075621
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 137
+        },
+        {
+          "root": 85,
+          "deepest_vertex": 85,
+          "point": [
+            4.2155764454316325,
+            0.0924970016362047
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 128
+        },
+        {
+          "root": 227,
+          "deepest_vertex": 227,
+          "point": [
+            0.5992892295805042,
+            0.3470352603027937
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 125
+        },
+        {
+          "root": 829,
+          "deepest_vertex": 829,
+          "point": [
+            5.683896071341825,
+            1.2237610680905924
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 122
+        },
+        {
+          "root": 970,
+          "deepest_vertex": 970,
+          "point": [
+            2.0676087717224867,
+            1.4782992906001913
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 123
+        }
+      ],
+      "instance": "E8a",
+      "grid_m": 32,
+      "noise": "a",
+      "run_path": "results\\stage1-resolution-v1.8.3\\0a30b6292316",
+      "beta_period": 1.5707963267948966,
+      "beta_domain": 1.5707963267948966,
+      "gamma_symmetry": "none",
+      "copies": 1,
+      "gamma_shift_error": 2.352395358015225,
+      "gamma_shift_reflect_error": 2.3688470765542937,
+      "symmetry_points": 100,
+      "symmetry_seed": 1003,
+      "ties_exact": 0,
+      "sep_min_units": 1.1562030961087544e-05,
+      "strict_minima": 5,
+      "strict_maxima": 3
+    },
+    {
+      "resolution_adequate": true,
+      "worst_grid_depth_error": 0.01212651935933362,
+      "P0_grid": 0.48046875,
+      "P0_cont": 0.48046875,
+      "RQ2_informative": true,
+      "resolution_cell_rule": "half-open nearest-vertex cells (equal D11 areas)",
+      "grid_depths": [
+        -4.999999713946938,
+        -5.009970656093637,
+        -6.671064160784198,
+        -6.6802197722837136,
+        -5.009507497238182
+      ],
+      "continuous_depths": [
+        -5.000000000000004,
+        -5.0102123886805,
+        -6.6831906801435315,
+        -6.683190680143531,
+        -5.010212388680502
+      ],
+      "grid_global": [
+        false,
+        false,
+        true,
+        true,
+        false
+      ],
+      "continuous_global": [
+        false,
+        false,
+        true,
+        true,
+        false
+      ],
+      "refinements": [
+        {
+          "root": 24,
+          "deepest_vertex": 24,
+          "point": [
+            3.1415939760677385,
+            0.006807664022150876
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 124
+        },
+        {
+          "root": 176,
+          "deepest_vertex": 176,
+          "point": [
+            4.2155764917922465,
+            0.09249697953386951
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 130
+        },
+        {
+          "root": 484,
+          "deepest_vertex": 484,
+          "point": [
+            0.5992892259134642,
+            0.34703526024789155
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 123
+        },
+        {
+          "root": 1819,
+          "deepest_vertex": 1819,
+          "point": [
+            5.683896076685788,
+            1.223761067932435
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 124
+        },
+        {
+          "root": 2176,
+          "deepest_vertex": 2176,
+          "point": [
+            2.067608826533516,
+            1.4782993039125198
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 130
+        }
+      ],
+      "instance": "E8a",
+      "grid_m": 48,
+      "noise": "a",
+      "run_path": "results\\stage1-resolution-v1.8.3\\4bd897018e33",
+      "beta_period": 1.5707963267948966,
+      "beta_domain": 1.5707963267948966,
+      "gamma_symmetry": "none",
+      "copies": 1,
+      "gamma_shift_error": 2.352395358015225,
+      "gamma_shift_reflect_error": 2.3688470765542937,
+      "symmetry_points": 100,
+      "symmetry_seed": 1003,
+      "ties_exact": 0,
+      "sep_min_units": 2.013646488663312e-06,
+      "strict_minima": 5,
+      "strict_maxima": 2
+    },
+    {
+      "resolution_adequate": true,
+      "worst_grid_depth_error": 0.20932169035293313,
+      "P0_grid": 0.453125,
+      "P0_cont": 0.453125,
+      "RQ2_informative": true,
+      "resolution_cell_rule": "half-open nearest-vertex cells (equal D11 areas)",
+      "grid_depths": [
+        -10.299379832511475,
+        -8.595761806023745,
+        -8.593473429330906,
+        -8.59866746050377,
+        -10.10498259633463,
+        -8.575811050651676
+      ],
+      "continuous_depths": [
+        -10.314304286687566,
+        -8.59822744615997,
+        -8.60571945570937,
+        -8.60571945570937,
+        -10.314304286687562,
+        -8.59822744615997
+      ],
+      "grid_global": [
+        true,
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "continuous_global": [
+        true,
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "refinements": [
+        {
+          "root": 49,
+          "deepest_vertex": 49,
+          "point": [
+            0.4497041934555597,
+            0.30885712984257496
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 113
+        },
+        {
+          "root": 55,
+          "deepest_vertex": 55,
+          "point": [
+            2.806339204248296,
+            0.34072740719931555
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 121
+        },
+        {
+          "root": 75,
+          "deepest_vertex": 75,
+          "point": [
+            4.305280447001261,
+            0.368260022599736
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 126
+        },
+        {
+          "root": 197,
+          "deepest_vertex": 197,
+          "point": [
+            1.977904870834629,
+            1.202536268279649
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 122
+        },
+        {
+          "root": 207,
+          "deepest_vertex": 207,
+          "point": [
+            5.833481125700972,
+            1.2619392018506366
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 123
+        },
+        {
+          "root": 217,
+          "deepest_vertex": 217,
+          "point": [
+            3.4768461330024745,
+            1.2300689339965536
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 132
+        }
+      ],
+      "instance": "E8b",
+      "grid_m": 16,
+      "noise": "a",
+      "run_path": "results\\stage1-resolution-v1.8.3\\681403a596af",
+      "beta_period": 1.5707963267948966,
+      "beta_domain": 1.5707963267948966,
+      "gamma_symmetry": "none",
+      "copies": 1,
+      "gamma_shift_error": 3.7005211575481933,
+      "gamma_shift_reflect_error": 3.4266437007293344,
+      "symmetry_points": 100,
+      "symmetry_seed": 1003,
+      "ties_exact": 0,
+      "sep_min_units": 0.00014874992606550563,
+      "strict_minima": 6,
+      "strict_maxima": 6
+    },
+    {
+      "resolution_adequate": true,
+      "worst_grid_depth_error": 0.11810423649859203,
+      "P0_grid": 0.4496527777777778,
+      "P0_cont": 0.4496527777777778,
+      "RQ2_informative": true,
+      "resolution_cell_rule": "half-open nearest-vertex cells (equal D11 areas)",
+      "grid_depths": [
+        -10.191467610386585,
+        -8.583414897008407,
+        -10.196200050188974,
+        -8.602806113861057,
+        -8.600138704596532,
+        -8.597190335176467,
+        -10.313663517712783
+      ],
+      "continuous_depths": [
+        -10.274241975231707,
+        -8.59822744615997,
+        -10.314304286687566,
+        -8.60571945570937,
+        -8.605719455709373,
+        -8.598227446159967,
+        -10.314304286687566
+      ],
+      "grid_global": [
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true
+      ],
+      "continuous_global": [
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true
+      ],
+      "refinements": [
+        {
+          "root": 98,
+          "deepest_vertex": 98,
+          "point": [
+            0.5301437602932775,
+            0.29902398825184096
+          ],
+          "converged": false,
+          "stopped_at_boundary": true,
+          "evaluations": 8
+        },
+        {
+          "root": 106,
+          "deepest_vertex": 106,
+          "point": [
+            2.806339212866901,
+            0.34072744425627255
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 133
+        },
+        {
+          "root": 121,
+          "deepest_vertex": 121,
+          "point": [
+            0.4497041951729903,
+            0.30885713159412326
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 137
+        },
+        {
+          "root": 136,
+          "deepest_vertex": 136,
+          "point": [
+            4.3052804551280275,
+            0.3682600706361656
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 112
+        },
+        {
+          "root": 439,
+          "deepest_vertex": 439,
+          "point": [
+            1.977904847051952,
+            1.2025362855435402
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 126
+        },
+        {
+          "root": 469,
+          "deepest_vertex": 469,
+          "point": [
+            3.476846144594595,
+            1.2300689100288813
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 131
+        },
+        {
+          "root": 478,
+          "deepest_vertex": 478,
+          "point": [
+            5.833481115832807,
+            1.2619391935979523
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 132
+        }
+      ],
+      "instance": "E8b",
+      "grid_m": 24,
+      "noise": "a",
+      "run_path": "results\\stage1-resolution-v1.8.3\\77f7e1aa7b63",
+      "beta_period": 1.5707963267948966,
+      "beta_domain": 1.5707963267948966,
+      "gamma_symmetry": "none",
+      "copies": 1,
+      "gamma_shift_error": 3.7005211575481933,
+      "gamma_shift_reflect_error": 3.4266437007293344,
+      "symmetry_points": 100,
+      "symmetry_seed": 1003,
+      "ties_exact": 0,
+      "sep_min_units": 2.0907451327545346e-05,
+      "strict_minima": 7,
+      "strict_maxima": 6
+    },
+    {
+      "resolution_adequate": true,
+      "worst_grid_depth_error": 0.058317586742424155,
+      "P0_grid": 0.4404296875,
+      "P0_cont": 0.4404296875,
+      "RQ2_informative": true,
+      "resolution_cell_rule": "half-open nearest-vertex cells (equal D11 areas)",
+      "grid_depths": [
+        -10.313713771289606,
+        -8.597872463570322,
+        -8.601915402896509,
+        -8.604339863484583,
+        -8.589877869615428,
+        -10.25598669994514
+      ],
+      "continuous_depths": [
+        -10.314304286687568,
+        -8.598227446159973,
+        -8.605719455709366,
+        -8.605719455709373,
+        -8.598227446159969,
+        -10.314304286687564
+      ],
+      "grid_global": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "continuous_global": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "refinements": [
+        {
+          "root": 194,
+          "deepest_vertex": 194,
+          "point": [
+            0.4497041848100991,
+            0.30885712858353614
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 117
+        },
+        {
+          "root": 238,
+          "deepest_vertex": 238,
+          "point": [
+            2.806339207464392,
+            0.3407274250950051
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 118
+        },
+        {
+          "root": 246,
+          "deepest_vertex": 246,
+          "point": [
+            4.30528045754984,
+            0.36826013169373667
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 121
+        },
+        {
+          "root": 778,
+          "deepest_vertex": 778,
+          "point": [
+            1.977904860129453,
+            1.2025362734167617
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 119
+        },
+        {
+          "root": 785,
+          "deepest_vertex": 785,
+          "point": [
+            3.4768461201017526,
+            1.230068920053664
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 128
+        },
+        {
+          "root": 861,
+          "deepest_vertex": 861,
+          "point": [
+            5.833481129291387,
+            1.2619391962689168
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 126
+        }
+      ],
+      "instance": "E8b",
+      "grid_m": 32,
+      "noise": "a",
+      "run_path": "results\\stage1-resolution-v1.8.3\\ddd99acbc346",
+      "beta_period": 1.5707963267948966,
+      "beta_domain": 1.5707963267948966,
+      "gamma_symmetry": "none",
+      "copies": 1,
+      "gamma_shift_error": 3.7005211575481933,
+      "gamma_shift_reflect_error": 3.4266437007293344,
+      "symmetry_points": 100,
+      "symmetry_seed": 1003,
+      "ties_exact": 0,
+      "sep_min_units": 5.819395746442524e-05,
+      "strict_minima": 6,
+      "strict_maxima": 6
+    },
+    {
+      "resolution_adequate": true,
+      "worst_grid_depth_error": 0.014924454176082236,
+      "P0_grid": 0.4331597222222222,
+      "P0_cont": 0.4331597222222222,
+      "RQ2_informative": true,
+      "resolution_cell_rule": "half-open nearest-vertex cells (equal D11 areas)",
+      "grid_depths": [
+        -10.308736737314883,
+        -8.597637137426757,
+        -8.603705627404327,
+        -8.605186844559718,
+        -8.596592448197688,
+        -10.299379832511477
+      ],
+      "continuous_depths": [
+        -10.314304286687562,
+        -8.598227446159967,
+        -8.60571945570937,
+        -8.60571945570937,
+        -8.598227446159967,
+        -10.314304286687559
+      ],
+      "grid_global": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "continuous_global": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "refinements": [
+        {
+          "root": 435,
+          "deepest_vertex": 435,
+          "point": [
+            0.4497042002106051,
+            0.3088571302396967
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 109
+        },
+        {
+          "root": 501,
+          "deepest_vertex": 501,
+          "point": [
+            2.8063392158419616,
+            0.34072747439975604
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 120
+        },
+        {
+          "root": 561,
+          "deepest_vertex": 561,
+          "point": [
+            4.305280465309151,
+            0.36826004450661043
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 117
+        },
+        {
+          "root": 1791,
+          "deepest_vertex": 1791,
+          "point": [
+            1.9779048351966815,
+            1.2025362536412527
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 114
+        },
+        {
+          "root": 1802,
+          "deepest_vertex": 1802,
+          "point": [
+            3.47684606464861,
+            1.2300688568406346
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 125
+        },
+        {
+          "root": 1868,
+          "deepest_vertex": 1868,
+          "point": [
+            5.833481098496679,
+            1.2619391853441224
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 127
+        }
+      ],
+      "instance": "E8b",
+      "grid_m": 48,
+      "noise": "a",
+      "run_path": "results\\stage1-resolution-v1.8.3\\368596be0c41",
+      "beta_period": 1.5707963267948966,
+      "beta_domain": 1.5707963267948966,
+      "gamma_symmetry": "none",
+      "copies": 1,
+      "gamma_shift_error": 3.7005211575481933,
+      "gamma_shift_reflect_error": 3.4266437007293344,
+      "symmetry_points": 100,
+      "symmetry_seed": 1003,
+      "ties_exact": 0,
+      "sep_min_units": 2.87906662421733e-06,
+      "strict_minima": 6,
+      "strict_maxima": 6
+    },
+    {
+      "resolution_adequate": false,
+      "worst_grid_depth_error": 1.5911981043027161,
+      "P0_grid": 0.09375,
+      "P0_cont": 0.21484375,
+      "RQ2_informative": false,
+      "resolution_cell_rule": "half-open nearest-vertex cells (equal D11 areas)",
+      "grid_depths": [
+        -13.917136691418381,
+        -12.63441340606012,
+        -11.578280930920759,
+        -11.256423308837029,
+        -12.035705604761546,
+        -11.581291252149295,
+        -12.297571785441978,
+        -11.914869748298129,
+        -11.437137891898072,
+        -11.422793092059344,
+        -11.971544573525287,
+        -15.49056371560085
+      ],
+      "continuous_depths": [
+        -15.508334795721098,
+        -12.648301610978407,
+        -11.936322777146696,
+        -11.43963138466088,
+        -12.039141766269488,
+        -12.025875860100616,
+        -12.308180858190342,
+        -11.936322777146692,
+        -11.845793034308837,
+        -11.43963138466088,
+        -12.648301610978411,
+        -15.508334795721101
+      ],
+      "grid_global": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "continuous_global": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "refinements": [
+        {
+          "root": 65,
+          "deepest_vertex": 65,
+          "point": [
+            0.3049929716450271,
+            0.38579210349628185
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 134
+        },
+        {
+          "root": 67,
+          "deepest_vertex": 67,
+          "point": [
+            1.2995909928053648,
+            0.41150327959065913
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 114
+        },
+        {
+          "root": 70,
+          "deepest_vertex": 70,
+          "point": [
+            2.291554115967931,
+            0.4825790486614137
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 122
+        },
+        {
+          "root": 72,
+          "deepest_vertex": 72,
+          "point": [
+            3.395759763724019,
+            0.3444819102091654
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 125
+        },
+        {
+          "root": 75,
+          "deepest_vertex": 75,
+          "point": [
+            4.429666613508955,
+            0.4266328811830477
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 121
+        },
+        {
+          "root": 149,
+          "deepest_vertex": 149,
+          "point": [
+            1.8683885996447107,
+            1.103929274001902
+          ],
+          "converged": false,
+          "stopped_at_boundary": true,
+          "evaluations": 21
+        },
+        {
+          "root": 178,
+          "deepest_vertex": 178,
+          "point": [
+            0.8671066248957338,
+            1.1168713362177463
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 118
+        },
+        {
+          "root": 186,
+          "deepest_vertex": 186,
+          "point": [
+            3.9916311937407594,
+            1.088217283149759
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 119
+        },
+        {
+          "root": 196,
+          "deepest_vertex": 196,
+          "point": [
+            1.7524196520805566,
+            1.2026409377023426
+          ],
+          "converged": false,
+          "stopped_at_boundary": true,
+          "evaluations": 5
+        },
+        {
+          "root": 199,
+          "deepest_vertex": 199,
+          "point": [
+            2.887425555115461,
+            1.2263144472572112
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 121
+        },
+        {
+          "root": 204,
+          "deepest_vertex": 204,
+          "point": [
+            4.983594312135008,
+            1.1592930383002824
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 127
+        },
+        {
+          "root": 207,
+          "deepest_vertex": 207,
+          "point": [
+            5.978192338453431,
+            1.1850042312466118
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 127
+        }
+      ],
+      "instance": "W8a",
+      "grid_m": 16,
+      "noise": "a",
+      "run_path": "results\\stage1-resolution-v1.8.3\\f0e6e29c6946",
+      "beta_period": 1.5707963267948966,
+      "beta_domain": 1.5707963267948966,
+      "gamma_symmetry": "none",
+      "copies": 1,
+      "gamma_shift_error": 3.9605921150650936,
+      "gamma_shift_reflect_error": 4.983855476821924,
+      "symmetry_points": 100,
+      "symmetry_seed": 1003,
+      "ties_exact": 0,
+      "sep_min_units": 0.002696366406606643,
+      "strict_minima": 12,
+      "strict_maxima": 12
+    },
+    {
+      "resolution_adequate": false,
+      "worst_grid_depth_error": 0.6575278293707001,
+      "P0_grid": 0.10590277777777778,
+      "P0_cont": 0.19791666666666666,
+      "RQ2_informative": false,
+      "resolution_cell_rule": "half-open nearest-vertex cells (equal D11 areas)",
+      "grid_depths": [
+        -11.398802552261538,
+        -15.460981003480574,
+        -12.509728676471132,
+        -11.906452092329399,
+        -11.695332268434768,
+        -11.891601232438507,
+        -11.707607222881979,
+        -11.933032620570547,
+        -12.297426147184328,
+        -12.007020799732516,
+        -12.56398080894801,
+        -11.412546027509109,
+        -14.850806966350401
+      ],
+      "continuous_depths": [
+        -11.439631384660878,
+        -15.508334795721101,
+        -12.648301610978411,
+        -12.039141766269484,
+        -11.934991166888096,
+        -12.30818085819034,
+        -11.921835779955142,
+        -11.936322777146692,
+        -12.30818085819034,
+        -12.039141766269484,
+        -12.64830161097841,
+        -11.439631384660878,
+        -15.508334795721101
+      ],
+      "grid_global": [
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "continuous_global": [
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      "refinements": [
+        {
+          "root": 133,
+          "deepest_vertex": 133,
+          "point": [
+            3.3957597606764676,
+            0.3444818848989091
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 115
+        },
+        {
+          "root": 145,
+          "deepest_vertex": 145,
+          "point": [
+            0.3049929732480242,
+            0.38579209577118145
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 114
+        },
+        {
+          "root": 149,
+          "deepest_vertex": 149,
+          "point": [
+            1.299591003719232,
+            0.4115032900815136
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 123
+        },
+        {
+          "root": 161,
+          "deepest_vertex": 161,
+          "point": [
+            4.429666606592634,
+            0.4266328841378025
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 121
+        },
+        {
+          "root": 177,
+          "deepest_vertex": 177,
+          "point": [
+            2.3005621202850253,
+            0.47451139038595835
+          ],
+          "converged": false,
+          "stopped_at_boundary": true,
+          "evaluations": 13
+        },
+        {
+          "root": 212,
+          "deepest_vertex": 212,
+          "point": [
+            5.416078684369659,
+            0.4539249763849184
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 137
+        },
+        {
+          "root": 224,
+          "deepest_vertex": 224,
+          "point": [
+            2.2830236066102003,
+            0.5354104276650185
+          ],
+          "converged": false,
+          "stopped_at_boundary": true,
+          "evaluations": 17
+        },
+        {
+          "root": 399,
+          "deepest_vertex": 399,
+          "point": [
+            3.991631199944427,
+            1.0882172731090125
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 129
+        },
+        {
+          "root": 411,
+          "deepest_vertex": 411,
+          "point": [
+            0.8671066152058451,
+            1.116871339850571
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 117
+        },
+        {
+          "root": 415,
+          "deepest_vertex": 415,
+          "point": [
+            1.8535187060481866,
+            1.1441634422208449
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 130
+        },
+        {
+          "root": 427,
+          "deepest_vertex": 427,
+          "point": [
+            4.983594302091335,
+            1.1592930577701805
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 128
+        },
+        {
+          "root": 443,
+          "deepest_vertex": 443,
+          "point": [
+            2.887425543815261,
+            1.226314436003128
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 122
+        },
+        {
+          "root": 455,
+          "deepest_vertex": 455,
+          "point": [
+            5.9781923293919474,
+            1.185004220298759
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 123
+        }
+      ],
+      "instance": "W8a",
+      "grid_m": 24,
+      "noise": "a",
+      "run_path": "results\\stage1-resolution-v1.8.3\\98259a3f99a0",
+      "beta_period": 1.5707963267948966,
+      "beta_domain": 1.5707963267948966,
+      "gamma_symmetry": "none",
+      "copies": 1,
+      "gamma_shift_error": 3.9605921150650936,
+      "gamma_shift_reflect_error": 4.983855476821924,
+      "symmetry_points": 100,
+      "symmetry_seed": 1003,
+      "ties_exact": 0,
+      "sep_min_units": 0.0004939662084701979,
+      "strict_minima": 13,
+      "strict_maxima": 12
+    },
+    {
+      "resolution_adequate": true,
+      "worst_grid_depth_error": 0.2075144176841981,
+      "P0_grid": 0.19140625,
+      "P0_cont": 0.19140625,
+      "RQ2_informative": true,
+      "resolution_cell_rule": "half-open nearest-vertex cells (equal D11 areas)",
+      "grid_depths": [
+        -11.438649065482016,
+        -15.300820378036903,
+        -12.512556356756946,
+        -11.97998557421149,
+        -12.156241566758371,
+        -11.836622664341064,
+        -11.93271830263844,
+        -12.26421996404747,
+        -12.014101037364775,
+        -12.626067158570194,
+        -15.42833388967078,
+        -11.380196000840375
+      ],
+      "continuous_depths": [
+        -11.439631384660878,
+        -15.508334795721101,
+        -12.648301610978407,
+        -12.039141766269484,
+        -12.308180858190344,
+        -11.936322777146692,
+        -11.936322777146696,
+        -12.308180858190344,
+        -12.039141766269488,
+        -12.648301610978415,
+        -15.508334795721101,
+        -11.439631384660878
+      ],
+      "grid_global": [
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "continuous_global": [
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "refinements": [
+        {
+          "root": 241,
+          "deepest_vertex": 241,
+          "point": [
+            3.3957597575943392,
+            0.34448192739826733
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 117
+        },
+        {
+          "root": 257,
+          "deepest_vertex": 257,
+          "point": [
+            0.30499297733139374,
+            0.38579210006028225
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 122
+        },
+        {
+          "root": 262,
+          "deepest_vertex": 262,
+          "point": [
+            1.299590989040742,
+            0.41150329747977743
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 119
+        },
+        {
+          "root": 310,
+          "deepest_vertex": 310,
+          "point": [
+            4.429666634527886,
+            0.42663289458316056
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 132
+        },
+        {
+          "root": 315,
+          "deepest_vertex": 315,
+          "point": [
+            5.416078678275392,
+            0.4539250032682851
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 125
+        },
+        {
+          "root": 363,
+          "deepest_vertex": 363,
+          "point": [
+            2.291554119461871,
+            0.4825790596605564
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 127
+        },
+        {
+          "root": 724,
+          "deepest_vertex": 724,
+          "point": [
+            3.991631201810507,
+            1.0882172600939564
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 120
+        },
+        {
+          "root": 740,
+          "deepest_vertex": 740,
+          "point": [
+            0.8671066276354432,
+            1.116871338812506
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 119
+        },
+        {
+          "root": 745,
+          "deepest_vertex": 745,
+          "point": [
+            1.8535186907122854,
+            1.1441634359621418
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 126
+        },
+        {
+          "root": 761,
+          "deepest_vertex": 761,
+          "point": [
+            4.98359430930485,
+            1.1592930448956196
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 122
+        },
+        {
+          "root": 798,
+          "deepest_vertex": 798,
+          "point": [
+            5.978192336162689,
+            1.1850042274996277
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 125
+        },
+        {
+          "root": 814,
+          "deepest_vertex": 814,
+          "point": [
+            2.887425557833837,
+            1.2263144320835853
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 122
+        }
+      ],
+      "instance": "W8a",
+      "grid_m": 32,
+      "noise": "a",
+      "run_path": "results\\stage1-resolution-v1.8.3\\3e223676ffa1",
+      "beta_period": 1.5707963267948966,
+      "beta_domain": 1.5707963267948966,
+      "gamma_symmetry": "none",
+      "copies": 1,
+      "gamma_shift_error": 3.9605921150650936,
+      "gamma_shift_reflect_error": 4.983855476821924,
+      "symmetry_points": 100,
+      "symmetry_seed": 1003,
+      "ties_exact": 0,
+      "sep_min_units": 0.0001272649415025029,
+      "strict_minima": 12,
+      "strict_maxima": 13
+    },
+    {
+      "resolution_adequate": true,
+      "worst_grid_depth_error": 0.15869016184965545,
+      "P0_grid": 0.1879340277777778,
+      "P0_cont": 0.1879340277777778,
+      "RQ2_informative": true,
+      "resolution_cell_rule": "half-open nearest-vertex cells (equal D11 areas)",
+      "grid_depths": [
+        -11.427326704220498,
+        -15.494171581871642,
+        -12.603322199745847,
+        -11.986836273266583,
+        -12.29757178544198,
+        -11.919732505368525,
+        -11.92054976005661,
+        -12.215348160079298,
+        -12.035705604761546,
+        -12.634413406060116,
+        -15.349644633871446,
+        -11.434805922777361
+      ],
+      "continuous_depths": [
+        -11.439631384660881,
+        -15.508334795721098,
+        -12.648301610978411,
+        -12.039141766269488,
+        -12.308180858190347,
+        -11.936322777146696,
+        -11.936322777146692,
+        -12.308180858190344,
+        -12.039141766269486,
+        -12.648301610978411,
+        -15.508334795721101,
+        -11.439631384660878
+      ],
+      "grid_global": [
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "continuous_global": [
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "refinements": [
+        {
+          "root": 506,
+          "deepest_vertex": 506,
+          "point": [
+            3.3957597486573374,
+            0.344481899100288
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 129
+        },
+        {
+          "root": 578,
+          "deepest_vertex": 578,
+          "point": [
+            0.30499296685983607,
+            0.385792107315429
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 109
+        },
+        {
+          "root": 586,
+          "deepest_vertex": 586,
+          "point": [
+            1.2995910002171143,
+            0.4115032825477618
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 122
+        },
+        {
+          "root": 610,
+          "deepest_vertex": 610,
+          "point": [
+            4.429666621372158,
+            0.4266328828828737
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 119
+        },
+        {
+          "root": 713,
+          "deepest_vertex": 713,
+          "point": [
+            5.416078677092697,
+            0.45392499437388206
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 120
+        },
+        {
+          "root": 737,
+          "deepest_vertex": 737,
+          "point": [
+            2.2915541057298547,
+            0.48257907637122344
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 130
+        },
+        {
+          "root": 1614,
+          "deepest_vertex": 1614,
+          "point": [
+            3.9916311933444586,
+            1.0882172803683503
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 118
+        },
+        {
+          "root": 1638,
+          "deepest_vertex": 1638,
+          "point": [
+            0.8671066212911396,
+            1.1168713403124095
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 125
+        },
+        {
+          "root": 1694,
+          "deepest_vertex": 1694,
+          "point": [
+            1.853518692514208,
+            1.1441634400461358
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 132
+        },
+        {
+          "root": 1718,
+          "deepest_vertex": 1718,
+          "point": [
+            4.983594300869173,
+            1.159293046187299
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 133
+        },
+        {
+          "root": 1773,
+          "deepest_vertex": 1773,
+          "point": [
+            5.978192327326807,
+            1.1850042354992576
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 119
+        },
+        {
+          "root": 1798,
+          "deepest_vertex": 1798,
+          "point": [
+            2.887425535446055,
+            1.2263144228109255
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 115
+        }
+      ],
+      "instance": "W8a",
+      "grid_m": 48,
+      "noise": "a",
+      "run_path": "results\\stage1-resolution-v1.8.3\\edfdc0347df3",
+      "beta_period": 1.5707963267948966,
+      "beta_domain": 1.5707963267948966,
+      "gamma_symmetry": "none",
+      "copies": 1,
+      "gamma_shift_error": 3.9605921150650936,
+      "gamma_shift_reflect_error": 4.983855476821924,
+      "symmetry_points": 100,
+      "symmetry_seed": 1003,
+      "ties_exact": 0,
+      "sep_min_units": 6.308741340887991e-06,
+      "strict_minima": 12,
+      "strict_maxima": 12
+    },
+    {
+      "resolution_adequate": false,
+      "worst_grid_depth_error": 1.8897527747972411,
+      "P0_grid": 0.1015625,
+      "P0_cont": 0.2421875,
+      "RQ2_informative": false,
+      "resolution_cell_rule": "half-open nearest-vertex cells (equal D11 areas)",
+      "grid_depths": [
+        -17.171944782513282,
+        -14.539984488469951,
+        -14.696971051000329,
+        -14.684322665991255,
+        -14.469472442036146,
+        -14.737047554341967,
+        -15.176653863392744,
+        -14.472925336866398,
+        -14.732467764507884,
+        -18.758625243728865,
+        -14.015945241766666
+      ],
+      "continuous_depths": [
+        -19.061697557310524,
+        -14.826102223380008,
+        -15.31549781181036,
+        -14.692714598406454,
+        -14.49541915668987,
+        -14.82610222338001,
+        -15.31549781181036,
+        -14.566488028772017,
+        -14.965377837949148,
+        -19.061697557310524,
+        -14.01953708284266
+      ],
+      "grid_global": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "continuous_global": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "refinements": [
+        {
+          "root": 64,
+          "deepest_vertex": 64,
+          "point": [
+            0.236138162965081,
+            0.36122414307668904
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 138
+        },
+        {
+          "root": 68,
+          "deepest_vertex": 68,
+          "point": [
+            1.7899835141301632,
+            0.5370570415561169
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 133
+        },
+        {
+          "root": 76,
+          "deepest_vertex": 76,
+          "point": [
+            4.949392317279944,
+            0.4720882096392306
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 132
+        },
+        {
+          "root": 94,
+          "deepest_vertex": 94,
+          "point": [
+            5.58510139849502,
+            0.5338031582908908
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 127
+        },
+        {
+          "root": 118,
+          "deepest_vertex": 118,
+          "point": [
+            2.426207114219836,
+            0.74205994704053
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 126
+        },
+        {
+          "root": 155,
+          "deepest_vertex": 155,
+          "point": [
+            4.493201780549118,
+            1.0337392694731038
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 132
+        },
+        {
+          "root": 179,
+          "deepest_vertex": 179,
+          "point": [
+            1.3337930049201847,
+            1.0987081222700048
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 131
+        },
+        {
+          "root": 181,
+          "deepest_vertex": 181,
+          "point": [
+            1.9585866699723873,
+            0.9940195505498965
+          ],
+          "converged": false,
+          "stopped_at_boundary": true,
+          "evaluations": 14
+        },
+        {
+          "root": 205,
+          "deepest_vertex": 205,
+          "point": [
+            5.2981318335842165,
+            1.1918896174503044
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 124
+        },
+        {
+          "root": 207,
+          "deepest_vertex": 207,
+          "point": [
+            6.047047153787367,
+            1.2095721867937268
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 117
+        },
+        {
+          "root": 248,
+          "deepest_vertex": 248,
+          "point": [
+            3.203070636798828,
+            1.4066020581564953
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 142
+        }
+      ],
+      "instance": "W8b",
+      "grid_m": 16,
+      "noise": "a",
+      "run_path": "results\\stage1-resolution-v1.8.3\\58d4406d2a84",
+      "beta_period": 1.5707963267948966,
+      "beta_domain": 1.5707963267948966,
+      "gamma_symmetry": "none",
+      "copies": 1,
+      "gamma_shift_error": 5.547956500896872,
+      "gamma_shift_reflect_error": 5.380129292533692,
+      "symmetry_points": 100,
+      "symmetry_seed": 1003,
+      "ties_exact": 0,
+      "sep_min_units": 0.0014315428335951452,
+      "strict_minima": 11,
+      "strict_maxima": 11
+    },
+    {
+      "resolution_adequate": true,
+      "worst_grid_depth_error": 0.6816143755080759,
+      "P0_grid": 0.1684027777777778,
+      "P0_cont": 0.1684027777777778,
+      "RQ2_informative": true,
+      "resolution_cell_rule": "half-open nearest-vertex cells (equal D11 areas)",
+      "grid_depths": [
+        -18.380083181802455,
+        -14.58999601340076,
+        -14.514512131618215,
+        -14.996328124801625,
+        -14.663404165369144,
+        -14.668106349389525,
+        -14.494740211679773,
+        -14.815927993368096,
+        -15.249877655790927,
+        -14.965042283871265,
+        -18.906107030761877,
+        -14.019031653015793,
+        -14.010313308004761
+      ],
+      "continuous_depths": [
+        -19.06169755731053,
+        -14.965377837949148,
+        -14.59047148257267,
+        -15.315497811810353,
+        -14.692714598406457,
+        -14.826102223380008,
+        -14.495419156689866,
+        -14.826102223380001,
+        -15.31549781181036,
+        -14.965377837949152,
+        -19.061697557310538,
+        -14.019537082842664,
+        -14.013089764852115
+      ],
+      "grid_global": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "continuous_global": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "refinements": [
+        {
+          "root": 121,
+          "deepest_vertex": 121,
+          "point": [
+            0.23613815421303772,
+            0.3612241397636582
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 119
+        },
+        {
+          "root": 172,
+          "deepest_vertex": 172,
+          "point": [
+            0.9850534883690647,
+            0.3789067211726803
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 132
+        },
+        {
+          "root": 184,
+          "deepest_vertex": 184,
+          "point": [
+            4.3406543027870725,
+            0.6565309940418214
+          ],
+          "converged": false,
+          "stopped_at_boundary": true,
+          "evaluations": 22
+        },
+        {
+          "root": 211,
+          "deepest_vertex": 211,
+          "point": [
+            4.949392299979548,
+            0.4720882104211844
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 129
+        },
+        {
+          "root": 213,
+          "deepest_vertex": 213,
+          "point": [
+            5.585101394775089,
+            0.5338031658852399
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 119
+        },
+        {
+          "root": 271,
+          "deepest_vertex": 271,
+          "point": [
+            1.7899835193747629,
+            0.5370570493738787
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 135
+        },
+        {
+          "root": 273,
+          "deepest_vertex": 273,
+          "point": [
+            2.4262071010011512,
+            0.742059936136459
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 128
+        },
+        {
+          "root": 401,
+          "deepest_vertex": 401,
+          "point": [
+            4.493201777584882,
+            1.0337392856714616
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 124
+        },
+        {
+          "root": 413,
+          "deepest_vertex": 413,
+          "point": [
+            1.333792996160827,
+            1.0987081233036204
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 139
+        },
+        {
+          "root": 452,
+          "deepest_vertex": 452,
+          "point": [
+            5.298131829931882,
+            1.1918896207684408
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 120
+        },
+        {
+          "root": 455,
+          "deepest_vertex": 455,
+          "point": [
+            6.047047155936714,
+            1.2095721779464625
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 129
+        },
+        {
+          "root": 516,
+          "deepest_vertex": 516,
+          "point": [
+            3.2030706384572265,
+            1.4066021258915273
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 128
+        },
+        {
+          "root": 562,
+          "deepest_vertex": 562,
+          "point": [
+            2.6189781823303875,
+            1.5009043271468565
+          ],
+          "converged": false,
+          "stopped_at_boundary": true,
+          "evaluations": 18
+        }
+      ],
+      "instance": "W8b",
+      "grid_m": 24,
+      "noise": "a",
+      "run_path": "results\\stage1-resolution-v1.8.3\\321baa55ed1d",
+      "beta_period": 1.5707963267948966,
+      "beta_domain": 1.5707963267948966,
+      "gamma_symmetry": "none",
+      "copies": 1,
+      "gamma_shift_error": 5.547956500896872,
+      "gamma_shift_reflect_error": 5.380129292533692,
+      "symmetry_points": 100,
+      "symmetry_seed": 1003,
+      "ties_exact": 0,
+      "sep_min_units": 2.6060108805125992e-05,
+      "strict_minima": 13,
+      "strict_maxima": 13
+    },
+    {
+      "resolution_adequate": false,
+      "worst_grid_depth_error": 0.7714657446075499,
+      "P0_grid": 0.0810546875,
+      "P0_cont": 0.1572265625,
+      "RQ2_informative": false,
+      "resolution_cell_rule": "half-open nearest-vertex cells (equal D11 areas)",
+      "grid_depths": [
+        -14.012065110224473,
+        -19.052959342248133,
+        -14.40523209927625,
+        -14.908271389260506,
+        -15.309108444927526,
+        -14.81241779433202,
+        -14.607522984078853,
+        -14.483095837915759,
+        -14.309413199576444,
+        -14.634890333438184,
+        -14.441110189624098,
+        -14.52799357650164,
+        -14.724152927630833,
+        -15.02687452078289,
+        -14.89411352675291,
+        -18.290231812702988,
+        -14.019128648571765
+      ],
+      "continuous_depths": [
+        -14.01953708284266,
+        -19.06169755731053,
+        -14.48424292409673,
+        -14.965377837949145,
+        -15.315497811810356,
+        -14.826102223380008,
+        -14.692714598406454,
+        -14.49541915668987,
+        -14.49541915668987,
+        -14.772581543103986,
+        -14.692714598406448,
+        -14.56994115718722,
+        -14.82610222338001,
+        -15.315497811810353,
+        -14.965377837949152,
+        -19.061697557310538,
+        -14.019537082842664
+      ],
+      "grid_global": [
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "continuous_global": [
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "refinements": [
+        {
+          "root": 47,
+          "deepest_vertex": 47,
+          "point": [
+            3.0801146573749896,
+            0.16419413621302079
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 146
+        },
+        {
+          "root": 225,
+          "deepest_vertex": 225,
+          "point": [
+            0.23613815132132943,
+            0.3612241348291387
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 112
+        },
+        {
+          "root": 245,
+          "deepest_vertex": 245,
+          "point": [
+            4.276738436625168,
+            0.37812626421381057
+          ],
+          "converged": false,
+          "stopped_at_boundary": true,
+          "evaluations": 12
+        },
+        {
+          "root": 261,
+          "deepest_vertex": 261,
+          "point": [
+            0.9850534772221509,
+            0.3789066735379236
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 125
+        },
+        {
+          "root": 313,
+          "deepest_vertex": 313,
+          "point": [
+            4.949392321845247,
+            0.47208822243008186
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 125
+        },
+        {
+          "root": 361,
+          "deepest_vertex": 361,
+          "point": [
+            1.7899835108789115,
+            0.5370570357446056
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 125
+        },
+        {
+          "root": 380,
+          "deepest_vertex": 380,
+          "point": [
+            5.585101395197863,
+            0.5338031554671383
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 130
+        },
+        {
+          "root": 492,
+          "deepest_vertex": 492,
+          "point": [
+            2.4262071188545846,
+            0.7420599416876008
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 129
+        },
+        {
+          "root": 531,
+          "deepest_vertex": 531,
+          "point": [
+            3.856978195405418,
+            0.8287363712619218
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 130
+        },
+        {
+          "root": 534,
+          "deepest_vertex": 534,
+          "point": [
+            4.484122976865972,
+            0.9103772912912076
+          ],
+          "converged": false,
+          "stopped_at_boundary": true,
+          "evaluations": 27
+        },
+        {
+          "root": 675,
+          "deepest_vertex": 675,
+          "point": [
+            0.6980839133199424,
+            1.036993142427155
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 125
+        },
+        {
+          "root": 714,
+          "deepest_vertex": 714,
+          "point": [
+            1.9622682238633113,
+            0.9420176018405713
+          ],
+          "converged": false,
+          "stopped_at_boundary": true,
+          "evaluations": 12
+        },
+        {
+          "root": 727,
+          "deepest_vertex": 727,
+          "point": [
+            4.4932017824145305,
+            1.033739262353747
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 130
+        },
+        {
+          "root": 743,
+          "deepest_vertex": 743,
+          "point": [
+            1.3337930065312826,
+            1.0987081071346985
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 132
+        },
+        {
+          "root": 795,
+          "deepest_vertex": 795,
+          "point": [
+            5.2981318323227775,
+            1.191889614891171
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 128
+        },
+        {
+          "root": 799,
+          "deepest_vertex": 799,
+          "point": [
+            6.047047152134242,
+            1.209572181679675
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 126
+        },
+        {
+          "root": 912,
+          "deepest_vertex": 912,
+          "point": [
+            3.2030706596857494,
+            1.4066021613542512
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 128
+        }
+      ],
+      "instance": "W8b",
+      "grid_m": 32,
+      "noise": "a",
+      "run_path": "results\\stage1-resolution-v1.8.3\\616934090371",
+      "beta_period": 1.5707963267948966,
+      "beta_domain": 1.5707963267948966,
+      "gamma_symmetry": "none",
+      "copies": 1,
+      "gamma_shift_error": 5.547956500896872,
+      "gamma_shift_reflect_error": 5.380129292533692,
+      "symmetry_points": 100,
+      "symmetry_seed": 1003,
+      "ties_exact": 0,
+      "sep_min_units": 7.532353371253464e-05,
+      "strict_minima": 17,
+      "strict_maxima": 14
+    },
+    {
+      "resolution_adequate": true,
+      "worst_grid_depth_error": 0.30307231358166575,
+      "P0_grid": 0.15234375,
+      "P0_cont": 0.15234375,
+      "RQ2_informative": true,
+      "resolution_cell_rule": "half-open nearest-vertex cells (equal D11 areas)",
+      "grid_depths": [
+        -14.01760654334292,
+        -18.758625243728865,
+        -14.930339913207082,
+        -14.478401881087954,
+        -14.764590530670441,
+        -15.183432882577304,
+        -14.531724731996345,
+        -14.737047554341967,
+        -14.608410425466285,
+        -14.457623789769865,
+        -14.47140252786632,
+        -14.824293434078747,
+        -14.68432266599126,
+        -14.541451724146954,
+        -15.311555504841653,
+        -14.942571425365482,
+        -19.05213791148343,
+        -14.017100601033812,
+        -14.012213653893651,
+        -14.009941685644176
+      ],
+      "continuous_depths": [
+        -14.019537082842662,
+        -19.06169755731053,
+        -14.965377837949148,
+        -14.523630083477297,
+        -14.826102223380003,
+        -15.315497811810353,
+        -14.692714598406452,
+        -14.791537342500945,
+        -14.653757469799501,
+        -14.495419156689874,
+        -14.495419156689866,
+        -14.826102223380007,
+        -14.692714598406454,
+        -14.564964495408248,
+        -15.31549781181035,
+        -14.965377837949152,
+        -19.061697557310538,
+        -14.019537082842664,
+        -14.012213653893653,
+        -14.014661198216242
+      ],
+      "grid_global": [
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "continuous_global": [
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false
+      ],
+      "refinements": [
+        {
+          "root": 167,
+          "deepest_vertex": 167,
+          "point": [
+            3.0801146311162944,
+            0.1641941432745464
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 137
+        },
+        {
+          "root": 530,
+          "deepest_vertex": 530,
+          "point": [
+            0.23613815729942383,
+            0.3612241447035667
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 118
+        },
+        {
+          "root": 535,
+          "deepest_vertex": 535,
+          "point": [
+            0.9850534834104494,
+            0.3789066972393518
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 115
+        },
+        {
+          "root": 656,
+          "deepest_vertex": 656,
+          "point": [
+            4.281537219882896,
+            0.4490893414791986
+          ],
+          "converged": false,
+          "stopped_at_boundary": true,
+          "evaluations": 23
+        },
+        {
+          "root": 733,
+          "deepest_vertex": 733,
+          "point": [
+            1.7899835290514627,
+            0.5370570459510934
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 118
+        },
+        {
+          "root": 758,
+          "deepest_vertex": 758,
+          "point": [
+            4.949392316118144,
+            0.4720881988640089
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 125
+        },
+        {
+          "root": 906,
+          "deepest_vertex": 906,
+          "point": [
+            5.585101393592722,
+            0.5338031729271099
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 130
+        },
+        {
+          "root": 974,
+          "deepest_vertex": 974,
+          "point": [
+            1.7953711141413544,
+            0.633687463475558
+          ],
+          "converged": false,
+          "stopped_at_boundary": true,
+          "evaluations": 11
+        },
+        {
+          "root": 1089,
+          "deepest_vertex": 1089,
+          "point": [
+            4.4068200074378705,
+            0.7417819763285666
+          ],
+          "converged": false,
+          "stopped_at_boundary": true,
+          "evaluations": 13
+        },
+        {
+          "root": 1122,
+          "deepest_vertex": 1122,
+          "point": [
+            2.4262071001557155,
+            0.7420599237442624
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 131
+        },
+        {
+          "root": 1229,
+          "deepest_vertex": 1229,
+          "point": [
+            3.856978197350718,
+            0.8287363840769022
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 124
+        },
+        {
+          "root": 1522,
+          "deepest_vertex": 1522,
+          "point": [
+            4.4932017855676145,
+            1.033739257619842
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 120
+        },
+        {
+          "root": 1541,
+          "deepest_vertex": 1541,
+          "point": [
+            0.6980839153702495,
+            1.036993148332622
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 121
+        },
+        {
+          "root": 1551,
+          "deepest_vertex": 1551,
+          "point": [
+            1.958791200744105,
+            0.9993117842681007
+          ],
+          "converged": false,
+          "stopped_at_boundary": true,
+          "evaluations": 12
+        },
+        {
+          "root": 1594,
+          "deepest_vertex": 1594,
+          "point": [
+            1.333793005934236,
+            1.0987081198788906
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 117
+        },
+        {
+          "root": 1768,
+          "deepest_vertex": 1768,
+          "point": [
+            5.298131826675327,
+            1.1918896241622545
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 123
+        },
+        {
+          "root": 1822,
+          "deepest_vertex": 1822,
+          "point": [
+            6.047047150430743,
+            1.209572185547609
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 125
+        },
+        {
+          "root": 1944,
+          "deepest_vertex": 1944,
+          "point": [
+            3.2030706451386424,
+            1.4066021441171102
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 135
+        },
+        {
+          "root": 2228,
+          "deepest_vertex": 2228,
+          "point": [
+            2.650718801466388,
+            1.5135277107138325
+          ],
+          "converged": false,
+          "stopped_at_boundary": true,
+          "evaluations": 10
+        },
+        {
+          "root": 2233,
+          "deepest_vertex": 2233,
+          "point": [
+            3.2569623899086793,
+            1.5070981740521086
+          ],
+          "converged": false,
+          "stopped_at_boundary": true,
+          "evaluations": 19
+        }
+      ],
+      "instance": "W8b",
+      "grid_m": 48,
+      "noise": "a",
+      "run_path": "results\\stage1-resolution-v1.8.3\\d1237bbdc18c",
+      "beta_period": 1.5707963267948966,
+      "beta_domain": 1.5707963267948966,
+      "gamma_symmetry": "none",
+      "copies": 1,
+      "gamma_shift_error": 5.547956500896872,
+      "gamma_shift_reflect_error": 5.380129292533692,
+      "symmetry_points": 100,
+      "symmetry_seed": 1003,
+      "ties_exact": 0,
+      "sep_min_units": 2.7567629334868116e-06,
+      "strict_minima": 20,
+      "strict_maxima": 16
+    },
+    {
+      "resolution_adequate": true,
+      "worst_grid_depth_error": 0.135661074956821,
+      "P0_grid": 1.0,
+      "P0_cont": 1.0,
+      "RQ2_informative": false,
+      "resolution_cell_rule": "half-open nearest-vertex cells (equal D11 areas)",
+      "grid_depths": [
+        -7.737154580166934,
+        -7.664506285940641,
+        -7.721595425712089,
+        -7.624541691095588
+      ],
+      "continuous_depths": [
+        -7.760202766052409,
+        -7.760202766052407,
+        -7.7602027660524096,
+        -7.760202766052409
+      ],
+      "grid_global": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "continuous_global": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "refinements": [
+        {
+          "root": 49,
+          "deepest_vertex": 49,
+          "point": [
+            0.5487618118728407,
+            0.3289161035548787
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 119
+        },
+        {
+          "root": 54,
+          "deepest_vertex": 54,
+          "point": [
+            2.592830829235546,
+            0.3289161137987754
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 122
+        },
+        {
+          "root": 201,
+          "deepest_vertex": 201,
+          "point": [
+            3.690354459490961,
+            1.2418802124643338
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 131
+        },
+        {
+          "root": 222,
+          "deepest_vertex": 222,
+          "point": [
+            5.734423489834559,
+            1.2418802233513033
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 132
+        }
+      ],
+      "instance": "R8a",
+      "grid_m": 16,
+      "noise": "a",
+      "run_path": "results\\stage1-resolution-v1.8.3\\e6c23af92908",
+      "beta_period": 1.5707963267948966,
+      "beta_domain": 1.5707963267948966,
+      "gamma_symmetry": "gamma_shift_reflect",
+      "copies": 2,
+      "gamma_shift_error": 4.603522742095703,
+      "gamma_shift_reflect_error": 5.329070518200751e-15,
+      "symmetry_points": 100,
+      "symmetry_seed": 1003,
+      "ties_exact": 0,
+      "sep_min_units": 0.000728788981018802,
+      "strict_minima": 4,
+      "strict_maxima": 4
+    },
+    {
+      "resolution_adequate": true,
+      "worst_grid_depth_error": 0.05919468375302195,
+      "P0_grid": 1.0,
+      "P0_cont": 1.0,
+      "RQ2_informative": false,
+      "resolution_cell_rule": "half-open nearest-vertex cells (equal D11 areas)",
+      "grid_depths": [
+        -7.744977270973837,
+        -7.713631642879358,
+        -7.747841254079052,
+        -7.701008082299387
+      ],
+      "continuous_depths": [
+        -7.760202766052405,
+        -7.76020276605241,
+        -7.7602027660524096,
+        -7.760202766052409
+      ],
+      "grid_global": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "continuous_global": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "refinements": [
+        {
+          "root": 122,
+          "deepest_vertex": 122,
+          "point": [
+            0.5487618315232863,
+            0.3289161078878433
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 122
+        },
+        {
+          "root": 130,
+          "deepest_vertex": 130,
+          "point": [
+            2.592830840262482,
+            0.3289161070841265
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 133
+        },
+        {
+          "root": 470,
+          "deepest_vertex": 470,
+          "point": [
+            3.6903544662035856,
+            1.2418802171303809
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 132
+        },
+        {
+          "root": 478,
+          "deepest_vertex": 478,
+          "point": [
+            5.734423485643063,
+            1.2418802134064697
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 124
+        }
+      ],
+      "instance": "R8a",
+      "grid_m": 24,
+      "noise": "a",
+      "run_path": "results\\stage1-resolution-v1.8.3\\9676d31a7dfc",
+      "beta_period": 1.5707963267948966,
+      "beta_domain": 1.5707963267948966,
+      "gamma_symmetry": "gamma_shift_reflect",
+      "copies": 2,
+      "gamma_shift_error": 4.603522742095703,
+      "gamma_shift_reflect_error": 5.329070518200751e-15,
+      "symmetry_points": 100,
+      "symmetry_seed": 1003,
+      "ties_exact": 0,
+      "sep_min_units": 3.468222063851556e-05,
+      "strict_minima": 4,
+      "strict_maxima": 4
+    },
+    {
+      "resolution_adequate": true,
+      "worst_grid_depth_error": 0.04455399003321148,
+      "P0_grid": 1.0,
+      "P0_cont": 1.0,
+      "RQ2_informative": false,
+      "resolution_cell_rule": "half-open nearest-vertex cells (equal D11 areas)",
+      "grid_depths": [
+        -7.715648776019199,
+        -7.749872580738151,
+        -7.71683911987021,
+        -7.759738744201712
+      ],
+      "continuous_depths": [
+        -7.76020276605241,
+        -7.760202766052405,
+        -7.760202766052409,
+        -7.760202766052408
+      ],
+      "grid_global": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "continuous_global": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "refinements": [
+        {
+          "root": 195,
+          "deepest_vertex": 195,
+          "point": [
+            0.5487618075574552,
+            0.3289161038762156
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 129
+        },
+        {
+          "root": 205,
+          "deepest_vertex": 205,
+          "point": [
+            2.592830822897643,
+            0.32891612046028673
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 121
+        },
+        {
+          "root": 819,
+          "deepest_vertex": 819,
+          "point": [
+            3.6903544602527694,
+            1.2418802143286798
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 129
+        },
+        {
+          "root": 829,
+          "deepest_vertex": 829,
+          "point": [
+            5.734423495230514,
+            1.2418802134403455
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 124
+        }
+      ],
+      "instance": "R8a",
+      "grid_m": 32,
+      "noise": "a",
+      "run_path": "results\\stage1-resolution-v1.8.3\\b9d0d954fb27",
+      "beta_period": 1.5707963267948966,
+      "beta_domain": 1.5707963267948966,
+      "gamma_symmetry": "gamma_shift_reflect",
+      "copies": 2,
+      "gamma_shift_error": 4.603522742095703,
+      "gamma_shift_reflect_error": 5.329070518200751e-15,
+      "symmetry_points": 100,
+      "symmetry_seed": 1003,
+      "ties_exact": 0,
+      "sep_min_units": 6.758646585414141e-05,
+      "strict_minima": 4,
+      "strict_maxima": 4
+    },
+    {
+      "resolution_adequate": true,
+      "worst_grid_depth_error": 0.02304818588547608,
+      "P0_grid": 1.0,
+      "P0_cont": 1.0,
+      "RQ2_informative": false,
+      "resolution_cell_rule": "half-open nearest-vertex cells (equal D11 areas)",
+      "grid_depths": [
+        -7.758897217170626,
+        -7.741639071209599,
+        -7.758331760318451,
+        -7.737154580166932
+      ],
+      "continuous_depths": [
+        -7.7602027660524096,
+        -7.760202766052409,
+        -7.760202766052407,
+        -7.760202766052408
+      ],
+      "grid_global": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "continuous_global": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "refinements": [
+        {
+          "root": 484,
+          "deepest_vertex": 484,
+          "point": [
+            0.548761802576215,
+            0.3289161116073407
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 114
+        },
+        {
+          "root": 500,
+          "deepest_vertex": 500,
+          "point": [
+            2.5928308393315183,
+            0.3289161057957014
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 121
+        },
+        {
+          "root": 1852,
+          "deepest_vertex": 1852,
+          "point": [
+            3.6903544717351493,
+            1.24188020250635
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 124
+        },
+        {
+          "root": 1868,
+          "deepest_vertex": 1868,
+          "point": [
+            5.734423495567135,
+            1.241880208737276
+          ],
+          "converged": true,
+          "stopped_at_boundary": false,
+          "evaluations": 123
+        }
+      ],
+      "instance": "R8a",
+      "grid_m": 48,
+      "noise": "a",
+      "run_path": "results\\stage1-resolution-v1.8.3\\16b059efd64d",
+      "beta_period": 1.5707963267948966,
+      "beta_domain": 1.5707963267948966,
+      "gamma_symmetry": "gamma_shift_reflect",
+      "copies": 2,
+      "gamma_shift_error": 4.603522742095703,
+      "gamma_shift_reflect_error": 5.329070518200751e-15,
+      "symmetry_points": 100,
+      "symmetry_seed": 1003,
+      "ties_exact": 0,
+      "sep_min_units": 2.575694563944353e-05,
+      "strict_minima": 4,
+      "strict_maxima": 4
+    }
+  ],
+  "smallest_passing_grid": {
+    "E8a": 16,
+    "E8b": 16,
+    "W8a": 32,
+    "W8b": 24,
+    "R8a": 16
+  },
+  "p2_fallback": false
+}

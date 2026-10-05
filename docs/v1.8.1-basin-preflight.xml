@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="6.164" timestamp="2026-10-04T17:38:30.892941+05:30" hostname="<HOST>"><testcase classname="tests.test_v18_basin_rule" name="test_T32_P_is_bounded_by_P_possible_on_narrow_R8a_optimum" time="1.242"><failure message="AssertionError: {'instance': 'R8a', 'grid_m': 16, 'band_half_width': 0.01, 'tau_min': 0.24, ...}&#10;assert 1.0 &lt;= 0.5234375">def test_T32_P_is_bounded_by_P_possible_on_narrow_R8a_optimum():
+        inst = load_instance('R8a')
+        cx = TorusComplex(16)
+        field, _, _ = exact_landscape(inst, cx.m, 'a', PIPELINE_SEED)
+        lower, upper = field-NARROW_HALF_WIDTH, field+NARROW_HALF_WIDTH
+        scale, _ = choose_scale(lower, upper)
+        lo, hi = cell_band(*model_band(lower, upper, scale), cx)
+        a, b = lower_star_gradient(field, cx)
+        x = witness(a, b, lo, hi, cx)
+        assert not isinstance(x, NegativeCycle)
+        path = Path('results/stage1-v1.8.1-tests/T32/narrow-R8a')
+        path.mkdir(parents=True, exist_ok=True)
+        result = solve(build_A(lo, hi, cx), 'cpsat', TIME_LIMIT_S, THREADS,
+                       dict(x=x, y=np.concatenate((a, b)), seed=PIPELINE_SEED), str(path/'solver.log'))
+        assert result.status == 'OPTIMAL', result.status
+        ve, et = cx.split_matching(result.y)
+        assert is_discrete_morse(result.x, ve, et, cx)[0]
+        assert np.all((lo &lt;= result.x) &amp; (result.x &lt;= hi))
+        labels = basins(ve, cx)
+        roots = np.unique(labels)
+        flat = field.ravel()
+        depths = np.array([flat[labels == root].min() for root in roots])
+        lower_depths = np.array([lower.ravel()[labels == root].min() for root in roots])
+        # Apply the two definitions literally, independently of the production scorer.
+        selected = depths &lt;= depths.min()+BASIN_TOLERANCE*inst.W
+        possible = lower_depths &lt;= upper.min()
+        P = float(np.mean(np.isin(labels, roots[selected])))
+        P_possible = float(np.mean(np.isin(labels, roots[possible])))
+        report = dict(instance=inst.id, grid_m=cx.m, band_half_width=NARROW_HALF_WIDTH,
+                      tau_min=BASIN_TOLERANCE*inst.W, scale=scale, status=result.status,
+                      kappa_opt=result.kappa_opt, P=P, P_possible=P_possible,
+                      basin_roots=roots.tolist(), basin_depths=depths.tolist(),
+                      lower_depths=lower_depths.tolist(), upper_global_min=float(upper.min()),
+                      basin_areas=[float(np.mean(labels == root)) for root in roots],
+                      all_basins_within_tau=bool(np.all(selected)),
+                      possible_basins=possible.tolist(), matching_witness_verified=True)
+        (path/'measurement.json').write_text(json.dumps(report, indent=2)+'\n', encoding='utf8')
+        np.savez_compressed(path/'matching.npz', y=result.y, x=result.x, mean=field,
+                            lower=lower, upper=upper, cell_lo=lo, cell_hi=hi, labels=labels)
+&gt;       assert P &lt;= P_possible, report
+E       AssertionError: {'instance': 'R8a', 'grid_m': 16, 'band_half_width': 0.01, 'tau_min': 0.24, ...}
+E       assert 1.0 &lt;= 0.5234375
+
+tests\test_v18_basin_rule.py:58: AssertionError</failure></testcase></testsuite></testsuites>

@@ -1,0 +1,58 @@
+{
+  "specification": "v1.8",
+  "source_digest": "bbed014be1d54eff0f11c1db62da9d0997255dc5a2f079205dfcf3ad9b09f84c",
+  "status": "FAIL",
+  "evaluated_at": "2026-10-04T17:21:11.978001+05:30",
+  "full_gate_ran": false,
+  "disposition": "stopped_on_fixed_rule_failure",
+  "branch": "v1.8",
+  "steps": [
+    {
+      "name": "independent_section_3_reproduction",
+      "exit_code": 0,
+      "evidence": "docs/review-reproduction-v1.8.json"
+    },
+    {
+      "name": "T29_R8a_preflight",
+      "exit_code": 1,
+      "command": ".\\venv-core\\Scripts\\python.exe -m pytest -q tests/test_v18_amendments.py -k R8a -x --junitxml=docs/v1.8-amendment-preflight.xml",
+      "log": "docs\\v1.8-amendment-preflight.xml",
+      "passed": 2,
+      "failed": 1,
+      "stopped_at_first_failure": true
+    }
+  ],
+  "checks": {
+    "section_3": {
+      "basin_depth": true,
+      "beta_period": true,
+      "gamma_symmetries": true,
+      "old_grid_ties": true,
+      "quarter_grid_ties": true,
+      "region_bound": true
+    },
+    "T29": {
+      "failed_case": "test_T29_beta_period_all_channels[c-R8a]",
+      "failure": "AssertionError: R8a, channel c: beta-period error 0.014559172029865675\nassert 0.014559172029865675 < 1e-12",
+      "points": 100,
+      "seed": 29,
+      "transpiler_seed": 7,
+      "tolerance": 1e-12,
+      "max_error": 0.014559172029865675
+    }
+  },
+  "gate_items": {
+    "1": "FAIL: T29 channel (c); remaining local tests not run",
+    "2": "NOT_RUN",
+    "3": "NOT_RUN",
+    "4": "NOT_RUN",
+    "5": "NOT_RUN",
+    "6": "NOT_RUN",
+    "7": "NOT_COMPLETED"
+  },
+  "T34": "NOT_RUN: fixed-rule failure occurred before region-row implementation",
+  "hoeffding_timeout_effect": null,
+  "E8a_basin_spread": null,
+  "W8a_basin_spread": null,
+  "error": "v1.8 T29 requires beta period pi/2 for channel (c); R8a violates it. The implementer rule requires a failing test and stop, without changing the rule."
+}

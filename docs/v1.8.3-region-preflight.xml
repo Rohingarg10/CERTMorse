@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="4.810" timestamp="2026-10-04T18:43:54.567612+05:30" hostname="<HOST>"><testcase classname="tests.test_region_bound" name="test_T31_region_bound_on_50_optimal_random_bands" time="3.983" /></testsuite></testsuites>

@@ -10,6 +10,7 @@ from .milp import SolveResult
 from ..complex import lower_star_gradient
 from ..forman import witness, NegativeCycle
 from .compression import compress_bounds
+from .regions import valid_rows
 
 
 def _fallback(model, hint):
@@ -36,6 +37,7 @@ def _extra_rows(model):
     nve = len(model.cx.pairs_ve)
     rows = [({p:1 for p in range(nve)},None,model.cx.nv-1),
             ({p:1 for p in range(nve,len(model.cx.pairs))},None,model.cx.nt-1)]
+    if model.valid_rows: rows.extend(valid_rows(model.cx,model.regions))
     if model.cell_lo is not None:
         for p,(face,coface) in enumerate(model.cx.pairs):
             if model.cell_lo[coface] > model.cell_hi[face]:

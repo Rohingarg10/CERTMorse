@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="3" time="5.546" timestamp="2026-10-04T17:19:43.515074+05:30" hostname="<HOST>"><testcase classname="tests.test_v18_amendments" name="test_T29_beta_period_all_channels[a-R8a]" time="0.666" /><testcase classname="tests.test_v18_amendments" name="test_T29_beta_period_all_channels[b-R8a]" time="1.303" /><testcase classname="tests.test_v18_amendments" name="test_T29_beta_period_all_channels[c-R8a]" time="1.200"><failure message="AssertionError: R8a, channel c: beta-period error 0.014559172029865675&#10;assert 0.014559172029865675 &lt; 1e-12">name = 'R8a', channel = 'c'
+
+    @pytest.mark.parametrize('name', INSTANCE_IDS)
+    @pytest.mark.parametrize('channel', ['a', 'b', 'c', 'd', 'e'])
+    def test_T29_beta_period_all_channels(name, channel):
+        rng = np.random.default_rng(29)
+        points = rng.uniform([0, 0], [2*np.pi, BETA_PERIOD], (SYMMETRY_POINTS, 2))
+        translated = points + [0, BETA_PERIOD]
+        field, _, _ = exact_points(load_instance(name), list(points)+list(translated), channel, 7)
+        error = float(np.max(np.abs(field[:SYMMETRY_POINTS]-field[SYMMETRY_POINTS:])))
+&gt;       assert error &lt; SYMMETRY_TOLERANCE, f'{name}, channel {channel}: beta-period error {error:.17g}'
+E       AssertionError: R8a, channel c: beta-period error 0.014559172029865675
+E       assert 0.014559172029865675 &lt; 1e-12
+
+tests\test_v18_amendments.py:22: AssertionError</failure></testcase></testsuite></testsuites>

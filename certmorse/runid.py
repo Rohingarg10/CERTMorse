@@ -7,7 +7,7 @@ import shutil
 import yaml
 
 DEFAULTS={
-    'implementation_revision':'stage1-v1.7',
+    'implementation_revision':'stage1-v1.8.3',
     'source_digest':None,
     'experiment':'E1','instance':'R8a','grid_m':32,'noise':'a','shots':1000,
     'band_mode':'hoeffding','alpha':.05,'seed':7,'solver':'cpsat','formulation':'A',

@@ -1,0 +1,132 @@
+{
+  "diagnosed_at": "elapsed:55296.6990118s",
+  "source_digest": "ac3e847b9f8846eb8d599ea96ce128ea49c42ff43bb73da3e2a50d972f41823f",
+  "branch": "v1.8",
+  "gate_status": "FAIL",
+  "gate_error": "hoeffding failed; see results\\stage1-gate-v1.8.3\\event-offset-minus-1962p6942142s\\hoeffding.log",
+  "gate_started_at": "elapsed:-1962.3991792s",
+  "gate_failed_at": "elapsed:29681.6783738s",
+  "evidence_archive": "docs/archive/sleep-recovery/event-offset-55294p3057858s",
+  "manifest": "docs/archive/sleep-recovery/event-offset-55294p3057858s/manifest.json",
+  "manifest_sha256": "b854d9ea0ef9391c7806a7774b96a4476b6ccd1d834f1589ad079d39be066eb2",
+  "evidence_files": 98,
+  "interrupted_runs": [
+    {
+      "instance": "R8a",
+      "seed": 4,
+      "run_id": "2f09cb06b48a",
+      "source": "results/stage1-r8a-v1.8.3-hoeffding/2f09cb06b48a",
+      "archived": "docs/archive/sleep-recovery/event-offset-55294p3057858s/results/stage1-r8a-v1.8.3-hoeffding/2f09cb06b48a",
+      "quarantine": "results/stage1-sleep-recovery/event-offset-55294p3057858s/results/stage1-r8a-v1.8.3-hoeffding/2f09cb06b48a",
+      "affected_log": "sampling-01.log",
+      "solver_wall_s": 300.066,
+      "configured_limit_s": 299.9998113999991,
+      "reason": "sampling interval overlaps recorded standby; replay with original cap"
+    },
+    {
+      "instance": "E8a",
+      "seed": 5,
+      "run_id": "b707cd6cfdbd",
+      "source": "results/stage1-e8a-v1.8.3-hoeffding/b707cd6cfdbd",
+      "archived": "docs/archive/sleep-recovery/event-offset-55294p3057858s/results/stage1-e8a-v1.8.3-hoeffding/b707cd6cfdbd",
+      "quarantine": "results/stage1-sleep-recovery/event-offset-55294p3057858s/results/stage1-e8a-v1.8.3-hoeffding/b707cd6cfdbd",
+      "affected_log": "sampling-05.log",
+      "solver_wall_s": 113.818,
+      "configured_limit_s": 113.66424299999926,
+      "reason": "sampling interval overlaps recorded standby; replay with original cap"
+    },
+    {
+      "instance": "E8a",
+      "seed": 6,
+      "run_id": "3a321e48011d",
+      "source": "results/stage1-e8a-v1.8.3-hoeffding/3a321e48011d",
+      "archived": "docs/archive/sleep-recovery/event-offset-55294p3057858s/results/stage1-e8a-v1.8.3-hoeffding/3a321e48011d",
+      "quarantine": "results/stage1-sleep-recovery/event-offset-55294p3057858s/results/stage1-e8a-v1.8.3-hoeffding/3a321e48011d",
+      "affected_log": "sampling-02.log",
+      "solver_wall_s": 16089.0,
+      "configured_limit_s": 277.14256209999985,
+      "reason": "sampling interval overlaps recorded standby; replay with original cap"
+    },
+    {
+      "instance": "E8a",
+      "seed": 7,
+      "run_id": "1d6533b59229",
+      "source": "results/stage1-e8a-v1.8.3-hoeffding/1d6533b59229",
+      "archived": "docs/archive/sleep-recovery/event-offset-55294p3057858s/results/stage1-e8a-v1.8.3-hoeffding/1d6533b59229",
+      "quarantine": "results/stage1-sleep-recovery/event-offset-55294p3057858s/results/stage1-e8a-v1.8.3-hoeffding/1d6533b59229",
+      "affected_log": "sampling-02.log",
+      "solver_wall_s": 421.667,
+      "configured_limit_s": 292.61320530000376,
+      "reason": "sampling interval overlaps recorded standby; replay with original cap"
+    },
+    {
+      "instance": "E8a",
+      "seed": 8,
+      "run_id": "94e3f9483826",
+      "source": "results/stage1-e8a-v1.8.3-hoeffding/94e3f9483826",
+      "archived": "docs/archive/sleep-recovery/event-offset-55294p3057858s/results/stage1-e8a-v1.8.3-hoeffding/94e3f9483826",
+      "quarantine": "results/stage1-sleep-recovery/event-offset-55294p3057858s/results/stage1-e8a-v1.8.3-hoeffding/94e3f9483826",
+      "affected_log": "sampling-05.log",
+      "solver_wall_s": 699.128,
+      "configured_limit_s": 114.37019490000239,
+      "reason": "sampling interval overlaps recorded standby; replay with original cap"
+    },
+    {
+      "instance": "E8a",
+      "seed": 9,
+      "run_id": "25837d297f78",
+      "source": "results/stage1-e8a-v1.8.3-hoeffding/25837d297f78",
+      "archived": "docs/archive/sleep-recovery/event-offset-55294p3057858s/results/stage1-e8a-v1.8.3-hoeffding/25837d297f78",
+      "quarantine": "results/stage1-sleep-recovery/event-offset-55294p3057858s/results/stage1-e8a-v1.8.3-hoeffding/25837d297f78",
+      "affected_log": "solver.log",
+      "solver_wall_s": 5320.94,
+      "configured_limit_s": 600.0,
+      "reason": "presolve interrupted; no valid bound"
+    }
+  ],
+  "measurements": {
+    "R8a": {
+      "completed": 20,
+      "unaffected_completed": 19,
+      "statuses": {
+        "OPTIMAL": 17,
+        "FEASIBLE": 2
+      },
+      "sampled_bands": 7,
+      "sampled_optima": 9,
+      "bands_with_observed_spread": 0
+    },
+    "E8a": {
+      "completed": 9,
+      "unaffected_completed": 5,
+      "statuses": {
+        "OPTIMAL": 5
+      },
+      "sampled_bands": 5,
+      "sampled_optima": 37,
+      "bands_with_observed_spread": 0
+    },
+    "W8a": {
+      "completed": 0,
+      "unaffected_completed": 0,
+      "statuses": {},
+      "sampled_bands": 0,
+      "sampled_optima": 0,
+      "bands_with_observed_spread": 0
+    }
+  },
+  "completed_steps": [
+    "tests",
+    "agreement",
+    "resolution"
+  ],
+  "remaining": [
+    "rerun R8a seed 4 and E8a seeds 5-9 with original settings",
+    "finish E8a seeds 10-19 and W8a seeds 0-19",
+    "20 R8a oracle bands",
+    "complete 10 eligible multiplicity bands per instance",
+    "paired 2000-seed coverage study",
+    "independent gate artifact checks",
+    "render final STAGE1.md and CERTIFICATE.md"
+  ]
+}

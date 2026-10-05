@@ -1,0 +1,51 @@
+{
+  "instance": "R8a",
+  "grid_m": 16,
+  "noise": "a",
+  "shots": 1000,
+  "alpha": 0.05,
+  "total": 2000,
+  "seed_start": 10000,
+  "seed_end": 11999,
+  "independent_of_original_seeds": true,
+  "study_type": "paired fixed-sample calibration",
+  "modes": {
+    "oracle": {
+      "covered": 1896,
+      "coverage": 0.948,
+      "wilson95": [
+        0.9373820458455553,
+        0.956900279790442
+      ],
+      "simultaneous_guarantee": false,
+      "vertex_failures": 106,
+      "failing_vertices": 89,
+      "variance_range_failing": [
+        1.1452349773164912,
+        5.531301174481246
+      ],
+      "max_abs_skewness_failing": 1.1878322932335144,
+      "last_seed_widths": {
+        "mean_half_width": 0.2176206006550767,
+        "max_half_width": 0.2770386358102517
+      }
+    },
+    "hoeffding": {
+      "covered": 2000,
+      "coverage": 1.0,
+      "wilson95": [
+        0.9980829527187469,
+        0.9999999999999998
+      ],
+      "simultaneous_guarantee": true,
+      "vertex_failures": 0,
+      "failing_vertices": 0,
+      "variance_range_failing": null,
+      "max_abs_skewness_failing": null,
+      "last_seed_widths": {
+        "mean_half_width": 0.8153846311396433,
+        "max_half_width": 0.8153846311396435
+      }
+    }
+  }
+}

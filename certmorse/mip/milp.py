@@ -12,6 +12,8 @@ class MilpModel:
     target_matches: int | None = None
     weights: object = None
     first_feasible: bool = False
+    valid_rows: bool = True
+    regions: object = None
 
 
 @dataclass

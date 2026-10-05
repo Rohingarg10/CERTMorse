@@ -1,0 +1,119 @@
+{
+  "specification": "v1.8.1 (amends v1.8)",
+  "source_digest": "86b9e82f193cd53d6a9e663dad60bfcce9ddd4cd1bce9ffde14020d1f4dd6be3",
+  "status": "FAIL",
+  "full_gate_ran": false,
+  "disposition": "stopped_on_fixed_rule_failure",
+  "evaluated_at": "2026-10-04T17:41:22.222822+05:30",
+  "branch": "v1.8",
+  "historical_T29": {
+    "status": "FAIL_UNDER_V1.8",
+    "resolved_by": "v1.8.1",
+    "report": "docs/v1.8-preflight-gate.json",
+    "log": "docs/v1.8-amendment-preflight.xml",
+    "failed_case": "test_T29_beta_period_all_channels[c-R8a]",
+    "failure": "AssertionError: R8a, channel c: beta-period error 0.014559172029865675\nassert 0.014559172029865675 < 1e-12",
+    "points": 100,
+    "seed": 29,
+    "transpiler_seed": 7,
+    "tolerance": 1e-12,
+    "max_error": 0.014559172029865675
+  },
+  "steps": [
+    {
+      "name": "T29_T30_domains_metadata",
+      "exit_code": 0,
+      "passed": 146,
+      "skipped": 0,
+      "command": ".\\venv-core\\Scripts\\python.exe -m pytest -q tests/test_v18_amendments.py -x --junitxml=docs/v1.8.1-domain-preflight.xml",
+      "log": "docs\\v1.8.1-domain-preflight.xml"
+    },
+    {
+      "name": "T32_fixed_rule_consistency",
+      "exit_code": 1,
+      "failed": 1,
+      "command": ".\\venv-core\\Scripts\\python.exe -m pytest -q tests/test_v18_basin_rule.py -x --junitxml=docs/v1.8.1-basin-preflight.xml",
+      "log": "docs\\v1.8.1-basin-preflight.xml"
+    }
+  ],
+  "checks": {
+    "T29": {
+      "status": "PASS",
+      "cases": 84
+    },
+    "T30": {
+      "status": "PASS",
+      "cases": 60
+    },
+    "per_channel_metadata": {
+      "status": "PASS",
+      "cases": 2
+    },
+    "T32": {
+      "status": "FAIL",
+      "counterexample": {
+        "instance": "R8a",
+        "grid_m": 16,
+        "band_half_width": 0.01,
+        "tau_min": 0.24,
+        "scale": 100000,
+        "status": "OPTIMAL",
+        "kappa_opt": 16,
+        "P": 1.0,
+        "P_possible": 0.5234375,
+        "basin_roots": [
+          49,
+          54,
+          201,
+          222
+        ],
+        "basin_depths": [
+          -7.737154580166934,
+          -7.664506285940641,
+          -7.721595425712089,
+          -7.624541691095588
+        ],
+        "lower_depths": [
+          -7.747154580166934,
+          -7.674506285940641,
+          -7.731595425712089,
+          -7.6345416910955874
+        ],
+        "upper_global_min": -7.727154580166935,
+        "basin_areas": [
+          0.26171875,
+          0.23046875,
+          0.26171875,
+          0.24609375
+        ],
+        "all_basins_within_tau": true,
+        "possible_basins": [
+          true,
+          false,
+          true,
+          false
+        ],
+        "matching_witness_verified": true
+      },
+      "evidence": "docs/t32-counterexample-v1.8.1.json",
+      "matching": "docs/t32-counterexample-v1.8.1.npz",
+      "solver_log": "docs/t32-counterexample-v1.8.1-solver.log"
+    }
+  },
+  "gate_items": {
+    "1": "FAIL: T32 P <= P_possible; remaining local tests not run",
+    "2": "NOT_RUN",
+    "3": "NOT_RUN",
+    "4": "NOT_RUN",
+    "5": "NOT_RUN",
+    "6": "NOT_RUN",
+    "7": "NOT_COMPLETED"
+  },
+  "T31": "NOT_RUN",
+  "T33": "NOT_RUN",
+  "T34": "NOT_RUN: fixed basin-rule failure occurred before region-row implementation",
+  "hoeffding_timeout_effect": null,
+  "E8a_basin_spread": null,
+  "W8a_basin_spread": null,
+  "error": "v1.8 4.5/T32 require P <= P_possible on every band; their literal definitions give P=1 > P_possible=0.5234375 on a proven R8a optimum. Neither rule nor threshold was changed; the re-run stopped."
+}

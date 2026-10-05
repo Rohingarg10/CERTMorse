@@ -1,15 +1,19 @@
 import numpy as np
 import vtk
 from vtk.util.numpy_support import numpy_to_vtk
+from .grid import GRID_OFFSET, GAMMA_PERIOD, grid_point
 
 
-def export_complex(cx,path,fields):
+def export_complex(cx,path,fields,*,beta_period=np.pi,qaoa=False):
     grid=vtk.vtkUnstructuredGrid()
     points=vtk.vtkPoints()
     points.SetDataTypeToDouble()
     for v in range(cx.nv):
-        gamma,beta=2*np.pi*(v%cx.m)/cx.m,2*np.pi*(v//cx.m)/cx.m
-        points.InsertNextPoint((2+np.cos(beta))*np.cos(gamma),(2+np.cos(beta))*np.sin(gamma),np.sin(beta))
+        # Synthetic fields retain the exact unshifted v1.6 parameterisation.
+        offset=0 if qaoa else GRID_OFFSET
+        gamma,beta=grid_point(v%cx.m-offset,v//cx.m-offset,cx.m,beta_period)
+        angle=GAMMA_PERIOD*beta/beta_period  # Embed the beta circle in R^3.
+        points.InsertNextPoint((2+np.cos(angle))*np.cos(gamma),(2+np.cos(angle))*np.sin(gamma),np.sin(angle))
     grid.SetPoints(points)
     for triangle in cx.tri_vertices:
         ids=vtk.vtkIdList()

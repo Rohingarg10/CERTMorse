@@ -59,7 +59,7 @@ def test_T14_witness_iff_fixed_A(seed):
     x = witness(a, b, lo, hi, cx)
     model = build_A(lo, hi, cx)
     model.fixed_y = dict(enumerate(y))
-    r = solve(model, 'cpsat', 5, 8, None, 'results/stage1/fixed-A.log')
+    r = solve(model, 'cpsat', 5, 8, None, 'results/stage1-v1.8.3-tests/fixed-A.log')
     assert r.status in ('OPTIMAL', 'INFEASIBLE')
     assert (r.status == 'OPTIMAL') == (not isinstance(x, NegativeCycle))
 
@@ -116,13 +116,13 @@ def test_T20_signed_cut_preserves_feasible_matchings():
                 else:
                     feasible.append(y)
         assert feasible
-        optimum=solve(build_A(lo,hi,cx),'cpsat',5,8,None,'results/stage1/cut-optimum.log')
+        optimum=solve(build_A(lo,hi,cx),'cpsat',5,8,None,'results/stage1-v1.8.3-tests/cut-optimum.log')
         assert optimum.status=='OPTIMAL'
         feasible.append(optimum.y)
         def check_generated(family,cut,rejected):
             if rejected is not None: assert not satisfied(cut,rejected)
             assert all(satisfied(cut,y) for y in feasible)
-        solve_B_lazy(cx,lo,hi,'cpsat',1,8,None,'results/stage1/cut-lazy.log',cut_callback=check_generated)
+        solve_B_lazy(cx,lo,hi,'cpsat',1,8,None,'results/stage1-v1.8.3-tests/cut-lazy.log',cut_callback=check_generated)
         assert all(satisfied(cut, y) for cut in cuts for y in feasible)
     assert families == {'cycle','band'}
 

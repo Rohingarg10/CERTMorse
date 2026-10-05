@@ -5,16 +5,18 @@ from .milp import MilpModel
 from .solvers import solve, _fallback
 from ..forman import witness, NegativeCycle
 from .cuts import all_cycle_pairs, band_cycles, cycle_cut, band_cut
+from .regions import region_bound
 
 CUT_LIMIT = 200  # A.4
 
 
-def build_B(cx):
-    return MilpModel(cx, formulation='B')
+def build_B(cx,*,valid_rows=True):
+    return MilpModel(cx, formulation='B',valid_rows=valid_rows)
 
 
-def solve_B_lazy(cx,cell_lo,cell_hi,backend,time_limit_s,threads,hint,log_path,*,cut_callback=None):
-    model = build_B(cx)
+def solve_B_lazy(cx,cell_lo,cell_hi,backend,time_limit_s,threads,hint,log_path,*,cut_callback=None,valid_rows=True):
+    model = build_B(cx,valid_rows=valid_rows)
+    if valid_rows: model.regions=region_bound(cell_lo,cell_hi,cx)
     # Pre-separate the one-pair band cycles: a matched pair is impossible when
     # its coface's lower bound exceeds its face's upper bound. These are the
     # same signed Benders cuts as a source--face--coface negative cycle.
@@ -61,6 +63,9 @@ def solve_B_lazy(cx,cell_lo,cell_hi,backend,time_limit_s,threads,hint,log_path,*
         x = witness(a,b,cell_lo,cell_hi,cx)
         if not isinstance(x,NegativeCycle):
             result.x = x
+            result.bound=best_bound
+            result.kappa_lb=cx.nc-2*math.floor(best_bound)
+            result.gap=max(0.,(best_bound-int(result.y.sum()))/max(1,abs(best_bound)))
             result.wall_s = time.perf_counter()-start
             result.cut_iters = iteration
             result.cuts_added=len(model.cuts)-initial_cuts

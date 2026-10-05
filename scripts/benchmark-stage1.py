@@ -8,7 +8,7 @@ import time
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 import numpy as np
 from certmorse.instances import load_instance,cost_values
-from certmorse.landscape import exact_landscape,sample_landscape,make_band
+from certmorse.landscape import exact_landscape,sample_landscape,make_band,BETA_PERIODS
 from certmorse.complex import TorusComplex,lower_star_gradient
 from certmorse.forman import witness
 from certmorse.scaling import choose_scale,model_band,cell_band
@@ -28,13 +28,13 @@ def run(limit=600,repeats=3,resume=False):
     vlo,vhi=model_band(lower,upper,scale);lo,hi=cell_band(vlo,vhi,cx)
     rows=[]
     for trial in range(repeats):
-        cfg=dict(experiment='stage1-benchmark-v1.7',instance='R8a',grid_m=32,noise='b',shots=1000,
+        cfg=dict(experiment='stage1-benchmark-v1.8.3',instance='R8a',grid_m=32,noise='b',shots=1000,
                  band_mode='oracle',seed=1003+trial,time_limit_s=limit,repeats=repeats)
         path,needed=prepare_run(cfg,resume=resume)
         if not needed:
             rows.append(json.loads((path/'measurement.json').read_text()));continue
         mid=(vlo+vhi)/(2*scale)
-        export_complex(cx,path/'band.vtu',{'Scalar':mid,'Lower':vlo/scale,'Upper':vhi/scale})
+        export_complex(cx,path/'band.vtu',{'Scalar':mid,'Lower':vlo/scale,'Upper':vhi/scale},beta_period=BETA_PERIODS['b'],qaoa=True)
         a,b=lower_star_gradient(mid,cx)
         hint=dict(x=witness(a,b,lo,hi,cx),y=np.concatenate((a,b)),seed=1003+trial)
         candidate,status=simplified_hint(path/'band.vtu',path/'simplified.csv',float(np.min((vhi-vlo)/scale)),lo,hi,cx)
@@ -52,7 +52,7 @@ def run(limit=600,repeats=3,resume=False):
                 density_matrix_landscape_s=landscape_s,requested_time_limit_s=limit,
                 repeats=rows,median_solver_wall_s=statistics.median(r['wall_s'] for r in rows),
                 grid_scaling_extrapolation_justified=False)
-    Path('docs/benchmark-v1.7.json').write_text(json.dumps(report,indent=2),encoding='utf8')
+    Path('docs/benchmark-v1.8.3.json').write_text(json.dumps(report,indent=2),encoding='utf8')
     return report
 
 

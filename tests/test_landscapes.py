@@ -2,7 +2,8 @@ import numpy as np
 import pytest
 from scipy.stats import norm
 from certmorse.instances import load_instance,cost_values,maxcut_closed_form,independent_landscape
-from certmorse.landscape import exact_landscape,circuit,sample_landscape,make_band
+from certmorse.landscape import exact_landscape,circuit,sample_landscape,make_band,BETA_PERIODS
+from certmorse.grid import grid_point
 from qiskit.quantum_info import Statevector
 
 IDS=['R6a','R6b','R8a','R8b','R8c','R10a','E8a','E8b','W8a','W8b','C8','K5']
@@ -13,12 +14,13 @@ def test_T2_T2b_closed_forms(name):
     inst=load_instance(name)
     m=16
     F,var,probs=exact_landscape(inst,m,'a',7)
+    gammas=[grid_point(i,0,m,BETA_PERIODS['a'])[0] for i in range(m)]
+    betas=[grid_point(0,j,m,BETA_PERIODS['a'])[1] for j in range(m)]
     if all(w==1 for w in inst.weights):
-        assert np.max(np.abs(F-maxcut_closed_form(inst,2*np.pi*np.arange(m)/m,np.pi*np.arange(m)/m)))<1e-9
+        assert np.max(np.abs(F-maxcut_closed_form(inst,gammas,betas)))<1e-9
     for j in range(m):
         for i in range(m):
-            assert abs(F[j,i]-independent_landscape(inst,2*np.pi*i/m,np.pi*j/m))<1e-9
-    assert np.max(np.abs(F-F[np.ix_((-np.arange(m))%m,(-np.arange(m))%m)]))<1e-12
+            assert abs(F[j,i]-independent_landscape(inst,*grid_point(i,j,m,BETA_PERIODS['a'])))<1e-9
 
 
 @pytest.mark.parametrize('channel',['a','b','c','d','d0','e'])
@@ -27,8 +29,6 @@ def test_T1_T19_T25_channels(channel):
     F,var,p=exact_landscape(inst,4,channel,7)
     FF,_,_=exact_landscape(inst,4,channel,7)
     assert np.max(np.abs(F-FF))<=1e-12
-    if channel in ('a','b','c'):
-        assert np.max(np.abs(F-F[np.ix_((-np.arange(4))%4,(-np.arange(4))%4)]))<1e-12
     assert np.all(var>=0)
     assert p.dtype==np.float32
 

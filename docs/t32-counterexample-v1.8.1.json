@@ -1,0 +1,44 @@
+{
+  "instance": "R8a",
+  "grid_m": 16,
+  "band_half_width": 0.01,
+  "tau_min": 0.24,
+  "scale": 100000,
+  "status": "OPTIMAL",
+  "kappa_opt": 16,
+  "P": 1.0,
+  "P_possible": 0.5234375,
+  "basin_roots": [
+    49,
+    54,
+    201,
+    222
+  ],
+  "basin_depths": [
+    -7.737154580166934,
+    -7.664506285940641,
+    -7.721595425712089,
+    -7.624541691095588
+  ],
+  "lower_depths": [
+    -7.747154580166934,
+    -7.674506285940641,
+    -7.731595425712089,
+    -7.6345416910955874
+  ],
+  "upper_global_min": -7.727154580166935,
+  "basin_areas": [
+    0.26171875,
+    0.23046875,
+    0.26171875,
+    0.24609375
+  ],
+  "all_basins_within_tau": true,
+  "possible_basins": [
+    true,
+    false,
+    true,
+    false
+  ],
+  "matching_witness_verified": true
+}

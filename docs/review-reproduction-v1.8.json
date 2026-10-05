@@ -1,0 +1,3755 @@
+{
+  "specification": "v1.8",
+  "artifact_hashes": {
+    "results\\stage1-r8a-v1.7-oracle\\b15a9c2d55ce\\matching.npz": "5bdc795cb695eca48abc72c58f4ad64a477639e05ac4c73f9d14e4851cb53fe1",
+    "results\\stage1-r8a-v1.7-oracle\\ee9eb1f608c4\\matching.npz": "12658b5544f02c58b1073b617a5d6030e8e3af437343a64f10f0bf9a46d3de8b",
+    "results\\stage1-r8a-v1.7-oracle\\666cbb7e9136\\matching.npz": "c33b57b517cd07a01148f350e8dea4bf5a895598fcfb974b6de8b6b7024ca1b2",
+    "results\\stage1-r8a-v1.7-oracle\\da08971639ac\\matching.npz": "ab91793b57f8cfaa03497fe2e848e80cec7156b6a7381fee28dc127b2e508e74",
+    "results\\stage1-r8a-v1.7-oracle\\45116c61be74\\matching.npz": "a1980ad1ea391b5399f15b5417a02415d706fa0f71f7f0d6c728231112dedfdb",
+    "results\\stage1-r8a-v1.7-oracle\\0452cfb25a72\\matching.npz": "ebabd06facd75dd7643b27e9aa0df1ba47056ffce1b8d2f62f48ad8bac65820a",
+    "results\\stage1-r8a-v1.7-oracle\\e23a10c4996a\\matching.npz": "29ac80371cf1d50846e745362c54f300d5b57bcd3237e6eb4d99cd92dfea107e",
+    "results\\stage1-r8a-v1.7-oracle\\a9ee88b6a092\\matching.npz": "f21f2a53c56aa64b55352c59cfee3141b559aba6c6bbe14ddeb0a72770b2b570",
+    "results\\stage1-r8a-v1.7-oracle\\873213cfc4b0\\matching.npz": "7c9688278815a294fcc765231973ad6aa0bd39b27f454d804e3c036797cfe337",
+    "results\\stage1-r8a-v1.7-oracle\\5cd6700ca9a5\\matching.npz": "d76a3c90f527e30eb78c6ba3a8c60af3b6935d6ea17c1caa9cb543f157887feb",
+    "results\\stage1-r8a-v1.7-oracle\\4eee764325d1\\matching.npz": "aa0ec403513d8e7a52670b3ff1d58d81bc1824ac410ee1ee5599e281a5a551d5",
+    "results\\stage1-r8a-v1.7-oracle\\d11db7131487\\matching.npz": "5fae07c3fc290401cdbc86e95bfee669fb9205c97412e047b96a08919acdb7dc",
+    "results\\stage1-r8a-v1.7-oracle\\59888827531a\\matching.npz": "c2484e9b1d4b9bdb06f4437b9bbbde4edccd3b9b5ce8c55d63c21b3687c99272",
+    "results\\stage1-r8a-v1.7-oracle\\28bc4c392ac9\\matching.npz": "1d35c793aa75927129217e2fa1e68e9bda41c16b545700ac8096ca0dcaaa344c",
+    "results\\stage1-r8a-v1.7-oracle\\a1c5aa272d2d\\matching.npz": "e8af8b55e939c0f650bc63d9f016ced7777e6d3900da0640d0f2e1ab9c2885cc",
+    "results\\stage1-r8a-v1.7-oracle\\a12b5b54e70c\\matching.npz": "3211634a135276d653a0e98e6a61da5e34efa60b9177132b07b1ade5ade97ee3",
+    "results\\stage1-r8a-v1.7-oracle\\f47ade010ee9\\matching.npz": "b46d768068a2a6efe49869115c3f87d6e45cb11d9d7c0418409ae0a907c013f9",
+    "results\\stage1-r8a-v1.7-oracle\\a4ad19b81b84\\matching.npz": "c48d38fd1bc41aea594c9617379b9411e650f5736d3cbce6db1b4ce2a8fd059f",
+    "results\\stage1-r8a-v1.7-oracle\\679440a72375\\matching.npz": "bf7c998cc458ac038bed0082fca3fd4f8e6047a01c9153b6ef03b768a23bbc92",
+    "results\\stage1-r8a-v1.7-oracle\\e93a8d134749\\matching.npz": "fb07d33f97ef551dd65f6f184b49dddb81f89fba4d6837cec4b862039e5e777e"
+  },
+  "basins": [
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\b15a9c2d55ce\\matching.npz",
+      "optimum": 0,
+      "old_P": 1.0,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\b15a9c2d55ce\\matching.npz",
+      "optimum": 1,
+      "old_P": 0.80078125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\b15a9c2d55ce\\matching.npz",
+      "optimum": 2,
+      "old_P": 0.671875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\b15a9c2d55ce\\matching.npz",
+      "optimum": 3,
+      "old_P": 0.80859375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\b15a9c2d55ce\\matching.npz",
+      "optimum": 4,
+      "old_P": 0.6015625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\b15a9c2d55ce\\matching.npz",
+      "optimum": 5,
+      "old_P": 0.76953125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\b15a9c2d55ce\\matching.npz",
+      "optimum": 6,
+      "old_P": 0.5703125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\b15a9c2d55ce\\matching.npz",
+      "optimum": 7,
+      "old_P": 0.47265625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\b15a9c2d55ce\\matching.npz",
+      "optimum": 8,
+      "old_P": 0.79296875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\b15a9c2d55ce\\matching.npz",
+      "optimum": 9,
+      "old_P": 0.71875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\b15a9c2d55ce\\matching.npz",
+      "optimum": 10,
+      "old_P": 0.64453125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\b15a9c2d55ce\\matching.npz",
+      "optimum": 11,
+      "old_P": 0.75390625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\b15a9c2d55ce\\matching.npz",
+      "optimum": 12,
+      "old_P": 1.0,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\b15a9c2d55ce\\matching.npz",
+      "optimum": 13,
+      "old_P": 0.671875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\b15a9c2d55ce\\matching.npz",
+      "optimum": 14,
+      "old_P": 0.80859375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\b15a9c2d55ce\\matching.npz",
+      "optimum": 15,
+      "old_P": 0.6484375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\b15a9c2d55ce\\matching.npz",
+      "optimum": 16,
+      "old_P": 0.75390625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\b15a9c2d55ce\\matching.npz",
+      "optimum": 17,
+      "old_P": 0.4453125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\b15a9c2d55ce\\matching.npz",
+      "optimum": 18,
+      "old_P": 0.390625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\b15a9c2d55ce\\matching.npz",
+      "optimum": 19,
+      "old_P": 0.5234375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\ee9eb1f608c4\\matching.npz",
+      "optimum": 0,
+      "old_P": 1.0,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\ee9eb1f608c4\\matching.npz",
+      "optimum": 1,
+      "old_P": 0.68359375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\ee9eb1f608c4\\matching.npz",
+      "optimum": 2,
+      "old_P": 0.75390625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\ee9eb1f608c4\\matching.npz",
+      "optimum": 3,
+      "old_P": 1.0,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\ee9eb1f608c4\\matching.npz",
+      "optimum": 4,
+      "old_P": 0.59375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\ee9eb1f608c4\\matching.npz",
+      "optimum": 5,
+      "old_P": 0.59375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\ee9eb1f608c4\\matching.npz",
+      "optimum": 6,
+      "old_P": 0.90625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\ee9eb1f608c4\\matching.npz",
+      "optimum": 7,
+      "old_P": 0.65234375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\ee9eb1f608c4\\matching.npz",
+      "optimum": 8,
+      "old_P": 0.734375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\ee9eb1f608c4\\matching.npz",
+      "optimum": 9,
+      "old_P": 0.91015625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\ee9eb1f608c4\\matching.npz",
+      "optimum": 10,
+      "old_P": 1.0,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\ee9eb1f608c4\\matching.npz",
+      "optimum": 11,
+      "old_P": 0.85546875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\ee9eb1f608c4\\matching.npz",
+      "optimum": 12,
+      "old_P": 0.640625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\ee9eb1f608c4\\matching.npz",
+      "optimum": 13,
+      "old_P": 0.6875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\ee9eb1f608c4\\matching.npz",
+      "optimum": 14,
+      "old_P": 0.5703125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\ee9eb1f608c4\\matching.npz",
+      "optimum": 15,
+      "old_P": 0.6015625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\ee9eb1f608c4\\matching.npz",
+      "optimum": 16,
+      "old_P": 0.80078125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\ee9eb1f608c4\\matching.npz",
+      "optimum": 17,
+      "old_P": 0.9453125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\ee9eb1f608c4\\matching.npz",
+      "optimum": 18,
+      "old_P": 0.875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\ee9eb1f608c4\\matching.npz",
+      "optimum": 19,
+      "old_P": 0.88671875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\666cbb7e9136\\matching.npz",
+      "optimum": 0,
+      "old_P": 1.0,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\666cbb7e9136\\matching.npz",
+      "optimum": 1,
+      "old_P": 0.66015625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\666cbb7e9136\\matching.npz",
+      "optimum": 2,
+      "old_P": 0.7109375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\666cbb7e9136\\matching.npz",
+      "optimum": 3,
+      "old_P": 0.78125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\666cbb7e9136\\matching.npz",
+      "optimum": 4,
+      "old_P": 0.7890625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\666cbb7e9136\\matching.npz",
+      "optimum": 5,
+      "old_P": 0.39453125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\666cbb7e9136\\matching.npz",
+      "optimum": 6,
+      "old_P": 0.4453125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\666cbb7e9136\\matching.npz",
+      "optimum": 7,
+      "old_P": 0.6171875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\666cbb7e9136\\matching.npz",
+      "optimum": 8,
+      "old_P": 0.671875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\666cbb7e9136\\matching.npz",
+      "optimum": 9,
+      "old_P": 0.51171875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\666cbb7e9136\\matching.npz",
+      "optimum": 10,
+      "old_P": 0.68359375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\666cbb7e9136\\matching.npz",
+      "optimum": 11,
+      "old_P": 0.63671875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\666cbb7e9136\\matching.npz",
+      "optimum": 12,
+      "old_P": 0.8203125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\666cbb7e9136\\matching.npz",
+      "optimum": 13,
+      "old_P": 0.57421875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\666cbb7e9136\\matching.npz",
+      "optimum": 14,
+      "old_P": 1.0,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\666cbb7e9136\\matching.npz",
+      "optimum": 15,
+      "old_P": 0.8359375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\666cbb7e9136\\matching.npz",
+      "optimum": 16,
+      "old_P": 0.93359375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\666cbb7e9136\\matching.npz",
+      "optimum": 17,
+      "old_P": 0.72265625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\666cbb7e9136\\matching.npz",
+      "optimum": 18,
+      "old_P": 0.83203125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\666cbb7e9136\\matching.npz",
+      "optimum": 19,
+      "old_P": 0.4453125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\da08971639ac\\matching.npz",
+      "optimum": 0,
+      "old_P": 1.0,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\da08971639ac\\matching.npz",
+      "optimum": 1,
+      "old_P": 0.27734375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\da08971639ac\\matching.npz",
+      "optimum": 2,
+      "old_P": 0.390625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\da08971639ac\\matching.npz",
+      "optimum": 3,
+      "old_P": 0.453125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\da08971639ac\\matching.npz",
+      "optimum": 4,
+      "old_P": 0.41796875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\da08971639ac\\matching.npz",
+      "optimum": 5,
+      "old_P": 0.37890625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\da08971639ac\\matching.npz",
+      "optimum": 6,
+      "old_P": 0.62109375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\da08971639ac\\matching.npz",
+      "optimum": 7,
+      "old_P": 0.60546875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\da08971639ac\\matching.npz",
+      "optimum": 8,
+      "old_P": 0.6015625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\da08971639ac\\matching.npz",
+      "optimum": 9,
+      "old_P": 0.35546875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\da08971639ac\\matching.npz",
+      "optimum": 10,
+      "old_P": 0.58203125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\da08971639ac\\matching.npz",
+      "optimum": 11,
+      "old_P": 0.28125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\da08971639ac\\matching.npz",
+      "optimum": 12,
+      "old_P": 0.41015625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\da08971639ac\\matching.npz",
+      "optimum": 13,
+      "old_P": 0.328125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\da08971639ac\\matching.npz",
+      "optimum": 14,
+      "old_P": 0.65234375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\da08971639ac\\matching.npz",
+      "optimum": 15,
+      "old_P": 0.49609375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\da08971639ac\\matching.npz",
+      "optimum": 16,
+      "old_P": 0.5703125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\da08971639ac\\matching.npz",
+      "optimum": 17,
+      "old_P": 0.55078125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\da08971639ac\\matching.npz",
+      "optimum": 18,
+      "old_P": 0.421875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\da08971639ac\\matching.npz",
+      "optimum": 19,
+      "old_P": 0.3046875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\45116c61be74\\matching.npz",
+      "optimum": 0,
+      "old_P": 1.0,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\45116c61be74\\matching.npz",
+      "optimum": 1,
+      "old_P": 0.53515625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\45116c61be74\\matching.npz",
+      "optimum": 2,
+      "old_P": 0.609375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\45116c61be74\\matching.npz",
+      "optimum": 3,
+      "old_P": 0.6640625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\45116c61be74\\matching.npz",
+      "optimum": 4,
+      "old_P": 0.80078125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\45116c61be74\\matching.npz",
+      "optimum": 5,
+      "old_P": 0.5546875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\45116c61be74\\matching.npz",
+      "optimum": 6,
+      "old_P": 0.609375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\45116c61be74\\matching.npz",
+      "optimum": 7,
+      "old_P": 0.421875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\45116c61be74\\matching.npz",
+      "optimum": 8,
+      "old_P": 0.62109375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\45116c61be74\\matching.npz",
+      "optimum": 9,
+      "old_P": 1.0,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\45116c61be74\\matching.npz",
+      "optimum": 10,
+      "old_P": 0.5078125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\45116c61be74\\matching.npz",
+      "optimum": 11,
+      "old_P": 0.875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\45116c61be74\\matching.npz",
+      "optimum": 12,
+      "old_P": 0.66796875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\45116c61be74\\matching.npz",
+      "optimum": 13,
+      "old_P": 0.88671875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\45116c61be74\\matching.npz",
+      "optimum": 14,
+      "old_P": 0.41015625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\45116c61be74\\matching.npz",
+      "optimum": 15,
+      "old_P": 0.76953125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\45116c61be74\\matching.npz",
+      "optimum": 16,
+      "old_P": 0.7890625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\45116c61be74\\matching.npz",
+      "optimum": 17,
+      "old_P": 0.88671875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\45116c61be74\\matching.npz",
+      "optimum": 18,
+      "old_P": 1.0,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\45116c61be74\\matching.npz",
+      "optimum": 19,
+      "old_P": 0.56640625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\0452cfb25a72\\matching.npz",
+      "optimum": 0,
+      "old_P": 1.0,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\0452cfb25a72\\matching.npz",
+      "optimum": 1,
+      "old_P": 0.3046875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\0452cfb25a72\\matching.npz",
+      "optimum": 2,
+      "old_P": 0.76171875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\0452cfb25a72\\matching.npz",
+      "optimum": 3,
+      "old_P": 0.7265625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\0452cfb25a72\\matching.npz",
+      "optimum": 4,
+      "old_P": 0.59765625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\0452cfb25a72\\matching.npz",
+      "optimum": 5,
+      "old_P": 0.57421875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\0452cfb25a72\\matching.npz",
+      "optimum": 6,
+      "old_P": 0.375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\0452cfb25a72\\matching.npz",
+      "optimum": 7,
+      "old_P": 0.55859375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\0452cfb25a72\\matching.npz",
+      "optimum": 8,
+      "old_P": 0.7109375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\0452cfb25a72\\matching.npz",
+      "optimum": 9,
+      "old_P": 0.7265625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\0452cfb25a72\\matching.npz",
+      "optimum": 10,
+      "old_P": 0.5703125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\0452cfb25a72\\matching.npz",
+      "optimum": 11,
+      "old_P": 0.83984375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\0452cfb25a72\\matching.npz",
+      "optimum": 12,
+      "old_P": 0.4921875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\0452cfb25a72\\matching.npz",
+      "optimum": 13,
+      "old_P": 0.703125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\0452cfb25a72\\matching.npz",
+      "optimum": 14,
+      "old_P": 0.34765625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\0452cfb25a72\\matching.npz",
+      "optimum": 15,
+      "old_P": 0.57421875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\0452cfb25a72\\matching.npz",
+      "optimum": 16,
+      "old_P": 0.69140625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\0452cfb25a72\\matching.npz",
+      "optimum": 17,
+      "old_P": 0.91796875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\0452cfb25a72\\matching.npz",
+      "optimum": 18,
+      "old_P": 0.45703125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\0452cfb25a72\\matching.npz",
+      "optimum": 19,
+      "old_P": 0.61328125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\e23a10c4996a\\matching.npz",
+      "optimum": 0,
+      "old_P": 1.0,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\e23a10c4996a\\matching.npz",
+      "optimum": 1,
+      "old_P": 0.68359375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\e23a10c4996a\\matching.npz",
+      "optimum": 2,
+      "old_P": 0.76171875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\e23a10c4996a\\matching.npz",
+      "optimum": 3,
+      "old_P": 0.41015625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\e23a10c4996a\\matching.npz",
+      "optimum": 4,
+      "old_P": 0.66796875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\e23a10c4996a\\matching.npz",
+      "optimum": 5,
+      "old_P": 0.77734375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\e23a10c4996a\\matching.npz",
+      "optimum": 6,
+      "old_P": 0.41796875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\e23a10c4996a\\matching.npz",
+      "optimum": 7,
+      "old_P": 0.703125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\e23a10c4996a\\matching.npz",
+      "optimum": 8,
+      "old_P": 0.640625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\e23a10c4996a\\matching.npz",
+      "optimum": 9,
+      "old_P": 0.625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\e23a10c4996a\\matching.npz",
+      "optimum": 10,
+      "old_P": 0.54296875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\e23a10c4996a\\matching.npz",
+      "optimum": 11,
+      "old_P": 0.5,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\e23a10c4996a\\matching.npz",
+      "optimum": 12,
+      "old_P": 0.59375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\e23a10c4996a\\matching.npz",
+      "optimum": 13,
+      "old_P": 0.70703125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\e23a10c4996a\\matching.npz",
+      "optimum": 14,
+      "old_P": 0.63671875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\e23a10c4996a\\matching.npz",
+      "optimum": 15,
+      "old_P": 0.55078125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\e23a10c4996a\\matching.npz",
+      "optimum": 16,
+      "old_P": 0.375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\e23a10c4996a\\matching.npz",
+      "optimum": 17,
+      "old_P": 0.71875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\e23a10c4996a\\matching.npz",
+      "optimum": 18,
+      "old_P": 0.61328125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\e23a10c4996a\\matching.npz",
+      "optimum": 19,
+      "old_P": 0.71484375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\a9ee88b6a092\\matching.npz",
+      "optimum": 0,
+      "old_P": 1.0,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\a9ee88b6a092\\matching.npz",
+      "optimum": 1,
+      "old_P": 0.53125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\a9ee88b6a092\\matching.npz",
+      "optimum": 2,
+      "old_P": 0.71875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\a9ee88b6a092\\matching.npz",
+      "optimum": 3,
+      "old_P": 0.68359375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\a9ee88b6a092\\matching.npz",
+      "optimum": 4,
+      "old_P": 0.6875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\a9ee88b6a092\\matching.npz",
+      "optimum": 5,
+      "old_P": 0.8203125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\a9ee88b6a092\\matching.npz",
+      "optimum": 6,
+      "old_P": 0.80078125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\a9ee88b6a092\\matching.npz",
+      "optimum": 7,
+      "old_P": 0.70703125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\a9ee88b6a092\\matching.npz",
+      "optimum": 8,
+      "old_P": 0.765625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\a9ee88b6a092\\matching.npz",
+      "optimum": 9,
+      "old_P": 0.67578125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\a9ee88b6a092\\matching.npz",
+      "optimum": 10,
+      "old_P": 0.6796875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\a9ee88b6a092\\matching.npz",
+      "optimum": 11,
+      "old_P": 0.7109375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\a9ee88b6a092\\matching.npz",
+      "optimum": 12,
+      "old_P": 0.703125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\a9ee88b6a092\\matching.npz",
+      "optimum": 13,
+      "old_P": 0.42578125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\a9ee88b6a092\\matching.npz",
+      "optimum": 14,
+      "old_P": 0.8984375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\a9ee88b6a092\\matching.npz",
+      "optimum": 15,
+      "old_P": 1.0,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\a9ee88b6a092\\matching.npz",
+      "optimum": 16,
+      "old_P": 0.8125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\a9ee88b6a092\\matching.npz",
+      "optimum": 17,
+      "old_P": 0.9296875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\a9ee88b6a092\\matching.npz",
+      "optimum": 18,
+      "old_P": 0.72265625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\a9ee88b6a092\\matching.npz",
+      "optimum": 19,
+      "old_P": 0.84375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\873213cfc4b0\\matching.npz",
+      "optimum": 0,
+      "old_P": 1.0,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\873213cfc4b0\\matching.npz",
+      "optimum": 1,
+      "old_P": 0.55078125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\873213cfc4b0\\matching.npz",
+      "optimum": 2,
+      "old_P": 0.9375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\873213cfc4b0\\matching.npz",
+      "optimum": 3,
+      "old_P": 0.8125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\873213cfc4b0\\matching.npz",
+      "optimum": 4,
+      "old_P": 0.53515625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\873213cfc4b0\\matching.npz",
+      "optimum": 5,
+      "old_P": 0.55078125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\873213cfc4b0\\matching.npz",
+      "optimum": 6,
+      "old_P": 0.83984375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\873213cfc4b0\\matching.npz",
+      "optimum": 7,
+      "old_P": 0.48828125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\873213cfc4b0\\matching.npz",
+      "optimum": 8,
+      "old_P": 0.71875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\873213cfc4b0\\matching.npz",
+      "optimum": 9,
+      "old_P": 0.62109375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\873213cfc4b0\\matching.npz",
+      "optimum": 10,
+      "old_P": 0.578125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\873213cfc4b0\\matching.npz",
+      "optimum": 11,
+      "old_P": 0.70703125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\873213cfc4b0\\matching.npz",
+      "optimum": 12,
+      "old_P": 0.49609375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\873213cfc4b0\\matching.npz",
+      "optimum": 13,
+      "old_P": 0.91015625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\873213cfc4b0\\matching.npz",
+      "optimum": 14,
+      "old_P": 0.828125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\873213cfc4b0\\matching.npz",
+      "optimum": 15,
+      "old_P": 0.60546875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\873213cfc4b0\\matching.npz",
+      "optimum": 16,
+      "old_P": 0.5625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\873213cfc4b0\\matching.npz",
+      "optimum": 17,
+      "old_P": 0.73046875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\873213cfc4b0\\matching.npz",
+      "optimum": 18,
+      "old_P": 0.46875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\873213cfc4b0\\matching.npz",
+      "optimum": 19,
+      "old_P": 0.515625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\5cd6700ca9a5\\matching.npz",
+      "optimum": 0,
+      "old_P": 1.0,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\5cd6700ca9a5\\matching.npz",
+      "optimum": 1,
+      "old_P": 0.74609375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\5cd6700ca9a5\\matching.npz",
+      "optimum": 2,
+      "old_P": 0.87109375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\5cd6700ca9a5\\matching.npz",
+      "optimum": 3,
+      "old_P": 0.44921875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\5cd6700ca9a5\\matching.npz",
+      "optimum": 4,
+      "old_P": 0.57421875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\5cd6700ca9a5\\matching.npz",
+      "optimum": 5,
+      "old_P": 0.71875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\5cd6700ca9a5\\matching.npz",
+      "optimum": 6,
+      "old_P": 0.703125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\5cd6700ca9a5\\matching.npz",
+      "optimum": 7,
+      "old_P": 0.58203125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\5cd6700ca9a5\\matching.npz",
+      "optimum": 8,
+      "old_P": 0.75,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\5cd6700ca9a5\\matching.npz",
+      "optimum": 9,
+      "old_P": 0.95703125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\5cd6700ca9a5\\matching.npz",
+      "optimum": 10,
+      "old_P": 0.70703125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\5cd6700ca9a5\\matching.npz",
+      "optimum": 11,
+      "old_P": 0.796875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\5cd6700ca9a5\\matching.npz",
+      "optimum": 12,
+      "old_P": 0.68359375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\5cd6700ca9a5\\matching.npz",
+      "optimum": 13,
+      "old_P": 0.9453125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\5cd6700ca9a5\\matching.npz",
+      "optimum": 14,
+      "old_P": 0.55078125,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\5cd6700ca9a5\\matching.npz",
+      "optimum": 15,
+      "old_P": 0.77734375,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\5cd6700ca9a5\\matching.npz",
+      "optimum": 16,
+      "old_P": 0.6171875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\5cd6700ca9a5\\matching.npz",
+      "optimum": 17,
+      "old_P": 0.8046875,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\5cd6700ca9a5\\matching.npz",
+      "optimum": 18,
+      "old_P": 0.5390625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\5cd6700ca9a5\\matching.npz",
+      "optimum": 19,
+      "old_P": 0.890625,
+      "depth_P": 1.0,
+      "minima": 8,
+      "global_minima_per_basin": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\b15a9c2d55ce\\matching.npz",
+      "k_min": 8,
+      "k_max": 8,
+      "LB_region": 32
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\ee9eb1f608c4\\matching.npz",
+      "k_min": 8,
+      "k_max": 8,
+      "LB_region": 32
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\666cbb7e9136\\matching.npz",
+      "k_min": 8,
+      "k_max": 8,
+      "LB_region": 32
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\da08971639ac\\matching.npz",
+      "k_min": 8,
+      "k_max": 8,
+      "LB_region": 32
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\45116c61be74\\matching.npz",
+      "k_min": 8,
+      "k_max": 8,
+      "LB_region": 32
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\0452cfb25a72\\matching.npz",
+      "k_min": 8,
+      "k_max": 8,
+      "LB_region": 32
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\e23a10c4996a\\matching.npz",
+      "k_min": 8,
+      "k_max": 8,
+      "LB_region": 32
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\a9ee88b6a092\\matching.npz",
+      "k_min": 8,
+      "k_max": 8,
+      "LB_region": 32
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\873213cfc4b0\\matching.npz",
+      "k_min": 8,
+      "k_max": 8,
+      "LB_region": 32
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\5cd6700ca9a5\\matching.npz",
+      "k_min": 8,
+      "k_max": 8,
+      "LB_region": 32
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\4eee764325d1\\matching.npz",
+      "k_min": 8,
+      "k_max": 8,
+      "LB_region": 32
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\d11db7131487\\matching.npz",
+      "k_min": 8,
+      "k_max": 8,
+      "LB_region": 32
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\59888827531a\\matching.npz",
+      "k_min": 8,
+      "k_max": 8,
+      "LB_region": 32
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\28bc4c392ac9\\matching.npz",
+      "k_min": 8,
+      "k_max": 8,
+      "LB_region": 32
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\a1c5aa272d2d\\matching.npz",
+      "k_min": 8,
+      "k_max": 8,
+      "LB_region": 32
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\a12b5b54e70c\\matching.npz",
+      "k_min": 8,
+      "k_max": 8,
+      "LB_region": 32
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\f47ade010ee9\\matching.npz",
+      "k_min": 8,
+      "k_max": 8,
+      "LB_region": 32
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\a4ad19b81b84\\matching.npz",
+      "k_min": 8,
+      "k_max": 8,
+      "LB_region": 32
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\679440a72375\\matching.npz",
+      "k_min": 8,
+      "k_max": 8,
+      "LB_region": 32
+    },
+    {
+      "artifact": "results\\stage1-r8a-v1.7-oracle\\e93a8d134749\\matching.npz",
+      "k_min": 8,
+      "k_max": 8,
+      "LB_region": 32
+    }
+  ],
+  "symmetries": [
+    {
+      "instance": "R6a",
+      "symmetry": "gamma_shift_reflect",
+      "beta_max_error": 6.217248937900877e-15,
+      "gamma_max_error": 1.199040866595169e-14
+    },
+    {
+      "instance": "R6b",
+      "symmetry": "gamma_shift_reflect",
+      "beta_max_error": 7.105427357601002e-15,
+      "gamma_max_error": 1.3322676295501878e-14
+    },
+    {
+      "instance": "R8a",
+      "symmetry": "gamma_shift_reflect",
+      "beta_max_error": 1.2434497875801753e-14,
+      "gamma_max_error": 7.105427357601002e-15
+    },
+    {
+      "instance": "R8b",
+      "symmetry": "gamma_shift_reflect",
+      "beta_max_error": 1.0658141036401503e-14,
+      "gamma_max_error": 7.105427357601002e-15
+    },
+    {
+      "instance": "R8c",
+      "symmetry": "gamma_shift_reflect",
+      "beta_max_error": 1.4210854715202004e-14,
+      "gamma_max_error": 4.440892098500626e-15
+    },
+    {
+      "instance": "R10a",
+      "symmetry": "gamma_shift_reflect",
+      "beta_max_error": 1.7763568394002505e-14,
+      "gamma_max_error": 7.105427357601002e-15
+    },
+    {
+      "instance": "E8a",
+      "symmetry": "none",
+      "beta_max_error": 9.769962616701378e-15,
+      "gamma_max_error": 2.3414704539699653
+    },
+    {
+      "instance": "E8b",
+      "symmetry": "none",
+      "beta_max_error": 1.5987211554602254e-14,
+      "gamma_max_error": 3.6622111563740756
+    },
+    {
+      "instance": "W8a",
+      "symmetry": "none",
+      "beta_max_error": 2.6645352591003757e-14,
+      "gamma_max_error": 3.96605658436242
+    },
+    {
+      "instance": "W8b",
+      "symmetry": "none",
+      "beta_max_error": 3.552713678800501e-14,
+      "gamma_max_error": 5.770544710127272
+    },
+    {
+      "instance": "C8",
+      "symmetry": "gamma_shift",
+      "beta_max_error": 9.769962616701378e-15,
+      "gamma_max_error": 4.884981308350689e-15
+    },
+    {
+      "instance": "K5",
+      "symmetry": "gamma_shift",
+      "beta_max_error": 7.105427357601002e-15,
+      "gamma_max_error": 9.769962616701378e-15
+    }
+  ],
+  "grids": [
+    {
+      "instance": "R6a",
+      "m": 16,
+      "ties_exact": 0
+    },
+    {
+      "instance": "R6a",
+      "m": 32,
+      "ties_exact": 0
+    },
+    {
+      "instance": "R6b",
+      "m": 16,
+      "ties_exact": 0
+    },
+    {
+      "instance": "R6b",
+      "m": 32,
+      "ties_exact": 0
+    },
+    {
+      "instance": "R8a",
+      "m": 16,
+      "ties_exact": 0
+    },
+    {
+      "instance": "R8a",
+      "m": 32,
+      "ties_exact": 0
+    },
+    {
+      "instance": "R8b",
+      "m": 16,
+      "ties_exact": 0
+    },
+    {
+      "instance": "R8b",
+      "m": 32,
+      "ties_exact": 0
+    },
+    {
+      "instance": "R8c",
+      "m": 16,
+      "ties_exact": 0
+    },
+    {
+      "instance": "R8c",
+      "m": 32,
+      "ties_exact": 0
+    },
+    {
+      "instance": "R10a",
+      "m": 16,
+      "ties_exact": 0
+    },
+    {
+      "instance": "R10a",
+      "m": 32,
+      "ties_exact": 0
+    },
+    {
+      "instance": "E8a",
+      "m": 16,
+      "ties_exact": 0
+    },
+    {
+      "instance": "E8a",
+      "m": 32,
+      "ties_exact": 0
+    },
+    {
+      "instance": "E8b",
+      "m": 16,
+      "ties_exact": 0
+    },
+    {
+      "instance": "E8b",
+      "m": 32,
+      "ties_exact": 0
+    },
+    {
+      "instance": "W8a",
+      "m": 16,
+      "ties_exact": 0
+    },
+    {
+      "instance": "W8a",
+      "m": 32,
+      "ties_exact": 0
+    },
+    {
+      "instance": "W8b",
+      "m": 16,
+      "ties_exact": 0
+    },
+    {
+      "instance": "W8b",
+      "m": 32,
+      "ties_exact": 0
+    },
+    {
+      "instance": "C8",
+      "m": 16,
+      "ties_exact": 0
+    },
+    {
+      "instance": "C8",
+      "m": 32,
+      "ties_exact": 0
+    },
+    {
+      "instance": "K5",
+      "m": 16,
+      "ties_exact": 0
+    },
+    {
+      "instance": "K5",
+      "m": 32,
+      "ties_exact": 0
+    }
+  ],
+  "old_R8a_ties": 112,
+  "checks": {
+    "basin_depth": true,
+    "beta_period": true,
+    "gamma_symmetries": true,
+    "old_grid_ties": true,
+    "quarter_grid_ties": true,
+    "region_bound": true
+  },
+  "status": "PASS"
+}
