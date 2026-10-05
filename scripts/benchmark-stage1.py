@@ -18,7 +18,11 @@ from certmorse.export_vtk import export_complex
 from certmorse.runid import prepare_run
 from certmorse.stage1 import complete
 
-def run(limit=600,repeats=3,resume=False):
+def run(limit=600,repeats=3,resume=True):
+    raise RuntimeError('completed benchmark solves are read-only; new solves must use certmorse.raw.solve_band units')
+
+
+def historical_run(limit=600,repeats=3,resume=False):
     inst=load_instance('R8a');started=time.perf_counter()
     truth,var,probs=exact_landscape(inst,32,'b',1003)
     landscape_s=time.perf_counter()-started

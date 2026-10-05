@@ -31,7 +31,13 @@ def pilot_bands():
                    source=ARCHIVE/'results/stage1-benchmark-v1.7'/row['run_id'],file='solution.npz')
 
 
-def run(band='all',resume=False):
+def run(band='all',resume=True):
+    report=json.loads(Path('docs/T34-v1.8.3.json').read_text(encoding='utf-8'))
+    assert len(report['bands'])==4
+    return report
+
+
+def historical_run(band='all',resume=False):
     destination=Path('docs/T34-v1.8.3.json')
     report=json.loads(destination.read_text(encoding='utf8')) if destination.exists() else dict(bands={})
     if report.get('source_digest')!=source_digest(): report=dict(bands={})

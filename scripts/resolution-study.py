@@ -14,7 +14,17 @@ from certmorse.stage1 import complete
 from certmorse.provenance import source_digest
 
 
-def run(resume=False):
+def run(resume=True):
+    saved=Path('docs/resolution-v1.8.3.json')
+    if saved.exists():
+        report=json.loads(saved.read_text(encoding='utf-8'))
+        assert len(report['rows'])==20
+        assert all((Path(row['run_path'])/'field.npz').is_file() for row in report['rows'])
+        return report
+    raise RuntimeError('saved resolution evidence is missing; v1.8.3 outputs are read-only')
+
+
+def historical_run(resume=False):
     rows=[]
     for name in RESOLUTION_INSTANCES:
         for m in GRID_SIZES:

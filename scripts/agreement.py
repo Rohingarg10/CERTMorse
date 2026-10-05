@@ -25,7 +25,19 @@ def passed(row):
             len({r['kappa_opt'] for r in methods.values()})==1)
 
 
-def run(grids,resume=False):
+def run(grids,resume=True):
+    saved=Path('docs/agreement-v1.8.3.json')
+    if saved.exists():
+        prior=json.loads(saved.read_text(encoding='utf-8'))
+        selected=[row for row in prior if row['m'] in grids]
+        expected=sum(20 if m==8 else 50 for m in grids)
+        if len(selected)==expected:
+            assert all(passed(row) and passed(dict(methods=row['controls'])) and row['rows_preserve_optimum'] for row in selected)
+            return selected
+    raise RuntimeError('the completed v1.8.3 agreement solves are read-only; missing evidence must be reported')
+
+
+def historical_run(grids,resume=False):
     results=[]
     for m in grids:
         for seed in range(20 if m==8 else 50):

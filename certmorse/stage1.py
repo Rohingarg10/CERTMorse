@@ -42,7 +42,17 @@ def complete(path,**payload):
     (path/'status.json').write_text(json.dumps(dict(complete=True,**payload),indent=2),encoding='utf-8', newline='\n')
 
 
-def measure_instance(instance,bands=20,multiplicity_bands=10,resume=False,band_mode='hoeffding'):
+def measure_instance(instance,bands=20,multiplicity_bands=10,resume=True,band_mode='hoeffding'):
+    saved=Path(f'docs/stage1-{instance.lower()}-v1.8.3-{band_mode}.csv')
+    if saved.exists():
+        with saved.open(encoding='utf-8',newline='\n') as stream:
+            rows=list(csv.DictReader(stream))
+        assert len(rows)>=bands
+        return rows[:bands]
+    raise RuntimeError('use v1.8.4 raw units for missing bands; completed v1.8.3 solves are read-only')
+
+
+def historical_measure_instance(instance,bands=20,multiplicity_bands=10,resume=False,band_mode='hoeffding'):
     inst=load_instance(instance);cx=TorusComplex(GRID_M)
     truth,var,probs=exact_landscape(inst,GRID_M,'a',FIELD_SEED)
     symmetry=measured_symmetry(inst,'a',FIELD_SEED)

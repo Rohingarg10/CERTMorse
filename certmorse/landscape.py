@@ -167,11 +167,9 @@ def run(cfg,out_dir):
     np.savez_compressed(output/'landscape.npz',exact=exact,mean=mean,var_exact=var,var_sample=sample_var,lower=lo,upper=hi,probs=probs,shots=np.full((m,m),cfg['shots'],dtype=np.int64),meta=json.dumps(dict(instance=inst.id,channel=cfg['noise'],W=inst.W,F_min=float(exact.min()),seed=cfg['seed'],grid_offset=GRID_OFFSET,**symmetry,**diagnostics,**resolution)))
 
 
-def execute_run(cfg,root='results',resume=False):
-    from .runid import prepare_run,default_config
+def execute_run(cfg,root='results',resume=True):
+    from .runid import default_config
+    from .units import Unit
     cfg=default_config(cfg)
-    output,needed=prepare_run(cfg,root,resume)
-    if needed:
-        run(cfg,output)
-        (output/'status.json').write_text(json.dumps({'complete':True,'task':'landscape'}),encoding='utf-8', newline='\n')
-    return output
+    unit=Unit('landscape',cfg,root=root)
+    return unit.run(lambda work: run(cfg,work))

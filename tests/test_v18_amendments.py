@@ -19,10 +19,17 @@ HALF_BETA_PERIOD = np.pi/2  # v1.8.1 section 2
 DAMPING_CONTROL_TOLERANCE = 1e-6  # v1.8.1 T29.3
 TEST_SEED = 29  # Reproducible T29 points; original failing run used seed 29.
 PIPELINE_SEED = 7  # Retain the original failing run's transpilation.
+RECORD_ROOT = None
+
+
+@pytest.fixture(autouse=True)
+def isolated_records(tmp_path):
+    global RECORD_ROOT
+    RECORD_ROOT = tmp_path
 
 
 def record(name, values):
-    path = Path('results/stage1-v1.8.3-tests')/name
+    path = RECORD_ROOT/name
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(values, indent=2)+'\n', encoding='utf-8', newline='\n')
 

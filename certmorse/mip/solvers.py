@@ -84,7 +84,11 @@ def _cpsat(model, limit, threads, hint, log_path):
     solver.parameters.log_to_stdout = False
     Path(log_path).parent.mkdir(parents=True,exist_ok=True)
     with open(log_path,'w',encoding='utf-8', newline='\n') as stream:
-        solver.log_callback = lambda msg: stream.write(msg+'\n')
+        def record_log(msg):
+            stream.write(msg+'\n')
+            from ..units import test_pause
+            test_pause('solve', int((hint or {}).get('seed', 0)))
+        solver.log_callback = record_log
         status = solver.solve(cp)
     mapping = {cp_model.OPTIMAL:'OPTIMAL',cp_model.FEASIBLE:'FEASIBLE',cp_model.UNKNOWN:'NO_SOLUTION',cp_model.INFEASIBLE:'INFEASIBLE',cp_model.MODEL_INVALID:'ERROR'}
     yy = np.array([solver.value(v) for v in y],dtype=np.int8) if status in (cp_model.OPTIMAL,cp_model.FEASIBLE) else None

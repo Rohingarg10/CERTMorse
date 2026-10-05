@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="25.448" timestamp="2026-10-05T15:09:02.469048+05:30" hostname="<HOST>"><testcase classname="tests.test_units" name="test_T37_hard_kill_and_resume[solve]" time="25.179"><failure message="AssertionError: {&#10;    &quot;phase&quot;: &quot;solve&quot;,&#10;    &quot;grid_m&quot;: 4,&#10;    &quot;instance&quot;: &quot;R8a&quot;,&#10;    &quot;band_mode&quot;: &quot;oracle&quot;,&#10;    &quot;seeds&quot;: [&#10;      0,&#10;      1,&#10;      2&#10;    ],&#10;    &quot;threads&quot;: 8,&#10;    &quot;solve_cap_s&quot;: 600,&#10;    &quot;sampling_cap_s&quot;: 300,&#10;    &quot;max_optima&quot;: 20,&#10;    &quot;first_band_preserved&quot;: true,&#10;    &quot;second_band_restarted&quot;: true,&#10;    &quot;reference&quot;: &quot;<HOME>\\AppData\\Local\\Temp\\pytest-of-<USER>\\pytest-27\\test_T37_hard_kill_and_resume_0\\reference&quot;,&#10;    &quot;resumed&quot;: &quot;<HOME>\\AppData\\Local\\Temp\\pytest-of-<USER>\\pytest-27\\test_T37_hard_kill_and_resume_0\\interrupted&quot;,&#10;    &quot;differences&quot;: [&#10;      {&#10;        &quot;file&quot;: &quot;sampling/0/samples.npz&quot;,&#10;        &quot;changed_array_entries&quot;: {&#10;          &quot;optima&quot;: 408&#10;        },&#10;        &quot;reference_sha256&quot;: &quot;1375e601793e5e6a0b5c099dca742d77ff004f2ef4b8244154726b216756db2b&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;431ee726002d33f4e65bb30f22b3fbafab78e156377706c4bcaa3348d772a3c5&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/1/samples.npz&quot;,&#10;        &quot;changed_array_entries&quot;: {&#10;          &quot;optima&quot;: 226&#10;        },&#10;        &quot;reference_sha256&quot;: &quot;84edcbc8b95b5011bd0345b009ae36b0223e6d3ff3b8a2400d6905cef0336b31&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;02df14781b6b23038cc33b6160dfc1ce46da3af65420dc503fc3e09de588664d&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/2/samples.npz&quot;,&#10;        &quot;changed_array_entries&quot;: {&#10;          &quot;optima&quot;: 356&#10;        },&#10;        &quot;reference_sha256&quot;: &quot;3f13f15acbb3709a418671fc4f6176dd8dd009046b030a5530f5dcd742c7b939&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;627b16d002c42c84075f093907a9b2a659a36bfd97001f7a15be5010c0b00113&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/0/sampling-01.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;d6b36e45ec80bdfbdda48b251e4238a57fb7682834f30a7ceae790cb6e66d936&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;09c074f7bd15e467750199e53684bfc3e20d8cfae4e75071f0d9c652fa0746ef&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/0/sampling-02.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;315bc45568d1428c7fc6be86be1f76f2801e0e0eefb38f5edc5ba5cb50218c8f&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;92e9d913933f0f5ef7def780e385cf7b25617daf63df930dcb08311d6c7089af&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/0/sampling-03.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;badfca747e759d3e65b1fb1816311277554e8d9d8931133759f20c6f2c5cc885&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;1360f970448d8e65a764d1a8e0f40db8203053bf3ca0b90057483b7f12fe084e&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/0/sampling-04.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;803c5280a99607516392318caf92caba17ba0346afb68160c864f006aeac96fd&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;28bca1a7dac21f7f1106a278d992bee61b0a5b85306b5b41518c2c61f2c9b1d2&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/0/sampling-05.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;1cbe4d43de005c2aa4de965f258d8b5ebd8d0eff6b279c85f6a7ea6082a03531&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;ccbc7367ef9edfc4e4fbe31b7d7baa1fbc0ac8d0bf778e23c5313dcac8f12b77&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/0/sampling-06.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;5a54e77114abf4d8cb31fd54a998d810cc7e8ab70a26cff4c8974823abdcd50e&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;2ae8b6f62302a287d06ee7c2e7b7ab31f1f4026dfe3f0630c311368f55835166&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/0/sampling-07.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;6bf0e84d0b56039d3b5b05ea6aac49d31cd9fed3b7860d72cdabee95ccec11e6&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;e66ecb9da16bc0f209c1c5af7ed0975e849e4070404a8fb8045d568cff5445ae&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/0/sampling-08.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;fd8faa476d57028af848e9f1a6a34174c9048b28b9fa250034a9d50109a54552&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;a4ecc2b984043cf69f259546dff053ad0c1ec7d48dadb91b8bb575d97b9403aa&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/0/sampling-09.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;36c78b20ddca8d5a8ebcf79b595bf0d0d0de7bedb8cd7e13cf9e2ae5e70dc994&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;54c87c05444cab2000b2753d2e5fa8e53d3e3a620b23700e1b3592dd737f8676&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/0/sampling-10.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;6577cb66c14e13c0e494e167c2119730d664ee3d928e217fb390accce011a0bd&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;274617e3e6210f9237da19e114da62b9754c1f33c35e1105c810016ec3b8b0bc&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/0/sampling-11.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;591d747fad5b437cb09716d282a2e8f1209090cc70185ffafbba68112bb76969&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;d2e6e2568728ffa9b52b8921409346200bc5a5faba2e7396bcfb38388efcba20&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/0/sampling-12.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;7645b9a77c9b60c0af6cba539dc78ea77511e7329f3272555312d3476dbe6b5b&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;896ff0ee2257d2156cdc8c8974ab0e949f14eeac2ec1313ec362b1694d1124d1&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/0/sampling-13.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;7f36812e045fce12c93f502e0336194f103bdb844234c0bce06bdfd64951f4b2&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;43cab287ef21bb1619d6042c794f7d7626372a98e4ad7389dc9dccb90122c7ed&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/0/sampling-14.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;1af5fd6b1ae13157fa34a070bc270f997ec652fece990b299bd64c44a744387f&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;bcea899df2491f0eb0b14bac883b28cf923c287171ed3689411edaff135e8bd1&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/0/sampling-15.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;58a5ee62b323ee2669ebea1b0b31d08a85117398f5c227d62d59f601e100b082&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;b52cfcc77c4a6f35adad885bebaa6e04341be893d464b49d2a6fc43cbb12b17f&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/0/sampling-16.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;5150578de1c46d0e43dd3a29bcf20a0fd7b6b83063fd6734a4ba633eb7276c9d&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;ad0c9ef9c20bf6580b80115c0b0f5d1acc08ba50895cebf46fa44df1a9495540&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/0/sampling-17.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;7e9dd2178f6e7df39bf42fa6025d3566a41f4069268b825a2b88436dd0c9d75d&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;c84fee4900fdd5089a0a58783d95fb7bc0081d62d498ed1e914aff211b256133&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/0/sampling-18.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;f8b829ff48aef0b8b0837b7a723fa9580fbfba1ce52115ba9e491dc77624c0a4&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;a4143faca5bb0a203e8131aefd9f9d023b47a1ff2848794e82b0d02f7d6bb369&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/0/sampling-19.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;6d4b32ec21bee372dcee831731979261e4829d0647c9265a15d0de5ba1201adf&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;6e43b9b2abfcb48db31942d75902f0078db4592d3f98c4417b4eebc2c468a1bd&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/1/sampling-01.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;3e3329f7adc088d3249d79d5611a165020b01de4d8bfed43534c6741a91eeb71&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;19d0d978f6553d77d213982658fe454b5777176a67157a653fe6312ac5d915a4&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/1/sampling-02.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;ab2146064b6fd4666095bc349ec9d042df77b19ee2c809233f02269bb0aaf0c7&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;e858de14a84f864f308dc7bcfad42f09437fccf569a09a48814e3ade5fd2237f&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/1/sampling-03.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;54053c33667a7ea2381295ecdab9ce19d871a532a7d708dc65b28ba531fa9408&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;17adbce2ecedb3894cff07e39cf4939d74f3f322562b986172cb2bd0a307b650&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/1/sampling-04.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;97c1f319b116cdeaf7fab7033138831e907b79eaf68e176b7be60b735b36e2c4&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;d76512d4c99bbccc1a6c26eda6ea3d603475bc8ddac84d5315d2ef965544fad2&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/1/sampling-05.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;8975a80f0db1905953ee6ce4f2284e36180520129288871019b3df10d7aad94c&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;df5c10f1dbcfe1991da1f344b41752c35c003625578de8c243477c11c3f683cf&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/1/sampling-06.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;4cd88e9448c4daccabe81fb84a78aae98e7d616c6d216a6ae8e8365a6c535edb&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;507c11436ec1e8b5638ceb461664c9b9754aebcfbae04c35cb8f3992cb8bc6c5&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/1/sampling-07.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;1e058486de62aed9ac3a6092d9e3e147489df4edfffe96b935ccf7f40b4e07c1&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;42f7b4e9e6b21bc3c8aeadf6d6d08ac7713b365018787a36a3ee01c1a554bb73&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/1/sampling-08.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;739182c14d0c1cfd40c7463c6a18196d276c6324afbef898fcdf44a7cfa6c613&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;c94c3498a32b95f27e89f442a9f97a1877d8ae53ca3aeb1395bd4e42b3e6dbee&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/1/sampling-09.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;0716c927c62428960e7384638c09886370997a77df943033dc8dcd6fd2ed8ab1&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;32d2a1a82cd953c2f154a6dce5a459ab53272e6cf461819bfe4ac1f1ace1dc81&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/1/sampling-10.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;bcbcbfc6c5a8f9625c823cc36c46babc665cd7c33c08420727ece9daad7ffbdb&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;85d68d8181d2c6ba8a6c648c82481fd9c894c29453253c87c62a3ab52d7e028a&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/1/sampling-11.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;804f381538b7b105a8987fa5e91486b5aa1e161f568462f85f5b78ebf0a9da17&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;ce784ecdd8ae193c4f6955649cd35389b1a326a6aa561d3992187b8b348e9d5a&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/1/sampling-12.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;98ef8a4d5e236f66290fb5d6bdf22254d8aa423baf51ad4f4a3c56009a161d2c&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;7dc832b0d5be8ec58f4745ef826ad54d7e42275c7b072e0afbe6a6ccc7841213&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/1/sampling-13.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;6c5cbe2375e42b582a41de5b736fbaacc466ae21dde9c8cfa83f482d55c95931&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;3ad0ef6d06c0f7a9b4508cc4a84b5daa8615ab5d26437bfa9d9f308de23c494a&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/1/sampling-14.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;30533a60c95bce1734bfaba0f4fc78e89677517180ee2f90997b6d25db77f59b&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;76f56bb2f1f1e269b14390ddaaf4c7011a6e7f91dcf92011b5941798b1074396&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/1/sampling-15.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;4e0148e366ef94730513b7aff51748c33b3a13c4e2b78ed874660e791a8dbdf4&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;c1a950cbd19475c8d048125b75094f8aedf3f0e009c455b35e90f2c4d79643d4&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/1/sampling-16.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;7920ba0247aed7aaf2c1863a434a13ba606e27eeacc3bb956eb37315d435b3f6&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;2f439a4178aee5064161aea33f5f17f756adb8f67834b1e4e82c74645fd46473&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/1/sampling-17.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;bebfad96c5f9c97784f0fe6aebf1d22a40ebb6ba6297140020da351947ebb3ec&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;a5be924dfe26c57dfc6eef81b69b5800279b3be9b29fc0afabc80bedbb2bbc29&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/1/sampling-18.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;01e273006ef5f3fbf28a3d3ba257a40021981a011108550201fe1ea3a6b7131a&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;81b08f1d90806a410e44171916123ec829e586fbf64c3acf43f122272c7c26d6&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/1/sampling-19.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;d526d3b6ed10637b9850e137782632b03fb4d06711df1b6120249b9c7b99b351&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;2770b2949edf941a9657d558624d0d6dce516756e0dfc7d9d6169e558ee1ac76&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/2/sampling-01.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;86e2122ac6efc5a4ebeccc5c4319b012f2ebeebee40d61fc4aec54db5e639f32&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;4042e76f1b94920d389f34fc16bd2695a1785fa41697614e3170a9263a3a5e60&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/2/sampling-02.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;ac1d882062121d0483fcc04af626e8ba52b91f155b643612282228ebb66361a9&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;e4003a69bd8d6901f1a5d6b4f792d403b45a40637aef831a845e572956ecaf27&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/2/sampling-03.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;184d316aef408e1ac03cc93c3b7ac882c80aa1603e2f19cc47597af7d6eab408&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;7230ed59e4a9b857c63c26014666a1fee9ae78f4d7e8f105519129f56f33d22e&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/2/sampling-04.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;569bf1e02118b7bc62ccb8d40b8a8942118f92467218db554da7cb7c5353bf70&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;ed4fc8b0a091dee1cbbed4c89accbf64ed6b017d28d28a53f5b282d122c270cc&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/2/sampling-05.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;26f952e6c13f538c4eaeba854b33d391bd3b545fb2ac425eecd316e81a7cbc5f&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;2efd48617534f55e9ce51a50f61e22b791c11f113e3f89e902780434e773d968&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/2/sampling-06.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;7e0a578be5cce3d93b83b74ca3948350e41fb081d780ac19013516d32ae141ed&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;09ad9c1d4def8234ce6ed6da0139fa371ac97bfef236eb395e93e21837513eab&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/2/sampling-07.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;4b52138bc2acadf1e9df575dfa20bf51588a8cd78362a9e8f245536871fceafd&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;7cf693999873aacf8683d69fcbc9bf408d657a8d814e5d0a9674ea1c3ac732d1&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/2/sampling-08.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;4d3abad97e9b123b5b5094ae822b1864ab057cb3120543e4fe4e9e82ea92da87&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;9e0955e7a707ede56947447146474c9300299489c51fb88e9353f5e138ef5a20&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/2/sampling-09.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;2d96ce3d12162b418ef12a0bc0b809bdd693cbec8c4174ff805fbb6606a87ea9&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;574b2dcc50ce45e654cc879cddb5aaaed4d0efa0751d01091f1e325c71211c5f&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/2/sampling-10.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;89ac4eff0bcf6ee9692e026cfaf2436a5e6ca6666464d1094604b00c6feacf60&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;67c31f2a26b801fb23ea37be31edf3ce1cc41235d2e34a13f6464cf6b45d8d70&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/2/sampling-11.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;812fb41cfc91d364b726ef1d6fd853a487f037a9c13828b30c0d3371c7e623a0&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;e070ab039346424d06fb2475aa1290637df46a8840d27a8abe5e3f83057a1b8c&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/2/sampling-12.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;3daa5d5e68e87b906364967fdaa83a7c32047d09316ef812c2728e73b5f5c9a0&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;73b110eb6b998ce5e8069354bf42600b7be9ffd1730f14cf52cadc216e90bd83&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/2/sampling-13.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;ce777959364472b0d2ef2c3a7554d68396f6d9fd955180467a2707e2622039a6&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;37b9d868d55a9f03adb8222160061a50542930467bf6a1f8fe26ca933835727d&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/2/sampling-14.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;ffa9cd3442417e03020b4f5dd37ddf83c33c9cd9419d5813cf7de6786db0f582&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;4fe9007118c40017c72f71b1990bb252a08d596b423274401d457d55d5e66f99&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/2/sampling-15.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;05f382d8094899b630077981f9de2e68146ea73a2bb901e685067d591f47aae6&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;170d96d06c2ee7178caa208f225ec73bec8fa5bd8242a5bbfcfba844a83490bf&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/2/sampling-16.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;270f9899e04a01b9522c595278a1b1efee001c426f9c1c19a250037ded4ba6cb&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;025ed6ef31ad60319eeb6e0bf49942e9c184db5c1c4d68ae1f49bfd5751426c9&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/2/sampling-17.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;f3cc8a497dcf17a16d6f9597734b012925ba81c13ca4a944ed566a43991d8eb0&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;a539e260dd329a5bc1acb7cf234112c6304778c5516cb79e7e143957341770d2&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/2/sampling-18.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;3785cd343caa63d30902cef4c7441707530e739d45d010bc41856351dedacd21&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;8b486ed7913f62a1617ffeaf12f5ba703fc79560e8a22fea71c4db278f565809&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;sampling/2/sampling-19.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;356f628fdff32c44b839fc99d48b8ccc06a39b81346fa3c2c745058d4600bf63&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;536b0ae70eee9f8029caa895f309098857b4d3106574c1eebfbd43dfcb4faaa6&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;solve/0/solver.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;2fddd9d04768fc31021ba5460448c74cbd9d9c6988fce0940ae766021c979fd1&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;d9158bc2f39f827c445c102806c047d4c299c14dc9932f1a03432b1a3620e82f&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;solve/1/solver.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;328ec781b364d25116cbec205895744ddb4b7339196c20dabc093bdb1c4aeed4&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;d3780ddaec6d9c0bb45c356ea28aea5193489b796294d0c5dc22c9e60ebc4c15&quot;&#10;      },&#10;      {&#10;        &quot;file&quot;: &quot;solve/2/solver.log&quot;,&#10;        &quot;reference_sha256&quot;: &quot;187a89947d1ea4a6cafda580125529ca65e8588c0206a86bda9c7f5576be8e90&quot;,&#10;        &quot;resumed_sha256&quot;: &quot;423381ed64706627cc544da89e3e1908c7409be1156b872acc1476a81e00d78e&quot;&#10;      }&#10;    ]&#10;  }&#10;assert not [{'file': 'sampling/0/samples.npz', 'changed_array_entries': {'optima': 408}, 'reference_sha256': '1375e601793e5e6a0b5...d8931133759f20c6f2c5cc885', 'resumed_sha256': '1360f970448d8e65a764d1a8e0f40db8203053bf3ca0b90057483b7f12fe084e'}, ...]">phase = 'solve'
+tmp_path = WindowsPath('<HOME>/AppData/Local/Temp/pytest-of-<USER>/pytest-27/test_T37_hard_kill_and_resume_0')
+
+    @pytest.mark.parametrize('phase', ['solve', 'file-write'])
+    def test_T37_hard_kill_and_resume(phase, tmp_path):
+        reference, interrupted = tmp_path/'reference', tmp_path/'interrupted'
+        process, stream = driver(reference, tmp_path/'reference.log')
+        try:
+            assert process.wait(timeout=3600) == 0, (tmp_path/'reference.log').read_text(encoding='utf-8')
+        finally:
+            if process.poll() is None:
+                process.kill(); process.wait()
+            stream.close()
+        marker = tmp_path/'ready.json'
+        env = dict(os.environ, CERTMORSE_TEST_PAUSE_PHASE=phase, CERTMORSE_TEST_PAUSE_SEED='1', CERTMORSE_TEST_READY=str(marker))
+        process, stream = driver(interrupted, tmp_path/'killed.log', env)
+        try:
+            deadline = time.monotonic()+3600
+            while not marker.exists() and process.poll() is None and time.monotonic() &lt; deadline:
+                time.sleep(.05)
+            assert marker.exists(), (tmp_path/'killed.log').read_text(encoding='utf-8')
+            # subprocess.kill uses TerminateProcess on Windows: no signal handler,
+            # no cleanup, no opportunity to write a completion marker.
+            process.kill(); process.wait(timeout=60)
+        finally:
+            if process.poll() is None:
+                process.kill(); process.wait()
+            stream.close()
+        first = next(p for p in (interrupted/'solve').iterdir()
+                     if json.loads((p/'.tmp/config.json' if (p/'.tmp/config.json').exists() else p/'config.json').read_text(encoding='utf-8'))['configuration']['seed'] == 0)
+        second = next(p for p in (interrupted/'solve').iterdir() if p != first)
+        first_files = {p.name: p.read_bytes() for p in first.iterdir() if p.is_file()}
+        second_start = json.loads((second/'status.json').read_text(encoding='utf-8'))['started_at']
+        assert complete_unit(first) and not complete_unit(second)
+        assert (second/'.tmp').is_dir()
+        process, stream = driver(interrupted, tmp_path/'resumed.log')
+        try:
+            assert process.wait(timeout=3600) == 0, (tmp_path/'resumed.log').read_text(encoding='utf-8')
+        finally:
+            if process.poll() is None:
+                process.kill(); process.wait()
+            stream.close()
+        assert first_files == {p.name: p.read_bytes() for p in first.iterdir() if p.is_file()}
+        assert complete_unit(second)
+        assert json.loads((second/'status.json').read_text(encoding='utf-8'))['started_at'] != second_start
+        differences = compare_runs(reference, interrupted)
+        report = dict(phase=phase, grid_m=4, instance='R8a', band_mode='oracle', seeds=[0, 1, 2], threads=8,
+                      solve_cap_s=600, sampling_cap_s=300, max_optima=20, first_band_preserved=True,
+                      second_band_restarted=True, reference=str(reference), resumed=str(interrupted), differences=differences)
+        target = ROOT/f'docs/T37-{phase}-v1.8.4.json'
+        target.write_text(json.dumps(report, indent=2)+'\n', encoding='utf-8', newline='\n')
+&gt;       assert not differences, json.dumps(report, indent=2)
+E       AssertionError: {
+E           "phase": "solve",
+E           "grid_m": 4,
+E           "instance": "R8a",
+E           "band_mode": "oracle",
+E           "seeds": [
+E             0,
+E             1,
+E             2
+E           ],
+E           "threads": 8,
+E           "solve_cap_s": 600,
+E           "sampling_cap_s": 300,
+E           "max_optima": 20,
+E           "first_band_preserved": true,
+E           "second_band_restarted": true,
+E           "reference": "<HOME>\\AppData\\Local\\Temp\\pytest-of-<USER>\\pytest-27\\test_T37_hard_kill_and_resume_0\\reference",
+E           "resumed": "<HOME>\\AppData\\Local\\Temp\\pytest-of-<USER>\\pytest-27\\test_T37_hard_kill_and_resume_0\\interrupted",
+E           "differences": [
+E             {
+E               "file": "sampling/0/samples.npz",
+E               "changed_array_entries": {
+E                 "optima": 408
+E               },
+E               "reference_sha256": "1375e601793e5e6a0b5c099dca742d77ff004f2ef4b8244154726b216756db2b",
+E               "resumed_sha256": "431ee726002d33f4e65bb30f22b3fbafab78e156377706c4bcaa3348d772a3c5"
+E             },
+E             {
+E               "file": "sampling/1/samples.npz",
+E               "changed_array_entries": {
+E                 "optima": 226
+E               },
+E               "reference_sha256": "84edcbc8b95b5011bd0345b009ae36b0223e6d3ff3b8a2400d6905cef0336b31",
+E               "resumed_sha256": "02df14781b6b23038cc33b6160dfc1ce46da3af65420dc503fc3e09de588664d"
+E             },
+E             {
+E               "file": "sampling/2/samples.npz",
+E               "changed_array_entries": {
+E                 "optima": 356
+E               },
+E               "reference_sha256": "3f13f15acbb3709a418671fc4f6176dd8dd009046b030a5530f5dcd742c7b939",
+E               "resumed_sha256": "627b16d002c42c84075f093907a9b2a659a36bfd97001f7a15be5010c0b00113"
+E             },
+E             {
+E               "file": "sampling/0/sampling-01.log",
+E               "reference_sha256": "d6b36e45ec80bdfbdda48b251e4238a57fb7682834f30a7ceae790cb6e66d936",
+E               "resumed_sha256": "09c074f7bd15e467750199e53684bfc3e20d8cfae4e75071f0d9c652fa0746ef"
+E             },
+E             {
+E               "file": "sampling/0/sampling-02.log",
+E               "reference_sha256": "315bc45568d1428c7fc6be86be1f76f2801e0e0eefb38f5edc5ba5cb50218c8f",
+E               "resumed_sha256": "92e9d913933f0f5ef7def780e385cf7b25617daf63df930dcb08311d6c7089af"
+E             },
+E             {
+E               "file": "sampling/0/sampling-03.log",
+E               "reference_sha256": "badfca747e759d3e65b1fb1816311277554e8d9d8931133759f20c6f2c5cc885",
+E               "resumed_sha256": "1360f970448d8e65a764d1a8e0f40db8203053bf3ca0b90057483b7f12fe084e"
+E             },
+E             {
+E               "file": "sampling/0/sampling-04.log",
+E               "reference_sha256": "803c5280a99607516392318caf92caba17ba0346afb68160c864f006aeac96fd",
+E               "resumed_sha256": "28bca1a7dac21f7f1106a278d992bee61b0a5b85306b5b41518c2c61f2c9b1d2"
+E             },
+E             {
+E               "file": "sampling/0/sampling-05.log",
+E               "reference_sha256": "1cbe4d43de005c2aa4de965f258d8b5ebd8d0eff6b279c85f6a7ea6082a03531",
+E               "resumed_sha256": "ccbc7367ef9edfc4e4fbe31b7d7baa1fbc0ac8d0bf778e23c5313dcac8f12b77"
+E             },
+E             {
+E               "file": "sampling/0/sampling-06.log",
+E               "reference_sha256": "5a54e77114abf4d8cb31fd54a998d810cc7e8ab70a26cff4c8974823abdcd50e",
+E               "resumed_sha256": "2ae8b6f62302a287d06ee7c2e7b7ab31f1f4026dfe3f0630c311368f55835166"
+E             },
+E             {
+E               "file": "sampling/0/sampling-07.log",
+E               "reference_sha256": "6bf0e84d0b56039d3b5b05ea6aac49d31cd9fed3b7860d72cdabee95ccec11e6",
+E               "resumed_sha256": "e66ecb9da16bc0f209c1c5af7ed0975e849e4070404a8fb8045d568cff5445ae"
+E             },
+E             {
+E               "file": "sampling/0/sampling-08.log",
+E               "reference_sha256": "fd8faa476d57028af848e9f1a6a34174c9048b28b9fa250034a9d50109a54552",
+E               "resumed_sha256": "a4ecc2b984043cf69f259546dff053ad0c1ec7d48dadb91b8bb575d97b9403aa"
+E             },
+E             {
+E               "file": "sampling/0/sampling-09.log",
+E               "reference_sha256": "36c78b20ddca8d5a8ebcf79b595bf0d0d0de7bedb8cd7e13cf9e2ae5e70dc994",
+E               "resumed_sha256": "54c87c05444cab2000b2753d2e5fa8e53d3e3a620b23700e1b3592dd737f8676"
+E             },
+E             {
+E               "file": "sampling/0/sampling-10.log",
+E               "reference_sha256": "6577cb66c14e13c0e494e167c2119730d664ee3d928e217fb390accce011a0bd",
+E               "resumed_sha256": "274617e3e6210f9237da19e114da62b9754c1f33c35e1105c810016ec3b8b0bc"
+E             },
+E             {
+E               "file": "sampling/0/sampling-11.log",
+E               "reference_sha256": "591d747fad5b437cb09716d282a2e8f1209090cc70185ffafbba68112bb76969",
+E               "resumed_sha256": "d2e6e2568728ffa9b52b8921409346200bc5a5faba2e7396bcfb38388efcba20"
+E             },
+E             {
+E               "file": "sampling/0/sampling-12.log",
+E               "reference_sha256": "7645b9a77c9b60c0af6cba539dc78ea77511e7329f3272555312d3476dbe6b5b",
+E               "resumed_sha256": "896ff0ee2257d2156cdc8c8974ab0e949f14eeac2ec1313ec362b1694d1124d1"
+E             },
+E             {
+E               "file": "sampling/0/sampling-13.log",
+E               "reference_sha256": "7f36812e045fce12c93f502e0336194f103bdb844234c0bce06bdfd64951f4b2",
+E               "resumed_sha256": "43cab287ef21bb1619d6042c794f7d7626372a98e4ad7389dc9dccb90122c7ed"
+E             },
+E             {
+E               "file": "sampling/0/sampling-14.log",
+E               "reference_sha256": "1af5fd6b1ae13157fa34a070bc270f997ec652fece990b299bd64c44a744387f",
+E               "resumed_sha256": "bcea899df2491f0eb0b14bac883b28cf923c287171ed3689411edaff135e8bd1"
+E             },
+E             {
+E               "file": "sampling/0/sampling-15.log",
+E               "reference_sha256": "58a5ee62b323ee2669ebea1b0b31d08a85117398f5c227d62d59f601e100b082",
+E               "resumed_sha256": "b52cfcc77c4a6f35adad885bebaa6e04341be893d464b49d2a6fc43cbb12b17f"
+E             },
+E             {
+E               "file": "sampling/0/sampling-16.log",
+E               "reference_sha256": "5150578de1c46d0e43dd3a29bcf20a0fd7b6b83063fd6734a4ba633eb7276c9d",
+E               "resumed_sha256": "ad0c9ef9c20bf6580b80115c0b0f5d1acc08ba50895cebf46fa44df1a9495540"
+E             },
+E             {
+E               "file": "sampling/0/sampling-17.log",
+E               "reference_sha256": "7e9dd2178f6e7df39bf42fa6025d3566a41f4069268b825a2b88436dd0c9d75d",
+E               "resumed_sha256": "c84fee4900fdd5089a0a58783d95fb7bc0081d62d498ed1e914aff211b256133"
+E             },
+E             {
+E               "file": "sampling/0/sampling-18.log",
+E               "reference_sha256": "f8b829ff48aef0b8b0837b7a723fa9580fbfba1ce52115ba9e491dc77624c0a4",
+E               "resumed_sha256": "a4143faca5bb0a203e8131aefd9f9d023b47a1ff2848794e82b0d02f7d6bb369"
+E             },
+E             {
+E               "file": "sampling/0/sampling-19.log",
+E               "reference_sha256": "6d4b32ec21bee372dcee831731979261e4829d0647c9265a15d0de5ba1201adf",
+E               "resumed_sha256": "6e43b9b2abfcb48db31942d75902f0078db4592d3f98c4417b4eebc2c468a1bd"
+E             },
+E             {
+E               "file": "sampling/1/sampling-01.log",
+E               "reference_sha256": "3e3329f7adc088d3249d79d5611a165020b01de4d8bfed43534c6741a91eeb71",
+E               "resumed_sha256": "19d0d978f6553d77d213982658fe454b5777176a67157a653fe6312ac5d915a4"
+E             },
+E             {
+E               "file": "sampling/1/sampling-02.log",
+E               "reference_sha256": "ab2146064b6fd4666095bc349ec9d042df77b19ee2c809233f02269bb0aaf0c7",
+E               "resumed_sha256": "e858de14a84f864f308dc7bcfad42f09437fccf569a09a48814e3ade5fd2237f"
+E             },
+E             {
+E               "file": "sampling/1/sampling-03.log",
+E               "reference_sha256": "54053c33667a7ea2381295ecdab9ce19d871a532a7d708dc65b28ba531fa9408",
+E               "resumed_sha256": "17adbce2ecedb3894cff07e39cf4939d74f3f322562b986172cb2bd0a307b650"
+E             },
+E             {
+E               "file": "sampling/1/sampling-04.log",
+E               "reference_sha256": "97c1f319b116cdeaf7fab7033138831e907b79eaf68e176b7be60b735b36e2c4",
+E               "resumed_sha256": "d76512d4c99bbccc1a6c26eda6ea3d603475bc8ddac84d5315d2ef965544fad2"
+E             },
+E             {
+E               "file": "sampling/1/sampling-05.log",
+E               "reference_sha256": "8975a80f0db1905953ee6ce4f2284e36180520129288871019b3df10d7aad94c",
+E               "resumed_sha256": "df5c10f1dbcfe1991da1f344b41752c35c003625578de8c243477c11c3f683cf"
+E             },
+E             {
+E               "file": "sampling/1/sampling-06.log",
+E               "reference_sha256": "4cd88e9448c4daccabe81fb84a78aae98e7d616c6d216a6ae8e8365a6c535edb",
+E               "resumed_sha256": "507c11436ec1e8b5638ceb461664c9b9754aebcfbae04c35cb8f3992cb8bc6c5"
+E             },
+E             {
+E               "file": "sampling/1/sampling-07.log",
+E               "reference_sha256": "1e058486de62aed9ac3a6092d9e3e147489df4edfffe96b935ccf7f40b4e07c1",
+E               "resumed_sha256": "42f7b4e9e6b21bc3c8aeadf6d6d08ac7713b365018787a36a3ee01c1a554bb73"
+E             },
+E             {
+E               "file": "sampling/1/sampling-08.log",
+E               "reference_sha256": "739182c14d0c1cfd40c7463c6a18196d276c6324afbef898fcdf44a7cfa6c613",
+E               "resumed_sha256": "c94c3498a32b95f27e89f442a9f97a1877d8ae53ca3aeb1395bd4e42b3e6dbee"
+E             },
+E             {
+E               "file": "sampling/1/sampling-09.log",
+E               "reference_sha256": "0716c927c62428960e7384638c09886370997a77df943033dc8dcd6fd2ed8ab1",
+E               "resumed_sha256": "32d2a1a82cd953c2f154a6dce5a459ab53272e6cf461819bfe4ac1f1ace1dc81"
+E             },
+E             {
+E               "file": "sampling/1/sampling-10.log",
+E               "reference_sha256": "bcbcbfc6c5a8f9625c823cc36c46babc665cd7c33c08420727ece9daad7ffbdb",
+E               "resumed_sha256": "85d68d8181d2c6ba8a6c648c82481fd9c894c29453253c87c62a3ab52d7e028a"
+E             },
+E             {
+E               "file": "sampling/1/sampling-11.log",
+E               "reference_sha256": "804f381538b7b105a8987fa5e91486b5aa1e161f568462f85f5b78ebf0a9da17",
+E               "resumed_sha256": "ce784ecdd8ae193c4f6955649cd35389b1a326a6aa561d3992187b8b348e9d5a"
+E             },
+E             {
+E               "file": "sampling/1/sampling-12.log",
+E               "reference_sha256": "98ef8a4d5e236f66290fb5d6bdf22254d8aa423baf51ad4f4a3c56009a161d2c",
+E               "resumed_sha256": "7dc832b0d5be8ec58f4745ef826ad54d7e42275c7b072e0afbe6a6ccc7841213"
+E             },
+E             {
+E               "file": "sampling/1/sampling-13.log",
+E               "reference_sha256": "6c5cbe2375e42b582a41de5b736fbaacc466ae21dde9c8cfa83f482d55c95931",
+E               "resumed_sha256": "3ad0ef6d06c0f7a9b4508cc4a84b5daa8615ab5d26437bfa9d9f308de23c494a"
+E             },
+E             {
+E               "file": "sampling/1/sampling-14.log",
+E               "reference_sha256": "30533a60c95bce1734bfaba0f4fc78e89677517180ee2f90997b6d25db77f59b",
+E               "resumed_sha256": "76f56bb2f1f1e269b14390ddaaf4c7011a6e7f91dcf92011b5941798b1074396"
+E             },
+E             {
+E               "file": "sampling/1/sampling-15.log",
+E               "reference_sha256": "4e0148e366ef94730513b7aff51748c33b3a13c4e2b78ed874660e791a8dbdf4",
+E               "resumed_sha256": "c1a950cbd19475c8d048125b75094f8aedf3f0e009c455b35e90f2c4d79643d4"
+E             },
+E             {
+E               "file": "sampling/1/sampling-16.log",
+E               "reference_sha256": "7920ba0247aed7aaf2c1863a434a13ba606e27eeacc3bb956eb37315d435b3f6",
+E               "resumed_sha256": "2f439a4178aee5064161aea33f5f17f756adb8f67834b1e4e82c74645fd46473"
+E             },
+E             {
+E               "file": "sampling/1/sampling-17.log",
+E               "reference_sha256": "bebfad96c5f9c97784f0fe6aebf1d22a40ebb6ba6297140020da351947ebb3ec",
+E               "resumed_sha256": "a5be924dfe26c57dfc6eef81b69b5800279b3be9b29fc0afabc80bedbb2bbc29"
+E             },
+E             {
+E               "file": "sampling/1/sampling-18.log",
+E               "reference_sha256": "01e273006ef5f3fbf28a3d3ba257a40021981a011108550201fe1ea3a6b7131a",
+E               "resumed_sha256": "81b08f1d90806a410e44171916123ec829e586fbf64c3acf43f122272c7c26d6"
+E             },
+E             {
+E               "file": "sampling/1/sampling-19.log",
+E               "reference_sha256": "d526d3b6ed10637b9850e137782632b03fb4d06711df1b6120249b9c7b99b351",
+E               "resumed_sha256": "2770b2949edf941a9657d558624d0d6dce516756e0dfc7d9d6169e558ee1ac76"
+E             },
+E             {
+E               "file": "sampling/2/sampling-01.log",
+E               "reference_sha256": "86e2122ac6efc5a4ebeccc5c4319b012f2ebeebee40d61fc4aec54db5e639f32",
+E               "resumed_sha256": "4042e76f1b94920d389f34fc16bd2695a1785fa41697614e3170a9263a3a5e60"
+E             },
+E             {
+E               "file": "sampling/2/sampling-02.log",
+E               "reference_sha256": "ac1d882062121d0483fcc04af626e8ba52b91f155b643612282228ebb66361a9",
+E               "resumed_sha256": "e4003a69bd8d6901f1a5d6b4f792d403b45a40637aef831a845e572956ecaf27"
+E             },
+E             {
+E               "file": "sampling/2/sampling-03.log",
+E               "reference_sha256": "184d316aef408e1ac03cc93c3b7ac882c80aa1603e2f19cc47597af7d6eab408",
+E               "resumed_sha256": "7230ed59e4a9b857c63c26014666a1fee9ae78f4d7e8f105519129f56f33d22e"
+E             },
+E             {
+E               "file": "sampling/2/sampling-04.log",
+E               "reference_sha256": "569bf1e02118b7bc62ccb8d40b8a8942118f92467218db554da7cb7c5353bf70",
+E               "resumed_sha256": "ed4fc8b0a091dee1cbbed4c89accbf64ed6b017d28d28a53f5b282d122c270cc"
+E             },
+E             {
+E               "file": "sampling/2/sampling-05.log",
+E               "reference_sha256": "26f952e6c13f538c4eaeba854b33d391bd3b545fb2ac425eecd316e81a7cbc5f",
+E               "resumed_sha256": "2efd48617534f55e9ce51a50f61e22b791c11f113e3f89e902780434e773d968"
+E             },
+E             {
+E               "file": "sampling/2/sampling-06.log",
+E               "reference_sha256": "7e0a578be5cce3d93b83b74ca3948350e41fb081d780ac19013516d32ae141ed",
+E               "resumed_sha256": "09ad9c1d4def8234ce6ed6da0139fa371ac97bfef236eb395e93e21837513eab"
+E             },
+E             {
+E               "file": "sampling/2/sampling-07.log",
+E               "reference_sha256": "4b52138bc2acadf1e9df575dfa20bf51588a8cd78362a9e8f245536871fceafd",
+E               "resumed_sha256": "7cf693999873aacf8683d69fcbc9bf408d657a8d814e5d0a9674ea1c3ac732d1"
+E             },
+E             {
+E               "file": "sampling/2/sampling-08.log",
+E               "reference_sha256": "4d3abad97e9b123b5b5094ae822b1864ab057cb3120543e4fe4e9e82ea92da87",
+E               "resumed_sha256": "9e0955e7a707ede56947447146474c9300299489c51fb88e9353f5e138ef5a20"
+E             },
+E             {
+E               "file": "sampling/2/sampling-09.log",
+E               "reference_sha256": "2d96ce3d12162b418ef12a0bc0b809bdd693cbec8c4174ff805fbb6606a87ea9",
+E               "resumed_sha256": "574b2dcc50ce45e654cc879cddb5aaaed4d0efa0751d01091f1e325c71211c5f"
+E             },
+E             {
+E               "file": "sampling/2/sampling-10.log",
+E               "reference_sha256": "89ac4eff0bcf6ee9692e026cfaf2436a5e6ca6666464d1094604b00c6feacf60",
+E               "resumed_sha256": "67c31f2a26b801fb23ea37be31edf3ce1cc41235d2e34a13f6464cf6b45d8d70"
+E             },
+E             {
+E               "file": "sampling/2/sampling-11.log",
+E               "reference_sha256": "812fb41cfc91d364b726ef1d6fd853a487f037a9c13828b30c0d3371c7e623a0",
+E               "resumed_sha256": "e070ab039346424d06fb2475aa1290637df46a8840d27a8abe5e3f83057a1b8c"
+E             },
+E             {
+E               "file": "sampling/2/sampling-12.log",
+E               "reference_sha256": "3daa5d5e68e87b906364967fdaa83a7c32047d09316ef812c2728e73b5f5c9a0",
+E               "resumed_sha256": "73b110eb6b998ce5e8069354bf42600b7be9ffd1730f14cf52cadc216e90bd83"
+E             },
+E             {
+E               "file": "sampling/2/sampling-13.log",
+E               "reference_sha256": "ce777959364472b0d2ef2c3a7554d68396f6d9fd955180467a2707e2622039a6",
+E               "resumed_sha256": "37b9d868d55a9f03adb8222160061a50542930467bf6a1f8fe26ca933835727d"
+E             },
+E             {
+E               "file": "sampling/2/sampling-14.log",
+E               "reference_sha256": "ffa9cd3442417e03020b4f5dd37ddf83c33c9cd9419d5813cf7de6786db0f582",
+E               "resumed_sha256": "4fe9007118c40017c72f71b1990bb252a08d596b423274401d457d55d5e66f99"
+E             },
+E             {
+E               "file": "sampling/2/sampling-15.log",
+E               "reference_sha256": "05f382d8094899b630077981f9de2e68146ea73a2bb901e685067d591f47aae6",
+E               "resumed_sha256": "170d96d06c2ee7178caa208f225ec73bec8fa5bd8242a5bbfcfba844a83490bf"
+E             },
+E             {
+E               "file": "sampling/2/sampling-16.log",
+E               "reference_sha256": "270f9899e04a01b9522c595278a1b1efee001c426f9c1c19a250037ded4ba6cb",
+E               "resumed_sha256": "025ed6ef31ad60319eeb6e0bf49942e9c184db5c1c4d68ae1f49bfd5751426c9"
+E             },
+E             {
+E               "file": "sampling/2/sampling-17.log",
+E               "reference_sha256": "f3cc8a497dcf17a16d6f9597734b012925ba81c13ca4a944ed566a43991d8eb0",
+E               "resumed_sha256": "a539e260dd329a5bc1acb7cf234112c6304778c5516cb79e7e143957341770d2"
+E             },
+E             {
+E               "file": "sampling/2/sampling-18.log",
+E               "reference_sha256": "3785cd343caa63d30902cef4c7441707530e739d45d010bc41856351dedacd21",
+E               "resumed_sha256": "8b486ed7913f62a1617ffeaf12f5ba703fc79560e8a22fea71c4db278f565809"
+E             },
+E             {
+E               "file": "sampling/2/sampling-19.log",
+E               "reference_sha256": "356f628fdff32c44b839fc99d48b8ccc06a39b81346fa3c2c745058d4600bf63",
+E               "resumed_sha256": "536b0ae70eee9f8029caa895f309098857b4d3106574c1eebfbd43dfcb4faaa6"
+E             },
+E             {
+E               "file": "solve/0/solver.log",
+E               "reference_sha256": "2fddd9d04768fc31021ba5460448c74cbd9d9c6988fce0940ae766021c979fd1",
+E               "resumed_sha256": "d9158bc2f39f827c445c102806c047d4c299c14dc9932f1a03432b1a3620e82f"
+E             },
+E             {
+E               "file": "solve/1/solver.log",
+E               "reference_sha256": "328ec781b364d25116cbec205895744ddb4b7339196c20dabc093bdb1c4aeed4",
+E               "resumed_sha256": "d3780ddaec6d9c0bb45c356ea28aea5193489b796294d0c5dc22c9e60ebc4c15"
+E             },
+E             {
+E               "file": "solve/2/solver.log",
+E               "reference_sha256": "187a89947d1ea4a6cafda580125529ca65e8588c0206a86bda9c7f5576be8e90",
+E               "resumed_sha256": "423381ed64706627cc544da89e3e1908c7409be1156b872acc1476a81e00d78e"
+E             }
+E           ]
+E         }
+E       assert not [{'file': 'sampling/0/samples.npz', 'changed_array_entries': {'optima': 408}, 'reference_sha256': '1375e601793e5e6a0b5...d8931133759f20c6f2c5cc885', 'resumed_sha256': '1360f970448d8e65a764d1a8e0f40db8203053bf3ca0b90057483b7f12fe084e'}, ...]
+
+tests\test_units.py:195: AssertionError</failure></testcase></testsuite></testsuites>

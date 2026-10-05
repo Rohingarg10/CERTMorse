@@ -67,7 +67,7 @@ def test_T32_narrow_R8a_sampled_optima(tmp_path):
     for sample in samples:
         P,possible=basin_probability(sample.y,field,inst.W,cx,lower,upper)
         assert P==1 and P<=possible
-    target=Path('results/stage1-v1.8.3-tests/T32');target.mkdir(parents=True,exist_ok=True)
+    target=tmp_path/'T32';target.mkdir(parents=True,exist_ok=True)
     (target/'narrow-sampling.json').write_text(json.dumps(dict(status=status,optima=len(samples),P=1)),encoding='utf-8', newline='\n')
 
 

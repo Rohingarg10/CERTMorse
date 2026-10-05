@@ -31,6 +31,15 @@ INSTANCES = ('R8a','E8a','W8a')  # v1.8 Stage 1 scope.
 
 def run():
     saved=Path('docs/multiplicity-completion-v1.8.3.json')
+    if saved.exists():
+        report=json.loads(saved.read_text(encoding='utf-8'))
+        assert all(report['instances'][name]['sampled_bands']==10 for name in INSTANCES)
+        return report
+    raise RuntimeError('completed v1.8.3 sampling is read-only; use separate v1.8.4 sampling units')
+
+
+def historical_run():
+    saved=Path('docs/multiplicity-completion-v1.8.3.json')
     previous=json.loads(saved.read_text(encoding='utf8')) if saved.exists() else {}
     if previous.get('source_digest')!=source_digest(): previous={}
     report=dict(source_digest=source_digest(),selection='first ten OPTIMAL bands in seed order',

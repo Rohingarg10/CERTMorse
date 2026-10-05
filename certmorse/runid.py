@@ -47,6 +47,8 @@ def prepare_run(cfg,root='results',resume=False):
     root=Path(root).resolve()
     target=(root/cfg['experiment']/run_id(cfg)).resolve()
     if not target.is_relative_to(root): raise ValueError('run path escapes results directory')
+    if root==Path('results').resolve() and any('v1.8.3' in part for part in target.parts):
+        raise ValueError('v1.8.3 results are read-only; use the restartable v1.8.4 units')
     if target.exists():
         status=target/'status.json'
         complete=status.exists() and json.loads(status.read_text(encoding='utf8')).get('complete') is True

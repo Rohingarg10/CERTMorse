@@ -18,6 +18,15 @@ def wilson(k,n):
 
 
 def run(total=2000,seed_start=10000):
+    saved=Path('docs/coverage-study-v1.8.3.json')
+    if saved.exists():
+        report=json.loads(saved.read_text(encoding='utf-8'))
+        if report['total']==total and report['seed_start']==seed_start:
+            return report
+    raise RuntimeError('the completed calibration is read-only; new coverage must use blocks of at most 100 seeds')
+
+
+def historical_run(total=2000,seed_start=10000):
     inst=load_instance('R8a');truth,var,probs=exact_landscape(inst,16,'a',1003)
     modes=['oracle','hoeffding'];covered={m:[] for m in modes}
     failures={m:np.zeros((16,16),dtype=np.int64) for m in modes}

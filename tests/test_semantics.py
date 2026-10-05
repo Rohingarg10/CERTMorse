@@ -8,6 +8,7 @@ from certmorse.forman import witness, witness_range, NegativeCycle, is_discrete_
 from certmorse.scaling import choose_scale, model_band, cell_band
 from certmorse.mip import build_A, solve, solve_B_lazy
 from certmorse.mip.cuts import cycle_pairs, cycle_cut, band_cut, satisfied
+from tempfile import TemporaryDirectory
 
 
 def make_bounds(g, cx, width=.1):
@@ -59,7 +60,8 @@ def test_T14_witness_iff_fixed_A(seed):
     x = witness(a, b, lo, hi, cx)
     model = build_A(lo, hi, cx)
     model.fixed_y = dict(enumerate(y))
-    r = solve(model, 'cpsat', 5, 8, None, 'results/stage1-v1.8.3-tests/fixed-A.log')
+    with TemporaryDirectory(prefix='certmorse-T14-') as output:
+        r = solve(model, 'cpsat', 5, 8, None, output+'/fixed-A.log')
     assert r.status in ('OPTIMAL', 'INFEASIBLE')
     assert (r.status == 'OPTIMAL') == (not isinstance(x, NegativeCycle))
 
@@ -95,7 +97,7 @@ def test_T28_100_matchings_against_independent_LP():
     assert feasible >= 40 and infeasible >= 40
 
 
-def test_T20_signed_cut_preserves_feasible_matchings():
+def test_T20_signed_cut_preserves_feasible_matchings(tmp_path):
     rng = np.random.default_rng(1020)
     cx = TorusComplex(4)
     families = set()
@@ -116,13 +118,13 @@ def test_T20_signed_cut_preserves_feasible_matchings():
                 else:
                     feasible.append(y)
         assert feasible
-        optimum=solve(build_A(lo,hi,cx),'cpsat',5,8,None,'results/stage1-v1.8.3-tests/cut-optimum.log')
+        optimum=solve(build_A(lo,hi,cx),'cpsat',5,8,None,str(tmp_path/'cut-optimum.log'))
         assert optimum.status=='OPTIMAL'
         feasible.append(optimum.y)
         def check_generated(family,cut,rejected):
             if rejected is not None: assert not satisfied(cut,rejected)
             assert all(satisfied(cut,y) for y in feasible)
-        solve_B_lazy(cx,lo,hi,'cpsat',1,8,None,'results/stage1-v1.8.3-tests/cut-lazy.log',cut_callback=check_generated)
+        solve_B_lazy(cx,lo,hi,'cpsat',1,8,None,str(tmp_path/'cut-lazy.log'),cut_callback=check_generated)
         assert all(satisfied(cut, y) for cut in cuts for y in feasible)
     assert families == {'cycle','band'}
 

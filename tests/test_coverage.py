@@ -6,7 +6,7 @@ from certmorse.instances import load_instance, cost_values
 from certmorse.landscape import exact_landscape, sample_landscape, make_band
 
 
-def test_T3_oracle_200_seeds():
+def test_T3_oracle_200_seeds(tmp_path):
     inst=load_instance('R8a')
     truth,var,probs=exact_landscape(inst,16,'a',1003)
     z=float(ndtri(1-.05/(2*256)))
@@ -19,6 +19,6 @@ def test_T3_oracle_200_seeds():
         np.testing.assert_allclose(lo,np.maximum(mean-half,-inst.W),atol=1e-12)
         np.testing.assert_allclose(hi,np.minimum(mean+half,0),atol=1e-12)
     report=dict(seeds=list(range(200)),coverage=float(np.mean(flags)),covered=sum(flags),total=200,z=z,formula_verified=True)
-    path=Path('results/stage1-v1.8.3-tests/coverage-recheck.json');path.parent.mkdir(parents=True,exist_ok=True)
+    path=tmp_path/'coverage-recheck.json'
     path.write_text(json.dumps(report,indent=2),encoding='utf-8', newline='\n')
     assert report['coverage']>=.93, report
