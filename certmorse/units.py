@@ -33,9 +33,10 @@ UNIT_SOURCES = {
     'landscape': LANDSCAPE_SOURCES,
     'coverage': LANDSCAPE_SOURCES,
     'scoring': ('certmorse/metrics.py', 'certmorse/complex.py', 'certmorse/forman.py',
-                'certmorse/persistence.py', 'certmorse/resolution.py', 'certmorse/mip/regions.py'),
+                'certmorse/persistence.py', 'certmorse/resolution.py', 'certmorse/mip/regions.py',
+                'certmorse/minima.py', 'certmorse/scoring.py', 'certmorse/legacy_scores.py'),
     'optimizer_batch': LANDSCAPE_SOURCES,
-    'csv_assembly': (),
+    'csv_assembly': ('scripts/rescore-stage1.py',),
 }
 UNIT_TYPES = {
     name: dict(deterministic=name not in ('solve', 'sampling', 'optimizer_batch'), sources=sources)
