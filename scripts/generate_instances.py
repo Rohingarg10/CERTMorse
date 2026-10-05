@@ -16,4 +16,4 @@ for name,n,seed,kind,weighted in definitions:
     data[name]={'n':n,'seed':seed,'edges':[list(e) for e in edges], 'weights':np.random.default_rng(seed).integers(1,4,len(edges)).tolist() if weighted else [1]*len(edges), 'offsets':np.random.default_rng(seed+2000).uniform(-.1,.1,len(edges)).tolist()}
 isomorphic=nx.is_isomorphic(nx.Graph(data['R6a']['edges']),nx.Graph(data['R6b']['edges']))
 Path('configs').mkdir(exist_ok=True)
-Path('configs/instances.yaml').write_text(f'# R6a/R6b isomorphic: {isomorphic}; retained per section 6.1.\n'+yaml.safe_dump(data,sort_keys=False),encoding='utf8')
+Path('configs/instances.yaml').write_text(f'# R6a/R6b isomorphic: {isomorphic}; retained per section 6.1.\n'+yaml.safe_dump(data,sort_keys=False),encoding='utf-8', newline='\n')

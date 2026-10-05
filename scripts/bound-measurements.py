@@ -70,13 +70,13 @@ def run(band='all',resume=False):
                               seed=pilot['seed'],threads=THREADS,hint_count=cx.nc-2*int(hint['y'].sum()),
                               LB_region=None if model.regions is None else model.regions.LB_region)
                 np.savez_compressed(path/'solution.npz',x=result.x,y=result.y,lo=lo,hi=hi,hint_y=hint['y'])
-                (path/'measurement.json').write_text(json.dumps(record,indent=2),encoding='utf8');complete(path)
+                (path/'measurement.json').write_text(json.dumps(record,indent=2),encoding='utf-8', newline='\n');complete(path)
             else: record=json.loads((path/'measurement.json').read_text(encoding='utf8'))
             records[label]=record;print(json.dumps(dict(band=pilot['label'],**record)),flush=True)
         prior=report['bands'].get(pilot['label'],{})
         report['bands'][pilot['label']]=dict(archived=pilot['archived'],methods=records,
                 completed_at=prior.get('completed_at') or datetime.now(timezone.utc).isoformat())
-        destination.write_text(json.dumps(report,indent=2),encoding='utf8')
+        destination.write_text(json.dumps(report,indent=2),encoding='utf-8', newline='\n')
     return report
 
 

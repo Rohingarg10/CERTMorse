@@ -26,7 +26,7 @@ def run(resume=False):
                 result.update(instance=name,grid_m=m,noise='a',run_path=str(path.relative_to(Path.cwd())),
                               **measured_symmetry(inst,'a',1003),**field_diagnostics(field,TorusComplex(m)))
                 np.savez_compressed(path/'field.npz',truth=field,metadata=json.dumps(result))
-                (path/'measurement.json').write_text(json.dumps(result,indent=2),encoding='utf8')
+                (path/'measurement.json').write_text(json.dumps(result,indent=2),encoding='utf-8', newline='\n')
                 complete(path)
             else: result=json.loads((path/'measurement.json').read_text(encoding='utf8'))
             rows.append(result)
@@ -36,7 +36,7 @@ def run(resume=False):
               for name in RESOLUTION_INSTANCES}
     report=dict(specification='v1.8.3',source_digest=source_digest(),rows=rows,
                 smallest_passing_grid=selected,p2_fallback=not any(r['RQ2_informative'] for r in rows))
-    Path('docs/resolution-v1.8.3.json').write_text(json.dumps(report,indent=2),encoding='utf8')
+    Path('docs/resolution-v1.8.3.json').write_text(json.dumps(report,indent=2),encoding='utf-8', newline='\n')
     return report
 
 

@@ -173,5 +173,5 @@ def execute_run(cfg,root='results',resume=False):
     output,needed=prepare_run(cfg,root,resume)
     if needed:
         run(cfg,output)
-        (output/'status.json').write_text(json.dumps({'complete':True,'task':'landscape'}),encoding='utf8')
+        (output/'status.json').write_text(json.dumps({'complete':True,'task':'landscape'}),encoding='utf-8', newline='\n')
     return output

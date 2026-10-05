@@ -152,7 +152,7 @@ available. No spread or agreement measurement is used as a switching criterion.
         intro+=table(['Band','Covered / 2000','Coverage','Wilson 95%','Guarantee'],
                     [[mode,f"{r['covered']}/2000",r['coverage'],r['wilson95'],r['simultaneous_guarantee']]
                      for mode,r in coverage['modes'].items()])+'\n\nSeeds 10000–11999, paired shots on the new R8a grid. Gaussian coverage is\nmeasured and approximate; Hoeffding has the bounded-shot union-bound guarantee.\n[Coverage study](coverage-study-v1.8.3.json).\n'
-    Path('docs/STAGE1.md').write_text(intro,encoding='utf8')
+    Path('docs/STAGE1.md').write_text(intro,encoding='utf-8', newline='\n')
     archived=Path('docs/archive/v1.7/CERTIFICATE.md').read_text(encoding='utf8')
     transfer=archived.split('## Transfer theorem and complete proof\n',1)[1].split('The condition is sufficient',1)[0]
     numerical=archived.split('## Equivalent numerical representation\n',1)[1]
@@ -269,18 +269,18 @@ TTK essential endpoints are decoded with IsFinite.
                 [[label,f"{r['kappa_equals_region']}/{r['optimal_denominator']}",f"{r['region_equals_mandatory']}/20"]
                  for label,r in measurements.items()])+'\n'
     cert+=f'\nRandom-band T31 equality is {t31["equal"]}/{t31["optimal_bands"]}; the count solve can add information beyond the region bound.\n\n## Equivalent numerical representation and TTK starts\n\n'+numerical
-    Path('docs/CERTIFICATE.md').write_text(cert,encoding='utf8')
+    Path('docs/CERTIFICATE.md').write_text(cert,encoding='utf-8', newline='\n')
     hashes={str(path):sha256(path.read_bytes()).hexdigest() for path in
             (Path('docs/STAGE1.md'),Path('docs/CERTIFICATE.md'))}
     gate['checks']['documents']=dict(sha256=hashes,renderer='scripts/report-stage1.py',
                                     renderer_sha256=sha256(Path(__file__).read_bytes()).hexdigest())
     directory=Path(gate['steps'][0]['log']).parent if gate['steps'] else Path('results/stage1-gate-v1.8.3/document-report')
     directory.mkdir(parents=True,exist_ok=True);log=directory/'documents.log'
-    log.write_text(json.dumps(gate['checks']['documents'],indent=2),encoding='utf8')
+    log.write_text(json.dumps(gate['checks']['documents'],indent=2),encoding='utf-8', newline='\n')
     gate['steps'].append(dict(name='documents',command=[sys.executable,'scripts/report-stage1.py'],exit_code=0,
                               wall_s=time.perf_counter()-started,log=str(log)))
     gate['completed_at']=datetime.now(timezone.utc).isoformat()
-    Path('docs/stage1-gate.json').write_text(json.dumps(gate,indent=2),encoding='utf8')
+    Path('docs/stage1-gate.json').write_text(json.dumps(gate,indent=2),encoding='utf-8', newline='\n')
 
 
 if __name__=='__main__': run()

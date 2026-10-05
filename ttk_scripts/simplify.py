@@ -15,4 +15,5 @@ array=data.GetPointData().GetArray('Scalar')
 if array is None or data.GetNumberOfPoints()==0: raise RuntimeError('simplification produced no scalar field')
 order=data.GetPointData().GetArray('Scalar_Order')
 if order is None: raise RuntimeError('simplification lost the Scalar_Order tie ordering')
-np.savetxt(args.out,np.column_stack((vtk_to_numpy(array),vtk_to_numpy(order))),delimiter=',',header='Scalar,Scalar_Order',comments='')
+with open(args.out, 'w', encoding='utf-8', newline='\n') as stream:
+    np.savetxt(stream,np.column_stack((vtk_to_numpy(array),vtk_to_numpy(order))),delimiter=',',header='Scalar,Scalar_Order',comments='')

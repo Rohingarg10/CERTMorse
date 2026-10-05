@@ -58,7 +58,7 @@ def run(grids,resume=False):
                                 'lb_is_certificate','bound','gap','wall_s','cut_iters','cuts_added')}
                         record.update(run_path=str(path.relative_to(Path.cwd())),valid_rows=rows_enabled,LB_region=regions.LB_region)
                         np.savez_compressed(path/'solution.npz',x=result.x,y=result.y,lo=lo,hi=hi,g=g,width=width)
-                        (path/'measurement.json').write_text(json.dumps(record,indent=2),encoding='utf8')
+                        (path/'measurement.json').write_text(json.dumps(record,indent=2),encoding='utf-8', newline='\n')
                         event(path,'agreement',**record);complete(path,solver_status=result.status)
                     else: record=json.loads((path/'measurement.json').read_text(encoding='utf8'))
                     row['methods' if rows_enabled else 'controls'][backend+form]=record
@@ -67,7 +67,7 @@ def run(grids,resume=False):
                                             for method in row['methods'])
             row['all_optimal']=all(r['status']=='OPTIMAL' for family in ['methods','controls'] for r in row[family].values())
             results.append(row)
-            Path('docs/agreement-v1.8.3.json').write_text(json.dumps(results,indent=2),encoding='utf8')
+            Path('docs/agreement-v1.8.3.json').write_text(json.dumps(results,indent=2),encoding='utf-8', newline='\n')
             print(json.dumps(row),flush=True)
             assert row['agree'] and row['rows_preserve_optimum'], 'T33 failed; see saved exact bands and witnesses'
     return results

@@ -89,5 +89,5 @@ def run():
 
 if __name__ == '__main__':
     result = run()
-    Path('docs/multiplicity-verification-v1.8.3.json').write_text(json.dumps(result, indent=2), encoding='utf8')
+    Path('docs/multiplicity-verification-v1.8.3.json').write_text(json.dumps(result, indent=2), encoding='utf-8', newline='\n')
     print(json.dumps(result, indent=2))

@@ -58,5 +58,5 @@ for name in names:
         entry['error']=str(exc)
     except Exception as exc: entry['error']=str(exc)
     report['filters'][name]=entry
-with open(args.out,'w',encoding='utf8') as stream: json.dump(report,stream,indent=2)
+with open(args.out,'w',encoding='utf-8', newline='\n') as stream: json.dump(report,stream,indent=2)
 print(json.dumps(report,indent=2))

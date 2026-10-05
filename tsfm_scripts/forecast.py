@@ -73,7 +73,7 @@ def smoke(output):
                   model_load_s=load_s, batch64_k40_h80_s=times,
                   batch64_median_s=float(np.median(times)))
     Path(output).parent.mkdir(parents=True, exist_ok=True)
-    Path(output).write_text(json.dumps(report, indent=2), encoding='utf8')
+    Path(output).write_text(json.dumps(report, indent=2), encoding='utf-8', newline='\n')
     print(json.dumps(report))
 
 

@@ -34,8 +34,8 @@ def configure(filt):
 
 
 def write_rows(path, fields, rows):
-    with open(path, 'w', newline='', encoding='utf8') as stream:
-        writer = csv.DictWriter(stream, fieldnames=fields)
+    with open(path, 'w', newline='\n', encoding='utf-8') as stream:
+        writer = csv.DictWriter(stream, fieldnames=fields, lineterminator='\n')
         writer.writeheader()
         writer.writerows(rows)
 

@@ -43,4 +43,4 @@ def test_T31_region_bound_on_50_optimal_random_bands():
         np.savez_compressed(output/f'{seed:02d}.npz',lo=lo,hi=hi,y=result.y,x=result.x)
     report=dict(optimal_bands=len(records),valid_rows_used=False,equal=sum(r['equality'] for r in records),
                 equality_rate=sum(r['equality'] for r in records)/len(records),bands=records)
-    Path('docs/T31-v1.8.3.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf8')
+    Path('docs/T31-v1.8.3.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8', newline='\n')

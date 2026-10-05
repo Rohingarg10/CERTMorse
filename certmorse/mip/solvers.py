@@ -83,7 +83,7 @@ def _cpsat(model, limit, threads, hint, log_path):
     solver.parameters.log_search_progress = True
     solver.parameters.log_to_stdout = False
     Path(log_path).parent.mkdir(parents=True,exist_ok=True)
-    with open(log_path,'w',encoding='utf8') as stream:
+    with open(log_path,'w',encoding='utf-8', newline='\n') as stream:
         solver.log_callback = lambda msg: stream.write(msg+'\n')
         status = solver.solve(cp)
     mapping = {cp_model.OPTIMAL:'OPTIMAL',cp_model.FEASIBLE:'FEASIBLE',cp_model.UNKNOWN:'NO_SOLUTION',cp_model.INFEASIBLE:'INFEASIBLE',cp_model.MODEL_INVALID:'ERROR'}

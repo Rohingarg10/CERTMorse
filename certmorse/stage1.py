@@ -34,12 +34,12 @@ TRANSFER_MARGIN = 14  # D14.2.
 
 
 def event(path,name,**payload):
-    with (path/'log.jsonl').open('a',encoding='utf8') as stream:
+    with (path/'log.jsonl').open('a',encoding='utf-8', newline='\n') as stream:
         stream.write(json.dumps(dict(ts=time.time(),module='stage1',event=name,payload=payload))+'\n')
 
 
 def complete(path,**payload):
-    (path/'status.json').write_text(json.dumps(dict(complete=True,**payload),indent=2),encoding='utf8')
+    (path/'status.json').write_text(json.dumps(dict(complete=True,**payload),indent=2),encoding='utf-8', newline='\n')
 
 
 def measure_instance(instance,bands=20,multiplicity_bands=10,resume=False,band_mode='hoeffding'):
@@ -134,15 +134,15 @@ def measure_instance(instance,bands=20,multiplicity_bands=10,resume=False,band_m
                             mean=mean,truth=truth,optima=np.array([r.y for r in sampled],dtype=np.int8).reshape(-1,len(cx.pairs)),
                             sample_P=np.array(sample_values),sample_P_possible=np.array(sample_possible),
                             metadata=json.dumps(dict(**symmetry,**resolution,**diagnostics)))
-        (path/'resolution.json').write_text(json.dumps(resolution,indent=2),encoding='utf8')
-        (path/'measurement.json').write_text(json.dumps(row,indent=2),encoding='utf8')
+        (path/'resolution.json').write_text(json.dumps(resolution,indent=2),encoding='utf-8', newline='\n')
+        (path/'measurement.json').write_text(json.dumps(row,indent=2),encoding='utf-8', newline='\n')
         if instance=='R8a' and result.status=='OPTIMAL':
             assert row['P_first']==1 and all(P==1 for P in sample_values), 'T32 R8a control failed; artifact preserved'
         event(path,'measurement',**row);complete(path,solver_status=result.status);rows.append(row)
         print(json.dumps(row),flush=True)
     destination=Path(f'docs/stage1-{instance.lower()}-v1.8.3-{band_mode}.csv')
-    with destination.open('w',newline='',encoding='utf8') as stream:
-        writer=csv.DictWriter(stream,fieldnames=list(rows[0]));writer.writeheader();writer.writerows(rows)
+    with destination.open('w',newline='\n',encoding='utf-8') as stream:
+        writer=csv.DictWriter(stream,fieldnames=list(rows[0]), lineterminator='\n');writer.writeheader();writer.writerows(rows)
     return rows
 
 

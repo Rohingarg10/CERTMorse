@@ -1,6 +1,7 @@
 param([ValidateSet('all','core','ttk','tsfm','inventory')][string]$Component = 'all')
 $ErrorActionPreference = 'Stop'
 $taskRoot = Split-Path -Parent $PSScriptRoot
+. (Join-Path $PSScriptRoot 'text-output.ps1')
 Set-Location -LiteralPath $taskRoot
 $toolDir = Join-Path $taskRoot '.tools'
 New-Item -ItemType Directory -Force -Path $toolDir | Out-Null
@@ -24,7 +25,7 @@ $corePython = Join-Path $taskRoot 'venv-core\Scripts\python.exe'
 if (-not (Test-Path -LiteralPath $corePython)) { Run-Native $uv @('venv','--python','3.11','venv-core') }
 if ($Component -in @('all','core')) {
     Run-Native $uv @('pip','install','--python',$corePython,'-r','requirements.in')
-    & $uv pip freeze --python $corePython | Set-Content -Encoding UTF8 -LiteralPath 'requirements.txt'
+    & $uv pip freeze --python $corePython | Write-Utf8Lf -LiteralPath 'requirements.txt'
     Run-Native $corePython @('-m','pip','--version')
 }
 if ($Component -in @('all','ttk')) {
@@ -48,7 +49,7 @@ if ($Component -in @('all','ttk')) {
             }
         }
         Run-Native $mamba @('create','-y','-p',(Join-Path $taskRoot 'venv-ttk'),'-c','conda-forge','topologytoolkit','paraview')
-    } catch { $_ | Out-String | Set-Content -Encoding UTF8 -LiteralPath (Join-Path $toolDir 'ttk-setup-error.txt'); Write-Warning $_ }
+    } catch { $_ | Out-String | Write-Utf8Lf -LiteralPath (Join-Path $toolDir 'ttk-setup-error.txt'); Write-Warning $_ }
     finally { if ($cacheDrive) { & subst.exe $cacheDrive /D } }
 }
 if ($Component -in @('all','tsfm')) {
@@ -57,17 +58,17 @@ if ($Component -in @('all','tsfm')) {
         if (-not (Test-Path -LiteralPath $tsPython)) { Run-Native $uv @('venv','--python','3.11','venv-tsfm') }
         Run-Native $uv @('pip','install','--python',$tsPython,'torch','--index-url','https://download.pytorch.org/whl/cpu')
         Run-Native $uv @('pip','install','--python',$tsPython,'timesfm[torch]','huggingface-hub','numpy')
-        & $uv pip freeze --python $tsPython | Set-Content -Encoding UTF8 -LiteralPath 'requirements-tsfm.txt'
+        & $uv pip freeze --python $tsPython | Write-Utf8Lf -LiteralPath 'requirements-tsfm.txt'
         Run-Native $tsPython @('-c',"from huggingface_hub import snapshot_download; snapshot_download('google/timesfm-3.0-pytorch')")
-    } catch { $_ | Out-String | Set-Content -Encoding UTF8 -LiteralPath (Join-Path $toolDir 'tsfm-setup-error.txt'); Write-Warning $_ }
+    } catch { $_ | Out-String | Write-Utf8Lf -LiteralPath (Join-Path $toolDir 'tsfm-setup-error.txt'); Write-Warning $_ }
 }
 try {
     $cpu = Get-CimInstance Win32_Processor | Select-Object Name,NumberOfCores,NumberOfLogicalProcessors
     $system = Get-CimInstance Win32_ComputerSystem | Select-Object TotalPhysicalMemory
-    @{cpu=$cpu;system=$system;date=(Get-Date -Format o)} | ConvertTo-Json -Depth 5 | Set-Content -Encoding UTF8 -LiteralPath (Join-Path $toolDir 'hardware.json')
+    @{cpu=$cpu;system=$system;date=(Get-Date -Format o)} | ConvertTo-Json -Depth 5 | Write-Utf8Lf -LiteralPath (Join-Path $toolDir 'hardware.json')
 } catch { Write-Warning "Hardware inventory unavailable: $_" }
 if (Test-Path -LiteralPath (Join-Path $taskRoot 'venv-ttk\conda-meta')) {
     $packageLines = & (Join-Path $toolDir 'micromamba\Library\bin\micromamba.exe') list --explicit -p (Join-Path $taskRoot 'venv-ttk')
     $lockLines = @('# Platform: win-64','@EXPLICIT') + @($packageLines | Where-Object { $_ -match '^https://' })
-    [IO.File]::WriteAllLines((Join-Path $taskRoot 'requirements-ttk.txt'),$lockLines,[Text.UTF8Encoding]::new($false))
+    $lockLines | Write-Utf8Lf -LiteralPath (Join-Path $taskRoot 'requirements-ttk.txt')
 }

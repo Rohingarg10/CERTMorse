@@ -24,7 +24,7 @@ PIPELINE_SEED = 7  # Retain the original failing run's transpilation.
 def record(name, values):
     path = Path('results/stage1-v1.8.3-tests')/name
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(values, indent=2)+'\n', encoding='utf8')
+    path.write_text(json.dumps(values, indent=2)+'\n', encoding='utf-8', newline='\n')
 
 
 @pytest.mark.parametrize('name', INSTANCE_IDS)

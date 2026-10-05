@@ -48,7 +48,7 @@ def run(total=2000,seed_start=10000):
                                  failing_vertices=int(bad.sum()),variance_range_failing=None if not bad.any() else [float(var[bad].min()),float(var[bad].max())],
                                  max_abs_skewness_failing=None if not bad.any() else float(np.abs(skew[bad]).max()),
                                  last_seed_widths=widths[mode])
-    Path('docs/coverage-study-v1.8.3.json').write_text(json.dumps(report,indent=2),encoding='utf8')
+    Path('docs/coverage-study-v1.8.3.json').write_text(json.dumps(report,indent=2),encoding='utf-8', newline='\n')
     print(json.dumps(report),flush=True)
     return report
 

@@ -21,5 +21,5 @@ for path in sorted(Path('results/stage1-r8a').glob('*/measurement.json')):
     a,b=lower_star_gradient(raw,cx)
     records.append(dict(seed=row['seed'],status=status,kappa=kappa,scalar_only_kappa=cx.nc-2*int(a.sum()+b.sum()),UB_pers=row['UB_pers'],UB_witness_justified=bool(hint is not None and kappa<=row['UB_pers'])))
     print(records[-1],flush=True)
-with open('docs/warm-start-audit-v1.7.csv','w',newline='',encoding='utf8') as stream:
-    writer=csv.DictWriter(stream,fieldnames=list(records[0]));writer.writeheader();writer.writerows(records)
+with open('docs/warm-start-audit-v1.7.csv','w',newline='\n',encoding='utf-8') as stream:
+    writer=csv.DictWriter(stream,fieldnames=list(records[0]), lineterminator='\n');writer.writeheader();writer.writerows(records)

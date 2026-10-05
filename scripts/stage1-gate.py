@@ -30,7 +30,7 @@ def run():
                 started_at=started.isoformat(),source_digest=source_digest(),status='RUNNING',
                 full_gate_ran=True,steps=[],checks={})
     destination=Path('docs/stage1-gate.json')
-    def save(): destination.write_text(json.dumps(report,indent=2),encoding='utf8')
+    def save(): destination.write_text(json.dumps(report,indent=2),encoding='utf-8', newline='\n')
     def verify(path):
         assert yaml.safe_load((path/'config.yaml').read_text(encoding='utf8'))['source_digest']==report['source_digest']
         assert json.loads((path/'status.json').read_text(encoding='utf8'))['complete']
@@ -56,7 +56,7 @@ def run():
         for name,command in commands:
             print(f'Running {name}',flush=True);start=time.perf_counter()
             log=output/(name+'.log')
-            with log.open('w',encoding='utf8') as stream:
+            with log.open('w',encoding='utf-8', newline='\n') as stream:
                 result=subprocess.run(command,stdout=stream,stderr=subprocess.STDOUT)
             report['steps'].append(dict(name=name,command=command,exit_code=result.returncode,
                                        wall_s=time.perf_counter()-start,log=str(log)));save()

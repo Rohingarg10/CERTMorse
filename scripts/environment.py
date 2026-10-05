@@ -82,4 +82,4 @@ runs. Ideal landscapes agree with the closed form and independent NumPy
 implementation on all 12 instances at m=16. The full noisy m=16 symmetry and
 off-grid periodicity sweeps passed 60 tests on all 12 instances (66.17 s).
 '''
-Path('docs/ENVIRONMENT.md').write_text(text,encoding='utf8')
+Path('docs/ENVIRONMENT.md').write_text(text,encoding='utf-8', newline='\n')

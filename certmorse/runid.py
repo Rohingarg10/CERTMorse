@@ -56,6 +56,6 @@ def prepare_run(cfg,root='results',resume=False):
         else:
             raise FileExistsError('run exists; use --resume or the dedicated .rerun reproducibility directory')
     target.mkdir(parents=True)
-    (target/'config.yaml').write_text(canonical_config(cfg),encoding='utf8')
-    (target/'status.json').write_text(json.dumps({'complete':False}),encoding='utf8')
+    (target/'config.yaml').write_text(canonical_config(cfg),encoding='utf-8', newline='\n')
+    (target/'status.json').write_text(json.dumps({'complete':False}),encoding='utf-8', newline='\n')
     return target,True

@@ -20,5 +20,5 @@ def test_T3_oracle_200_seeds():
         np.testing.assert_allclose(hi,np.minimum(mean+half,0),atol=1e-12)
     report=dict(seeds=list(range(200)),coverage=float(np.mean(flags)),covered=sum(flags),total=200,z=z,formula_verified=True)
     path=Path('results/stage1-v1.8.3-tests/coverage-recheck.json');path.parent.mkdir(parents=True,exist_ok=True)
-    path.write_text(json.dumps(report,indent=2),encoding='utf8')
+    path.write_text(json.dumps(report,indent=2),encoding='utf-8', newline='\n')
     assert report['coverage']>=.93, report

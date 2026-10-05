@@ -46,13 +46,13 @@ def run(limit=600,repeats=3,resume=False):
         row.update(run_id=path.name,trial=trial,warm_start_used=used,ttk_warm_status=status,
                    hint_count=cx.nc-2*int(hint['y'].sum()),field_seed=1003,solver_seed=1003+trial,time_limit_s=limit)
         np.savez_compressed(path/'solution.npz',x=result.x,y=result.y,lo=lo,hi=hi,mean=mean,truth=truth)
-        (path/'measurement.json').write_text(json.dumps(row,indent=2),encoding='utf8');complete(path,solver_status=result.status)
+        (path/'measurement.json').write_text(json.dumps(row,indent=2),encoding='utf-8', newline='\n');complete(path,solver_status=result.status)
         rows.append(row);print(json.dumps(row),flush=True)
     report=dict(instance='R8a',m=32,channel='b',shots=1000,band_mode='oracle',threads=8,
                 density_matrix_landscape_s=landscape_s,requested_time_limit_s=limit,
                 repeats=rows,median_solver_wall_s=statistics.median(r['wall_s'] for r in rows),
                 grid_scaling_extrapolation_justified=False)
-    Path('docs/benchmark-v1.8.3.json').write_text(json.dumps(report,indent=2),encoding='utf8')
+    Path('docs/benchmark-v1.8.3.json').write_text(json.dumps(report,indent=2),encoding='utf-8', newline='\n')
     return report
 
 

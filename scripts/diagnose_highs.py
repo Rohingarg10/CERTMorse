@@ -65,7 +65,7 @@ def run(seeds,global_big_m=False,legacy=False):
                     row=dict(m=m,seed=seed,version=h.version(),legacy=legacy,global_big_m=global_big_m,mode=mode,presolve=presolve,hint=hint,cp_count=cp.kappa_opt,
                              status=str(h.getModelStatus()),objective=info.objective_function_value,bound=info.mip_dual_bound,audit=check)
                     reports.append(row);print(json.dumps(row),flush=True)
-                    (output/'report.json').write_text(json.dumps(reports,indent=2),encoding='utf8')
+                    (output/'report.json').write_text(json.dumps(reports,indent=2),encoding='utf-8', newline='\n')
     return reports
 
 

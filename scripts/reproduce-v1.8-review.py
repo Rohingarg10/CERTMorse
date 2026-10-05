@@ -149,7 +149,7 @@ def main():
         region_bound=all(r['LB_region'] == 32 and r['k_min'] == r['k_max'] == 8 for r in report['regions']))
     report['checks'] = checks
     report['status'] = 'PASS' if all(checks.values()) else 'FAIL'
-    Path('docs/review-reproduction-v1.8.json').write_text(json.dumps(report, indent=2)+'\n', encoding='utf8')
+    Path('docs/review-reproduction-v1.8.json').write_text(json.dumps(report, indent=2)+'\n', encoding='utf-8', newline='\n')
     print(json.dumps(dict(status=report['status'], checks=checks,
         sampled_optima=len(report['basins']), old_P_min=min(r['old_P'] for r in report['basins']),
         old_R8a_ties=report['old_R8a_ties']), indent=2), flush=True)

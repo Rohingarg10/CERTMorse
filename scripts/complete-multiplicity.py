@@ -74,7 +74,7 @@ def run():
                 record=dict(primary_run_path=str(primary),n_opt_found=len(samples),sampling_status=status,
                     P_med=float(np.median([v[0] for v in values])),P_lo=min(v[0] for v in values),P_hi=max(v[0] for v in values),
                     completed_at=datetime.now(timezone.utc).isoformat(),driver_sha256=report['driver_sha256'])
-                (path/'measurement.json').write_text(json.dumps(record,indent=2),encoding='utf8')
+                (path/'measurement.json').write_text(json.dumps(record,indent=2),encoding='utf-8', newline='\n')
                 if name=='R8a': assert all(v[0]==1 for v in values),'T32 supplemental R8a control failed; artifact preserved'
                 complete(path)
             else: record=json.loads((path/'measurement.json').read_text(encoding='utf8'))
@@ -84,7 +84,7 @@ def run():
             measurement=json.loads((primary/'measurement.json').read_text(encoding='utf8'))
             for key in ('n_opt_found','sampling_status','P_med','P_lo','P_hi'): measurement[key]=record[key]
             measurement['multiplicity_run_path']=str(path.relative_to(Path.cwd()))
-            (primary/'measurement.json').write_text(json.dumps(measurement,indent=2),encoding='utf8')
+            (primary/'measurement.json').write_text(json.dumps(measurement,indent=2),encoding='utf-8', newline='\n')
             for key in ('n_opt_found','sampling_status','P_med','P_lo','P_hi','multiplicity_run_path'): row[key]=measurement[key]
             completed+=1;supplemental.append(dict(instance=name,seed=int(row['seed']),run_path=measurement['multiplicity_run_path'],**record))
             print(json.dumps(supplemental[-1]),flush=True)
@@ -94,12 +94,12 @@ def run():
             primary=Path(f'results/stage1-{name.lower()}-v1.8.3-hoeffding')/row['run_id']
             measurement=json.loads((primary/'measurement.json').read_text(encoding='utf8'))
             measurement.setdefault('multiplicity_run_path','')
-            (primary/'measurement.json').write_text(json.dumps(measurement,indent=2),encoding='utf8')
-        with destination.open('w',newline='',encoding='utf8') as stream:
-            writer=csv.DictWriter(stream,fieldnames=list(rows[0]));writer.writeheader();writer.writerows(rows)
+            (primary/'measurement.json').write_text(json.dumps(measurement,indent=2),encoding='utf-8', newline='\n')
+        with destination.open('w',newline='\n',encoding='utf-8') as stream:
+            writer=csv.DictWriter(stream,fieldnames=list(rows[0]), lineterminator='\n');writer.writeheader();writer.writerows(rows)
         report['instances'][name]=dict(sampled_bands=completed,supplemental=supplemental,
                                       optimal_available=sum(r['status']=='OPTIMAL' for r in rows))
-        Path('docs/multiplicity-completion-v1.8.3.json').write_text(json.dumps(report,indent=2),encoding='utf8')
+        Path('docs/multiplicity-completion-v1.8.3.json').write_text(json.dumps(report,indent=2),encoding='utf-8', newline='\n')
     return report
 
 

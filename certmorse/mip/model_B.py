@@ -39,7 +39,7 @@ def solve_B_lazy(cx,cell_lo,cell_hi,backend,time_limit_s,threads,hint,log_path,*
     start = time.perf_counter()
     deadline = start+time_limit_s
     Path(log_path).parent.mkdir(parents=True,exist_ok=True)
-    Path(log_path).write_text('',encoding='utf8')
+    Path(log_path).write_text('',encoding='utf-8', newline='\n')
     result = None
     best_bound=cx.nc/2
     iterations=0
@@ -51,7 +51,7 @@ def solve_B_lazy(cx,cell_lo,cell_hi,backend,time_limit_s,threads,hint,log_path,*
         iterations=iteration+1
         if math.isfinite(result.bound): best_bound=min(best_bound,result.bound)
         if iteration_path.exists():
-            with open(log_path,'a',encoding='utf8') as combined:
+            with open(log_path,'a',encoding='utf-8', newline='\n') as combined:
                 combined.write(iteration_path.read_text(encoding='utf8'))
         if result.y is None: break
         cycles = all_cycle_pairs(result.y,cx)

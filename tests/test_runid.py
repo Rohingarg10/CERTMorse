@@ -11,10 +11,10 @@ def test_T21_identity_and_resume(tmp_path):
     with pytest.raises(ValueError): run_id({'unexpected':1})
     path,execute=prepare_run(cfg,tmp_path,True)
     assert execute
-    (path/'partial').write_text('interrupted')
+    (path/'partial').write_text('interrupted', encoding='utf-8', newline='\n')
     same,execute=prepare_run(cfg,tmp_path,True)
     assert same==path and execute and not (path/'partial').exists()
-    (path/'status.json').write_text(json.dumps({'complete':True}))
+    (path/'status.json').write_text(json.dumps({'complete':True}), encoding='utf-8', newline='\n')
     assert prepare_run(cfg,tmp_path,True)==(path,False)
 
 
