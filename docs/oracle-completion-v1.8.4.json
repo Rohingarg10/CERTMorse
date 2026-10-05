@@ -1,0 +1,436 @@
+{
+  "alpha": 0.05,
+  "count_cap_s": 600,
+  "field_seed": 1003,
+  "max_optima": 20,
+  "new_count_solves": 40,
+  "oracle_bands": 60,
+  "portable_unit_identifiers": true,
+  "raw_units_preserved": true,
+  "records": {
+    "E8a": {
+      "bands": [
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/0bf1e6893b424169057e5947c2ee06ef0eb43de17a1fd9afc137593759817e78",
+          "sampling": "results/stage1-completion-v1.8.4/sampling/3c37a39fc429ec8278945d7e48284c903433c6e2d683d4134db00e6568105082",
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/cad4b98388a9d22fede8da0f662bbf8b7940629535fa4c624b8a435ff601dc2a",
+          "seed": 0
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/6fb3701dea13a393f19184112c500a41fedb178f55c218aa1ac849479ef7f9ea",
+          "sampling": "results/stage1-completion-v1.8.4/sampling/3d57035221bb9aa44bcc5e621646196993b62f30c93a6b70daf833a0591bf6ae",
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/4559546aed8ceaab95ce30140e434b6548d02295e9d04ab2141ef85910662174",
+          "seed": 1
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/b6fb93433388ce7e1e4ea8a499e8790fabe697cb822de1f781e430666369fa0c",
+          "sampling": "results/stage1-completion-v1.8.4/sampling/99cfe3ad69dc7c427ac43421d0d50356a470ead7087134a8265f9af51e83ffbb",
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/d8b82591af216ef36648b6be70cc8383cff8526a71957d2214fe83aecf7f9498",
+          "seed": 2
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/99970d037c65a1960a5bc5d327a61c2889a1c5068c39ee076dfc07d559dbcac9",
+          "sampling": "results/stage1-completion-v1.8.4/sampling/cfd1b932e620d7aea8bd69e85396d0a78bf5030218b4e8cad5837b8540debdf9",
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/8ea7c707e58d5532a7788b7e7f09d9c7719bb3bafd50a55a5968ae85f8baea7c",
+          "seed": 3
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/bc61a4fb0739d5b57e722ea1ff82cb15ec7c252beee4cbafa2ee4283bf763374",
+          "sampling": "results/stage1-completion-v1.8.4/sampling/d6688b2c810e1f13e2068828b0bafe00af5faccaa78b80679625a4c8edacbd95",
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/9576fa9c83a376be77e84ac8257439547e2b1609ab83445d0d6b2490aef20b8f",
+          "seed": 4
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/39c578029df46f93ced9c6c72e8f3690208a165126612063237ba5ef995d5fd7",
+          "sampling": "results/stage1-completion-v1.8.4/sampling/454f29ad776623773a9d32d791b9310d7f0f09114eadf43a1de87164a2aa7a74",
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/ad47acf96147a8da4fa6cb648cc98104833c699dd6985b3b4051f352f5e96ada",
+          "seed": 5
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/a346ea580d4c873c852eb12de63ea713e3268a79f092e4c3b45de854acfa691c",
+          "sampling": "results/stage1-completion-v1.8.4/sampling/ea186240a6bcde11bb60bb1813620b81ab773ac59a435670bc88eb3b472e36a9",
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/22e1ee42ae4780676c42ff838cdf5b262ff8556cd62877951c7f653abbc84f1c",
+          "seed": 6
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/16a4e611113173c195f1a6cd0cd6ec4a9fe664c891d6906ab21ac63c44e1bb3d",
+          "sampling": "results/stage1-completion-v1.8.4/sampling/4c098bac294031af9e0906f84cb6c8c2d4d2f72a1ef5fcbd576caf688f513ef7",
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/98d0070598459bff803bf673c68daa456299271d7ef8235721009962fe04c5f2",
+          "seed": 7
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/98bd27e2ce99b282d14696d9cf32ac497a932d27d6b6761bfd0bf956ebae2357",
+          "sampling": "results/stage1-completion-v1.8.4/sampling/11bc46d6164b059c33840cac7e144bc8dc5d19dc573cfe1c198e71cc30504183",
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/5054346bea25f1a47db842d2844696a06f03b51f21cb028b25c1799599fed116",
+          "seed": 8
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/3ab95dcc63256cd40000fe0fdffb17b3671241c45941324cfd5e276ec9a3ce87",
+          "sampling": "results/stage1-completion-v1.8.4/sampling/ef147239760347f030b6c1232956a932eec06da67a69d0a2b158be814143a103",
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/2741785dc57f827b56b1a8dde24ecfb450f0daa339bc17f22daba0ad37ca5418",
+          "seed": 9
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/1f8e877a0190c132c4f14844063fe1fd76d2003d7fbb77de4b3b6e0b26e8ad87",
+          "sampling": null,
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/28aa6906e37b9bad2f4292383d347b66fa3636158ea6feda5fbb3e739471637a",
+          "seed": 10
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/e1900e7e5fff37af698645390e1a359c43e757be1b673829fe6437890dbe948a",
+          "sampling": null,
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/9d9c355ef703048d15bc8bb69c0de397a70fec563058c43c734dcd3c9777e93e",
+          "seed": 11
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/5d47d60ade572e0435723cfd6f22571fd72d20e32a23b7e93fa54ca34b0681c9",
+          "sampling": null,
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/9d7c896df71a303cf27c8601870d8e264083b8958ebcc71856f2819708a4c4bd",
+          "seed": 12
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/3bae9830361e37df91f791670596ad03d53e52811fcd74b8502d57a723c5ec6e",
+          "sampling": null,
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/157e8328bfc11e205dad826cf49651d798caf6f3f482593aa79136e7ab73c93a",
+          "seed": 13
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/e32c5e3d5fda8036a1151cf4ff34e5b6de36e929baec9e760808c1db0fcbd9d2",
+          "sampling": null,
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/ba3b3bde51ea1b32b10128d072dd7dff24992a035db552a2141906284c089741",
+          "seed": 14
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/e62d5af4d4a99c9d5d776fd21a10387c9c195c60365dea939b8eb887fb5a68c2",
+          "sampling": null,
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/a3a02d872cb1e979ad2e843f097a0306e464d20a90155658b88b627224616e2e",
+          "seed": 15
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/147ba8b623901a6ec3cb4d51da209a098685020d83a8a01bdfc0a74921d81d69",
+          "sampling": null,
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/1d86642f9cf7f2c7650e72566819b7a20623303f04687349317faa96f26f2c4e",
+          "seed": 16
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/354a6ff18ddf015aeacfb704ed5eb21afb2453eac52e99f5cb8dd151e2f7bac6",
+          "sampling": null,
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/54deebc52d8a63e465724d4f821951ae8da5e587a395ac55fe7d22b59577b289",
+          "seed": 17
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/3c8b03f1b517a772f8807731a4f776b7570c501bf15dea75fa8a84c46048d8bf",
+          "sampling": null,
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/9f2073ea121f3cad138994160300798d50aa0b102e3423ae079ab365affdce72",
+          "seed": 18
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/4ab2003f964f3dde5e055df655e3e84c679b5f0e304afcd99ba3d0eab963650c",
+          "sampling": null,
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/1387806fcc095f5b2d6860764fee8fdad4c2173415e90736a192f606e69247c7",
+          "seed": 19
+        }
+      ],
+      "selected_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "R8a": {
+      "bands": [
+        {
+          "raw": "results/stage1-r8a-v1.8.3-oracle/55abce5401f5",
+          "sampling": "results/stage1-completion-v1.8.4/sampling/46a33179da037595fcbddc523c182abe765f181360984a22299fb38f9df94679",
+          "scoring": "results/stage1-scoring-v1.8.4/scoring/f1c800e459bd935bfaf2f4bf4e295ba37ebcb5fb251da519c02aa558b444049f",
+          "seed": 0
+        },
+        {
+          "raw": "results/stage1-r8a-v1.8.3-oracle/03cd759b52ca",
+          "sampling": "results/stage1-completion-v1.8.4/sampling/f33ea08d1b15f6b39ecb48e5da5386ac6a06a54807d72472aae5b3d5c79012e9",
+          "scoring": "results/stage1-scoring-v1.8.4/scoring/54a3992c2f1cba564f0830f7d990e396166baff7382bbce7f0f2b13634f5bb99",
+          "seed": 1
+        },
+        {
+          "raw": "results/stage1-r8a-v1.8.3-oracle/75adb9b64a10",
+          "sampling": "results/stage1-completion-v1.8.4/sampling/01b71556029ad887c5adf090e23ec3e55c7fe46607e6de9e6a0d455cbcdcf778",
+          "scoring": "results/stage1-scoring-v1.8.4/scoring/8ecd94ebd9ebf0c1c68665aa6c61fa2e33c9274b89e9703380d6ed1559528e6e",
+          "seed": 2
+        },
+        {
+          "raw": "results/stage1-r8a-v1.8.3-oracle/850fb844b589",
+          "sampling": "results/stage1-completion-v1.8.4/sampling/dce36b1b963a4ec05e07ce9ef35205390b0f4b6abfe6d195808ab3973f6ba134",
+          "scoring": "results/stage1-scoring-v1.8.4/scoring/b0a8dc48789746bcd7704d8cd3e49b0fdde11148e17dd57b64fd4f664bc78e06",
+          "seed": 3
+        },
+        {
+          "raw": "results/stage1-r8a-v1.8.3-oracle/5b14bdaa7292",
+          "sampling": "results/stage1-completion-v1.8.4/sampling/2be01fb8d810aa47c01c9b78a76ffb6f9e831eb061dae2c00565fb6c4de075c6",
+          "scoring": "results/stage1-scoring-v1.8.4/scoring/bf4c2cc7c469d0fa5365d76e6d107f62d848bb09cf564297fc3ebb5a7d962277",
+          "seed": 4
+        },
+        {
+          "raw": "results/stage1-r8a-v1.8.3-oracle/07516f2cbf69",
+          "sampling": "results/stage1-completion-v1.8.4/sampling/4e669bc10b613903f324ec441b4d57c6447f8dda01938a2b4bb9e0e46c57e787",
+          "scoring": "results/stage1-scoring-v1.8.4/scoring/95468c31bf3a78e0139f8bc1665bb9ceb341162b5e8a89bc9f7307dc348d1252",
+          "seed": 5
+        },
+        {
+          "raw": "results/stage1-r8a-v1.8.3-oracle/6517673bafdc",
+          "sampling": "results/stage1-completion-v1.8.4/sampling/9e0c35233c44a0f467a51b7cdb8f0d8d21de1033075180b09246a8d73d30add7",
+          "scoring": "results/stage1-scoring-v1.8.4/scoring/0db937c98e2998cb33f2d20cb9b2afc850efef120bf5dd2fc6441d5d09a55f71",
+          "seed": 6
+        },
+        {
+          "raw": "results/stage1-r8a-v1.8.3-oracle/f0cc09cf37c2",
+          "sampling": "results/stage1-completion-v1.8.4/sampling/12669c08100e5ee5138dd58cd8d94cff5f848bde947cf06666213794ef92c26b",
+          "scoring": "results/stage1-scoring-v1.8.4/scoring/b63861b697e5a0b9c4002b6f6bca073aec4478ef01a8424c4408efae5be323fa",
+          "seed": 7
+        },
+        {
+          "raw": "results/stage1-r8a-v1.8.3-oracle/59385d415b26",
+          "sampling": "results/stage1-completion-v1.8.4/sampling/9502e351517c118c6e09ceb7807dd09dc6cbae1572c5687e09b8e0747f77fc37",
+          "scoring": "results/stage1-scoring-v1.8.4/scoring/08ba45f76fbcf8c553eae5f579debf6aa4c1acab3844a904a76c4e5a5a15c099",
+          "seed": 8
+        },
+        {
+          "raw": "results/stage1-r8a-v1.8.3-oracle/2c257291eba2",
+          "sampling": "results/stage1-completion-v1.8.4/sampling/a2cf82dd94c677bc44bf4059543c8b7e47dcf92750b58051a0370366b118e78d",
+          "scoring": "results/stage1-scoring-v1.8.4/scoring/3b73d22bede206500ccb47b3b72a201cd06c32d11f9bd91e0d55358393084c04",
+          "seed": 9
+        },
+        {
+          "raw": "results/stage1-r8a-v1.8.3-oracle/e796a6954ac1",
+          "sampling": null,
+          "scoring": "results/stage1-scoring-v1.8.4/scoring/e015112489aa5597b7a5c84448330a20229a584db28e567bc7fd48e3832f7f7b",
+          "seed": 10
+        },
+        {
+          "raw": "results/stage1-r8a-v1.8.3-oracle/757c505db3a8",
+          "sampling": null,
+          "scoring": "results/stage1-scoring-v1.8.4/scoring/70fd10f30d164b8dcb72c0bc2d22fd438513e15d6f3c1377565ddc9df2048692",
+          "seed": 11
+        },
+        {
+          "raw": "results/stage1-r8a-v1.8.3-oracle/46de12a4fda8",
+          "sampling": null,
+          "scoring": "results/stage1-scoring-v1.8.4/scoring/3e36c806b9b2153816f842a2079aff586dceb2883a86bfade9279ee1c0bf924d",
+          "seed": 12
+        },
+        {
+          "raw": "results/stage1-r8a-v1.8.3-oracle/35ca79f70328",
+          "sampling": null,
+          "scoring": "results/stage1-scoring-v1.8.4/scoring/25db2f52163d1c727f1d8ffc519253913d79dccbd14bfd7062e9690954e4cc3c",
+          "seed": 13
+        },
+        {
+          "raw": "results/stage1-r8a-v1.8.3-oracle/76e74f41395d",
+          "sampling": null,
+          "scoring": "results/stage1-scoring-v1.8.4/scoring/6b65d467506e151df60b5753a7925ed0b3df09b1102d18a0c97bc6f4b001693b",
+          "seed": 14
+        },
+        {
+          "raw": "results/stage1-r8a-v1.8.3-oracle/412be6199cee",
+          "sampling": null,
+          "scoring": "results/stage1-scoring-v1.8.4/scoring/d07b4d29bcaf1b58e01b52565f2bf0020bbbf5affa54575a2876de3fe21730f8",
+          "seed": 15
+        },
+        {
+          "raw": "results/stage1-r8a-v1.8.3-oracle/69b4fb4962e1",
+          "sampling": null,
+          "scoring": "results/stage1-scoring-v1.8.4/scoring/85e411ded4c35091ca13140848010572880b5e011730daf341a9dd9f535f1461",
+          "seed": 16
+        },
+        {
+          "raw": "results/stage1-r8a-v1.8.3-oracle/88628ef38f46",
+          "sampling": null,
+          "scoring": "results/stage1-scoring-v1.8.4/scoring/adbe6eaff3723664a2b29e5592c8003aff916f01cfa0da5a9cf85d50e1bb3f8d",
+          "seed": 17
+        },
+        {
+          "raw": "results/stage1-r8a-v1.8.3-oracle/696988c57366",
+          "sampling": null,
+          "scoring": "results/stage1-scoring-v1.8.4/scoring/9ce4646f10ee5152d87523317326737cd5bf3feb9d1dea5d4d3dec871272edc9",
+          "seed": 18
+        },
+        {
+          "raw": "results/stage1-r8a-v1.8.3-oracle/d861d7ac1b92",
+          "sampling": null,
+          "scoring": "results/stage1-scoring-v1.8.4/scoring/e3c97993c5798b51d609b82859ce078984cc8aae95b56208b96fba1028e4274c",
+          "seed": 19
+        }
+      ],
+      "selected_seeds": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "W8a": {
+      "bands": [
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/aafd57bcc956f90332b3c4e3731c3a2e648a7e676d343a9b984485533e733c06",
+          "sampling": "results/stage1-completion-v1.8.4/sampling/00a63a23baf5f8f457d72dd3fa36c6b0c027c1eb7dadfeb4fc896af6b80668f3",
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/7d21e28eb4fb71a0b8bb36d1602eab4c657f5708a2387ccf071148ca608f983e",
+          "seed": 0
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/f58c09a45a9be67f5d7370047caeb1f25c625a8eb9bc923b465fda6aeb02441b",
+          "sampling": null,
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/ff8acafa3b6b79dcce6f99d46ee294080302c051247dce34d8c533bb29448a25",
+          "seed": 1
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/0930ddb20463ac4c79a09e8e649b321931a88234c7254168ba1feb2245ec5e7f",
+          "sampling": null,
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/613ee52621878d69ec754ea43914ef9c3b814d8f8112d227d1513fec9296b7f2",
+          "seed": 2
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/ba3d54c74417d1f44b2d0028ca3fbc2526bba0817484e5c65bfaaf9f31ab5da0",
+          "sampling": "results/stage1-completion-v1.8.4/sampling/200ad705a590657222d01396e0847b6c9b72967807520c5ab51d251472e4ee8a",
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/7c79d80921f0f0e888ba9f2f2c666ca05562bf36e03f57726df54252b4a71a7e",
+          "seed": 3
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/8a7a0589e76729bc34a6692180f03e3cb66089297692ea41a8cd672adb8f9fdc",
+          "sampling": "results/stage1-completion-v1.8.4/sampling/baa3c614dc1b3668feeb01db701fb23a93e1014d53f184f5810a7f20a40bb583",
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/8ef3ce9f8271e74539280dd9aedf874d63a6ecfe3950f151db4c44d13a40e010",
+          "seed": 4
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/89e648e79566417b22c563e89f6aa6ec3854f5e1e94cb8bcac0e8e1975d39dce",
+          "sampling": "results/stage1-completion-v1.8.4/sampling/33a8c2e9976f2285e835507551023e6934d2befd3e87ed63c5ab37188eceeeaf",
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/e37577ca61549620967a5adf072d8e5e66441efe224e98d1ae8f7535c1dad589",
+          "seed": 5
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/e9b5febedbd1aa7204b5e3413aee511286ae98d256daeeef229055434817edc9",
+          "sampling": "results/stage1-completion-v1.8.4/sampling/c8eb49ed65bd2fb5e79533e08460bf0c192fc8f59930baa79b299cb1e930306d",
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/c0daa7f5893e1a5f6492b8370d197fa53f9f0f393f22aacdd969b698ea46d6ca",
+          "seed": 6
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/43cd124f175aedca8fe217858c50854fe950231b17c1d9803413ce5b74111cf0",
+          "sampling": "results/stage1-completion-v1.8.4/sampling/56f47f611f3dd4e7a1a8ec21497e5be5f5847d6aa744a9ac3b961702e6bbe149",
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/2ebd4c8cf08ed6354181606a24904943b43bf0b563c7a30d0d6cbb7dd975a4af",
+          "seed": 7
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/ee403c617bf4db8da871bb85ac8c20728ce0921044e5d1201db83c72eecbe3b3",
+          "sampling": "results/stage1-completion-v1.8.4/sampling/669b1c93f93680e4e063f44f4601ee33b0f6e3edd01afbb00105a59aa96c5d36",
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/66dac72647de79fc3244899c095c086b995859494873810ea5714853dfeb6255",
+          "seed": 8
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/9d591bb38263a96146ae1b5ec762a2da2f929ac4abc0e5e047aef6d2a93f0447",
+          "sampling": null,
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/213565560fa430a84eeed12be2fb256b3efc36d91dfa326d80c75acb95da39c0",
+          "seed": 9
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/3c4cca3ca81e9ebb7173de642dd9a643833dbacf9bb525ad3e0582ec26ed66de",
+          "sampling": "results/stage1-completion-v1.8.4/sampling/53eedf448b1628105410ee8cf0fc7468378768dddc42a368b645992837eecd87",
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/e53660f38a1762f6560b043f2f68a18e3abd6eafd359a6aab6a2197001098b17",
+          "seed": 10
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/6a5cf85452af7291bdf9d98cfa3805a08ff32c771237a28b83617f9e6ae4262a",
+          "sampling": null,
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/a932950271e3d47b1e17a49c8972e81a94fa1e19c457a361ffa3847eed54e3e3",
+          "seed": 11
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/475543e00981e993a13e2b97fd8186dac6f0307c7b2686ef521ecae48a79ed11",
+          "sampling": null,
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/fa2bd49998eab4882346e726c772420963c7be7fd016d3198d3c4b79441e6924",
+          "seed": 12
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/da5447351c32c99b48546c84f7f6bf842f23e282c4e83391e3d2bd458f35b306",
+          "sampling": "results/stage1-completion-v1.8.4/sampling/ac1b90ebad734182c04dae2a843fad3e3df49279cf6f4275c1c031040029638b",
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/26a7c566e40b4f9a7ae419702b2e2f48d48dd8631ddffbc5cd3f347b3a79b551",
+          "seed": 13
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/9664205b8c012064816da66084d4e9a90ab89828ade366f9c29b48b9207118b5",
+          "sampling": null,
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/787fbb68b8f11d369d899080848cc694cb456d2ba009682a8ba8d315ab1a2fb3",
+          "seed": 14
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/291fe7e26e245ce5d2ba2af714f1466ef4463fde42d26756af432be558b3f437",
+          "sampling": null,
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/34cfd55927a47961164448757fbedfe3f6375638dd6dbb74647e0131ac3b9f16",
+          "seed": 15
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/ac00b40262fd579df1495e62020286471d6528344b33ae4c696ec2cadc5e303e",
+          "sampling": null,
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/7a1160aef964eb37a66b13976fae9d78241c02065a7e63bd72b0061ee020e819",
+          "seed": 16
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/479535569a46ba44a086ca0ee0f4d584f760cb04a53530cf253e0c39f775f811",
+          "sampling": null,
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/0e8f62e97a1a967d792d833e0e2188a16dba19f7e15f1cd1a7cfe465fc164599",
+          "seed": 17
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/400bcb44d6cc9a762fdab0d155d12a002117f0c71818410beee9b825ce66e50b",
+          "sampling": null,
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/78f9a0b78fd396c3555e9406408294934b7cc975788e0ec6023b41defca84688",
+          "seed": 18
+        },
+        {
+          "raw": "results/stage1-completion-v1.8.4/solve/7ee6f055163746c835362b981e99e1ad916aeba49b9f3f779edd9ca1847883ca",
+          "sampling": "results/stage1-completion-v1.8.4/sampling/8812655fc0d09ad10f6944fde85322b99f2a82f8b7797b50090233445d07ca64",
+          "scoring": "results/stage1-completion-scoring-v1.8.4/scoring/94f7102cc57f0c0ada777d15ad56c76326f1868ffac1607c05540be9fe09a54b",
+          "seed": 19
+        }
+      ],
+      "selected_seeds": [
+        0,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        13,
+        19
+      ]
+    }
+  },
+  "reused_count_solves": 20,
+  "sampling_bands": 30,
+  "sampling_cap_s": 300,
+  "shots": 1000,
+  "status": "PASS",
+  "tables": {
+    "E8a": "docs/stage1-e8a-oracle-completion-rescored-v1.8.4.csv",
+    "R8a": "docs/stage1-r8a-oracle-completion-rescored-v1.8.4.csv",
+    "W8a": "docs/stage1-w8a-oracle-completion-rescored-v1.8.4.csv"
+  },
+  "tables_sha256": {
+    "E8a": "d44e0527167ceb949dc7f53a4e1f70b189be89c3683088bf0ba3f045958a040d",
+    "R8a": "07fc8772fcc0cd1dd3260030fa7e7ca7775f6ed9a31c51cfe6e43c5e498a51f7",
+    "W8a": "abd0bd13b200f0debaf57f83b9cca462d67595d86688e14dc8a232016572fd1c"
+  },
+  "threads": 8
+}

@@ -92,9 +92,14 @@ def solve_band(band, config, *, root='results/units-v1.8.4', incumbent=None):
                 export_complex(cx, work/'band.vtu', {'Scalar': mid/scale, 'Lower': lo[:cx.nv]/scale, 'Upper': hi[:cx.nv]/scale}, beta_period=BETA_PERIODS['a'], qaoa=True)
                 delta = float(np.min((hi[:cx.nv]-lo[:cx.nv])/(2*scale)))
                 candidate, warm_status = simplified_hint(work/'band.vtu', work/'simplified.csv', 2*delta, lo, hi, cx)
+                used = 'midpoint'
                 if candidate is not None and candidate['y'].sum() >= hint['y'].sum():
                     hint = dict(**candidate, seed=resolved['seed'])
-                write_json(work/'warm-start.json', dict(status=warm_status, used='ttk_simplified' if candidate is not None else 'midpoint'))
+                    used = 'ttk_simplified'
+                write_json(work/'warm-start.json', dict(status=warm_status, used=used,
+                           count=None if candidate is None else cx.nc-2*int(candidate['y'].sum())))
+                from .ttk import execute
+                execute('mandatory', work/'band.vtu', work/'mandatory.csv')
         if resolved['region_probe']:
             # c0=k_min and c2=k_max, separately (Euler then fixes kappa).
             nve = len(cx.pairs_ve)

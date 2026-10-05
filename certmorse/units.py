@@ -16,14 +16,14 @@ SOLVE_SOURCES = (
     'certmorse/mip/solvers.py', 'certmorse/mip/compression.py', 'certmorse/mip/regions.py',
     'certmorse/mip/bounds.py', 'certmorse/mip/warm_start.py', 'certmorse/persistence.py',
     'certmorse/ttk.py', 'certmorse/export_vtk.py', 'ttk_scripts/common.py',
-    'ttk_scripts/simplify.py', 'configs/instances.yaml', 'certmorse/raw.py',
+    'ttk_scripts/simplify.py', 'ttk_scripts/mandatory.py', 'configs/instances.yaml', 'certmorse/raw.py',
     'certmorse/landscape.py', 'certmorse/grid.py',
 )
 LANDSCAPE_SOURCES = (
     'certmorse/landscape.py', 'certmorse/instances.py', 'certmorse/grid.py',
     'certmorse/rng.py', 'certmorse/complex.py', 'certmorse/resolution.py',
     'configs/instances.yaml', 'certmorse/raw.py',
-    'scripts/restartable-stage1.py',
+    'scripts/restartable-stage1.py', 'scripts/complete-stage1-v1.8.4.py',
 )
 # The lists are deliberately independent: metrics/scoring changes cannot
 # invalidate count solves or multiplicity samples.
@@ -34,9 +34,12 @@ UNIT_SOURCES = {
     'coverage': LANDSCAPE_SOURCES,
     'scoring': ('certmorse/metrics.py', 'certmorse/complex.py', 'certmorse/forman.py',
                 'certmorse/persistence.py', 'certmorse/resolution.py', 'certmorse/mip/regions.py',
-                'certmorse/minima.py', 'certmorse/scoring.py', 'certmorse/legacy_scores.py'),
+                'certmorse/minima.py', 'certmorse/scoring.py', 'certmorse/legacy_scores.py',
+                'certmorse/stage1_scoring.py', 'certmorse/mip/bounds.py',
+                'certmorse/landscape.py', 'certmorse/instances.py', 'certmorse/ttk.py',
+                'configs/instances.yaml'),
     'optimizer_batch': LANDSCAPE_SOURCES,
-    'csv_assembly': ('scripts/rescore-stage1.py',),
+    'csv_assembly': ('scripts/rescore-stage1.py', 'scripts/complete-stage1-v1.8.4.py'),
 }
 UNIT_TYPES = {
     name: dict(deterministic=name not in ('solve', 'sampling', 'optimizer_batch'), sources=sources)
