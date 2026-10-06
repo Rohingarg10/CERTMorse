@@ -1,7 +1,9 @@
-# Certificate semantics: v1.8 amended through v1.8.3
+# Certificate semantics: v1.8 amended through v1.8.4
 
-Stage 1 gate: **PASS**. [Gate report](stage1-gate.json) and
-[measurements](STAGE1.md) delimit the evidence. No Stage 2 experiment was run.
+The [v1.8.4 gate report](stage1-gate-v1.8.4.json) and
+[measurements](STAGE1.md) delimit the current evidence. The historical
+[v1.8.3 PASS](stage1-gate.json) covered an incomplete measurement list,
+completed by v1.8.4 §6.2. No Stage 2 experiment was run.
 
 ## Integer-model certificate
 
@@ -111,14 +113,22 @@ independent references. Synthetic tests retain the original beta-pi grid.
 
 ## Basin predictions and resolution
 
+*P* is the success probability of the simplest landscape consistent with the
+band. It is an **estimate of the true success probability at the band's
+resolution, `P0_res`**. It is never a certificate. It does not estimate *P*₀
+when the field contains minima shallower than the band can resolve.
+
 For each matching, basin depth is the minimum observed field value in the
 basin, independent of arbitrary witness values. P counts basin areas whose
-depth is within tau=0.02W of the smallest depth. P_possible counts basins with
+depth is within tau=0.02W of the smallest depth. `P_possible_simplest` counts basins with
 minimum reported lower endpoint <= minimum reported upper endpoint +tau.
 The observed depth field G must satisfy lower<=G<=upper at every vertex.
 For a basin counted by P, min_B lower<=min_B G<=min G+tau<=min upper+tau:
 evaluate G at a vertex attaining min upper for the final inequality.
-Therefore P<=P_possible. Both use the reported unscaled band before margins.
+Therefore *P* ≤ `P_possible_simplest`; the inequality assertion stays.
+Both use the reported unscaled band before margins. The former `P_possible`
+is withdrawn as an ambiguity measure because it cannot see erased basins;
+the renamed column is retained for continuity and used in no conclusion.
 The preserved old T32 failure demonstrates why the same tolerance is needed.
 
 The certificate is a grid count statement; it certifies neither basin area nor
@@ -128,6 +138,77 @@ from basin conclusions. RQ2-informative means P0_grid<=0.95 and resolution
 adequate. P differences and multiplicity ranges never determine fallback.
 Sampling starts only from OPTIMAL; medians are procedural and ranges observed
 unless enumeration is exhausted.
+
+`P0_res`(π) starts from the true lower-star basins and their minimum labels.
+Compute 0-dimensional persistence on the six-neighbour graph, with the elder
+rule. In merge-height order, map each younger minimum with persistence < π
+to the representative of its elder. `P0_res` is the vertex area whose resulting
+representative lies within τ_min = 0.02*W* of min *G*. Thus `P0_res`(0) = *P*₀
+and `P0_res`(∞) = 1. The reported `P0_res` uses median full band width;
+`P0_res_guaranteed` uses `resolution` = twice maximum full width.
+Every *P* row also reports |*P* − `P0_res`| and |*P* − *P*₀| as measurements.
+Bands with κ* = 4 (`trivial`) have one minimum and maximum, so *P* = 1 by
+construction; they are never pooled with non-trivial RQ2 bands.
+
+## Reported-band resolution proposition (v1.8.4 §2.2)
+
+Let *G* be the true vertex field, ℓ ≤ *G* ≤ *u* the reported band, and
+*w* = max_v(*u*_v − ℓ_v) its largest full width. These endpoints precede
+the certificate margin. Persistence here is 0-dimensional lower-star
+persistence on the D5 six-neighbour triangulation, computed by union-find
+with the elder rule; the essential minimum has persistence ∞. Write *C*(*a*)
+for the component of *a* in {v : ℓ_v ≤ *u*_a}. Inclusion-minimal such
+components are minimum regions, and their number is *k*_min.
+
+**Certified-trap definition.** A minimum region *M* is a certified trap iff
+min_{v ∈ M} ℓ_v > min_v *u*_v + τ_min. `n_traps_cert` counts these regions;
+`P0_below_1_certified` means this count is at least one. The certification
+assumes the reported band covers *G*. Hoeffding supplies the stated
+simultaneous guarantee; oracle Gaussian coverage remains approximate.
+
+**Proposition.**
+
+1. Every minimum of *G* with persistence > 2*w* has a minimum region within
+   its own neighbourhood. Distinct such minima give disjoint regions, so
+   *k*_min ≥ #{minima with persistence > 2*w*}.
+2. Every certified trap contains a local minimum of *G* with value greater
+   than min *G* + τ_min. Therefore a single certified trap proves *P*₀ < 1.
+3. A minimum *a* from (1) with *G*(*a*) > min *G* + 2*w* + τ_min yields a
+   certified trap.
+
+**Proof.** At each vertex, ℓ_v ≥ *u*_v − *w* ≥ *G*_v − *w* and
+*u*_v ≤ *G*_v + *w*.
+
+For (1), let *K*(*a*) be the component of *a* in
+{v : *G*_v ≤ *G*(*a*) + 2*w*}. Persistence > 2*w* means it has not yet
+joined an older component, so it contains no vertex with value below
+*G*(*a*). If ℓ_v ≤ *u*_a, the two endpoint inequalities give
+*G*_v − *w* ≤ ℓ_v ≤ *u*_a ≤ *G*(*a*) + *w*, hence
+*G*_v ≤ *G*(*a*) + 2*w*. Consequently *C*(*a*) ⊆ *K*(*a*) and contains
+an inclusion-minimal region *M*_a. If two such components intersect, the
+lower-threshold component lies inside the higher-threshold one. The latter
+would then contain an older minimum before its persistence threshold,
+a contradiction (the elder ordering resolves equal birth values).
+Their regions are therefore disjoint.
+
+For (2), write *M* = *C*(*b*) and choose *c* minimizing *G* on *M*.
+Every boundary vertex *x* satisfies
+*G*_x ≥ ℓ_x > *u*_b ≥ *G*_b ≥ *G*_c. Thus a local minimum lies within
+*M* (a strict minimum for the tie-free fields used here). Also
+*G*_c ≥ min_M ℓ > min_v *u*_v + τ_min ≥ min *G* + τ_min.
+Its lower-star basin has positive vertex area and is outside the successful
+class, proving *P*₀ < 1.
+
+For (3), min_{M_a} ℓ ≥ min_{K(a)} *G* − *w* = *G*(*a*) − *w*, while
+min_v *u*_v ≤ min *G* + *w*. Subtracting gives a difference > τ_min,
+which is exactly the certified-trap condition. ∎
+
+This is a sufficient visibility guarantee. Shallower minima can be erased,
+so the simplest landscape's basin probability estimates success at the
+band's resolution. T36 checks all three statements on 400 random smooth
+torus fields and bands and checks persistence/probability endpoints against
+all twenty saved resolution fields. The recomputed persistence table and
+the E8a dimples appear in [STAGE1.md](STAGE1.md).
 
 ## Statistical and persistence contracts
 
@@ -149,8 +230,12 @@ TTK essential endpoints are decoded with IsFinite.
 | E8a-hoeffding | 20/20 | 20/20 |
 | W8a-hoeffding | 15/15 | 16/20 |
 | R8a-oracle | 20/20 | 20/20 |
+| E8a-oracle | 20/20 | 20/20 |
+| W8a-oracle | 0/10 | 0/20 |
 
-Random-band T31 equality is 26/50; the count solve can add information beyond the region bound.
+Random-band T31 equality is 26/50; the count solve can add information beyond
+the region bound. All seven 1800 s timeout probes are UNKNOWN with unchanged
+bounds. Whether `LB_region` is exact on those bands is unresolved.
 
 ## Equivalent numerical representation and TTK starts
 
@@ -171,4 +256,4 @@ The lower-star candidate uses lexicographic (Scalar,Scalar_Order) ranks and is
 accepted only after witness verification in the original band. UB_pers is
 justified only if that candidate also has count <= UB_pers. A larger feasible
 count would still leave UB_pers as a reference. The substantive API and claim
-changes are specified in ../PRIVATE_DOCUMENT_06.
+changes are specified in [public method](METHOD.md).

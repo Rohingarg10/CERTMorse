@@ -1,0 +1,1607 @@
+{
+  "method": "six-neighbour lower-star H0 persistence, union-find elder rule",
+  "rows": [
+    {
+      "P0": 0.5078125,
+      "W": 10,
+      "field": "results/stage1-resolution-v1.8.3/81834059021e/field.npz",
+      "field_sha256": "f05eae083b5e06d72fcb79b96cdf79ce4402db28e43436fcb432d51a1d1dafbf",
+      "grid_m": 16,
+      "instance": "E8a",
+      "minima": [
+        {
+          "birth": -6.607414673291943,
+          "death": -5.0475526604916565,
+          "elder": 206,
+          "minimum": 49,
+          "non_global": false,
+          "persistence": 1.559862012800287
+        },
+        {
+          "birth": -5.0032179110120545,
+          "death": -4.9995617248808,
+          "elder": 245,
+          "minimum": 10,
+          "non_global": true,
+          "persistence": 0.003656186131254735
+        },
+        {
+          "birth": -5.009776779142519,
+          "death": -4.99397460240397,
+          "elder": 206,
+          "minimum": 245,
+          "non_global": true,
+          "persistence": 0.015802176738549
+        },
+        {
+          "birth": -6.636581045967099,
+          "death": null,
+          "elder": null,
+          "minimum": 206,
+          "non_global": false,
+          "persistence": null
+        }
+      ],
+      "random_cut": -5.0,
+      "tau_min": 0.2
+    },
+    {
+      "P0": 0.5,
+      "W": 10,
+      "field": "results/stage1-resolution-v1.8.3/db1b328214e6/field.npz",
+      "field_sha256": "2302f8a47fdaf7abe1baaff12af4942b07dc1047bfa2d2636ab173b63a519f5e",
+      "grid_m": 24,
+      "instance": "E8a",
+      "minima": [
+        {
+          "birth": -6.60992730669848,
+          "death": -5.021291823314602,
+          "elder": 122,
+          "minimum": 477,
+          "non_global": false,
+          "persistence": 1.5886354833838778
+        },
+        {
+          "birth": -4.999995454940632,
+          "death": -4.99994192651503,
+          "elder": 40,
+          "minimum": 12,
+          "non_global": true,
+          "persistence": 5.352842560224502e-05
+        },
+        {
+          "birth": -5.007672091549067,
+          "death": -4.999631426805838,
+          "elder": 40,
+          "minimum": 536,
+          "non_global": true,
+          "persistence": 0.00804066474322962
+        },
+        {
+          "birth": -5.00974779251902,
+          "death": -4.997642629222024,
+          "elder": 122,
+          "minimum": 40,
+          "non_global": true,
+          "persistence": 0.012105163296996402
+        },
+        {
+          "birth": -6.682420556587246,
+          "death": null,
+          "elder": null,
+          "minimum": 122,
+          "non_global": false,
+          "persistence": null
+        }
+      ],
+      "random_cut": -5.0,
+      "tau_min": 0.2
+    },
+    {
+      "P0": 0.484375,
+      "W": 10,
+      "field": "results/stage1-resolution-v1.8.3/0a30b6292316/field.npz",
+      "field_sha256": "d49f34245046095cac0242170bf304e66ede3a25a2f13f750ec4d93928208359",
+      "grid_m": 32,
+      "instance": "E8a",
+      "minima": [
+        {
+          "birth": -6.6602577337216395,
+          "death": -5.012007757548646,
+          "elder": 227,
+          "minimum": 829,
+          "non_global": false,
+          "persistence": 1.6482499761729938
+        },
+        {
+          "birth": -4.999998556054013,
+          "death": -4.999974235595585,
+          "elder": 85,
+          "minimum": 16,
+          "non_global": true,
+          "persistence": 2.432045842848396e-05
+        },
+        {
+          "birth": -5.009363095020548,
+          "death": -4.999861160225918,
+          "elder": 970,
+          "minimum": 85,
+          "non_global": true,
+          "persistence": 0.009501934794630351
+        },
+        {
+          "birth": -5.009439778659541,
+          "death": -4.997667636131507,
+          "elder": 227,
+          "minimum": 970,
+          "non_global": true,
+          "persistence": 0.011772142528033491
+        },
+        {
+          "birth": -6.67412558487416,
+          "death": null,
+          "elder": null,
+          "minimum": 227,
+          "non_global": false,
+          "persistence": null
+        }
+      ],
+      "random_cut": -5.0,
+      "tau_min": 0.2
+    },
+    {
+      "P0": 0.48046875,
+      "W": 10,
+      "field": "results/stage1-resolution-v1.8.3/4bd897018e33/field.npz",
+      "field_sha256": "3e7dc17fb0fc3fabff197093c4293a9babdb4fcfd5caa4a013a2aa692072ef48",
+      "grid_m": 48,
+      "instance": "E8a",
+      "minima": [
+        {
+          "birth": -6.671064160784198,
+          "death": -5.00534667574175,
+          "elder": 1819,
+          "minimum": 484,
+          "non_global": false,
+          "persistence": 1.6657174850424479
+        },
+        {
+          "birth": -4.999999713946938,
+          "death": -4.999991771072525,
+          "elder": 176,
+          "minimum": 24,
+          "non_global": true,
+          "persistence": 7.942874413302548e-06
+        },
+        {
+          "birth": -5.009507497238182,
+          "death": -4.999938361075124,
+          "elder": 176,
+          "minimum": 2176,
+          "non_global": true,
+          "persistence": 0.009569136163058545
+        },
+        {
+          "birth": -5.009970656093637,
+          "death": -4.999474686744735,
+          "elder": 1819,
+          "minimum": 176,
+          "non_global": true,
+          "persistence": 0.010495969348902179
+        },
+        {
+          "birth": -6.6802197722837136,
+          "death": null,
+          "elder": null,
+          "minimum": 1819,
+          "non_global": false,
+          "persistence": null
+        }
+      ],
+      "random_cut": -5.0,
+      "tau_min": 0.2
+    },
+    {
+      "P0": 0.453125,
+      "W": 17,
+      "field": "results/stage1-resolution-v1.8.3/681403a596af/field.npz",
+      "field_sha256": "3451ff8acb95867360cb7547ffb389cbc7bae078ccd20a6fc102bd1042e5a592",
+      "grid_m": 16,
+      "instance": "E8b",
+      "minima": [
+        {
+          "birth": -10.10498259633463,
+          "death": -8.579889635701381,
+          "elder": 49,
+          "minimum": 207,
+          "non_global": false,
+          "persistence": 1.5250929606332484
+        },
+        {
+          "birth": -8.575811050651676,
+          "death": -8.50535065739398,
+          "elder": 75,
+          "minimum": 217,
+          "non_global": true,
+          "persistence": 0.07046039325769726
+        },
+        {
+          "birth": -8.595761806023745,
+          "death": -8.503662026264806,
+          "elder": 197,
+          "minimum": 55,
+          "non_global": true,
+          "persistence": 0.09209977975893935
+        },
+        {
+          "birth": -8.593473429330906,
+          "death": -8.499350212594507,
+          "elder": 49,
+          "minimum": 75,
+          "non_global": true,
+          "persistence": 0.09412321673639923
+        },
+        {
+          "birth": -8.59866746050377,
+          "death": -8.495762556147241,
+          "elder": 49,
+          "minimum": 197,
+          "non_global": true,
+          "persistence": 0.10290490435652799
+        },
+        {
+          "birth": -10.299379832511475,
+          "death": null,
+          "elder": null,
+          "minimum": 49,
+          "non_global": false,
+          "persistence": null
+        }
+      ],
+      "random_cut": -8.5,
+      "tau_min": 0.34
+    },
+    {
+      "P0": 0.4496527777777778,
+      "W": 17,
+      "field": "results/stage1-resolution-v1.8.3/77f7e1aa7b63/field.npz",
+      "field_sha256": "6655f940f0ec168d3f2a4c6dc6ab4f479037fdfe69a7f36c73b17ded2a0782f9",
+      "grid_m": 24,
+      "instance": "E8b",
+      "minima": [
+        {
+          "birth": -10.191467610386585,
+          "death": -10.164306070095563,
+          "elder": 121,
+          "minimum": 98,
+          "non_global": false,
+          "persistence": 0.027161540291022135
+        },
+        {
+          "birth": -10.196200050188974,
+          "death": -8.536006187510656,
+          "elder": 478,
+          "minimum": 121,
+          "non_global": false,
+          "persistence": 1.6601938626783177
+        },
+        {
+          "birth": -8.597190335176467,
+          "death": -8.502630128315975,
+          "elder": 136,
+          "minimum": 469,
+          "non_global": true,
+          "persistence": 0.09456020686049271
+        },
+        {
+          "birth": -8.583414897008407,
+          "death": -8.501444556752102,
+          "elder": 439,
+          "minimum": 106,
+          "non_global": true,
+          "persistence": 0.08197034025630501
+        },
+        {
+          "birth": -8.602806113861057,
+          "death": -8.49980006685168,
+          "elder": 478,
+          "minimum": 136,
+          "non_global": true,
+          "persistence": 0.10300604700937654
+        },
+        {
+          "birth": -8.600138704596532,
+          "death": -8.498529773215036,
+          "elder": 478,
+          "minimum": 439,
+          "non_global": true,
+          "persistence": 0.10160893138149518
+        },
+        {
+          "birth": -10.313663517712783,
+          "death": null,
+          "elder": null,
+          "minimum": 478,
+          "non_global": false,
+          "persistence": null
+        }
+      ],
+      "random_cut": -8.5,
+      "tau_min": 0.34
+    },
+    {
+      "P0": 0.4404296875,
+      "W": 17,
+      "field": "results/stage1-resolution-v1.8.3/ddd99acbc346/field.npz",
+      "field_sha256": "63366a9e9b7bf3f04b463bcc414cb2a7bc4cc8b35686b86a815a1d5025191c2b",
+      "grid_m": 32,
+      "instance": "E8b",
+      "minima": [
+        {
+          "birth": -10.25598669994514,
+          "death": -8.520352843809684,
+          "elder": 194,
+          "minimum": 861,
+          "non_global": false,
+          "persistence": 1.7356338561354558
+        },
+        {
+          "birth": -8.589877869615428,
+          "death": -8.501605300348618,
+          "elder": 246,
+          "minimum": 785,
+          "non_global": true,
+          "persistence": 0.0882725692668096
+        },
+        {
+          "birth": -8.597872463570322,
+          "death": -8.500700427068978,
+          "elder": 778,
+          "minimum": 238,
+          "non_global": true,
+          "persistence": 0.09717203650134465
+        },
+        {
+          "birth": -8.601915402896509,
+          "death": -8.49991430712592,
+          "elder": 194,
+          "minimum": 246,
+          "non_global": true,
+          "persistence": 0.10200109577058925
+        },
+        {
+          "birth": -8.604339863484583,
+          "death": -8.499507981652787,
+          "elder": 194,
+          "minimum": 778,
+          "non_global": true,
+          "persistence": 0.10483188183179593
+        },
+        {
+          "birth": -10.313713771289606,
+          "death": null,
+          "elder": null,
+          "minimum": 194,
+          "non_global": false,
+          "persistence": null
+        }
+      ],
+      "random_cut": -8.5,
+      "tau_min": 0.34
+    },
+    {
+      "P0": 0.4331597222222222,
+      "W": 17,
+      "field": "results/stage1-resolution-v1.8.3/368596be0c41/field.npz",
+      "field_sha256": "ec25f0f693d7db59604c75998b5e93753ff1f408db7ef1eeeb9e4178189ec283",
+      "grid_m": 48,
+      "instance": "E8b",
+      "minima": [
+        {
+          "birth": -10.299379832511477,
+          "death": -8.50907739289099,
+          "elder": 435,
+          "minimum": 1868,
+          "non_global": false,
+          "persistence": 1.7903024396204863
+        },
+        {
+          "birth": -8.596592448197688,
+          "death": -8.500819929227301,
+          "elder": 561,
+          "minimum": 1802,
+          "non_global": true,
+          "persistence": 0.09577251897038686
+        },
+        {
+          "birth": -8.597637137426757,
+          "death": -8.500209210636013,
+          "elder": 1791,
+          "minimum": 501,
+          "non_global": true,
+          "persistence": 0.09742792679074341
+        },
+        {
+          "birth": -8.603705627404327,
+          "death": -8.499974258623434,
+          "elder": 435,
+          "minimum": 561,
+          "non_global": true,
+          "persistence": 0.10373136878089362
+        },
+        {
+          "birth": -8.605186844559718,
+          "death": -8.499898817325109,
+          "elder": 435,
+          "minimum": 1791,
+          "non_global": true,
+          "persistence": 0.10528802723460906
+        },
+        {
+          "birth": -10.308736737314883,
+          "death": null,
+          "elder": null,
+          "minimum": 435,
+          "non_global": false,
+          "persistence": null
+        }
+      ],
+      "random_cut": -8.5,
+      "tau_min": 0.34
+    },
+    {
+      "P0": 0.09375,
+      "W": 22,
+      "field": "results/stage1-resolution-v1.8.3/f0e6e29c6946/field.npz",
+      "field_sha256": "ef84420a4d15465db5cbecacbfc06fa2a62ce77369e3153d94506644a4485e91",
+      "grid_m": 16,
+      "instance": "W8a",
+      "minima": [
+        {
+          "birth": -12.297571785441978,
+          "death": -11.626689337888166,
+          "elder": 65,
+          "minimum": 178,
+          "non_global": true,
+          "persistence": 0.6708824475538115
+        },
+        {
+          "birth": -11.437137891898072,
+          "death": -11.427380373084517,
+          "elder": 149,
+          "minimum": 196,
+          "non_global": true,
+          "persistence": 0.009757518813554356
+        },
+        {
+          "birth": -11.578280930920759,
+          "death": -11.373022591962705,
+          "elder": 149,
+          "minimum": 70,
+          "non_global": true,
+          "persistence": 0.20525833895805334
+        },
+        {
+          "birth": -11.914869748298129,
+          "death": -11.344890262974593,
+          "elder": 75,
+          "minimum": 186,
+          "non_global": true,
+          "persistence": 0.569979485323536
+        },
+        {
+          "birth": -12.63441340606012,
+          "death": -11.228798869197233,
+          "elder": 65,
+          "minimum": 67,
+          "non_global": true,
+          "persistence": 1.4056145368628865
+        },
+        {
+          "birth": -13.917136691418381,
+          "death": -11.220722176331606,
+          "elder": 207,
+          "minimum": 65,
+          "non_global": true,
+          "persistence": 2.6964145150867758
+        },
+        {
+          "birth": -11.971544573525287,
+          "death": -11.177411576084047,
+          "elder": 75,
+          "minimum": 204,
+          "non_global": true,
+          "persistence": 0.7941329974412401
+        },
+        {
+          "birth": -12.035705604761546,
+          "death": -11.167539438859642,
+          "elder": 207,
+          "minimum": 75,
+          "non_global": true,
+          "persistence": 0.8681661659019042
+        },
+        {
+          "birth": -11.581291252149295,
+          "death": -11.118444004533266,
+          "elder": 207,
+          "minimum": 149,
+          "non_global": true,
+          "persistence": 0.462847247616029
+        },
+        {
+          "birth": -11.256423308837029,
+          "death": -11.02739246680532,
+          "elder": 199,
+          "minimum": 72,
+          "non_global": true,
+          "persistence": 0.2290308420317082
+        },
+        {
+          "birth": -11.422793092059344,
+          "death": -11.020188449569225,
+          "elder": 207,
+          "minimum": 199,
+          "non_global": true,
+          "persistence": 0.4026046424901182
+        },
+        {
+          "birth": -15.49056371560085,
+          "death": null,
+          "elder": null,
+          "minimum": 207,
+          "non_global": false,
+          "persistence": null
+        }
+      ],
+      "random_cut": -11.0,
+      "tau_min": 0.44
+    },
+    {
+      "P0": 0.10590277777777778,
+      "W": 22,
+      "field": "results/stage1-resolution-v1.8.3/98259a3f99a0/field.npz",
+      "field_sha256": "e35006562e3b481bcc90fe105bd2cce72c0969261c93d26a99f9c8ce35067cf0",
+      "grid_m": 24,
+      "instance": "W8a",
+      "minima": [
+        {
+          "birth": -11.695332268434768,
+          "death": -11.667316073323741,
+          "elder": 224,
+          "minimum": 177,
+          "non_global": true,
+          "persistence": 0.02801619511102693
+        },
+        {
+          "birth": -11.906452092329399,
+          "death": -11.480830289651553,
+          "elder": 399,
+          "minimum": 161,
+          "non_global": true,
+          "persistence": 0.42562180267784555
+        },
+        {
+          "birth": -11.707607222881979,
+          "death": -11.473229657686826,
+          "elder": 415,
+          "minimum": 224,
+          "non_global": true,
+          "persistence": 0.23437756519515318
+        },
+        {
+          "birth": -12.297426147184328,
+          "death": -11.46506222221203,
+          "elder": 149,
+          "minimum": 411,
+          "non_global": true,
+          "persistence": 0.8323639249722987
+        },
+        {
+          "birth": -11.891601232438507,
+          "death": -11.407702818676936,
+          "elder": 427,
+          "minimum": 212,
+          "non_global": true,
+          "persistence": 0.4838984137615707
+        },
+        {
+          "birth": -12.509728676471132,
+          "death": -11.28383984550042,
+          "elder": 145,
+          "minimum": 149,
+          "non_global": true,
+          "persistence": 1.225888830970712
+        },
+        {
+          "birth": -12.56398080894801,
+          "death": -11.210511156705227,
+          "elder": 455,
+          "minimum": 427,
+          "non_global": true,
+          "persistence": 1.353469652242783
+        },
+        {
+          "birth": -14.850806966350401,
+          "death": -11.100694344998406,
+          "elder": 145,
+          "minimum": 455,
+          "non_global": true,
+          "persistence": 3.7501126213519953
+        },
+        {
+          "birth": -11.933032620570547,
+          "death": -11.072627004294464,
+          "elder": 145,
+          "minimum": 399,
+          "non_global": true,
+          "persistence": 0.8604056162760827
+        },
+        {
+          "birth": -12.007020799732516,
+          "death": -11.033086167934464,
+          "elder": 145,
+          "minimum": 415,
+          "non_global": true,
+          "persistence": 0.973934631798052
+        },
+        {
+          "birth": -11.398802552261538,
+          "death": -11.01254791763709,
+          "elder": 443,
+          "minimum": 133,
+          "non_global": true,
+          "persistence": 0.3862546346244482
+        },
+        {
+          "birth": -11.412546027509109,
+          "death": -10.987938415234431,
+          "elder": 145,
+          "minimum": 443,
+          "non_global": true,
+          "persistence": 0.42460761227467714
+        },
+        {
+          "birth": -15.460981003480574,
+          "death": null,
+          "elder": null,
+          "minimum": 145,
+          "non_global": false,
+          "persistence": null
+        }
+      ],
+      "random_cut": -11.0,
+      "tau_min": 0.44
+    },
+    {
+      "P0": 0.19140625,
+      "W": 22,
+      "field": "results/stage1-resolution-v1.8.3/3e223676ffa1/field.npz",
+      "field_sha256": "92a659d26449e58685952c36219beeb01bac821aa669c2d296bc28e932591d29",
+      "grid_m": 32,
+      "instance": "W8a",
+      "minima": [
+        {
+          "birth": -12.26421996404747,
+          "death": -11.535799187217496,
+          "elder": 262,
+          "minimum": 740,
+          "non_global": true,
+          "persistence": 0.7284207768299744
+        },
+        {
+          "birth": -11.93271830263844,
+          "death": -11.528646428876632,
+          "elder": 310,
+          "minimum": 724,
+          "non_global": true,
+          "persistence": 0.40407187376180786
+        },
+        {
+          "birth": -12.156241566758371,
+          "death": -11.51694898746836,
+          "elder": 761,
+          "minimum": 315,
+          "non_global": true,
+          "persistence": 0.6392925792900108
+        },
+        {
+          "birth": -11.836622664341064,
+          "death": -11.502399006353066,
+          "elder": 745,
+          "minimum": 363,
+          "non_global": true,
+          "persistence": 0.334223657987998
+        },
+        {
+          "birth": -12.512556356756946,
+          "death": -11.279206379550631,
+          "elder": 257,
+          "minimum": 262,
+          "non_global": true,
+          "persistence": 1.2333499772063146
+        },
+        {
+          "birth": -12.626067158570194,
+          "death": -11.24575198668121,
+          "elder": 798,
+          "minimum": 761,
+          "non_global": true,
+          "persistence": 1.3803151718889843
+        },
+        {
+          "birth": -15.300820378036903,
+          "death": -11.057158492473992,
+          "elder": 798,
+          "minimum": 257,
+          "non_global": false,
+          "persistence": 4.243661885562911
+        },
+        {
+          "birth": -11.97998557421149,
+          "death": -11.040526495686871,
+          "elder": 798,
+          "minimum": 310,
+          "non_global": true,
+          "persistence": 0.9394590785246191
+        },
+        {
+          "birth": -12.014101037364775,
+          "death": -11.01368232181847,
+          "elder": 798,
+          "minimum": 745,
+          "non_global": true,
+          "persistence": 1.0004187155463047
+        },
+        {
+          "birth": -11.380196000840375,
+          "death": -11.00713253407013,
+          "elder": 241,
+          "minimum": 814,
+          "non_global": true,
+          "persistence": 0.37306346677024393
+        },
+        {
+          "birth": -11.438649065482016,
+          "death": -10.99790211700849,
+          "elder": 798,
+          "minimum": 241,
+          "non_global": true,
+          "persistence": 0.44074694847352625
+        },
+        {
+          "birth": -15.42833388967078,
+          "death": null,
+          "elder": null,
+          "minimum": 798,
+          "non_global": false,
+          "persistence": null
+        }
+      ],
+      "random_cut": -11.0,
+      "tau_min": 0.44
+    },
+    {
+      "P0": 0.1879340277777778,
+      "W": 22,
+      "field": "results/stage1-resolution-v1.8.3/edfdc0347df3/field.npz",
+      "field_sha256": "69dfb8fcf16fb610f5f06e82bfc9388c32e635c8882deece00c475487dbd6c33",
+      "grid_m": 48,
+      "instance": "W8a",
+      "minima": [
+        {
+          "birth": -11.919732505368525,
+          "death": -11.536805417543155,
+          "elder": 1694,
+          "minimum": 737,
+          "non_global": true,
+          "persistence": 0.38292708782537055
+        },
+        {
+          "birth": -11.92054976005661,
+          "death": -11.535502254919766,
+          "elder": 610,
+          "minimum": 1614,
+          "non_global": true,
+          "persistence": 0.3850475051368445
+        },
+        {
+          "birth": -12.29757178544198,
+          "death": -11.530077370267866,
+          "elder": 1718,
+          "minimum": 713,
+          "non_global": true,
+          "persistence": 0.767494415174113
+        },
+        {
+          "birth": -12.215348160079298,
+          "death": -11.527187755195143,
+          "elder": 586,
+          "minimum": 1638,
+          "non_global": true,
+          "persistence": 0.6881604048841545
+        },
+        {
+          "birth": -12.634413406060116,
+          "death": -11.202951068561894,
+          "elder": 1773,
+          "minimum": 1718,
+          "non_global": true,
+          "persistence": 1.4314623374982212
+        },
+        {
+          "birth": -12.603322199745847,
+          "death": -11.166176414252106,
+          "elder": 578,
+          "minimum": 586,
+          "non_global": true,
+          "persistence": 1.4371457854937404
+        },
+        {
+          "birth": -15.349644633871446,
+          "death": -11.025569178561948,
+          "elder": 578,
+          "minimum": 1773,
+          "non_global": false,
+          "persistence": 4.324075455309497
+        },
+        {
+          "birth": -11.986836273266583,
+          "death": -11.019971962146426,
+          "elder": 578,
+          "minimum": 610,
+          "non_global": true,
+          "persistence": 0.9668643111201565
+        },
+        {
+          "birth": -12.035705604761546,
+          "death": -11.00561447528622,
+          "elder": 578,
+          "minimum": 1694,
+          "non_global": true,
+          "persistence": 1.0300911294753252
+        },
+        {
+          "birth": -11.427326704220498,
+          "death": -11.003193725447792,
+          "elder": 1798,
+          "minimum": 506,
+          "non_global": true,
+          "persistence": 0.4241329787727057
+        },
+        {
+          "birth": -11.434805922777361,
+          "death": -10.99778695453276,
+          "elder": 578,
+          "minimum": 1798,
+          "non_global": true,
+          "persistence": 0.43701896824460107
+        },
+        {
+          "birth": -15.494171581871642,
+          "death": null,
+          "elder": null,
+          "minimum": 578,
+          "non_global": false,
+          "persistence": null
+        }
+      ],
+      "random_cut": -11.0,
+      "tau_min": 0.44
+    },
+    {
+      "P0": 0.1015625,
+      "W": 28,
+      "field": "results/stage1-resolution-v1.8.3/58d4406d2a84/field.npz",
+      "field_sha256": "08fadef31216e27af038426bbff4c552e7dedef61457381ff7ea9020751420f0",
+      "grid_m": 16,
+      "instance": "W8b",
+      "minima": [
+        {
+          "birth": -14.696971051000329,
+          "death": -14.488071693877222,
+          "elder": 155,
+          "minimum": 76,
+          "non_global": true,
+          "persistence": 0.2088993571231068
+        },
+        {
+          "birth": -15.176653863392744,
+          "death": -14.450256544685443,
+          "elder": 64,
+          "minimum": 179,
+          "non_global": true,
+          "persistence": 0.726397318707301
+        },
+        {
+          "birth": -14.684322665991255,
+          "death": -14.429199147810728,
+          "elder": 207,
+          "minimum": 94,
+          "non_global": true,
+          "persistence": 0.25512351818052714
+        },
+        {
+          "birth": -14.469472442036146,
+          "death": -14.352061407577404,
+          "elder": 181,
+          "minimum": 118,
+          "non_global": true,
+          "persistence": 0.11741103445874224
+        },
+        {
+          "birth": -17.171944782513282,
+          "death": -14.331150380964075,
+          "elder": 207,
+          "minimum": 64,
+          "non_global": true,
+          "persistence": 2.840794401549207
+        },
+        {
+          "birth": -14.539984488469951,
+          "death": -14.297947692568302,
+          "elder": 207,
+          "minimum": 68,
+          "non_global": true,
+          "persistence": 0.24203679590164917
+        },
+        {
+          "birth": -14.732467764507884,
+          "death": -14.258770023876913,
+          "elder": 207,
+          "minimum": 205,
+          "non_global": true,
+          "persistence": 0.47369774063097125
+        },
+        {
+          "birth": -14.737047554341967,
+          "death": -14.176919107258263,
+          "elder": 207,
+          "minimum": 155,
+          "non_global": true,
+          "persistence": 0.560128447083704
+        },
+        {
+          "birth": -14.472925336866398,
+          "death": -14.150836807216084,
+          "elder": 207,
+          "minimum": 181,
+          "non_global": true,
+          "persistence": 0.32208852965031376
+        },
+        {
+          "birth": -14.015945241766666,
+          "death": -14.008088054795646,
+          "elder": 207,
+          "minimum": 248,
+          "non_global": true,
+          "persistence": 0.007857186971019559
+        },
+        {
+          "birth": -18.758625243728865,
+          "death": null,
+          "elder": null,
+          "minimum": 207,
+          "non_global": false,
+          "persistence": null
+        }
+      ],
+      "random_cut": -14.0,
+      "tau_min": 0.56
+    },
+    {
+      "P0": 0.1684027777777778,
+      "W": 28,
+      "field": "results/stage1-resolution-v1.8.3/321baa55ed1d/field.npz",
+      "field_sha256": "1048ab5ade79cef81a037bca77955577d907062087e385d2747b1223502ae9c2",
+      "grid_m": 24,
+      "instance": "W8b",
+      "minima": [
+        {
+          "birth": -14.965042283871265,
+          "death": -14.460440224568872,
+          "elder": 211,
+          "minimum": 452,
+          "non_global": true,
+          "persistence": 0.5046020593023925
+        },
+        {
+          "birth": -14.514512131618215,
+          "death": -14.393548345504001,
+          "elder": 401,
+          "minimum": 184,
+          "non_global": true,
+          "persistence": 0.12096378611421343
+        },
+        {
+          "birth": -14.663404165369144,
+          "death": -14.367851523005335,
+          "elder": 455,
+          "minimum": 213,
+          "non_global": true,
+          "persistence": 0.29555264236380907
+        },
+        {
+          "birth": -14.58999601340076,
+          "death": -14.326140829679964,
+          "elder": 413,
+          "minimum": 172,
+          "non_global": true,
+          "persistence": 0.2638551837207963
+        },
+        {
+          "birth": -14.996328124801625,
+          "death": -14.261742647739451,
+          "elder": 455,
+          "minimum": 211,
+          "non_global": true,
+          "persistence": 0.7345854770621738
+        },
+        {
+          "birth": -14.815927993368096,
+          "death": -14.257834281970688,
+          "elder": 455,
+          "minimum": 401,
+          "non_global": true,
+          "persistence": 0.558093711397408
+        },
+        {
+          "birth": -14.494740211679773,
+          "death": -14.255572992490587,
+          "elder": 271,
+          "minimum": 273,
+          "non_global": true,
+          "persistence": 0.23916721918918604
+        },
+        {
+          "birth": -15.249877655790927,
+          "death": -14.195760850246218,
+          "elder": 121,
+          "minimum": 413,
+          "non_global": true,
+          "persistence": 1.0541168055447088
+        },
+        {
+          "birth": -18.380083181802455,
+          "death": -14.153381670885253,
+          "elder": 455,
+          "minimum": 121,
+          "non_global": false,
+          "persistence": 4.226701510917202
+        },
+        {
+          "birth": -14.668106349389525,
+          "death": -14.145206520787077,
+          "elder": 455,
+          "minimum": 271,
+          "non_global": true,
+          "persistence": 0.5228998286024478
+        },
+        {
+          "birth": -14.010313308004761,
+          "death": -14.00649107683631,
+          "elder": 455,
+          "minimum": 562,
+          "non_global": true,
+          "persistence": 0.00382223116845104
+        },
+        {
+          "birth": -14.019031653015793,
+          "death": -14.000205474161481,
+          "elder": 455,
+          "minimum": 516,
+          "non_global": true,
+          "persistence": 0.018826178854311593
+        },
+        {
+          "birth": -18.906107030761877,
+          "death": null,
+          "elder": null,
+          "minimum": 455,
+          "non_global": false,
+          "persistence": null
+        }
+      ],
+      "random_cut": -14.0,
+      "tau_min": 0.56
+    },
+    {
+      "P0": 0.0810546875,
+      "W": 28,
+      "field": "results/stage1-resolution-v1.8.3/616934090371/field.npz",
+      "field_sha256": "d8cafc2ce0ca1e6a00291461c1e208761cfd174c1d904d5cab4ffceab9c31202",
+      "grid_m": 32,
+      "instance": "W8b",
+      "minima": [
+        {
+          "birth": -14.634890333438184,
+          "death": -14.599994916580249,
+          "elder": 727,
+          "minimum": 534,
+          "non_global": true,
+          "persistence": 0.0348954168579354
+        },
+        {
+          "birth": -14.52799357650164,
+          "death": -14.45235324608301,
+          "elder": 361,
+          "minimum": 714,
+          "non_global": true,
+          "persistence": 0.07564033041862928
+        },
+        {
+          "birth": -14.908271389260506,
+          "death": -14.438821591383778,
+          "elder": 743,
+          "minimum": 261,
+          "non_global": true,
+          "persistence": 0.46944979787672736
+        },
+        {
+          "birth": -14.89411352675291,
+          "death": -14.405213545397558,
+          "elder": 313,
+          "minimum": 795,
+          "non_global": true,
+          "persistence": 0.4888999813553525
+        },
+        {
+          "birth": -14.40523209927625,
+          "death": -14.405090913277482,
+          "elder": 727,
+          "minimum": 245,
+          "non_global": true,
+          "persistence": 0.0001411859987676678
+        },
+        {
+          "birth": -14.607522984078853,
+          "death": -14.318951251766741,
+          "elder": 313,
+          "minimum": 380,
+          "non_global": true,
+          "persistence": 0.2885717323121124
+        },
+        {
+          "birth": -15.309108444927526,
+          "death": -14.26633512571872,
+          "elder": 799,
+          "minimum": 313,
+          "non_global": true,
+          "persistence": 1.0427733192088056
+        },
+        {
+          "birth": -14.441110189624098,
+          "death": -14.257002208512425,
+          "elder": 743,
+          "minimum": 675,
+          "non_global": true,
+          "persistence": 0.1841079811116728
+        },
+        {
+          "birth": -14.483095837915759,
+          "death": -14.232723735989968,
+          "elder": 361,
+          "minimum": 492,
+          "non_global": true,
+          "persistence": 0.25037210192579096
+        },
+        {
+          "birth": -14.309413199576444,
+          "death": -14.229280366406536,
+          "elder": 727,
+          "minimum": 531,
+          "non_global": true,
+          "persistence": 0.08013283316990716
+        },
+        {
+          "birth": -15.02687452078289,
+          "death": -14.218651424857107,
+          "elder": 225,
+          "minimum": 743,
+          "non_global": true,
+          "persistence": 0.8082230959257828
+        },
+        {
+          "birth": -14.724152927630833,
+          "death": -14.148267368183287,
+          "elder": 799,
+          "minimum": 727,
+          "non_global": true,
+          "persistence": 0.5758855594475456
+        },
+        {
+          "birth": -18.290231812702988,
+          "death": -14.08752641173604,
+          "elder": 225,
+          "minimum": 799,
+          "non_global": true,
+          "persistence": 4.2027054009669484
+        },
+        {
+          "birth": -14.81241779433202,
+          "death": -14.08462765841286,
+          "elder": 225,
+          "minimum": 361,
+          "non_global": true,
+          "persistence": 0.727790135919161
+        },
+        {
+          "birth": -14.019128648571765,
+          "death": -13.999186957583277,
+          "elder": 225,
+          "minimum": 912,
+          "non_global": true,
+          "persistence": 0.019941690988488858
+        },
+        {
+          "birth": -14.012065110224473,
+          "death": -13.99763779365491,
+          "elder": 225,
+          "minimum": 47,
+          "non_global": true,
+          "persistence": 0.014427316569562976
+        },
+        {
+          "birth": -19.052959342248133,
+          "death": null,
+          "elder": null,
+          "minimum": 225,
+          "non_global": false,
+          "persistence": null
+        }
+      ],
+      "random_cut": -14.0,
+      "tau_min": 0.56
+    },
+    {
+      "P0": 0.15234375,
+      "W": 28,
+      "field": "results/stage1-resolution-v1.8.3/d1237bbdc18c/field.npz",
+      "field_sha256": "5ec64754376665c2d5e150548e64c8f825fb3116ca90f54a41c67ee1dd5c8589",
+      "grid_m": 48,
+      "instance": "W8b",
+      "minima": [
+        {
+          "birth": -14.737047554341967,
+          "death": -14.725374808952509,
+          "elder": 733,
+          "minimum": 974,
+          "non_global": true,
+          "persistence": 0.011672745389457617
+        },
+        {
+          "birth": -14.608410425466285,
+          "death": -14.604622213251105,
+          "elder": 1522,
+          "minimum": 1089,
+          "non_global": true,
+          "persistence": 0.003788212215180664
+        },
+        {
+          "birth": -14.541451724146954,
+          "death": -14.523092876846155,
+          "elder": 733,
+          "minimum": 1551,
+          "non_global": true,
+          "persistence": 0.018358847300799397
+        },
+        {
+          "birth": -14.478401881087954,
+          "death": -14.472925336866401,
+          "elder": 1522,
+          "minimum": 656,
+          "non_global": true,
+          "persistence": 0.00547654422155297
+        },
+        {
+          "birth": -14.942571425365482,
+          "death": -14.437292333430278,
+          "elder": 758,
+          "minimum": 1768,
+          "non_global": true,
+          "persistence": 0.5052790919352041
+        },
+        {
+          "birth": -14.930339913207082,
+          "death": -14.426905797922096,
+          "elder": 1594,
+          "minimum": 535,
+          "non_global": true,
+          "persistence": 0.5034341152849855
+        },
+        {
+          "birth": -14.531724731996345,
+          "death": -14.319753381647422,
+          "elder": 758,
+          "minimum": 906,
+          "non_global": true,
+          "persistence": 0.21197135034892334
+        },
+        {
+          "birth": -14.68432266599126,
+          "death": -14.317330493226557,
+          "elder": 1594,
+          "minimum": 1541,
+          "non_global": true,
+          "persistence": 0.36699217276470364
+        },
+        {
+          "birth": -14.47140252786632,
+          "death": -14.215547565143616,
+          "elder": 1522,
+          "minimum": 1229,
+          "non_global": true,
+          "persistence": 0.25585496272270447
+        },
+        {
+          "birth": -15.311555504841653,
+          "death": -14.199786647540439,
+          "elder": 530,
+          "minimum": 1594,
+          "non_global": true,
+          "persistence": 1.1117688573012146
+        },
+        {
+          "birth": -14.457623789769865,
+          "death": -14.193656973556266,
+          "elder": 733,
+          "minimum": 1122,
+          "non_global": true,
+          "persistence": 0.26396681621359974
+        },
+        {
+          "birth": -15.183432882577304,
+          "death": -14.159226438213736,
+          "elder": 1822,
+          "minimum": 758,
+          "non_global": true,
+          "persistence": 1.0242064443635677
+        },
+        {
+          "birth": -14.824293434078747,
+          "death": -14.066618052374245,
+          "elder": 1822,
+          "minimum": 1522,
+          "non_global": true,
+          "persistence": 0.7576753817045017
+        },
+        {
+          "birth": -18.758625243728865,
+          "death": -14.039301196004311,
+          "elder": 1822,
+          "minimum": 530,
+          "non_global": false,
+          "persistence": 4.7193240477245535
+        },
+        {
+          "birth": -14.764590530670441,
+          "death": -14.038703223205534,
+          "elder": 1822,
+          "minimum": 733,
+          "non_global": true,
+          "persistence": 0.725887307464907
+        },
+        {
+          "birth": -14.009941685644176,
+          "death": -14.009925603548353,
+          "elder": 1944,
+          "minimum": 2233,
+          "non_global": true,
+          "persistence": 1.608209582215636e-05
+        },
+        {
+          "birth": -14.012213653893651,
+          "death": -14.008672344653451,
+          "elder": 1822,
+          "minimum": 2228,
+          "non_global": true,
+          "persistence": 0.003541309240199908
+        },
+        {
+          "birth": -14.01760654334292,
+          "death": -14.001706837461821,
+          "elder": 1822,
+          "minimum": 167,
+          "non_global": true,
+          "persistence": 0.01589970588109857
+        },
+        {
+          "birth": -14.017100601033812,
+          "death": -13.999470211472179,
+          "elder": 1822,
+          "minimum": 1944,
+          "non_global": true,
+          "persistence": 0.01763038956163321
+        },
+        {
+          "birth": -19.05213791148343,
+          "death": null,
+          "elder": null,
+          "minimum": 1822,
+          "non_global": false,
+          "persistence": null
+        }
+      ],
+      "random_cut": -14.0,
+      "tau_min": 0.56
+    },
+    {
+      "P0": 1.0,
+      "W": 12,
+      "field": "results/stage1-resolution-v1.8.3/e6c23af92908/field.npz",
+      "field_sha256": "b0590feebff4f2af2d45c2ef0091539c870e1d02891c048848889b6d139ee942",
+      "grid_m": 16,
+      "instance": "R8a",
+      "minima": [
+        {
+          "birth": -7.624541691095588,
+          "death": -6.0569528977952345,
+          "elder": 49,
+          "minimum": 222,
+          "non_global": false,
+          "persistence": 1.5675887933003532
+        },
+        {
+          "birth": -7.721595425712089,
+          "death": -6.035503739602216,
+          "elder": 49,
+          "minimum": 201,
+          "non_global": false,
+          "persistence": 1.6860916861098731
+        },
+        {
+          "birth": -7.664506285940641,
+          "death": -6.034637452152244,
+          "elder": 49,
+          "minimum": 54,
+          "non_global": false,
+          "persistence": 1.6298688337883975
+        },
+        {
+          "birth": -7.737154580166934,
+          "death": null,
+          "elder": null,
+          "minimum": 49,
+          "non_global": false,
+          "persistence": null
+        }
+      ],
+      "random_cut": -6.0,
+      "tau_min": 0.24
+    },
+    {
+      "P0": 1.0,
+      "W": 12,
+      "field": "results/stage1-resolution-v1.8.3/9676d31a7dfc/field.npz",
+      "field_sha256": "fded909b8053b65c2433007f80b0fc585701dd76d68eca4b58120e0ac972c641",
+      "grid_m": 24,
+      "instance": "R8a",
+      "minima": [
+        {
+          "birth": -7.701008082299387,
+          "death": -6.0255282720001375,
+          "elder": 122,
+          "minimum": 478,
+          "non_global": false,
+          "persistence": 1.6754798102992492
+        },
+        {
+          "birth": -7.713631642879358,
+          "death": -6.015842995267803,
+          "elder": 122,
+          "minimum": 130,
+          "non_global": false,
+          "persistence": 1.6977886476115547
+        },
+        {
+          "birth": -7.744977270973837,
+          "death": -6.01561548137748,
+          "elder": 470,
+          "minimum": 122,
+          "non_global": false,
+          "persistence": 1.7293617895963571
+        },
+        {
+          "birth": -7.747841254079052,
+          "death": null,
+          "elder": null,
+          "minimum": 470,
+          "non_global": false,
+          "persistence": null
+        }
+      ],
+      "random_cut": -6.0,
+      "tau_min": 0.24
+    },
+    {
+      "P0": 1.0,
+      "W": 12,
+      "field": "results/stage1-resolution-v1.8.3/b9d0d954fb27/field.npz",
+      "field_sha256": "7532b90789423ec4cb5a378eb9dacfeea6d0fdd1ac821cc8c3637135fe1d98bb",
+      "grid_m": 32,
+      "instance": "R8a",
+      "minima": [
+        {
+          "birth": -7.715648776019199,
+          "death": -6.0144023603333565,
+          "elder": 829,
+          "minimum": 195,
+          "non_global": false,
+          "persistence": 1.7012464156858425
+        },
+        {
+          "birth": -7.71683911987021,
+          "death": -6.008918373482044,
+          "elder": 829,
+          "minimum": 819,
+          "non_global": false,
+          "persistence": 1.707920746388166
+        },
+        {
+          "birth": -7.749872580738151,
+          "death": -6.00887452576147,
+          "elder": 829,
+          "minimum": 205,
+          "non_global": false,
+          "persistence": 1.7409980549766804
+        },
+        {
+          "birth": -7.759738744201712,
+          "death": null,
+          "elder": null,
+          "minimum": 829,
+          "non_global": false,
+          "persistence": null
+        }
+      ],
+      "random_cut": -6.0,
+      "tau_min": 0.24
+    },
+    {
+      "P0": 1.0,
+      "W": 12,
+      "field": "results/stage1-resolution-v1.8.3/16b059efd64d/field.npz",
+      "field_sha256": "b1eef3e49b49f6d69ec3ceed4968507e7d562c6f88b90f5e13bdb27f2e91c9d2",
+      "grid_m": 48,
+      "instance": "R8a",
+      "minima": [
+        {
+          "birth": -7.737154580166932,
+          "death": -6.006414636271504,
+          "elder": 484,
+          "minimum": 1868,
+          "non_global": false,
+          "persistence": 1.7307399438954274
+        },
+        {
+          "birth": -7.741639071209599,
+          "death": -6.0039658975544565,
+          "elder": 484,
+          "minimum": 500,
+          "non_global": false,
+          "persistence": 1.7376731736551427
+        },
+        {
+          "birth": -7.758331760318451,
+          "death": -6.003963415782995,
+          "elder": 484,
+          "minimum": 1852,
+          "non_global": false,
+          "persistence": 1.7543683445354556
+        },
+        {
+          "birth": -7.758897217170626,
+          "death": null,
+          "elder": null,
+          "minimum": 484,
+          "non_global": false,
+          "persistence": null
+        }
+      ],
+      "random_cut": -6.0,
+      "tau_min": 0.24
+    }
+  ],
+  "saved_fields": 20,
+  "specification": "v1.8.4"
+}
