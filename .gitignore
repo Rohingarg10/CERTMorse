@@ -17,3 +17,5 @@ docs/archive/**
 
 .venv/
 .release-assets/
+results/SHA256SUMS.release
+results/CHANGED-FILES.release.csv
