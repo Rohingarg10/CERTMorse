@@ -1,0 +1,18 @@
+{
+  "instance": "R8a",
+  "band": "oracle",
+  "seed": 0,
+  "grid_m": 16,
+  "source_artifact": "results/stage1-r8a-v1.8.3-oracle/55abce5401f5/matching.npz",
+  "source_sha256": "b459982e62d4e831ab70e58ff2ad1486f2252f5edf5ffe2a6175e22bcd1dd403",
+  "measurement": "results/stage1-r8a-v1.8.3-oracle/55abce5401f5/measurement.json",
+  "measurement_sha256": "361f67b6d26b93c5a7a9d2993e9600a964e25ff0c7becd16e077b2dfd9f9a854",
+  "derivation": "Saved band arrays, saved exact witness and matching; critical cells and combinatorial basins derived without solving or sampling.",
+  "kappa_opt": 16,
+  "critical_counts": [
+    4,
+    8,
+    4
+  ],
+  "basins": 4
+}
