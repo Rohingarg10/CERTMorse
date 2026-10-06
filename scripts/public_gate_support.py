@@ -49,6 +49,9 @@ def clean_file(path):
     data=path.read_bytes()
     text=data.decode('utf-8')
     cleaned=clean_text(text)
+    if path.suffix=='.xml':
+        for marker in ('HOME','HOST','USER'):
+            cleaned=cleaned.replace('<'+marker+'>','&lt;'+marker+'&gt;')
     if cleaned!=text:
         path.write_bytes(cleaned.encode('utf-8'))
 
