@@ -21,6 +21,7 @@ from certmorse.provenance import source_digest
 from certmorse.mip.regions import region_bound
 from certmorse.resolution import RESOLUTION_INSTANCES,GRID_SIZES,INFORMATIVE_LIMIT
 from scripts.agreement import passed
+from scripts.repository_guard import RepositoryGuard
 from certmorse.completion_checks import completion_checks, probe_checks, check_unit
 from certmorse.legacy_scores import LEGACY_DIGEST, verify_T38
 from certmorse.scoring import score_arrays
@@ -141,13 +142,16 @@ def verify_documents():
 
 
 def run():
+    repository_guard=RepositoryGuard(ROOT)
+    repository_guard.activate()
     started=datetime.now(timezone.utc)
     output=Path('results/stage1-gate-v1.8.4')/started.strftime('%Y%m%dT%H%M%SZ')
     output.mkdir(parents=True,exist_ok=True)
     report=dict(specification='v1.8.4',amendments=['v1.8.1','v1.8.2','v1.8.3','v1.8.4'],
                 started_at=started.isoformat(),source_digest=source_digest(),status='RUNNING',
                 full_gate_ran=True,completed_scientific_units_rerun=0,steps=[],checks={},items={})
-    destination=Path('docs/stage1-gate-public.json' if PUBLIC_GATE else 'docs/stage1-gate-v1.8.4.json')
+    destination=output/'gate.json'
+    report['report_path']=str(destination)
     def save(): destination.write_text(json.dumps(public_gate_support.clean_report(report) if PUBLIC_GATE else report,indent=2),encoding='utf-8', newline='\n')
     def verify(path):
         assert yaml.safe_load((path/'config.yaml').read_text(encoding='utf8'))['source_digest']==LEGACY_DIGEST
@@ -226,10 +230,14 @@ def run():
             assert selected and all(c.find('failure') is None and c.find('error') is None and c.find('skipped') is None for c in selected)
             report['checks'][f'T{test_id}'] = dict(passed=len(selected), skipped=0)
         for phase in ('solve', 'file-write'):
-            evidence = json.loads(Path(f'docs/T37-{phase}-v1.8.4.json').read_text(encoding='utf-8'))
+            evidence = json.loads((output/f'test-tmp/reports/T37-{phase}-v1.8.4.json').read_text(encoding='utf-8'))
             assert evidence['status']=='PASS' and evidence['first_band_preserved'] and evidence['second_band_restarted']
             assert evidence['deterministic_units_byte_identical'] and evidence['solver_status_bounds_and_witnesses_verified']
             report['checks'][f'T37_{phase}'] = evidence
+        guard_report=json.loads((output/'test-tmp/reports/repository-guard.json').read_text(encoding='utf-8'))
+        assert guard_report['status']=='PASS' and guard_report['tracked_hashes_unchanged']
+        assert guard_report['before_status']==guard_report['after_status']
+        report['checks']['test_repository_guard']=guard_report
         rows=json.loads(Path('docs/agreement-v1.8.3.json').read_text(encoding='utf8'))
         assert {(r['m'],r['seed']) for r in rows}=={(m,s) for m in [3,4,8] for s in range(20 if m==8 else 50)}
         assert len(rows)==120 and all(passed(r) and passed(dict(methods=r['controls'])) and r['rows_preserve_optimum'] for r in rows)
@@ -357,6 +365,7 @@ def run():
         assert verify_committed_source()==report['checks']['committed_source'], 'committed source changed during gate'
         assert verify_documents()==report['checks']['documents'], 'documents changed during gate'
         assert source_digest()==report['source_digest'],'implementation changed during gate'
+        report['checks']['repository_guard']=repository_guard.verify()
         report['items']['1']=dict(status='FAIL' if failures else 'PASS', **report['checks']['tests'])
         assert set(report['items'])==set('123456')
         report['failed_requirements']=failures;report['status']='FAIL' if failures else 'PASS'
@@ -375,6 +384,8 @@ def run():
             report['test_counts']=dict(total=len(cases), failures=sum(c.find('failure') is not None or c.find('error') is not None for c in cases),
                                        skipped=sum(c.find('skipped') is not None for c in cases))
         report['completed_at']=datetime.now(timezone.utc).isoformat();save();raise
+    finally:
+        repository_guard.active=False
     return report
 
 

@@ -272,3 +272,24 @@ hash unavailable as a check on public bytes. The public gate records each
 blocked check separately, executes remaining assertions and makes no full-PASS
 claim while checks are blocked. [SANITIZATION.md](../SANITIZATION.md) and the
 public gate report distinguish these effects from numerical failures.
+
+## 8. Validation leaves evidence unchanged
+
+Tests and gates never write tracked files. T37 reports and gate reports belong
+in ignored results scratch directories; paths in T37 reports are relative to
+the repository. The full-suite guard rejects tracked-file write access in the
+test process, then checks Git status and all tracked hashes after every test
+and after the full suite. The gate has the same guard and checks the suite's
+guard report. A tracked-file change or newly created unignored file fails
+validation. Completed scientific units remain read-only.
+
+After a successful public gate, publishing its scratch report is a separate,
+explicit evidence-generation action:
+
+```sh
+python scripts/record-gate-evidence.py results/stage1-gate-v1.8.4/<run>/gate.json
+```
+
+This validates the current committed tree, all passing unblocked checks and
+the 17 approved privacy blockers before writing `docs/stage1-gate-public.json`.
+Historical evidence hashes are preserved.
