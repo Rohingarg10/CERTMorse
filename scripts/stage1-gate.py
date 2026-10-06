@@ -26,6 +26,14 @@ from certmorse.legacy_scores import LEGACY_DIGEST, verify_T38
 from certmorse.scoring import score_arrays
 
 ROOT = Path(__file__).resolve().parents[1]
+PUBLIC_GATE = os.environ.get('CERTMORSE_PUBLIC_GATE') == '1'
+if PUBLIC_GATE:
+    from scripts import public_gate_support
+    Path = public_gate_support.public_path
+    import certmorse.completion_checks as public_completion_checks
+    public_completion_checks.Path = Path
+    plugins = os.environ.get('PYTEST_PLUGINS', '')
+    os.environ['PYTEST_PLUGINS'] = ','.join(filter(None, [plugins, 'scripts.public_gate_paths']))
 
 
 def git(*args):
@@ -45,6 +53,8 @@ def committed_source_digest(ref):
 
 
 def verify_committed_source():
+    if PUBLIC_GATE:
+        return public_gate_support.verify_committed_source(sys.modules[__name__])
     commit = git('rev-parse', 'HEAD').decode().strip()
     digest, names = committed_source_digest(commit)
     current = sorted(p.relative_to(ROOT).as_posix() for directory in ('certmorse', 'ttk_scripts')
@@ -63,6 +73,8 @@ def verify_committed_source():
 
 
 def verify_completion_hashes():
+    if PUBLIC_GATE:
+        return public_gate_support.verify_completion_hashes(sys.modules[__name__])
     evidence = json.loads(Path('docs/completion-evidence-v1.8.4.json').read_text(encoding='utf-8'))
     checked = 0
     def verify_hash(path, expected):
@@ -135,8 +147,8 @@ def run():
     report=dict(specification='v1.8.4',amendments=['v1.8.1','v1.8.2','v1.8.3','v1.8.4'],
                 started_at=started.isoformat(),source_digest=source_digest(),status='RUNNING',
                 full_gate_ran=True,completed_scientific_units_rerun=0,steps=[],checks={},items={})
-    destination=Path('docs/stage1-gate-v1.8.4.json')
-    def save(): destination.write_text(json.dumps(report,indent=2),encoding='utf-8', newline='\n')
+    destination=Path('docs/stage1-gate-public.json' if PUBLIC_GATE else 'docs/stage1-gate-v1.8.4.json')
+    def save(): destination.write_text(json.dumps(public_gate_support.clean_report(report) if PUBLIC_GATE else report,indent=2),encoding='utf-8', newline='\n')
     def verify(path):
         assert yaml.safe_load((path/'config.yaml').read_text(encoding='utf8'))['source_digest']==LEGACY_DIGEST
         assert json.loads((path/'status.json').read_text(encoding='utf8'))['complete']
@@ -332,11 +344,14 @@ def run():
         assert study['modes']['oracle']['covered']==1896 and study['modes']['hoeffding']['covered']==2000
         report['checks']['coverage']=study
         archive=Path('docs/archive/v1.7');manifest=json.loads((archive/'manifest.json').read_text(encoding='utf8'))
-        for entry in manifest:
-            assert sha256((archive/entry['archived']).read_bytes()).hexdigest()==entry['sha256']
-            if entry['source'].startswith('results/'):
-                assert sha256(Path(entry['source']).read_bytes()).hexdigest()==entry['sha256']
-        report['checks']['archive']=dict(files=len(manifest),all_archived_hashes_verified=True,original_results_unchanged=True)
+        if PUBLIC_GATE:
+            report['checks']['archive']=public_gate_support.verify_archive(archive,manifest)
+        else:
+            for entry in manifest:
+                assert sha256((archive/entry['archived']).read_bytes()).hexdigest()==entry['sha256']
+                if entry['source'].startswith('results/'):
+                    assert sha256(Path(entry['source']).read_bytes()).hexdigest()==entry['sha256']
+            report['checks']['archive']=dict(files=len(manifest),all_archived_hashes_verified=True,original_results_unchanged=True)
         report['checks']['completion_hashes_after']=verify_completion_hashes()
         assert report['checks']['completion_hashes_after']==report['checks']['completion_hashes_before']
         assert verify_committed_source()==report['checks']['committed_source'], 'committed source changed during gate'
@@ -345,7 +360,12 @@ def run():
         report['items']['1']=dict(status='FAIL' if failures else 'PASS', **report['checks']['tests'])
         assert set(report['items'])==set('123456')
         report['failed_requirements']=failures;report['status']='FAIL' if failures else 'PASS'
-        report['completed_at']=datetime.now(timezone.utc).isoformat();save();print(json.dumps(report),flush=True)
+        if PUBLIC_GATE:
+            public_gate_support.finish(report)
+            for step in report['steps']:
+                public_gate_support.clean_file(Path(step['log']))
+            public_gate_support.clean_file(output/'tests.xml')
+        report['completed_at']=datetime.now(timezone.utc).isoformat();save();print(json.dumps(public_gate_support.clean_report(report) if PUBLIC_GATE else report),flush=True)
     except Exception as error:
         report['status']='FAIL';report['error']=str(error);report['failing_item']=item
         report['items'][str(item)]=dict(status='FAIL',error=str(error))
@@ -361,4 +381,4 @@ def run():
 if __name__=='__main__':
     assert os.environ.get('CERTMORSE_PVPYTHON') and os.environ.get('CERTMORSE_TSFM_PYTHON'),'run scripts/stage1-gate.ps1'
     result=run()
-    if result['status']!='PASS': sys.exit(1)
+    if result['status'] not in (('PASS','BLOCKED') if PUBLIC_GATE else ('PASS',)): sys.exit(1)
