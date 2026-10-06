@@ -159,7 +159,7 @@ def compare_runs(reference, actual):
 
 
 @pytest.mark.parametrize('phase', ['solve', 'file-write'])
-def test_T37_hard_kill_and_resume(phase, tmp_path):
+def test_T37_hard_kill_and_resume(phase, tmp_path, tmp_path_factory):
     reference, interrupted = tmp_path/'reference', tmp_path/'interrupted'
     process, stream = driver(reference, tmp_path/'reference.log')
     try:
@@ -210,6 +210,7 @@ def test_T37_hard_kill_and_resume(phase, tmp_path):
                   solve_cap_s=600, sampling_cap_s=300, max_optima=20, first_band_preserved=True,
                   second_band_restarted=True, partial_file_discarded=True, deterministic_units_byte_identical=True,
                   solver_status_bounds_and_witnesses_verified=True, completed_units_preserved=len(completed),
-                  reference=str(reference), resumed=str(interrupted), seeds_evidence=evidence, status='PASS')
-    target = ROOT/f'docs/T37-{phase}-v1.8.4.json'
+                  reference=reference.relative_to(ROOT).as_posix(), resumed=interrupted.relative_to(ROOT).as_posix(), seeds_evidence=evidence, status='PASS')
+    target = tmp_path_factory.getbasetemp()/f'reports/T37-{phase}-v1.8.4.json'
+    target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(json.dumps(report, indent=2)+'\n', encoding='utf-8', newline='\n')
