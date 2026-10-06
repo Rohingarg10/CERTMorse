@@ -1,8 +1,9 @@
-"""Executable Stage 1 gate, v1.8 with amendments through v1.8.3."""
+"""Executable v1.8.4 gate; completed scientific units are read-only."""
 import csv
 from datetime import datetime,timezone
 from hashlib import sha256
 import json
+import importlib.util
 import os
 from pathlib import Path
 import subprocess
@@ -20,19 +21,124 @@ from certmorse.provenance import source_digest
 from certmorse.mip.regions import region_bound
 from certmorse.resolution import RESOLUTION_INSTANCES,GRID_SIZES,INFORMATIVE_LIMIT
 from scripts.agreement import passed
+from certmorse.completion_checks import completion_checks, probe_checks, check_unit
+from certmorse.legacy_scores import LEGACY_DIGEST, verify_T38
+from certmorse.scoring import score_arrays
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+def git(*args):
+    return subprocess.check_output(['git', *args], cwd=ROOT)
+
+
+def committed_source_digest(ref):
+    """Use precisely provenance.source_digest's file set, ordering and bytes."""
+    names = git('ls-tree', '-r', '--name-only', ref).decode('utf-8').splitlines()
+    names = [name for name in names if (name.startswith(('certmorse/', 'ttk_scripts/'))
+                                        and name.endswith('.py')) or name == 'configs/instances.yaml']
+    digest = sha256()
+    for name in sorted(names, key=lambda name: ROOT/name):
+        digest.update(name.encode('utf-8'))
+        digest.update(b'\0'); digest.update(git('show', f'{ref}:{name}')); digest.update(b'\0')
+    return digest.hexdigest(), names
+
+
+def verify_committed_source():
+    commit = git('rev-parse', 'HEAD').decode().strip()
+    digest, names = committed_source_digest(commit)
+    current = sorted(p.relative_to(ROOT).as_posix() for directory in ('certmorse', 'ttk_scripts')
+                     for p in (ROOT/directory).rglob('*.py')) + ['configs/instances.yaml']
+    assert set(current) == set(names), 'source file set differs from committed tree'
+    assert digest == source_digest(), 'source bytes differ from committed tree'
+    for short in ('df07f35', '7a3f16d', '4f4a126'):
+        subprocess.run(['git', 'merge-base', '--is-ancestor', short, commit], cwd=ROOT, check=True)
+    pinned = git('rev-parse', 'stage1-v1.8.3^{commit}').decode().strip()
+    assert pinned == git('rev-parse', 'df07f35').decode().strip(), 'original tag moved'
+    historical, _ = committed_source_digest(pinned)
+    assert historical == LEGACY_DIGEST, (historical, LEGACY_DIGEST)
+    return dict(commit=commit, source_digest=digest, committed_tree=True,
+                source_files=len(names), section_8_commits=['df07f35', '7a3f16d', '4f4a126'],
+                original_tag='stage1-v1.8.3', original_commit=pinned, original_source_digest=historical)
+
+
+def verify_completion_hashes():
+    evidence = json.loads(Path('docs/completion-evidence-v1.8.4.json').read_text(encoding='utf-8'))
+    checked = 0
+    def verify_hash(path, expected):
+        nonlocal checked
+        actual = sha256(Path(path).read_bytes()).hexdigest()
+        assert actual == expected, (str(path), expected, actual)
+        checked += 1
+    assert len(evidence['units']) == evidence['unit_count'] == 179
+    for name, unit in evidence['units'].items():
+        folder = Path(name)
+        verify_hash(folder/'config.json', unit['config_sha256'])
+        verify_hash(folder/'status.json', unit['status_sha256'])
+        for output, digest in unit['status']['outputs'].items():
+            verify_hash(folder/output, digest)
+        check_unit(folder)
+    for name, digest in evidence['report_sha256'].items():
+        verify_hash(name, digest)
+    old = json.loads(Path('docs/rescoring-v1.8.4.json').read_text(encoding='utf-8'))
+    for name, digest in old['input_sha256'].items():
+        verify_hash(name, digest)
+    assert len(old['input_sha256']) == 176
+    return dict(units=179, hashes=checked, legacy_inputs=176, status='PASS')
+
+
+def verify_rescoring():
+    reproduced = verify_T38()
+    report = json.loads(Path('docs/rescoring-v1.8.4.json').read_text(encoding='utf-8'))
+    assert report['status'] == 'PASS' and report['T38'] and report['folders'] == 80
+    cx = TorusComplex(16)
+    for instance, mode in [('R8a', 'hoeffding'), ('E8a', 'hoeffding'), ('W8a', 'hoeffding'), ('R8a', 'oracle')]:
+        target = Path(f'docs/stage1-{instance.lower()}-{mode}-rescored-v1.8.4.csv')
+        with target.open(encoding='utf-8', newline='\n') as stream:
+            rows = list(csv.DictReader(stream))
+        assert len(rows) == 20 and {int(r['seed']) for r in rows} == set(range(20))
+        for row in rows:
+            path = Path(f'results/stage1-{instance.lower()}-v1.8.3-{mode}')/row['run_id']
+            base = json.loads((path/'measurement.json').read_text(encoding='utf-8'))
+            with np.load(path/'matching.npz') as data:
+                arrays = {key: data[key] for key in data.files}
+            scored = score_arrays(arrays, base)
+            for key, value in scored.items():
+                assert row[key] == ('' if value is None else str(value)), (target, row['seed'], key)
+    return reproduced
+
+
+def verify_documents():
+    path = ROOT/'scripts/report-stage1-v1.8.4.py'
+    spec = importlib.util.spec_from_file_location('report_stage1_v184', path)
+    module = importlib.util.module_from_spec(spec); spec.loader.exec_module(module)
+    rendering = module.run(check=True)
+    certificate = Path('docs/CERTIFICATE.md').read_text(encoding='utf-8')
+    for required in ('v1.8.4', 'simplest landscape consistent with the', 'resolution, `P0_res`',
+                     'never a certificate', 'Certified-trap definition', 'min_{v ∈ M} ℓ_v > min_v *u*_v + τ_min',
+                     'persistence > 2*w*', '**Proposition.**', '**Proof.**', 'For (1)', 'For (2)', 'For (3)',
+                     'P_possible_simplest', 'withdrawn as an ambiguity measure', 'unresolved'):
+        assert required in certificate, ('CERTIFICATE.md missing', required)
+    hashes = {}
+    for name in ('docs/STAGE1.md', 'docs/CERTIFICATE.md', 'docs/persistence-v1.8.4.json'):
+        raw = Path(name).read_bytes(); raw.decode('utf-8')
+        assert b'\r' not in raw and not raw.startswith(b'\xef\xbb\xbf'), (name, 'not UTF-8/LF')
+        hashes[name] = sha256(raw).hexdigest()
+    return dict(status='PASS', sha256=hashes, rendering=rendering,
+                renderer=str(path.relative_to(ROOT)), renderer_sha256=sha256(path.read_bytes()).hexdigest())
 
 
 def run():
     started=datetime.now(timezone.utc)
-    output=Path('results/stage1-gate-v1.8.3')/started.strftime('%Y%m%dT%H%M%SZ')
+    output=Path('results/stage1-gate-v1.8.4')/started.strftime('%Y%m%dT%H%M%SZ')
     output.mkdir(parents=True,exist_ok=True)
-    report=dict(specification='v1.8',amendments=['v1.8.1','v1.8.2','v1.8.3'],
+    report=dict(specification='v1.8.4',amendments=['v1.8.1','v1.8.2','v1.8.3','v1.8.4'],
                 started_at=started.isoformat(),source_digest=source_digest(),status='RUNNING',
-                full_gate_ran=True,steps=[],checks={})
-    destination=Path('docs/stage1-gate.json')
+                full_gate_ran=True,completed_scientific_units_rerun=0,steps=[],checks={},items={})
+    destination=Path('docs/stage1-gate-v1.8.4.json')
     def save(): destination.write_text(json.dumps(report,indent=2),encoding='utf-8', newline='\n')
     def verify(path):
-        assert yaml.safe_load((path/'config.yaml').read_text(encoding='utf8'))['source_digest']==report['source_digest']
+        assert yaml.safe_load((path/'config.yaml').read_text(encoding='utf8'))['source_digest']==LEGACY_DIGEST
         assert json.loads((path/'status.json').read_text(encoding='utf8'))['complete']
     def verify_matching(cx,x,y,lo,hi,count):
         a,b=cx.split_matching(y)
@@ -41,16 +147,38 @@ def run():
         assert cx.nc-2*int(y.sum())==count
         assert not isinstance(witness(a,b,lo,hi,cx),NegativeCycle)
     save()
-    commands=[('tests',[sys.executable,'-m','pytest','-q','-x','--junitxml='+str(output/'tests.xml')]),
-              ('agreement',[sys.executable,'scripts/agreement.py','--resume']),
-              ('resolution',[sys.executable,'scripts/resolution-study.py','--resume']),
-              ('hoeffding',[sys.executable,'-m','certmorse.stage1','--resume']),
-              ('oracle',[sys.executable,'-m','certmorse.stage1','--instances','R8a','--band-mode','oracle',
-                         '--multiplicity-bands','0','--resume']),
-              ('coverage',[sys.executable,'scripts/coverage-study.py'])]
+    # Full tests create isolated test fixtures (including T37's interruption
+    # controls). No Stage 1 count/sampling/probe driver is called by this gate.
+    commands=[('tests',[sys.executable,'-m','pytest','-q','-x','--basetemp='+str(output/'test-tmp'),
+                        '--junitxml='+str(output/'tests.xml')])]
+    item = 6
     try:
+        report['checks']['committed_source']=verify_committed_source()
+        report['items']['6']=dict(status='PASS', **report['checks']['committed_source']);save()
+        item = 2
+        report['checks']['completion_hashes_before']=verify_completion_hashes();save()
+        report['checks']['rescoring']=verify_rescoring()
+        report['items']['2']=dict(status='PASS', primary_folders=80,
+                                  optimal_bands=report['checks']['rescoring']['optimal_bands'],
+                                  sampled_optima=report['checks']['rescoring']['sampled_optima'],
+                                  exact_T38=True);save()
+        item = 3
+        report['checks']['oracle_completion']=completion_checks()
+        completion = report['checks']['oracle_completion']['instances']
+        assert completion['E8a']['optimal'] == 20 and completion['W8a']['optimal'] == 10
+        assert sum(r['sampled_optima'] for r in completion.values()) == 411
+        report['items']['3']=dict(status='PASS', new_counts=40, oracle_bands=60,
+                                  sampling_runs=30, sampled_optima=411, instances=completion);save()
+        item = 4
+        report['checks']['probes']=probe_checks()
+        assert report['checks']['probes']['outcomes'] == {'UNKNOWN': 7}
+        report['items']['4']=dict(report['checks']['probes']);save()
+        item = 5
+        report['checks']['documents']=verify_documents()
+        report['items']['5']=dict(status='PASS', sha256=report['checks']['documents']['sha256']);save()
+        item = 1
         t34=json.loads(Path('docs/T34-v1.8.3.json').read_text(encoding='utf8'))
-        assert t34['source_digest']==report['source_digest']
+        assert t34['source_digest']==LEGACY_DIGEST
         assert datetime.fromisoformat(t34['bands']['hoeffding']['completed_at'])<started
         report['checks']['T34_hoeffding_before_gate']=t34['bands']['hoeffding'];save()
         for name,command in commands:
@@ -69,6 +197,27 @@ def run():
         assert cases and not any(c.find('skipped') is not None for c in cases),'required integrations must not be skipped'
         assert not any(c.find('failure') is not None or c.find('error') is not None for c in cases)
         report['checks']['tests']=dict(passed=len(cases),skipped=0)
+        test_ids = set()
+        import re
+        for case in cases:
+            test_ids.update(int(n) for n in re.findall(r'T(\d+)', case.get('name', '')))
+        # v1.6 section 2a places T12 (optimizer measurement), T13
+        # (allocation), and T18 (forecast calibration) in Stage 2.
+        # Preserve that scope and run every Stage 1 test, with no skips.
+        required_ids = set(range(1,40))-{12,13,18}
+        assert required_ids <= test_ids, ('missing tests', sorted(required_ids-test_ids))
+        report['checks']['tests']['test_ids'] = sorted(test_ids)
+        report['checks']['tests']['stage2_ids'] = [12,13,18]
+        report['checks']['tests']['scope'] = 'Stage 1, v1.6 section 2a; no Stage 2 work'
+        for test_id in (36,37,38,39):
+            selected = [c for c in cases if f'T{test_id}' in c.get('name', '')]
+            assert selected and all(c.find('failure') is None and c.find('error') is None and c.find('skipped') is None for c in selected)
+            report['checks'][f'T{test_id}'] = dict(passed=len(selected), skipped=0)
+        for phase in ('solve', 'file-write'):
+            evidence = json.loads(Path(f'docs/T37-{phase}-v1.8.4.json').read_text(encoding='utf-8'))
+            assert evidence['status']=='PASS' and evidence['first_band_preserved'] and evidence['second_band_restarted']
+            assert evidence['deterministic_units_byte_identical'] and evidence['solver_status_bounds_and_witnesses_verified']
+            report['checks'][f'T37_{phase}'] = evidence
         rows=json.loads(Path('docs/agreement-v1.8.3.json').read_text(encoding='utf8'))
         assert {(r['m'],r['seed']) for r in rows}=={(m,s) for m in [3,4,8] for s in range(20 if m==8 else 50)}
         assert len(rows)==120 and all(passed(r) and passed(dict(methods=r['controls'])) and r['rows_preserve_optimum'] for r in rows)
@@ -91,7 +240,7 @@ def run():
                     verify_matching(TorusComplex(m),data['x'],data['y'],data['lo'],data['hi'],record['kappa_incumbent'])
         report['checks']['T34']=t34
         resolution=json.loads(Path('docs/resolution-v1.8.3.json').read_text(encoding='utf8'))
-        assert resolution['source_digest']==report['source_digest']
+        assert resolution['source_digest']==LEGACY_DIGEST
         assert {(r['instance'],r['grid_m']) for r in resolution['rows']}=={(i,m) for i in RESOLUTION_INSTANCES for m in GRID_SIZES}
         assert len(resolution['rows'])==20
         for r in resolution['rows']:
@@ -180,6 +329,7 @@ def run():
         study=json.loads(Path('docs/coverage-study-v1.8.3.json').read_text(encoding='utf8'))
         assert study['total']==2000 and study['seed_start']==10000 and study['seed_end']==11999
         assert not study['modes']['oracle']['simultaneous_guarantee'] and study['modes']['hoeffding']['simultaneous_guarantee']
+        assert study['modes']['oracle']['covered']==1896 and study['modes']['hoeffding']['covered']==2000
         report['checks']['coverage']=study
         archive=Path('docs/archive/v1.7');manifest=json.loads((archive/'manifest.json').read_text(encoding='utf8'))
         for entry in manifest:
@@ -187,11 +337,24 @@ def run():
             if entry['source'].startswith('results/'):
                 assert sha256(Path(entry['source']).read_bytes()).hexdigest()==entry['sha256']
         report['checks']['archive']=dict(files=len(manifest),all_archived_hashes_verified=True,original_results_unchanged=True)
+        report['checks']['completion_hashes_after']=verify_completion_hashes()
+        assert report['checks']['completion_hashes_after']==report['checks']['completion_hashes_before']
+        assert verify_committed_source()==report['checks']['committed_source'], 'committed source changed during gate'
+        assert verify_documents()==report['checks']['documents'], 'documents changed during gate'
         assert source_digest()==report['source_digest'],'implementation changed during gate'
+        report['items']['1']=dict(status='FAIL' if failures else 'PASS', **report['checks']['tests'])
+        assert set(report['items'])==set('123456')
         report['failed_requirements']=failures;report['status']='FAIL' if failures else 'PASS'
         report['completed_at']=datetime.now(timezone.utc).isoformat();save();print(json.dumps(report),flush=True)
     except Exception as error:
-        report['status']='FAIL';report['error']=str(error);report['completed_at']=datetime.now(timezone.utc).isoformat();save();raise
+        report['status']='FAIL';report['error']=str(error);report['failing_item']=item
+        report['items'][str(item)]=dict(status='FAIL',error=str(error))
+        xml = output/'tests.xml'
+        if xml.exists():
+            cases = ET.parse(xml).findall('.//testcase')
+            report['test_counts']=dict(total=len(cases), failures=sum(c.find('failure') is not None or c.find('error') is not None for c in cases),
+                                       skipped=sum(c.find('skipped') is not None for c in cases))
+        report['completed_at']=datetime.now(timezone.utc).isoformat();save();raise
     return report
 
 

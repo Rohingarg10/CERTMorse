@@ -18,8 +18,8 @@
   "deterministic_units_byte_identical": true,
   "solver_status_bounds_and_witnesses_verified": true,
   "completed_units_preserved": 5,
-  "reference": "<HOME>\\AppData\\Local\\Temp\\pytest-of-<USER>\\pytest-31\\test_T37_hard_kill_and_resume_1\\reference",
-  "resumed": "<HOME>\\AppData\\Local\\Temp\\pytest-of-<USER>\\pytest-31\\test_T37_hard_kill_and_resume_1\\interrupted",
+  "reference": "<HOME>\\Projects\\CertMorse\\results\\stage1-gate-v1.8.4\\20261006T105935Z\\test-tmp\\test_T37_hard_kill_and_resume_1\\reference",
+  "resumed": "<HOME>\\Projects\\CertMorse\\results\\stage1-gate-v1.8.4\\20261006T105935Z\\test-tmp\\test_T37_hard_kill_and_resume_1\\interrupted",
   "seeds_evidence": [
     {
       "seed": 0,
@@ -49,7 +49,9 @@
         "LB_region": 8,
         "n_optima": 20,
         "P_values": [
+          0.0625,
           0.25,
+          0.3125,
           0.375,
           0.4375,
           0.5625,
@@ -92,15 +94,13 @@
           0.0625,
           0.125,
           0.1875,
-          0.3125,
           0.4375,
           0.5,
           0.625,
-          0.875,
           0.9375
         ]
       },
-      "P_sets_differ": false
+      "P_sets_differ": true
     },
     {
       "seed": 2,
@@ -116,6 +116,7 @@
           0.3125,
           0.4375,
           0.5,
+          0.5625,
           0.625,
           0.6875,
           0.875,
@@ -130,6 +131,7 @@
         "n_optima": 20,
         "P_values": [
           0.0625,
+          0.125,
           0.3125,
           0.4375,
           0.5,
