@@ -6,7 +6,7 @@
     "v1.8.3",
     "v1.8.4"
   ],
-  "started_at": "2026-10-07T03:59:20.824856+00:00",
+  "started_at": "2026-10-07T04:51:07.654472+00:00",
   "source_digest": "c48e3b7c654eb832188500a1067e0a2963990c676cb7b0106199af7d37673ab5",
   "status": "BLOCKED",
   "full_gate_ran": true,
@@ -20,17 +20,17 @@
         "pytest",
         "-q",
         "-x",
-        "--basetemp=results\\stage1-gate-v1.8.4\\20261007T035920Z\\test-tmp",
-        "--junitxml=results\\stage1-gate-v1.8.4\\20261007T035920Z\\tests.xml"
+        "--basetemp=<HOME>\\AppData\\Local\\Temp\\cmowz_eqx_",
+        "--junitxml=results\\stage1-gate-v1.8.4\\20261007T045107Z\\tests.xml"
       ],
       "exit_code": 0,
-      "wall_s": 567.8100697999762,
-      "log": "results\\stage1-gate-v1.8.4\\20261007T035920Z\\tests.log"
+      "wall_s": 569.2512981999898,
+      "log": "results\\stage1-gate-v1.8.4\\20261007T045107Z\\tests.log"
     }
   ],
   "checks": {
     "committed_source": {
-      "commit": "39d8327fb38728902bf874d731d10001f62df5ee",
+      "commit": "c3784670808d3e138771fd181e918173d78da68f",
       "source_digest": "c48e3b7c654eb832188500a1067e0a2963990c676cb7b0106199af7d37673ab5",
       "committed_tree": true,
       "source_files": 43,
@@ -1894,7 +1894,7 @@
       "completed_at": "2026-10-04T13:20:18.206860+00:00"
     },
     "tests": {
-      "passed": 347,
+      "passed": 349,
       "skipped": 0,
       "test_ids": [
         1,
@@ -1977,8 +1977,8 @@
       "deterministic_units_byte_identical": true,
       "solver_status_bounds_and_witnesses_verified": true,
       "completed_units_preserved": 5,
-      "reference": "results/stage1-gate-v1.8.4/20261007T035920Z/test-tmp/test_T37_hard_kill_and_resume_0/reference",
-      "resumed": "results/stage1-gate-v1.8.4/20261007T035920Z/test-tmp/test_T37_hard_kill_and_resume_0/interrupted",
+      "reference": "../../AppData/Local/Temp/cmowz_eqx_/t43/reference",
+      "resumed": "../../AppData/Local/Temp/cmowz_eqx_/t43/interrupted",
       "seeds_evidence": [
         {
           "seed": 0,
@@ -1990,7 +1990,7 @@
             "n_optima": 20,
             "P_values": [
               0.0625,
-              0.1875,
+              0.25,
               0.3125,
               0.375,
               0.4375,
@@ -1998,6 +1998,7 @@
               0.625,
               0.6875,
               0.75,
+              0.875,
               0.9375
             ]
           },
@@ -2008,7 +2009,9 @@
             "LB_region": 8,
             "n_optima": 20,
             "P_values": [
+              0.1875,
               0.25,
+              0.3125,
               0.375,
               0.4375,
               0.5625,
@@ -2033,11 +2036,10 @@
               0.0625,
               0.125,
               0.1875,
-              0.25,
               0.3125,
               0.4375,
               0.5,
-              0.625,
+              0.5625,
               0.875,
               0.9375
             ]
@@ -2052,11 +2054,11 @@
               0.0625,
               0.125,
               0.1875,
+              0.25,
               0.3125,
               0.4375,
               0.5,
               0.625,
-              0.6875,
               0.875,
               0.9375
             ]
@@ -2091,9 +2093,11 @@
             "n_optima": 20,
             "P_values": [
               0.0625,
+              0.125,
               0.3125,
               0.4375,
               0.5,
+              0.5625,
               0.6875,
               0.875,
               0.9375
@@ -2124,8 +2128,8 @@
       "deterministic_units_byte_identical": true,
       "solver_status_bounds_and_witnesses_verified": true,
       "completed_units_preserved": 5,
-      "reference": "results/stage1-gate-v1.8.4/20261007T035920Z/test-tmp/test_T37_hard_kill_and_resume_1/reference",
-      "resumed": "results/stage1-gate-v1.8.4/20261007T035920Z/test-tmp/test_T37_hard_kill_and_resume_1/interrupted",
+      "reference": "../../AppData/Local/Temp/cmowz_eqx_/t44/reference",
+      "resumed": "../../AppData/Local/Temp/cmowz_eqx_/t44/interrupted",
       "seeds_evidence": [
         {
           "seed": 0,
@@ -2137,11 +2141,9 @@
             "n_optima": 20,
             "P_values": [
               0.0625,
-              0.1875,
               0.25,
               0.375,
               0.4375,
-              0.5,
               0.5625,
               0.625,
               0.6875,
@@ -2185,6 +2187,7 @@
               0.3125,
               0.4375,
               0.5,
+              0.5625,
               0.625,
               0.875,
               0.9375
@@ -2200,6 +2203,7 @@
               0.0625,
               0.125,
               0.1875,
+              0.25,
               0.3125,
               0.4375,
               0.5,
@@ -2221,11 +2225,10 @@
             "n_optima": 20,
             "P_values": [
               0.0625,
-              0.125,
-              0.25,
               0.3125,
               0.4375,
               0.5,
+              0.625,
               0.6875,
               0.875,
               0.9375
@@ -2239,7 +2242,6 @@
             "n_optima": 20,
             "P_values": [
               0.0625,
-              0.25,
               0.3125,
               0.4375,
               0.5,
@@ -2257,8 +2259,9 @@
       "status": "PASS",
       "before_status": "",
       "after_status": "",
-      "tracked_files": 235,
-      "tracked_hashes_unchanged": true
+      "tracked_files": 237,
+      "tracked_hashes_unchanged": true,
+      "scratch_longest_path_chars": 181
     },
     "agreement": {
       "bands": 120,
@@ -6081,7 +6084,7 @@
       "status": "PASS",
       "before_status": "",
       "after_status": "",
-      "tracked_files": 235,
+      "tracked_files": 237,
       "tracked_hashes_unchanged": true
     },
     "original_gate_script": {
@@ -6093,7 +6096,7 @@
   "items": {
     "6": {
       "status": "BLOCKED_PRIVATE_HISTORY",
-      "commit": "39d8327fb38728902bf874d731d10001f62df5ee",
+      "commit": "c3784670808d3e138771fd181e918173d78da68f",
       "source_digest": "c48e3b7c654eb832188500a1067e0a2963990c676cb7b0106199af7d37673ab5",
       "committed_tree": true,
       "source_files": 43,
@@ -6202,7 +6205,7 @@
     },
     "1": {
       "status": "BLOCKED_PRIVATE_INPUTS",
-      "passed": 347,
+      "passed": 349,
       "skipped": 0,
       "test_ids": [
         1,
@@ -6250,7 +6253,7 @@
       "scope": "Stage 1, v1.6 section 2a; no Stage 2 work"
     }
   },
-  "report_path": "results\\stage1-gate-v1.8.4\\20261007T035920Z\\gate.json",
+  "report_path": "results\\stage1-gate-v1.8.4\\20261007T045107Z\\gate.json",
   "failed_requirements": [],
   "blocked_checks": [
     {
@@ -6382,5 +6385,5 @@
   },
   "python_version": "3.11.17",
   "unblocked_checks_status": "PASS",
-  "completed_at": "2026-10-07T04:11:13.954548+00:00"
+  "completed_at": "2026-10-07T05:01:38.463718+00:00"
 }
