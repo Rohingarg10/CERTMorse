@@ -270,7 +270,7 @@ working documents are omitted; old provenance paths are redacted rather than
 retargeted under old hashes. Approved reporting substitutions can make an old
 hash unavailable as a check on public bytes. The public gate records each
 blocked check separately, executes remaining assertions and makes no full-PASS
-claim while checks are blocked. [SANITIZATION.md](../SANITIZATION.md) and the
+claim while checks are blocked. [Provenance](../README.md#provenance) and the
 public gate report distinguish these effects from numerical failures.
 
 ## 8. Validation leaves evidence unchanged

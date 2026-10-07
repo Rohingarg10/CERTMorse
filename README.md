@@ -81,11 +81,16 @@ non-commercial and downloaded at runtime. [THIRD_PARTY.md](THIRD_PARTY.md)
 records their terms and dependency licences. The project code is [MIT](LICENSE).
 
 Read [STAGE1.md](docs/STAGE1.md), [CERTIFICATE.md](docs/CERTIFICATE.md), and the
-self-contained [public method](docs/METHOD.md). [SANITIZATION.md](SANITIZATION.md)
-and [the public gate](docs/stage1-gate-public.json) record the approved cleanup
-and unavailable historical checks. Historical hashes remain unchanged.
+self-contained [public method](docs/METHOD.md).
 
-The public gate reports **BLOCKED** because 17 checks depend on files deliberately
-removed or redacted for privacy; every other check passes. Tests and gates never
-write tracked evidence: their reports use ignored scratch output, and recording
-a gate report is a separate explicit command described in [METHOD.md](docs/METHOD.md).
+Tests and gates never write tracked evidence: their reports use ignored scratch
+output, and recording a gate report is a separate explicit command described in
+[METHOD.md](docs/METHOD.md).
+
+## Provenance
+
+The public history is a cleaned copy of a private development history.
+Personal paths, machine names and power-event details were replaced, and
+internal working documents were removed. As a result, 17 gate checks report
+**BLOCKED** and 3 recorded hashes cannot match; every other check passes.
+See the [public gate report](docs/stage1-gate-public.json).
