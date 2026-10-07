@@ -1,4 +1,4 @@
-"""Amended T32; keep the original failing run/definition as historical evidence."""
+"""T32: basin-depth scoring and preserved counterexamples; see docs/METHOD.md."""
 import csv
 import json
 from pathlib import Path
@@ -14,11 +14,11 @@ from certmorse.mip import build_A,solve,sample_optima
 from certmorse.mip.bounds import truth_count,ZERO_SCALE
 from certmorse.rng import streams
 
-NARROW_HALF_WIDTH = 0.01  # v1.6 T23/T26, retained for the T32 narrow band.
-TIME_LIMIT_S = 600  # v1.6 section 6.4.
-SAMPLING_CAP_S = 300  # D14.4(b).
-MAX_OPTIMA = 20  # D14.4(b).
-THREADS = 8  # v1.6 section 6.4.
+NARROW_HALF_WIDTH = 0.01  # Known-answer narrow-band control.
+TIME_LIMIT_S = 600  # Count-solve cap in seconds.
+SAMPLING_CAP_S = 300  # Sampling cap per band in seconds.
+MAX_OPTIMA = 20  # Requested optima per sampled band.
+THREADS = 8  # Count-solve worker count.
 
 
 def old_exact_global_control(y,lower,upper,cx):

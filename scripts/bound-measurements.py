@@ -16,7 +16,7 @@ from certmorse.stage1 import complete
 from certmorse.provenance import source_digest
 
 ARCHIVE=Path('docs/archive/v1.7')
-THREADS=8  # Retained v1.7 protocol.
+THREADS=8  # Saved pilot worker count; see docs/METHOD.md.
 
 
 def pilot_bands():
@@ -41,7 +41,7 @@ def historical_run(band='all',resume=False):
     destination=Path('docs/T34-v1.8.3.json')
     report=json.loads(destination.read_text(encoding='utf8')) if destination.exists() else dict(bands={})
     if report.get('source_digest')!=source_digest(): report=dict(bands={})
-    report.update(specification='v1.8.3',source_digest=source_digest(),improvement_asserted=False)
+    report.update(method='docs/METHOD.md',source_digest=source_digest(),improvement_asserted=False)
     for pilot in pilot_bands():
         if band!='all' and pilot['label']!=band: continue
         with np.load(pilot['source']/pilot['file']) as data:

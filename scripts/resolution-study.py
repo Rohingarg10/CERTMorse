@@ -1,4 +1,4 @@
-"""Simulation-only resolution table required by v1.8.3; no E2 run."""
+"""Simulation-only grid adequacy table; see docs/METHOD.md."""
 import argparse
 import json
 from pathlib import Path
@@ -21,7 +21,7 @@ def run(resume=True):
         assert len(report['rows'])==20
         assert all((Path(row['run_path'])/'field.npz').is_file() for row in report['rows'])
         return report
-    raise RuntimeError('saved resolution evidence is missing; v1.8.3 outputs are read-only')
+    raise RuntimeError('saved resolution evidence is missing; completed outputs are read-only')
 
 
 def historical_run(resume=False):
@@ -44,7 +44,7 @@ def historical_run(resume=False):
                                                    'P0_grid','P0_cont','RQ2_informative')}),flush=True)
     selected={name:next((r['grid_m'] for r in rows if r['instance']==name and r['resolution_adequate']),None)
               for name in RESOLUTION_INSTANCES}
-    report=dict(specification='v1.8.3',source_digest=source_digest(),rows=rows,
+    report=dict(method='docs/METHOD.md',source_digest=source_digest(),rows=rows,
                 smallest_passing_grid=selected,p2_fallback=not any(r['RQ2_informative'] for r in rows))
     Path('docs/resolution-v1.8.3.json').write_text(json.dumps(report,indent=2),encoding='utf-8', newline='\n')
     return report

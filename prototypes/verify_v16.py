@@ -1,4 +1,4 @@
-"""Numerical checks for claims written into spec v1.6.
+"""Numerical checks for translation, matching transfer and closure persistence.
 
 A. Uniform coherent offset is a pure gamma-translation for unit weights:
    F_d(g, b) = F_a(g - delta, b); and is NOT for weighted graphs.

@@ -1,4 +1,4 @@
-"""Normative v1.8/v1.8.1 checks; the original T29 failure stays in its XML log."""
+"""Channel periods, symmetry metadata and tie-free grids; see docs/METHOD.md."""
 import json
 from pathlib import Path
 import numpy as np
@@ -12,11 +12,11 @@ from certmorse.runid import default_config
 
 INSTANCE_IDS = ['R6a', 'R6b', 'R8a', 'R8b', 'R8c', 'R10a',
                 'E8a', 'E8b', 'W8a', 'W8b', 'C8', 'K5']
-SYMMETRY_TOLERANCE = 1e-12  # v1.8.1 T29
-SYMMETRY_POINTS = 100  # v1.8.1 T29
-FULL_BETA_PERIOD = np.pi  # v1.8.1 section 2
-HALF_BETA_PERIOD = np.pi/2  # v1.8.1 section 2
-DAMPING_CONTROL_TOLERANCE = 1e-6  # v1.8.1 T29.3
+SYMMETRY_TOLERANCE = 1e-12  # Periodicity and symmetry comparison tolerance.
+SYMMETRY_POINTS = 100  # Off-grid comparison points per instance and channel.
+FULL_BETA_PERIOD = np.pi  # All channels are periodic on the full beta domain.
+HALF_BETA_PERIOD = np.pi/2  # All channels except amplitude damping also have this period.
+DAMPING_CONTROL_TOLERANCE = 1e-6  # Amplitude damping must measurably break the half period.
 TEST_SEED = 29  # Reproducible T29 points; original failing run used seed 29.
 PIPELINE_SEED = 7  # Retain the original failing run's transpilation.
 RECORD_ROOT = None
@@ -67,7 +67,7 @@ def test_T29_ideal_gamma_metadata(name):
 
 @pytest.mark.parametrize('channel', ['a', 'c'])
 def test_per_channel_landscape_metadata(channel, tmp_path):
-    cfg = default_config(dict(experiment='stage1-metadata-v1.8.1', instance='R8a',
+    cfg = default_config(dict(experiment='stage1-channel-metadata', instance='R8a',
                               grid_m=3, noise=channel, seed=PIPELINE_SEED))
     run(cfg, tmp_path)
     with np.load(tmp_path/'landscape.npz') as data:

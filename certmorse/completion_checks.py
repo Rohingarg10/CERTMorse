@@ -1,4 +1,4 @@
-"""Read-only verification of v1.8.4 completion and probe evidence."""
+"""Read-only verification of completion and probe evidence; see docs/METHOD.md."""
 import csv
 from hashlib import sha256
 import json
@@ -44,7 +44,7 @@ def completion_checks():
     legacy = {(row['instance'], row['band_mode'], row['seed']): (folder, row) for folder, row in stage1_folders()}
     old_hashes = json.loads((ROOT/'docs/rescoring-v1.8.4.json').read_text(encoding='utf-8'))['input_sha256']
     for name, digest in old_hashes.items():
-        assert file_hash(ROOT/name) == digest, (name, 'v1.8.3 input changed')
+        assert file_hash(ROOT/name) == digest, (name, 'saved input changed')
     reproduced = verify_T38()
     report = json.loads((ROOT/'docs/oracle-completion-v1.8.4.json').read_text(encoding='utf-8'))
     assert report['status'] == 'PASS' and report['new_count_solves'] == 40 and report['sampling_bands'] == 30

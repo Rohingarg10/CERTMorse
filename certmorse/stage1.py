@@ -1,4 +1,4 @@
-"""Stage 1 v1.8 with amendments through v1.8.3; no Stage 2 experiments."""
+"""Stage 1 measurements and saved-result checks; see docs/METHOD.md."""
 import argparse
 import csv
 import json
@@ -22,15 +22,15 @@ from .rng import streams
 from .persistence import persistence,lower_star_values,bottleneck
 from .resolution import resolution_check
 
-GRID_M = 16  # v1.8 gate item 3.
-SHOTS = 1000  # v1.8 gate item 3.
-ALPHA = 0.05  # D6.
-FIELD_SEED = 1003  # Retain the v1.7 Stage 1 field/transpilation seed.
-TIME_LIMIT_S = 600  # v1.8 section 7; unchanged cap.
+GRID_M = 16  # Measured Stage 1 grid size.
+SHOTS = 1000  # Shots per vertex in the reported band.
+ALPHA = 0.05  # Simultaneous band error budget.
+FIELD_SEED = 1003  # Saved Stage 1 field/transpilation seed.
+TIME_LIMIT_S = 600  # Count-solve cap in seconds.
 THREADS = 8  # Retained solver protocol.
-MAX_OPTIMA = 20  # D14.4(b).
-SAMPLING_CAP_S = 300  # D14.4(b).
-TRANSFER_MARGIN = 14  # D14.2.
+MAX_OPTIMA = 20  # Requested optima per sampled band.
+SAMPLING_CAP_S = 300  # Sampling cap per band in seconds.
+TRANSFER_MARGIN = 14  # Outward integer margin for matching transfer.
 
 
 def event(path,name,**payload):
@@ -49,7 +49,7 @@ def measure_instance(instance,bands=20,multiplicity_bands=10,resume=True,band_mo
             rows=list(csv.DictReader(stream))
         assert len(rows)>=bands
         return rows[:bands]
-    raise RuntimeError('use v1.8.4 raw units for missing bands; completed v1.8.3 solves are read-only')
+    raise RuntimeError('use separate raw units for missing bands; completed Stage 1 solves are read-only')
 
 
 def historical_measure_instance(instance,bands=20,multiplicity_bands=10,resume=False,band_mode='hoeffding'):

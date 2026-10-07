@@ -1,4 +1,4 @@
-"""Exact reproduction must succeed before new v1.8.4 columns are written."""
+"""Exact reproduction must succeed before new score columns are written."""
 from certmorse.legacy_scores import verify_T38
 
 

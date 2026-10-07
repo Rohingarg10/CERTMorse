@@ -1,4 +1,4 @@
-"""T35 and the explicit synthetic-grid exception in v1.8.3 section 3."""
+"""T35: quarter-offset QAOA grids and unshifted synthetic grids; see docs/METHOD.md."""
 from pathlib import Path
 import re
 import numpy as np
@@ -11,7 +11,7 @@ from certmorse.instances import load_instance, cost_values
 from certmorse.complex import TorusComplex
 from certmorse.export_vtk import export_complex
 
-GRID_TOLERANCE = 1e-12  # v1.8.3 T35
+GRID_TOLERANCE = 1e-12  # Round-trip and direct-coordinate comparison tolerance.
 
 
 @pytest.mark.parametrize('m',[3,4,8,16,24,32,48])

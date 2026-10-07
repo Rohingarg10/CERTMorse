@@ -11,9 +11,9 @@ from certmorse.scoring import score_folder
 from certmorse.stage1_scoring import oracle_row
 from certmorse.units import ROOT, complete_unit, file_hash
 
-spec = importlib.util.spec_from_file_location('rescore', ROOT/'scripts/rescore-stage1.py')
-rescore = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(rescore)
+module_definition = importlib.util.spec_from_file_location('rescore', ROOT/'scripts/rescore-stage1.py')
+rescore = importlib.util.module_from_spec(module_definition)
+module_definition.loader.exec_module(rescore)
 
 
 def location(name):

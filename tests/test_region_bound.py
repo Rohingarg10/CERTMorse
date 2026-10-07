@@ -8,7 +8,7 @@ from certmorse.scaling import choose_scale,model_band,cell_band
 from certmorse.mip import build_A,solve
 from certmorse.mip.regions import region_bound
 
-T31_BANDS = 50  # v1.8 T31.
+T31_BANDS = 50  # Saved random-band cases per grid size.
 TIME_LIMIT_S = 600  # Retained solver protocol.
 THREADS = 8  # Retained solver protocol.
 

@@ -1,4 +1,4 @@
-"""Executable v1.8.4 gate; completed scientific units are read-only."""
+"""Executable Stage 1 gate; completed scientific units are read-only."""
 import csv
 from datetime import datetime,timezone
 from hashlib import sha256
@@ -70,7 +70,7 @@ def verify_committed_source():
     historical, _ = committed_source_digest(pinned)
     assert historical == LEGACY_DIGEST, (historical, LEGACY_DIGEST)
     return dict(commit=commit, source_digest=digest, committed_tree=True,
-                source_files=len(names), section_8_commits=['df07f35', '7a3f16d', '4f4a126'],
+                source_files=len(names), source_commits=['df07f35', '7a3f16d', '4f4a126'],
                 original_tag='stage1-v1.8.3', original_commit=pinned, original_source_digest=historical)
 
 
@@ -124,11 +124,11 @@ def verify_rescoring():
 
 def verify_documents():
     path = ROOT/'scripts/report-stage1-v1.8.4.py'
-    spec = importlib.util.spec_from_file_location('report_stage1_v184', path)
-    module = importlib.util.module_from_spec(spec); spec.loader.exec_module(module)
+    module_definition = importlib.util.spec_from_file_location('report_stage1_v184', path)
+    module = importlib.util.module_from_spec(module_definition); module_definition.loader.exec_module(module)
     rendering = module.run(check=True)
     certificate = Path('docs/CERTIFICATE.md').read_text(encoding='utf-8')
-    for required in ('v1.8.4', 'simplest landscape consistent with the', 'resolution, `P0_res`',
+    for required in ('Integer-model certificate', 'simplest landscape consistent with the', 'resolution, `P0_res`',
                      'never a certificate', 'Certified-trap definition', 'min_{v ∈ M} ℓ_v > min_v *u*_v + τ_min',
                      'persistence > 2*w*', '**Proposition.**', '**Proof.**', 'For (1)', 'For (2)', 'For (3)',
                      'P_possible_simplest', 'withdrawn as an ambiguity measure', 'unresolved'):
@@ -148,7 +148,7 @@ def run():
     started=datetime.now(timezone.utc)
     output=Path('results/stage1-gate-v1.8.4')/started.strftime('%Y%m%dT%H%M%SZ')
     output.mkdir(parents=True,exist_ok=True)
-    report=dict(specification='v1.8.4',amendments=['v1.8.1','v1.8.2','v1.8.3','v1.8.4'],
+    report=dict(method='docs/METHOD.md',
                 started_at=started.isoformat(),source_digest=source_digest(),status='RUNNING',
                 full_gate_ran=True,completed_scientific_units_rerun=0,steps=[],checks={},items={})
     destination=output/'gate.json'
@@ -219,14 +219,14 @@ def run():
         import re
         for case in cases:
             test_ids.update(int(n) for n in re.findall(r'T(\d+)', case.get('name', '')))
-        # v1.6 section 2a places T12 (optimizer measurement), T13
+        # Stage 2 includes T12 (optimizer measurement), T13
         # (allocation), and T18 (forecast calibration) in Stage 2.
         # Preserve that scope and run every Stage 1 test, with no skips.
         required_ids = set(range(1,40))-{12,13,18}
         assert required_ids <= test_ids, ('missing tests', sorted(required_ids-test_ids))
         report['checks']['tests']['test_ids'] = sorted(test_ids)
         report['checks']['tests']['stage2_ids'] = [12,13,18]
-        report['checks']['tests']['scope'] = 'Stage 1, v1.6 section 2a; no Stage 2 work'
+        report['checks']['tests']['scope'] = 'Stage 1 tests listed in docs/METHOD.md; no Stage 2 work'
         for test_id in (36,37,38,39):
             selected = [c for c in cases if f'T{test_id}' in c.get('name', '')]
             assert selected and all(c.find('failure') is None and c.find('error') is None and c.find('skipped') is None for c in selected)

@@ -1,9 +1,9 @@
 """Check: does Formulation A with free edge/triangle values collapse all maxima?
 
-Builds the CERTMORSE torus complex exactly per D5, Formulation A exactly per A.2,
+Builds the CERTMORSE torus complex and Formulation A described in docs/METHOD.md,
 and solves on a narrow band around g = cos(2*gamma) + cos(2*beta) (2 min, 2 max, 4 saddles,
 kappa_true = 8) under two auxiliary-cell bound regimes:
-  (free)  edges/triangles in [-SW, 2]           -- v1.4 as written
+  (free)  edges/triangles in [-SW, 2]           -- unconstrained cell extension
   (cell)  edges/triangles in [max l_v, max u_v] -- proposed cell band
 Prediction from the tree-cotree argument: free -> 2*c0 + 2 = 6; cell -> 8.
 """

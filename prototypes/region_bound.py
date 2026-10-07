@@ -1,4 +1,4 @@
-"""Region lower bound for band-constrained Forman functions on the torus (proposed v1.8 §A6).
+"""Region lower bound for band-constrained Forman functions; see docs/METHOD.md.
 
 Minima: for vertex a, C(a) = component containing a of {v : lo_v <= hi_a} (vertex graph).
   Every boundary vertex w has lo_w > hi_a >= min_R hi, so the minimum-x vertex of C(a)

@@ -74,7 +74,7 @@ if __name__=='__main__':
     if args.complete_multiplicity or (gate.get('status')=='RUNNING' and
                                       any(s['name']=='oracle' and s['exit_code']==0 for s in gate.get('steps',[]))):
         path=Path('scripts/complete-multiplicity.py')
-        spec=importlib.util.spec_from_file_location('complete_multiplicity',path)
-        module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
+        module_definition=importlib.util.spec_from_file_location('complete_multiplicity',path)
+        module=importlib.util.module_from_spec(module_definition);module_definition.loader.exec_module(module)
         module.run()
     run(args.total,args.seed_start)

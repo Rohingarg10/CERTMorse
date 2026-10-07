@@ -1,4 +1,4 @@
-"""T33: 120 identical bands, three methods, with and without v1.8 rows."""
+"""T33: 120 identical bands, three methods, with and without valid Morse/region rows."""
 import argparse
 import json
 from pathlib import Path
@@ -14,8 +14,8 @@ from certmorse.mip.solvers import emit_highs
 from certmorse.runid import prepare_run
 from certmorse.stage1 import event,complete
 
-TIME_LIMIT_S = 600  # v1.6 solver protocol, retained by v1.8.
-THREADS = 8  # v1.6 solver protocol.
+TIME_LIMIT_S = 600  # Saved count-solve cap; see docs/METHOD.md.
+THREADS = 8  # Saved count-solve worker count.
 
 
 def passed(row):
@@ -34,7 +34,7 @@ def run(grids,resume=True):
         if len(selected)==expected:
             assert all(passed(row) and passed(dict(methods=row['controls'])) and row['rows_preserve_optimum'] for row in selected)
             return selected
-    raise RuntimeError('the completed v1.8.3 agreement solves are read-only; missing evidence must be reported')
+    raise RuntimeError('completed agreement solves are read-only; missing evidence must be reported')
 
 
 def historical_run(grids,resume=False):

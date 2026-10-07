@@ -58,9 +58,9 @@ def test_regenerated_report_and_yaml_have_no_carriage_return(tmp_path, monkeypat
     gate['steps'] = []
     (docs/'stage1-gate.json').write_text(json.dumps(gate), encoding='utf-8', newline='\n')
     monkeypatch.chdir(tmp_path)
-    spec = importlib.util.spec_from_file_location('report_stage1', ROOT/'scripts/report-stage1.py')
-    module = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(module)
+    module_definition = importlib.util.spec_from_file_location('report_stage1', ROOT/'scripts/report-stage1.py')
+    module = importlib.util.module_from_spec(module_definition)
+    module_definition.loader.exec_module(module)
     module.run()
     report = docs/'STAGE1.md'
     assert report.read_bytes().startswith(b'# Stage 1 evidence')

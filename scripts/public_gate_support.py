@@ -61,7 +61,7 @@ def verify_hash(path,expected):
     name=path.resolve().relative_to(ROOT).as_posix()
     if not path.exists():
         assert name in REMOVED and REMOVED[name]['original_sha256']==expected,('unexpected missing input',name)
-        return dict(file=name,original_sha256=expected,status='BLOCKED_PRIVATE_FILE',reason='Approved private working document removal.')
+        return dict(file=name,original_sha256=expected,status='BLOCKED_PRIVATE_FILE',reason='Historical input removed during public cleanup.')
     actual=sha256(path.read_bytes()).hexdigest()
     if actual!=expected:
         assert name in CHANGES,('unexpected hash mismatch',name,expected,actual)
@@ -93,9 +93,9 @@ def verify_committed_source(gate):
     historical,_=gate.committed_source_digest(pinned)
     assert historical==gate.LEGACY_DIGEST,(historical,gate.LEGACY_DIGEST)
     return dict(commit=commit,source_digest=digest,committed_tree=True,source_files=len(names),
-                mapped_section_8_commits=mapped,original_tag='stage1-v1.8.3',original_commit=pinned,
+                mapped_source_commits=mapped,original_tag='stage1-v1.8.3',original_commit=pinned,
                 original_source_digest=historical,private_history_checks=dict(status='BLOCKED_PRIVATE_HISTORY',
-                original_refs=originals,reason='Pre-cleanup commit objects contain private documents and are intentionally absent; equivalent mapped ancestry and source checks passed.'))
+                original_refs=originals,reason='Pre-cleanup commit objects are intentionally absent from public history; equivalent mapped ancestry and source checks passed.'))
 
 
 def verify_completion_hashes(gate):

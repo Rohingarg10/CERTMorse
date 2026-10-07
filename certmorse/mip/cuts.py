@@ -1,4 +1,4 @@
-"""Two distinct valid cut families from Appendix A.4."""
+"""Gradient-cycle and signed band-conflict cuts; see docs/METHOD.md."""
 import numpy as np
 
 

@@ -1,4 +1,4 @@
-"""Read-only, independent reproduction of v1.8 section 3 before amendments.
+"""Independent reproduction of historical basin, grid and region controls.
 
 Does not call the production basin scorer, the proposed region-bound prototype,
 or exact_landscape's grid construction. The evidence includes artifact hashes.
@@ -16,10 +16,10 @@ from certmorse.complex import TorusComplex, lower_star_gradient
 from certmorse.instances import load_instance, independent_landscape
 from certmorse.landscape import exact_points
 
-TIE_TOLERANCE = 1e-12  # v1.8 section 4.2
-BASIN_TOLERANCE = 0.02  # v1.8 section 4.5
-GRID_OFFSET = 0.25  # v1.8 section 4.2
-POINTS = 100  # v1.8 T29
+TIE_TOLERANCE = 1e-12  # Symmetry and tie comparison tolerance.
+BASIN_TOLERANCE = 0.02  # Success depth tolerance as a fraction of total edge weight.
+GRID_OFFSET = 0.25  # Quarter-offset QAOA grid; see docs/METHOD.md.
+POINTS = 100  # Off-grid symmetry points per instance.
 
 
 def basin_labels(y, cx):
@@ -78,7 +78,7 @@ def tie_count(field, cx):
 
 
 def main():
-    report = dict(specification='v1.8', artifact_hashes={}, basins=[], regions=[],
+    report = dict(method='docs/METHOD.md', artifact_hashes={}, basins=[], regions=[],
                   symmetries=[], grids=[])
     cx = TorusComplex(16)
     inst = load_instance('R8a')

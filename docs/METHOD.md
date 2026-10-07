@@ -2,10 +2,9 @@
 
 This public description governs interpretation of the released Stage 1 method.
 [STAGE1.md](STAGE1.md) is the measurement record and [CERTIFICATE.md](CERTIFICATE.md)
-states the certificate boundaries. Historical version and section labels in code
-and evidence identify the rules under which those records were produced; they do
-not require access to private working documents. Stage 1 is complete at `v0.1`;
-Stage 2 is planned. No optimizer-success prediction was measured.
+states the certificate boundaries. The definitions and checks below are
+self-contained. Stage 1 is complete at `v0.1`; Stage 2 is planned.
+No optimizer-success prediction was measured.
 
 ## 1. Landscape, grid and reported band
 
@@ -265,9 +264,9 @@ bounds and exact witnesses, without claiming deterministic search bytes.
 New text outputs use UTF-8 and LF with repository-relative paths and no
 personal identifiers. New measurements are appended in separate units.
 
-The public cleanup preserves stored hashes in all historical evidence. Private
-working documents are omitted; old provenance paths are redacted rather than
-retargeted under old hashes. Approved reporting substitutions can make an old
+The public cleanup preserves stored hashes in all historical evidence.
+Old provenance paths are redacted rather than retargeted under old hashes.
+Approved reporting substitutions can make an old
 hash unavailable as a check on public bytes. The public gate records each
 blocked check separately, executes remaining assertions and makes no full-PASS
 claim while checks are blocked. [Provenance](../README.md#provenance) and the

@@ -25,8 +25,8 @@ from certmorse.rng import streams
 from certmorse.runid import prepare_run
 from certmorse.stage1 import MAX_OPTIMA,SAMPLING_CAP_S,GRID_M,SHOTS,ALPHA,complete
 
-SAMPLING_BANDS = 10  # v1.8 gate item 4.
-INSTANCES = ('R8a','E8a','W8a')  # v1.8 Stage 1 scope.
+SAMPLING_BANDS = 10  # First ten OPTIMAL bands per instance; see docs/METHOD.md.
+INSTANCES = ('R8a','E8a','W8a')  # Measured Stage 1 instances.
 
 
 def run():
@@ -35,7 +35,7 @@ def run():
         report=json.loads(saved.read_text(encoding='utf-8'))
         assert all(report['instances'][name]['sampled_bands']==10 for name in INSTANCES)
         return report
-    raise RuntimeError('completed v1.8.3 sampling is read-only; use separate v1.8.4 sampling units')
+    raise RuntimeError('completed sampling is read-only; use separate sampling units')
 
 
 def historical_run():
