@@ -11,7 +11,9 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def pytest_configure(config):
     if config.option.basetemp is None:
-        config.option.basetemp = str(ROOT/'results/test-scratch'/uuid.uuid4().hex/'test-tmp')
+        base = ROOT/'results/test-scratch'/uuid.uuid4().hex/'test-tmp'
+        base.parent.mkdir(parents=True, exist_ok=True)
+        config.option.basetemp = str(base)
 
 
 @pytest.fixture(scope='session', autouse=True)
