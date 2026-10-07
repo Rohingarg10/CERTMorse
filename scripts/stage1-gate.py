@@ -22,6 +22,7 @@ from certmorse.mip.regions import region_bound
 from certmorse.resolution import RESOLUTION_INSTANCES,GRID_SIZES,INFORMATIVE_LIMIT
 from scripts.agreement import passed
 from scripts.repository_guard import RepositoryGuard
+from scripts.test_scratch import allocate_scratch
 from certmorse.completion_checks import completion_checks, probe_checks, check_unit
 from certmorse.legacy_scores import LEGACY_DIGEST, verify_T38
 from certmorse.scoring import score_arrays
@@ -165,7 +166,8 @@ def run():
     save()
     # Full tests create isolated test fixtures (including T37's interruption
     # controls). No Stage 1 count/sampling/probe driver is called by this gate.
-    commands=[('tests',[sys.executable,'-m','pytest','-q','-x','--basetemp='+str(output/'test-tmp'),
+    test_scratch=allocate_scratch()
+    commands=[('tests',[sys.executable,'-m','pytest','-q','-x','--basetemp='+str(test_scratch),
                         '--junitxml='+str(output/'tests.xml')])]
     item = 6
     try:
@@ -230,11 +232,11 @@ def run():
             assert selected and all(c.find('failure') is None and c.find('error') is None and c.find('skipped') is None for c in selected)
             report['checks'][f'T{test_id}'] = dict(passed=len(selected), skipped=0)
         for phase in ('solve', 'file-write'):
-            evidence = json.loads((output/f'test-tmp/reports/T37-{phase}-v1.8.4.json').read_text(encoding='utf-8'))
+            evidence = json.loads((test_scratch/f'reports/T37-{phase}-v1.8.4.json').read_text(encoding='utf-8'))
             assert evidence['status']=='PASS' and evidence['first_band_preserved'] and evidence['second_band_restarted']
             assert evidence['deterministic_units_byte_identical'] and evidence['solver_status_bounds_and_witnesses_verified']
             report['checks'][f'T37_{phase}'] = evidence
-        guard_report=json.loads((output/'test-tmp/reports/repository-guard.json').read_text(encoding='utf-8'))
+        guard_report=json.loads((test_scratch/'reports/repository-guard.json').read_text(encoding='utf-8'))
         assert guard_report['status']=='PASS' and guard_report['tracked_hashes_unchanged']
         assert guard_report['before_status']==guard_report['after_status']
         report['checks']['test_repository_guard']=guard_report

@@ -1,19 +1,22 @@
-"""Tests use ignored scratch output and leave repository state unchanged."""
+"""Tests use short temporary output and leave repository state unchanged."""
 import json
 from pathlib import Path
-import uuid
 
 import pytest
 from scripts.repository_guard import RepositoryGuard
+from scripts.test_scratch import allocate_scratch
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
 def pytest_configure(config):
     if config.option.basetemp is None:
-        base = ROOT/'results/test-scratch'/uuid.uuid4().hex/'test-tmp'
-        base.parent.mkdir(parents=True, exist_ok=True)
-        config.option.basetemp = str(base)
+        config.option.basetemp = str(allocate_scratch())
+
+
+@pytest.fixture
+def tmp_path(tmp_path_factory):
+    return tmp_path_factory.mktemp('t')
 
 
 @pytest.fixture(scope='session', autouse=True)
@@ -23,9 +26,12 @@ def repository_guard(tmp_path_factory):
     yield guard
     try:
         report = guard.verify()
+        base = tmp_path_factory.getbasetemp()
+        report['scratch_longest_path_chars'] = max((len(str(path)) for path in base.rglob('*')), default=len(str(base)))
+        assert report['scratch_longest_path_chars'] <= 200, ('scratch path exceeds budget', report['scratch_longest_path_chars'])
     finally:
         guard.active = False
-    target = tmp_path_factory.getbasetemp()/'reports/repository-guard.json'
+    target = base/'reports/repository-guard.json'
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(json.dumps(report, indent=2)+'\n', encoding='utf-8', newline='\n')
 

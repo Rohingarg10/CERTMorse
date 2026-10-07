@@ -16,6 +16,7 @@ from certmorse.complex import TorusComplex
 from certmorse.forman import witness, NegativeCycle, is_discrete_morse
 from certmorse.instances import load_instance
 from certmorse.metrics import basin_probability
+from scripts.test_scratch import report_path
 
 
 def test_T39_scoring_edits_do_not_invalidate_solves(tmp_path):
@@ -210,7 +211,7 @@ def test_T37_hard_kill_and_resume(phase, tmp_path, tmp_path_factory):
                   solve_cap_s=600, sampling_cap_s=300, max_optima=20, first_band_preserved=True,
                   second_band_restarted=True, partial_file_discarded=True, deterministic_units_byte_identical=True,
                   solver_status_bounds_and_witnesses_verified=True, completed_units_preserved=len(completed),
-                  reference=reference.relative_to(ROOT).as_posix(), resumed=interrupted.relative_to(ROOT).as_posix(), seeds_evidence=evidence, status='PASS')
+                  reference=report_path(reference, ROOT, tmp_path_factory.getbasetemp()), resumed=report_path(interrupted, ROOT, tmp_path_factory.getbasetemp()), seeds_evidence=evidence, status='PASS')
     target = tmp_path_factory.getbasetemp()/f'reports/T37-{phase}-v1.8.4.json'
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(json.dumps(report, indent=2)+'\n', encoding='utf-8', newline='\n')

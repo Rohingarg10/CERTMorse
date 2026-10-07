@@ -275,9 +275,12 @@ public gate report distinguish these effects from numerical failures.
 
 ## 8. Validation leaves evidence unchanged
 
-Tests and gates never write tracked files. T37 reports and gate reports belong
-in ignored results scratch directories; paths in T37 reports are relative to
-the repository. The full-suite guard rejects tracked-file write access in the
+Tests and gates never write tracked files. Test fixtures and T37 reports use
+a short unique directory below the system temporary root, with short per-test
+names independent of clone depth and a checked path budget of 200 characters.
+Gate reports use ignored results directories. Paths in T37 reports are relative
+to the repository; a `<SCRATCH>` prefix identifies temporary output on a
+different Windows drive. The full-suite guard rejects tracked-file write access in the
 test process, then checks Git status and all tracked hashes after every test
 and after the full suite. The gate has the same guard and checks the suite's
 guard report. A tracked-file change or newly created unignored file fails
