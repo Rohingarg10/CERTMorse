@@ -36,7 +36,7 @@ def unpack(path, prefix):
     if name != path.name or not re.fullmatch('[0-9a-f]{64}', expected) or file_hash(path) != expected:
         raise ValueError('Archive checksum mismatch: '+path.name)
     manifest_name = prefix+'SHA256SUMS.release'
-    with tarfile.open(path, 'r:gz') as archive:
+    with tarfile.open(path, mode='r:gz') as archive:
         members = archive.getmembers()
         names = [m.name for m in members]
         if len(set(names)) != len(names) or not all(m.isfile() for m in members):
