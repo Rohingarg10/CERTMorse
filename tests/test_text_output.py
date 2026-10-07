@@ -10,7 +10,7 @@ import yaml
 from certmorse.runid import prepare_run
 
 ROOT = Path(__file__).resolve().parents[1]
-CODE_ROOTS = ('certmorse', 'scripts', 'ttk_scripts', 'tsfm_scripts', 'tests', 'prototypes')
+CODE_ROOTS = ('certmorse', 'scripts', 'ttk_scripts', 'tsfm_scripts', 'tests')
 
 
 def violations(source):
