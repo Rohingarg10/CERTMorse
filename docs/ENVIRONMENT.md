@@ -140,8 +140,8 @@ IsFinite. The reader discards the artificial diagonal PairType=-1 and decodes
 one essential class per IsFinite=0 cell: PairType 0,1,2 gives its dimension,
 Birth its birth, and infinite death. Displayed finite endpoints do not decide
 essentiality. On the two-minimum field there is one finite H0 pair plus one
-essential H0 class. The spec's §4.3 sentence expecting two finite H0 pairs for
-two minima should be corrected; it contradicts T24 and the persistence contract.
+essential H0 class. An earlier planning statement expecting two finite H0 pairs for
+two minima was incorrect; it contradicts T24 and the persistence contract.
 
 All 20 smooth-field persistence comparisons and critical-count comparisons
 passed. Mandatory components use four output ports and servermanager.Fetch's

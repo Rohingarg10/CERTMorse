@@ -1,5 +1,9 @@
 .PHONY: test test-ttk stage1
+ifeq ($(OS),Windows_NT)
 PYTHON ?= venv-core/Scripts/python.exe
+else
+PYTHON ?= python
+endif
 
 test:
 	$(PYTHON) -m pytest -q -m "not ttk and not tsfm and not gurobi"

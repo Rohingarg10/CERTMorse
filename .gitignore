@@ -1,6 +1,4 @@
 .tools/
-.p/
-.p-short/
 venv-*/
 __pycache__/
 .pytest_cache/
@@ -13,6 +11,7 @@ docs/archive/**
 !docs/archive/**/
 !docs/archive/**/README.md
 !docs/archive/**/MANIFEST*
+!docs/archive/**/manifest.json
 !docs/archive/**/*.sha256
 
 .venv/

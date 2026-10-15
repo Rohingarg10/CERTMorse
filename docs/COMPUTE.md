@@ -2,7 +2,7 @@
 
 Recorded 4 October 2026 on the hardware in ENVIRONMENT.md. Each solver and
 model inference requests eight threads. These measurements replace assumptions
-for planning; the supplied spec's Appendix E has not been edited.
+for planning; the original planning estimates have not been edited.
 
 | Work | Measured wall time | Outcome |
 |---|---:|---|
